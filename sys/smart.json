@@ -1,0 +1,13 @@
+{
+  "packages": {
+    "core-server": {
+      "path": "../packages/core-server"
+    },
+    "seed-json": {
+      "path": "../packages/seed-json"
+    },
+    "jade": {},
+    "iron-router": {},
+    "collection-hooks": {}
+  }
+}

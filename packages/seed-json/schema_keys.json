@@ -1,0 +1,215 @@
+[
+  {
+    "key_name": "doc_name",
+    "value_type": "string",
+    "_sid": "schema_key"
+  },
+
+  {
+    "key_name": "doc_schema",
+    "value_type": "oid",
+    "value_schema": "doc_schema",
+    "_sid": "schema_key"
+  },
+
+  {
+    "key_name": "usd_exchange_rate",
+    "value_type": "number",
+    "_sid": "schema_key"
+  },
+
+  {
+    "key_name": "default",
+    "value_type": "boolean",
+    "_sid": "schema_key"
+  },
+
+  {
+    "key_name": "symbol",
+    "value_type": "string",
+    "_sid": "schema_key"
+  },
+
+  {
+    "key_name": "symbol_native",
+    "value_type": "string",
+    "_sid": "schema_key"
+  },
+
+  {
+    "key_name": "currency_name",
+    "value_type": "string",
+    "_sid": "schema_key"
+  },
+
+  {
+    "key_name": "currency_code",
+    "value_type": "string",
+    "_sid": "schema_key"
+  },
+
+  {
+    "key_name": "currency_name_plural",
+    "value_type": "string",
+    "_sid": "schema_key"
+  },
+
+  {
+    "key_name": "borders",
+    "value_type": "array",
+    "array_values_type": "string",
+    "_sid": "schema_key"
+  },
+  {
+    "key_name": "population",
+    "value_type": "number",
+    "_sid": "schema_key"
+  },
+  {
+    "key_name": "calling_code",
+    "value_type": "array",
+    "array_values_type": "string",
+    "_sid": "schema_key"
+  },
+  {
+    "key_name": "currency",
+    "value_type": "array",
+    "array_values_type": "oid",
+    "array_values_schema": "currencies",
+    "_sid": "schema_key"
+  },
+  {
+    "key_name": "cca3",
+    "value_type": "string",
+    "_sid": "schema_key"
+  },
+  {
+    "key_name": "cca2",
+    "value_type": "string",
+    "_sid": "schema_key"
+  },
+  {
+    "key_name": "ccn3",
+    "value_type": "string",
+    "_sid": "schema_key"
+  },
+  {
+    "key_name": "tld",
+    "value_type": "array",
+    "array_values_type": "string",
+    "_sid": "schema_key"
+  },
+  {
+    "key_name": "native_name",
+    "value_type": "string",
+    "_sid": "schema_key"
+  },
+  {
+    "key_name": "capital",
+    "value_type": "string",
+    "_sid": "schema_key"
+  },
+  {
+    "key_name": "alt_spellings",
+    "value_type": "array",
+    "array_values_type": "string",
+    "_sid": "schema_key"
+  },
+  {
+    "key_name": "region",
+    "value_type": "string",
+    "_sid": "schema_key"
+  },
+  {
+    "key_name": "sub_region",
+    "value_type": "string",
+    "_sid": "schema_key"
+  },
+  {
+    "key_name": "language",
+    "value_type": "array",
+    "array_values_type": "string",
+    "_sid": "schema_key"
+  },
+
+  {
+    "key_name": "country",
+    "value_type": "oid",
+    "value_schema": "countries",
+    "_sid": "schema_key"
+  },
+  {
+    "key_name": "latlng",
+    "value_type": "array",
+    "array_values_type": "number",
+    "_sid": "schema_key"
+  },
+
+  {
+    "key_name": "titles",
+    "value_type": "oid",
+    "value_schema": "titles",
+    "_sid": "schema_key"
+  },
+  {
+    "key_name": "first_name",
+    "value_type": "string",
+    "_sid": "schema_key"
+  },
+  {
+    "key_name": "middle_name",
+    "value_type": "string",
+    "_sid": "schema_key"
+  },
+  {
+    "key_name": "last_name",
+    "value_type": "string"
+  }
+  {
+    "key_name": "email",
+    "value_type": "array",
+    "array_values_type": "email",
+    "_sid": "schema_key"
+  },
+  {
+    "key_name": "mobile",
+    "value_type": "array",
+    "array_values_type": "phone",
+    "_sid": "schema_key"
+  },
+      
+  {
+    "key_name": "date_of_entry",
+    "value_type": "date",
+    "_sid": "schema_key"
+  },
+  {
+    "key_name": "service",
+    "value_type": "oid",
+    "value_schema": "services",
+    "_sid": "schema_key"
+  },
+  {
+    "key_name": "currency",
+    "value_type": "oid",
+    "value_schema": "currencies",
+    "_sid": "schema_key"
+  },
+  {
+    "key_name": "cost",
+    "value_type": "currency",
+    "_sid": "schema_key"
+  },
+
+  {
+    "key_name": "date_of_birth",
+    "value_type": "date",
+    "_sid": "schema_key"
+  },
+  {
+    "key_name": "city",
+    "value_type": "oid",
+    "value_schema": "cities",
+    "_sid": "schema_key"
+  }
+]

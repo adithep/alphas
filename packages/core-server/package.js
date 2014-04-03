@@ -3,9 +3,8 @@ Package.describe({
 });
 
 Package.on_use(function (api, where) {
-	api.use('coffeescript', 'seed-json');
-  api.add_files('data-lib.coffee', ['client', 'server']);
-  api.add_files('core-server.coffee', ['server']);
+  api.use(['coffeescript', 'seed-json', 'core-lib']);
+  api.add_files('core-server.coffee', 'server');
 });
 
 Package.on_test(function (api) {

@@ -9,3 +9,5 @@
 /json
 /seed-json
 /core-lib
+/utilities
+/mongo-aggregation

@@ -3,7 +3,7 @@ json_control.insert_schema_keys = (json_s, json_k) ->
   json_k = json_k + ".json"
   schema = EJSON.parse(Assets.getText(json_s))
   schema_keys = EJSON.parse(Assets.getText(json_k))
-  if schema.length > 0 and schema_keys.length > 0
+  if schema and schema_keys and schema.length > 0 and schema_keys.length > 0
     i_schema = 0
     i_keys = 0
     while i_keys < schema_keys.length
@@ -39,4 +39,51 @@ json_control.insert_schema_keys = (json_s, json_k) ->
     console.log "#{json_k} inserted"
   else
     console.warn "Cannot find or parse Json Files"
+  return
+
+json_control.insert_json = (json, schema) ->
+  json = json + ".json"
+  json_obj = EJSON.parse(Assets.getText(json))
+  if json_obj and json_obj.length > 0
+    schema_doc = DATA.fineOne(_sid: "doc_schema", doc_name: schema)
+    if schema_doc
+      i = 0
+      while i < json_obj.length
+        obj_keys = Object.keys(json_obj[i])
+        i_obj = 0
+        oid = DATA.insert(_sid: schema_doc._id)
+        while i_obj < obj_keys.length
+          key_id = schema_obj.key_id[obj_keys[i_obj]]
+          if key_id
+            if schema_doc._kids.indexOf(key_id) isnt -1
+              key_obj = DATA.fineOne(_id: key_id)
+              if key_obj
+                switch key_obj.value_type
+                  when "string"
+                    value = String(json_obj[i][obj_keys[i_obj]])
+                  when "number"
+                    value = Number(json_obj[i][obj_keys[i_obj]])
+                  when "oid"
+                    doc = DATA.fineOne(_sid: key_obj.value_schema, doc_name: json_obj[i][obj_keys[i_obj]])
+                    value = doc._id
+                  when "boolean"
+                    if typeof json_obj[i][obj_keys[i_obj]] is "bolean"
+                      value = json_obj[i][obj_keys[i_obj]]
+
+                date = new Date()
+                DATA.insert(_kid: key_obj._id, _did: oid, value: value, _modified: [{system: date}])
+              else
+                console.warn "could not find key #{obj_keys[i_obj]}"
+            else
+              console.warn "key #{obj_keys[i_obj]} not allowed"
+          else
+            console.warn "could not find key #{obj_keys[i_obj]}"
+
+          i_obj++
+        i++
+    else
+      console.warn "Cannot find schema: #{schema}"
+
+  else
+    console.warn "Cannot find or parse Json File: #{json}"
   return

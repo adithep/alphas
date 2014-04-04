@@ -9,6 +9,12 @@
     "core-lib": {
       "path": "../packages/core-lib"
     },
+    "utilities": {
+      "path": "../packages/utilities"
+    },
+    "mongo-aggregation": {
+      "path": "../packages/mongo-aggregation"
+    },
     "jade": {},
     "iron-router": {},
     "collection-hooks": {}

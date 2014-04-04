@@ -1,5 +1,4 @@
-schema_obj.schema_id = {}
-schema_obj.key_id = {}
+
 
 schema_obj.find_keys = ->
   if Object.keys(schema_obj.schema_id).length is 0

@@ -3,8 +3,8 @@ Package.describe({
 });
 
 Package.on_use(function (api, where, asset) {
-  api.use(['coffeescript', 'core-lib'])
-  api.add_files(['schema_keys.json', 'schema.json'], ['server'], {isAsset: true});
+  api.use(['coffeescript', 'core-lib', 'utilities'])
+  api.add_files(['schema_keys.json', 'schema.json', 'currencies.json'], ['server'], {isAsset: true});
   api.add_files('json_control.coffee', 'server');
 });
 

@@ -6,7 +6,7 @@
   },
 
   {
-    "key_name": "doc_schema",
+    "key_name": "_sid",
     "value_type": "oid",
     "value_schema": "doc_schema",
     "_sid": "schema_key"
@@ -164,7 +164,7 @@
   {
     "key_name": "last_name",
     "value_type": "string"
-  }
+  },
   {
     "key_name": "email",
     "value_type": "array",

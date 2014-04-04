@@ -6,6 +6,9 @@
     "seed-json": {
       "path": "../packages/seed-json"
     },
+    "core-lib": {
+      "path": "../packages/core-lib"
+    },
     "jade": {},
     "iron-router": {},
     "collection-hooks": {}

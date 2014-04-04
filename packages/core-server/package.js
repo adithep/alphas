@@ -3,7 +3,7 @@ Package.describe({
 });
 
 Package.on_use(function (api, where) {
-  api.use(['coffeescript', 'seed-json', 'core-lib']);
+  api.use(['coffeescript', 'seed-json', 'core-lib', 'accounts-base', 'accounts-password']);
   api.add_files('core-server.coffee', 'server');
 });
 

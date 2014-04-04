@@ -3,8 +3,8 @@ Package.describe({
 });
 
 Package.on_use(function (api, where) {
-  api.add_files(['core-lib.coffee', 'schema_keys.coffee'], ['client', 'server']);
-  api.export('schema_keys')
+  api.add_files(['namespace.js', 'schema_keys.coffee'], ['client', 'server']);
+  api.export(['schema_obj', 'json_control', 'DATA'])
 });
 
 Package.on_test(function (api) {

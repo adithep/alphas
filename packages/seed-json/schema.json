@@ -34,7 +34,7 @@
     "doc_name": "service_entity",
     "_sid": "doc_schema",
     "_kids": ["_sid", "date_of_entry", "service", "currency", "cost"]
-  }
+  },
 
   {
     "doc_name": "humans",
@@ -42,7 +42,7 @@
     "_kids": ["_sid", "titles", "first_name", "middle_name", "last_name", "email", "mobile", "date_of_birth", "city"],
     "_s_tids": [{"key": "email", "tags": ["main", "personal", "work"]}, {"key": "mobile", "tags": ["main", "personal", "work"]}],
     "_dids": ["service_entity"]
-  },
+  }
 
   
 ]

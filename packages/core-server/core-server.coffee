@@ -13,6 +13,9 @@ Meteor.startup ->
     DATA.remove({})
 
   if DATA.find().count() is 0
-    json_control.insert_schema_keys('schema', 'schema_keys')
+    json_control.insert_schema_keys('schema', 'schema_keys', 'tags')
   else
-    schema_obj.find_keys()
+    fill_sid.init()
+
+  if DATA.find(_sid: get_sid.currencies).count() is 0
+    json_control.insert_json('currencies', get_sid.currencies)

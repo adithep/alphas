@@ -2,8 +2,10 @@ DATA = new Meteor.Collection("data", {
   idGeneration: "MONGO"
 });
 
-schema_obj = {};
-schema_obj.schema_id = {};
-schema_obj.key_id = {};
+get_sid = {};
+get_kid = {};
+get_tid = {};
 json_control = {};
 phone_format = {};
+email_format = {};
+fill_sid = {};

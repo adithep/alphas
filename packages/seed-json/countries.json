@@ -10,10 +10,8 @@
       "CHN"
     ],
     "demonym": "Afghan",
-    "latlng": [
-      33,
-      65
-    ],
+    "latitude": 33,
+    "longitude": 65,
     "population": 25500100,
     "calling_code": [
       "93"
@@ -61,10 +59,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Ålandish",
-    "latlng": [
-      60.116667,
-      19.9
-    ],
+    "latitude": 60.11666,
+    "longitude": 19.9,
     "population": 28502,
     "calling_code": [
       "358"
@@ -116,10 +112,8 @@
       "KOS"
     ],
     "demonym": "Albanian",
-    "latlng": [
-      41,
-      20
-    ],
+    "latitude": 41,
+    "longitude": 20,
     "population": 2821977,
     "calling_code": [
       "355"
@@ -174,10 +168,8 @@
       "MAR"
     ],
     "demonym": "Algerian",
-    "latlng": [
-      28,
-      3
-    ],
+    "latitude": 28,
+    "longitude": 3,
     "population": 37900000,
     "calling_code": [
       "213"
@@ -223,10 +215,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "American Samoan",
-    "latlng": [
-      -14.33333333,
-      -170
-    ],
+    "latitude": -14.3333,
+    "longitude": -170,
     "population": 55519,
     "calling_code": [
       "1684"
@@ -278,10 +268,8 @@
       "ESP"
     ],
     "demonym": "Andorran",
-    "latlng": [
-      42.5,
-      1.5
-    ],
+    "latitude": 42.5,
+    "longitude": 1.5,
     "population": 76246,
     "calling_code": [
       "376"
@@ -332,10 +320,8 @@
       "NAM"
     ],
     "demonym": "Angolan",
-    "latlng": [
-      -12.5,
-      18.5
-    ],
+    "latitude": -12.5,
+    "longitude": 18.5,
     "population": 20609294,
     "calling_code": [
       "244"
@@ -381,10 +367,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Anguillian",
-    "latlng": [
-      18.25,
-      -63.16666666
-    ],
+    "latitude": 18.25,
+    "longitude": -63.16666666,
     "population": 13452,
     "calling_code": [
       "1264"
@@ -428,10 +412,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "",
-    "latlng": [
-      -90,
-      0
-    ],
+    "latitude": -90,
+    "longitude": 0,
     "population": -1,
     "calling_code": [
       ""
@@ -473,10 +455,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Antiguan, Barbudan",
-    "latlng": [
-      17.05,
-      -61.8
-    ],
+    "latitude": 17.05,
+    "longitude": -61.8,
     "population": 86295,
     "calling_code": [
       "1268"
@@ -526,10 +506,8 @@
       "URY"
     ],
     "demonym": "Argentinean",
-    "latlng": [
-      -34,
-      -64
-    ],
+    "latitude": -34,
+    "longitude": -64,
     "population": 40117096,
     "calling_code": [
       "54"
@@ -581,10 +559,8 @@
       "TUR"
     ],
     "demonym": "Armenian",
-    "latlng": [
-      40,
-      45
-    ],
+    "latitude": 40,
+    "longitude": 45,
     "population": 3024100,
     "calling_code": [
       "374"
@@ -632,10 +608,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Aruban",
-    "latlng": [
-      12.5,
-      -69.96666666
-    ],
+    "latitude": 12.5,
+    "longitude": -69.96666666,
     "population": 101484,
     "calling_code": [
       "297"
@@ -680,10 +654,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Australian",
-    "latlng": [
-      -27,
-      133
-    ],
+    "latitude": -27,
+    "longitude": 133,
     "population": 23254142,
     "calling_code": [
       "61"
@@ -726,10 +698,8 @@
       "CHE"
     ],
     "demonym": "Austrian",
-    "latlng": [
-      47.33333333,
-      13.33333333
-    ],
+    "latitude": 47.33333,
+    "longitude": 13.33333333,
     "population": 8501502,
     "calling_code": [
       "43"
@@ -782,10 +752,8 @@
       "TUR"
     ],
     "demonym": "Azerbaijani",
-    "latlng": [
-      40.5,
-      47.5
-    ],
+    "latitude": 40.5,
+    "longitude": 47.5,
     "population": 9235100,
     "calling_code": [
       "994"
@@ -832,10 +800,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Bahamian",
-    "latlng": [
-      24.25,
-      -76
-    ],
+    "latitude": 24.25,
+    "longitude": -76,
     "population": -1,
     "calling_code": [
       "1242"
@@ -880,10 +846,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Bahraini",
-    "latlng": [
-      26,
-      50.55
-    ],
+    "latitude": 26,
+    "longitude": 50.55,
     "population": 1234571,
     "calling_code": [
       "973"
@@ -932,10 +896,8 @@
       "IND"
     ],
     "demonym": "Bangladeshi",
-    "latlng": [
-      24,
-      90
-    ],
+    "latitude": 24,
+    "longitude": 90,
     "population": 152518015,
     "calling_code": [
       "880"
@@ -981,10 +943,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Barbadian",
-    "latlng": [
-      13.16666666,
-      -59.53333333
-    ],
+    "latitude": 13.16666,
+    "longitude": -59.53333333,
     "population": 274200,
     "calling_code": [
       "1246"
@@ -1034,10 +994,8 @@
       "UKR"
     ],
     "demonym": "Belarusian",
-    "latlng": [
-      53,
-      28
-    ],
+    "latitude": 53,
+    "longitude": 28,
     "population": 9465500,
     "calling_code": [
       "375"
@@ -1094,10 +1052,8 @@
       "NLD"
     ],
     "demonym": "Belgian",
-    "latlng": [
-      50.83333333,
-      4
-    ],
+    "latitude": 50.83333,
+    "longitude": 4,
     "population": 11175653,
     "calling_code": [
       "32"
@@ -1156,10 +1112,8 @@
       "MEX"
     ],
     "demonym": "Belizean",
-    "latlng": [
-      17.25,
-      -88.75
-    ],
+    "latitude": 17.25,
+    "longitude": -88.75,
     "population": 312971,
     "calling_code": [
       "501"
@@ -1209,10 +1163,8 @@
       "TGO"
     ],
     "demonym": "Beninese",
-    "latlng": [
-      9.5,
-      2.25
-    ],
+    "latitude": 9.5,
+    "longitude": 2.25,
     "population": 10323000,
     "calling_code": [
       "229"
@@ -1258,10 +1210,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Bermudian",
-    "latlng": [
-      32.33333333,
-      -64.75
-    ],
+    "latitude": 32.33333,
+    "longitude": -64.75,
     "population": 64237,
     "calling_code": [
       "1441"
@@ -1311,10 +1261,8 @@
       "IND"
     ],
     "demonym": "Bhutanese",
-    "latlng": [
-      27.5,
-      90.5
-    ],
+    "latitude": 27.5,
+    "longitude": 90.5,
     "population": 740990,
     "calling_code": [
       "975"
@@ -1366,10 +1314,8 @@
       "PRU"
     ],
     "demonym": "Bolivian",
-    "latlng": [
-      -17,
-      -65
-    ],
+    "latitude": -17,
+    "longitude": -65,
     "population": 10027254,
     "calling_code": [
       "591"
@@ -1426,10 +1372,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Dutch",
-    "latlng": [
-      12.15,
-      -68.266667
-    ],
+    "latitude": 12.15,
+    "longitude": -68.266667,
     "population": -1,
     "calling_code": [
       "5997"
@@ -1469,10 +1413,8 @@
       "SRB"
     ],
     "demonym": "Bosnian, Herzegovinian",
-    "latlng": [
-      44,
-      18
-    ],
+    "latitude": 44,
+    "longitude": 18,
     "population": 3791622,
     "calling_code": [
       "387"
@@ -1527,10 +1469,8 @@
       "ZWE"
     ],
     "demonym": "Motswana",
-    "latlng": [
-      -22,
-      24
-    ],
+    "latitude": -22,
+    "longitude": 24,
     "population": 2024904,
     "calling_code": [
       "267"
@@ -1578,10 +1518,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "",
-    "latlng": [
-      -54.43333333,
-      3.4
-    ],
+    "latitude": -54.4333,
+    "longitude": 3.4,
     "population": -1,
     "calling_code": [
       ""
@@ -1636,10 +1574,8 @@
       "VEN"
     ],
     "demonym": "Brazilian",
-    "latlng": [
-      -10,
-      -55
-    ],
+    "latitude": -10,
+    "longitude": -55,
     "population": 201032714,
     "calling_code": [
       "55"
@@ -1686,10 +1622,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Indian",
-    "latlng": [
-      -6,
-      71.5
-    ],
+    "latitude": -6,
+    "longitude": 71.5,
     "population": -1,
     "calling_code": [
       "246"
@@ -1733,10 +1667,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Virgin Islander",
-    "latlng": [
-      18.431383,
-      -64.62305
-    ],
+    "latitude": 18.43138,
+    "longitude": -64.62305,
     "population": 29537,
     "calling_code": [
       "1284"
@@ -1782,10 +1714,8 @@
       "MYS"
     ],
     "demonym": "Bruneian",
-    "latlng": [
-      4.5,
-      114.66666666
-    ],
+    "latitude": 4.5,
+    "longitude": 114.66666666,
     "population": 393162,
     "calling_code": [
       "673"
@@ -1829,10 +1759,8 @@
       "TUR"
     ],
     "demonym": "Bulgarian",
-    "latlng": [
-      43,
-      25
-    ],
+    "latitude": 43,
+    "longitude": 25,
     "population": 7282041,
     "calling_code": [
       "359"
@@ -1885,10 +1813,8 @@
       "TGO"
     ],
     "demonym": "Burkinabe",
-    "latlng": [
-      13,
-      -2
-    ],
+    "latitude": 13,
+    "longitude": -2,
     "population": 17322796,
     "calling_code": [
       "226"
@@ -1937,10 +1863,8 @@
       "TZA"
     ],
     "demonym": "Burundian",
-    "latlng": [
-      -3.5,
-      30
-    ],
+    "latitude": -3.5,
+    "longitude": 30,
     "population": 10163000,
     "calling_code": [
       "257"
@@ -1993,10 +1917,8 @@
       "VNM"
     ],
     "demonym": "Cambodian",
-    "latlng": [
-      13,
-      105
-    ],
+    "latitude": 13,
+    "longitude": 105,
     "population": 15135000,
     "calling_code": [
       "855"
@@ -2038,10 +1960,8 @@
       "NGA"
     ],
     "demonym": "Cameroonian",
-    "latlng": [
-      6,
-      12
-    ],
+    "latitude": 6,
+    "longitude": 12,
     "population": 20386799,
     "calling_code": [
       "237"
@@ -2091,10 +2011,8 @@
       "USA"
     ],
     "demonym": "Canadian",
-    "latlng": [
-      60,
-      -95
-    ],
+    "latitude": 60,
+    "longitude": -95,
     "population": 35158304,
     "calling_code": [
       "1"
@@ -2140,10 +2058,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Cape Verdian",
-    "latlng": [
-      16,
-      -24
-    ],
+    "latitude": 16,
+    "longitude": -24,
     "population": 491875,
     "calling_code": [
       "238"
@@ -2189,10 +2105,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Caymanian",
-    "latlng": [
-      19.5,
-      -80.5
-    ],
+    "latitude": 19.5,
+    "longitude": -80.5,
     "population": 55456,
     "calling_code": [
       "1345"
@@ -2243,10 +2157,8 @@
       "SDN"
     ],
     "demonym": "Central African",
-    "latlng": [
-      7,
-      21
-    ],
+    "latitude": 7,
+    "longitude": 21,
     "population": 4616000,
     "calling_code": [
       "236"
@@ -2301,10 +2213,8 @@
       "SSD"
     ],
     "demonym": "Chadian",
-    "latlng": [
-      15,
-      19
-    ],
+    "latitude": 15,
+    "longitude": 19,
     "population": 12825000,
     "calling_code": [
       "235"
@@ -2357,10 +2267,8 @@
       "PER"
     ],
     "demonym": "Chilean",
-    "latlng": [
-      -30,
-      -71
-    ],
+    "latitude": -30,
+    "longitude": -71,
     "population": 16634603,
     "calling_code": [
       "56"
@@ -2423,10 +2331,8 @@
       "VNM"
     ],
     "demonym": "Chinese",
-    "latlng": [
-      35,
-      105
-    ],
+    "latitude": 35,
+    "longitude": 105,
     "population": 1361170000,
     "calling_code": [
       "86"
@@ -2476,10 +2382,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Christmas Island",
-    "latlng": [
-      -10.5,
-      105.66666666
-    ],
+    "latitude": -10.5,
+    "longitude": 105.66666666,
     "population": 2072,
     "calling_code": [
       "61"
@@ -2514,10 +2418,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Cocos Islander",
-    "latlng": [
-      -12.5,
-      96.83333333
-    ],
+    "latitude": -12.5,
+    "longitude": 96.83333333,
     "population": 550,
     "calling_code": [
       "61"
@@ -2559,10 +2461,8 @@
       "VEN"
     ],
     "demonym": "Colombian",
-    "latlng": [
-      4,
-      -72
-    ],
+    "latitude": 4,
+    "longitude": -72,
     "population": 47330000,
     "calling_code": [
       "57"
@@ -2608,10 +2508,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Comoran",
-    "latlng": [
-      -12.16666666,
-      44.25
-    ],
+    "latitude": -12.1666,
+    "longitude": 44.25,
     "population": 724300,
     "calling_code": [
       "269"
@@ -2668,10 +2566,8 @@
       "GAB"
     ],
     "demonym": "Congolese",
-    "latlng": [
-      -1,
-      15
-    ],
+    "latitude": -1,
+    "longitude": 15,
     "population": 4448000,
     "calling_code": [
       "242"
@@ -2727,10 +2623,8 @@
       "ZMB"
     ],
     "demonym": "Congolese",
-    "latlng": [
-      0,
-      25
-    ],
+    "latitude": 0,
+    "longitude": 25,
     "population": 67514000,
     "calling_code": [
       "243"
@@ -2781,10 +2675,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Cook Islander",
-    "latlng": [
-      -21.23333333,
-      -159.76666666
-    ],
+    "latitude": -21.2333,
+    "longitude": -159.76666666,
     "population": 14974,
     "calling_code": [
       "682"
@@ -2833,10 +2725,8 @@
       "PAN"
     ],
     "demonym": "Costa Rican",
-    "latlng": [
-      10,
-      -84
-    ],
+    "latitude": 10,
+    "longitude": -84,
     "population": 4667096,
     "calling_code": [
       "506"
@@ -2888,10 +2778,8 @@
       "MLI"
     ],
     "demonym": "Ivorian",
-    "latlng": [
-      8,
-      -5
-    ],
+    "latitude": 8,
+    "longitude": -5,
     "population": -1,
     "calling_code": [
       "225"
@@ -2944,10 +2832,8 @@
       "SVN"
     ],
     "demonym": "Croatian",
-    "latlng": [
-      45.16666666,
-      15.5
-    ],
+    "latitude": 45.16666,
+    "longitude": 15.5,
     "population": 4290612,
     "calling_code": [
       "385"
@@ -2994,10 +2880,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Cuban",
-    "latlng": [
-      21.5,
-      -80
-    ],
+    "latitude": 21.5,
+    "longitude": -80,
     "population": 11167325,
     "calling_code": [
       "53"
@@ -3044,10 +2928,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Dutch",
-    "latlng": [
-      12.116667,
-      -68.933333
-    ],
+    "latitude": 12.11666,
+    "longitude": -68.933333,
     "population": 150563,
     "calling_code": [
       "5999"
@@ -3090,10 +2972,8 @@
       "GBR"
     ],
     "demonym": "Cypriot",
-    "latlng": [
-      35,
-      33
-    ],
+    "latitude": 35,
+    "longitude": 33,
     "population": 865878,
     "calling_code": [
       "357"
@@ -3150,10 +3030,8 @@
       "SVK"
     ],
     "demonym": "Czech",
-    "latlng": [
-      49.75,
-      15.5
-    ],
+    "latitude": 49.75,
+    "longitude": 15.5,
     "population": 10512900,
     "calling_code": [
       "420"
@@ -3202,10 +3080,8 @@
       "DEU"
     ],
     "demonym": "Danish",
-    "latlng": [
-      56,
-      10
-    ],
+    "latitude": 56,
+    "longitude": 10,
     "population": 5623501,
     "calling_code": [
       "45"
@@ -3256,10 +3132,8 @@
       "SOM"
     ],
     "demonym": "Djibouti",
-    "latlng": [
-      11.5,
-      43
-    ],
+    "latitude": 11.5,
+    "longitude": 43,
     "population": 864618,
     "calling_code": [
       "253"
@@ -3311,10 +3185,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Dominican",
-    "latlng": [
-      15.41666666,
-      -61.33333333
-    ],
+    "latitude": 15.41666,
+    "longitude": -61.33333333,
     "population": 71293,
     "calling_code": [
       "1767"
@@ -3363,10 +3235,8 @@
       "HTI"
     ],
     "demonym": "Dominican",
-    "latlng": [
-      19,
-      -70.66666666
-    ],
+    "latitude": 19,
+    "longitude": -70.66666666,
     "population": 9445281,
     "calling_code": [
       "1809",
@@ -3415,10 +3285,8 @@
       "PER"
     ],
     "demonym": "Ecuadorean",
-    "latlng": [
-      -2,
-      -77.5
-    ],
+    "latitude": -2,
+    "longitude": -77.5,
     "population": 15617900,
     "calling_code": [
       "593"
@@ -3468,10 +3336,8 @@
       "SDN"
     ],
     "demonym": "Egyptian",
-    "latlng": [
-      27,
-      30
-    ],
+    "latitude": 27,
+    "longitude": 30,
     "population": 83661000,
     "calling_code": [
       "20"
@@ -3519,10 +3385,8 @@
       "HND"
     ],
     "demonym": "Salvadoran",
-    "latlng": [
-      13.83333333,
-      -88.91666666
-    ],
+    "latitude": 13.83333,
+    "longitude": -88.91666666,
     "population": 6340000,
     "calling_code": [
       "503"
@@ -3572,10 +3436,8 @@
       "GAB"
     ],
     "demonym": "Equatorial Guinean",
-    "latlng": [
-      2,
-      10
-    ],
+    "latitude": 2,
+    "longitude": 10,
     "population": 1622000,
     "calling_code": [
       "240"
@@ -3630,10 +3492,8 @@
       "SDN"
     ],
     "demonym": "Eritrean",
-    "latlng": [
-      15,
-      39
-    ],
+    "latitude": 15,
+    "longitude": 39,
     "population": 6333000,
     "calling_code": [
       "291"
@@ -3690,10 +3550,8 @@
       "RUS"
     ],
     "demonym": "Estonian",
-    "latlng": [
-      59,
-      26
-    ],
+    "latitude": 59,
+    "longitude": 26,
     "population": 1286540,
     "calling_code": [
       "372"
@@ -3747,10 +3605,8 @@
       "SDN"
     ],
     "demonym": "Ethiopian",
-    "latlng": [
-      8,
-      38
-    ],
+    "latitude": 8,
+    "longitude": 38,
     "population": 86613986,
     "calling_code": [
       "251"
@@ -3797,10 +3653,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Falkland Islander",
-    "latlng": [
-      -51.75,
-      -59
-    ],
+    "latitude": -51.75,
+    "longitude": -59,
     "population": 2563,
     "calling_code": [
       "500"
@@ -3845,10 +3699,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Faroese",
-    "latlng": [
-      62,
-      -7
-    ],
+    "latitude": 62,
+    "longitude": -7,
     "population": 48509,
     "calling_code": [
       "298"
@@ -3895,10 +3747,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Fijian",
-    "latlng": [
-      -18,
-      175
-    ],
+    "latitude": -18,
+    "longitude": 175,
     "population": 858038,
     "calling_code": [
       "679"
@@ -3955,10 +3805,8 @@
       "RUS"
     ],
     "demonym": "Finnish",
-    "latlng": [
-      64,
-      26
-    ],
+    "latitude": 64,
+    "longitude": 26,
     "population": 5445883,
     "calling_code": [
       "358"
@@ -4017,10 +3865,8 @@
       "CHE"
     ],
     "demonym": "French",
-    "latlng": [
-      46,
-      2
-    ],
+    "latitude": 46,
+    "longitude": 2,
     "population": 65806000,
     "calling_code": [
       "33"
@@ -4069,10 +3915,8 @@
       "SUR"
     ],
     "demonym": "",
-    "latlng": [
-      4,
-      -53
-    ],
+    "latitude": 4,
+    "longitude": -53,
     "population": 229040,
     "calling_code": [
       "594"
@@ -4118,10 +3962,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "French Polynesian",
-    "latlng": [
-      -15,
-      -140
-    ],
+    "latitude": -15,
+    "longitude": -140,
     "population": 268270,
     "calling_code": [
       "689"
@@ -4168,10 +4010,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "French",
-    "latlng": [],
-    "population": -1,
-    "calling_code": [
-      ""
+      "latitude": "populatio,
+      "longitude": "calling_code": [,
     ],
     "currency": [
       "EUR"
@@ -4216,10 +4056,8 @@
       "GNQ"
     ],
     "demonym": "Gabonese",
-    "latlng": [
-      -1,
-      11.75
-    ],
+    "latitude": -1,
+    "longitude": 11.75,
     "population": 1672000,
     "calling_code": [
       "241"
@@ -4267,10 +4105,8 @@
       "SEN"
     ],
     "demonym": "Gambian",
-    "latlng": [
-      13.46666666,
-      -16.56666666
-    ],
+    "latitude": 13.46666,
+    "longitude": -16.56666666,
     "population": -1,
     "calling_code": [
       "220"
@@ -4320,10 +4156,8 @@
       "TUR"
     ],
     "demonym": "Georgian",
-    "latlng": [
-      42,
-      43.5
-    ],
+    "latitude": 42,
+    "longitude": 43.5,
     "population": -1,
     "calling_code": [
       "995"
@@ -4378,10 +4212,8 @@
       "CHE"
     ],
     "demonym": "German",
-    "latlng": [
-      51,
-      9
-    ],
+    "latitude": 51,
+    "longitude": 9,
     "population": 80523700,
     "calling_code": [
       "49"
@@ -4431,10 +4263,8 @@
       "TGO"
     ],
     "demonym": "Ghanaian",
-    "latlng": [
-      8,
-      -2
-    ],
+    "latitude": 8,
+    "longitude": -2,
     "population": 24658823,
     "calling_code": [
       "233"
@@ -4480,10 +4310,8 @@
       "ESP"
     ],
     "demonym": "Gibraltar",
-    "latlng": [
-      36.13333333,
-      -5.35
-    ],
+    "latitude": 36.13333,
+    "longitude": -5.35,
     "population": 29752,
     "calling_code": [
       "350"
@@ -4532,10 +4360,8 @@
       "MKD"
     ],
     "demonym": "Greek",
-    "latlng": [
-      39,
-      22
-    ],
+    "latitude": 39,
+    "longitude": 22,
     "population": 10815197,
     "calling_code": [
       "30"
@@ -4582,10 +4408,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Greenlandic",
-    "latlng": [
-      72,
-      -40
-    ],
+    "latitude": 72,
+    "longitude": -40,
     "population": 56370,
     "calling_code": [
       "299"
@@ -4630,10 +4454,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Grenadian",
-    "latlng": [
-      12.11666666,
-      -61.66666666
-    ],
+    "latitude": 12.11666,
+    "longitude": -61.66666666,
     "population": 103328,
     "calling_code": [
       "1473"
@@ -4677,10 +4499,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Guadeloupian",
-    "latlng": [
-      16.25,
-      -61.583333
-    ],
+    "latitude": 16.25,
+    "longitude": -61.583333,
     "population": 403355,
     "calling_code": [
       "590"
@@ -4725,10 +4545,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Guamanian",
-    "latlng": [
-      13.46666666,
-      144.78333333
-    ],
+    "latitude": 13.46666,
+    "longitude": 144.78333333,
     "population": 159358,
     "calling_code": [
       "1671"
@@ -4781,10 +4599,8 @@
       "MEX"
     ],
     "demonym": "Guatemalan",
-    "latlng": [
-      15.5,
-      -90.25
-    ],
+    "latitude": 15.5,
+    "longitude": -90.25,
     "population": 15438384,
     "calling_code": [
       "502"
@@ -4828,10 +4644,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Channel Islander",
-    "latlng": [
-      49.46666666,
-      -2.58333333
-    ],
+    "latitude": 49.46666,
+    "longitude": -2.58333333,
     "population": 62431,
     "calling_code": [
       "44"
@@ -4886,10 +4700,8 @@
       "SLE"
     ],
     "demonym": "Guinean",
-    "latlng": [
-      11,
-      -10
-    ],
+    "latitude": 11,
+    "longitude": -10,
     "population": 10824200,
     "calling_code": [
       "224"
@@ -4939,10 +4751,8 @@
       "SEN"
     ],
     "demonym": "Guinea-Bissauan",
-    "latlng": [
-      12,
-      -15
-    ],
+    "latitude": 12,
+    "longitude": -15,
     "population": 1704000,
     "calling_code": [
       "245"
@@ -4992,10 +4802,8 @@
       "VEN"
     ],
     "demonym": "Guyanese",
-    "latlng": [
-      5,
-      -59
-    ],
+    "latitude": 5,
+    "longitude": -59,
     "population": 784894,
     "calling_code": [
       "592"
@@ -5042,10 +4850,8 @@
       "DOM"
     ],
     "demonym": "Haitian",
-    "latlng": [
-      19,
-      -72.41666666
-    ],
+    "latitude": 19,
+    "longitude": -72.41666666,
     "population": 10413211,
     "calling_code": [
       "509"
@@ -5095,10 +4901,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Heard and McDonald Islander",
-    "latlng": [
-      -53.1,
-      72.51666666
-    ],
+    "latitude": -53.1,
+    "longitude": 72.51666666,
     "population": -1,
     "calling_code": [
       ""
@@ -5145,10 +4949,8 @@
       "ITA"
     ],
     "demonym": "Italian",
-    "latlng": [
-      41.9,
-      12.45
-    ],
+    "latitude": 41.9,
+    "longitude": 12.45,
     "population": 800,
     "calling_code": [
       "39066",
@@ -5200,10 +5002,8 @@
       "NIC"
     ],
     "demonym": "Honduran",
-    "latlng": [
-      15,
-      -86.5
-    ],
+    "latitude": 15,
+    "longitude": -86.5,
     "population": 8555072,
     "calling_code": [
       "504"
@@ -5251,10 +5051,8 @@
       "CHN"
     ],
     "demonym": "Chinese",
-    "latlng": [
-      22.25,
-      114.16666666
-    ],
+    "latitude": 22.25,
+    "longitude": 114.16666666,
     "population": 7184000,
     "calling_code": [
       "852"
@@ -5309,10 +5107,8 @@
       "UKR"
     ],
     "demonym": "Hungarian",
-    "latlng": [
-      47,
-      20
-    ],
+    "latitude": 47,
+    "longitude": 20,
     "population": 9906000,
     "calling_code": [
       "36"
@@ -5356,10 +5152,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Icelander",
-    "latlng": [
-      65,
-      -18
-    ],
+    "latitude": 65,
+    "longitude": -18,
     "population": 325010,
     "calling_code": [
       "354"
@@ -5415,10 +5209,8 @@
       "LKA"
     ],
     "demonym": "Indian",
-    "latlng": [
-      20,
-      77
-    ],
+    "latitude": 20,
+    "longitude": 77,
     "population": 1236670000,
     "calling_code": [
       "91"
@@ -5471,10 +5263,8 @@
       "PNG"
     ],
     "demonym": "Indonesian",
-    "latlng": [
-      -5,
-      120
-    ],
+    "latitude": -5,
+    "longitude": 120,
     "population": 237641326,
     "calling_code": [
       "62"
@@ -5518,10 +5308,8 @@
       "TKM"
     ],
     "demonym": "Iranian",
-    "latlng": [
-      32,
-      53
-    ],
+    "latitude": 32,
+    "longitude": 53,
     "population": 77068000,
     "calling_code": [
       "98"
@@ -5573,10 +5361,8 @@
       "TUR"
     ],
     "demonym": "Iraqi",
-    "latlng": [
-      33,
-      44
-    ],
+    "latitude": 33,
+    "longitude": 44,
     "population": 34035000,
     "calling_code": [
       "964"
@@ -5625,10 +5411,8 @@
       "GBR"
     ],
     "demonym": "Irish",
-    "latlng": [
-      53,
-      -8
-    ],
+    "latitude": 53,
+    "longitude": -8,
     "population": -1,
     "calling_code": [
       "353"
@@ -5677,10 +5461,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Manx",
-    "latlng": [
-      54.25,
-      -4.5
-    ],
+    "latitude": 54.25,
+    "longitude": -4.5,
     "population": 84497,
     "calling_code": [
       "44"
@@ -5734,10 +5516,8 @@
       "SYR"
     ],
     "demonym": "Israeli",
-    "latlng": [
-      31.5,
-      34.75
-    ],
+    "latitude": 31.5,
+    "longitude": 34.75,
     "population": 8092700,
     "calling_code": [
       "972"
@@ -5792,10 +5572,8 @@
       "VAT"
     ],
     "demonym": "Italian",
-    "latlng": [
-      42.83333333,
-      12.83333333
-    ],
+    "latitude": 42.83333,
+    "longitude": 12.83333333,
     "population": 59829079,
     "calling_code": [
       "39"
@@ -5841,10 +5619,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Jamaican",
-    "latlng": [
-      18.25,
-      -77.5
-    ],
+    "latitude": 18.25,
+    "longitude": -77.5,
     "population": 2711476,
     "calling_code": [
       "1876"
@@ -5888,10 +5664,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Japanese",
-    "latlng": [
-      36,
-      138
-    ],
+    "latitude": 36,
+    "longitude": 138,
     "population": 127290000,
     "calling_code": [
       "81"
@@ -5937,10 +5711,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Channel Islander",
-    "latlng": [
-      49.25,
-      -2.16666666
-    ],
+    "latitude": 49.25,
+    "longitude": -2.16666666,
     "population": 97857,
     "calling_code": [
       "44"
@@ -5994,10 +5766,8 @@
       "SYR"
     ],
     "demonym": "Jordanian",
-    "latlng": [
-      31,
-      36
-    ],
+    "latitude": 31,
+    "longitude": 36,
     "population": 6512600,
     "calling_code": [
       "962"
@@ -6049,10 +5819,8 @@
       "UZB"
     ],
     "demonym": "Kazakhstani",
-    "latlng": [
-      48,
-      68
-    ],
+    "latitude": 48,
+    "longitude": 68,
     "population": 17099000,
     "calling_code": [
       "76",
@@ -6113,10 +5881,8 @@
       "UGA"
     ],
     "demonym": "Kenyan",
-    "latlng": [
-      1,
-      38
-    ],
+    "latitude": 1,
+    "longitude": 38,
     "population": 44354000,
     "calling_code": [
       "254"
@@ -6164,10 +5930,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "I-Kiribati",
-    "latlng": [
-      1.41666666,
-      173
-    ],
+    "latitude": 1.416666,
+    "longitude": 173,
     "population": 106461,
     "calling_code": [
       "686"
@@ -6217,10 +5981,8 @@
       "SAU"
     ],
     "demonym": "Kuwaiti",
-    "latlng": [
-      29.5,
-      45.75
-    ],
+    "latitude": 29.5,
+    "longitude": 45.75,
     "population": 3582054,
     "calling_code": [
       "965"
@@ -6271,10 +6033,8 @@
       "UZB"
     ],
     "demonym": "Kirghiz",
-    "latlng": [
-      41,
-      75
-    ],
+    "latitude": 41,
+    "longitude": 75,
     "population": 5551900,
     "calling_code": [
       "996"
@@ -6330,10 +6090,8 @@
       "VNM"
     ],
     "demonym": "Laotian",
-    "latlng": [
-      18,
-      105
-    ],
+    "latitude": 18,
+    "longitude": 105,
     "population": 6580800,
     "calling_code": [
       "856"
@@ -6375,10 +6133,8 @@
       "RUS"
     ],
     "demonym": "Latvian",
-    "latlng": [
-      57,
-      25
-    ],
+    "latitude": 57,
+    "longitude": 25,
     "population": 2014000,
     "calling_code": [
       "371"
@@ -6427,10 +6183,8 @@
       "SYR"
     ],
     "demonym": "Lebanese",
-    "latlng": [
-      33.83333333,
-      35.83333333
-    ],
+    "latitude": 33.83333,
+    "longitude": 35.83333333,
     "population": 4822000,
     "calling_code": [
       "961"
@@ -6480,10 +6234,8 @@
       "ZAF"
     ],
     "demonym": "Mosotho",
-    "latlng": [
-      -29.5,
-      28.5
-    ],
+    "latitude": -29.5,
+    "longitude": 28.5,
     "population": 2074000,
     "calling_code": [
       "266"
@@ -6536,10 +6288,8 @@
       "SLE"
     ],
     "demonym": "Liberian",
-    "latlng": [
-      6.5,
-      -9.5
-    ],
+    "latitude": 6.5,
+    "longitude": -9.5,
     "population": 4294000,
     "calling_code": [
       "231"
@@ -6591,10 +6341,8 @@
       "TUN"
     ],
     "demonym": "Libyan",
-    "latlng": [
-      25,
-      17
-    ],
+    "latitude": 25,
+    "longitude": 17,
     "population": 6202000,
     "calling_code": [
       "218"
@@ -6643,10 +6391,8 @@
       "CHE"
     ],
     "demonym": "Liechtensteiner",
-    "latlng": [
-      47.26666666,
-      9.53333333
-    ],
+    "latitude": 47.26666,
+    "longitude": 9.53333333,
     "population": 36842,
     "calling_code": [
       "423"
@@ -6697,10 +6443,8 @@
       "RUS"
     ],
     "demonym": "Lithuanian",
-    "latlng": [
-      56,
-      24
-    ],
+    "latitude": 56,
+    "longitude": 24,
     "population": 2950684,
     "calling_code": [
       "370"
@@ -6750,10 +6494,8 @@
       "DEU"
     ],
     "demonym": "Luxembourger",
-    "latlng": [
-      49.75,
-      6.16666666
-    ],
+    "latitude": 49.75,
+    "longitude": 6.16666666,
     "population": 537000,
     "calling_code": [
       "352"
@@ -6807,10 +6549,8 @@
       "CHN"
     ],
     "demonym": "Chinese",
-    "latlng": [
-      22.16666666,
-      113.55
-    ],
+    "latitude": 22.16666,
+    "longitude": 113.55,
     "population": -1,
     "calling_code": [
       "853"
@@ -6866,10 +6606,8 @@
       "SRB"
     ],
     "demonym": "Macedonian",
-    "latlng": [
-      41.83333333,
-      22
-    ],
+    "latitude": 41.83333,
+    "longitude": 22,
     "population": -1,
     "calling_code": [
       "389"
@@ -6915,10 +6653,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Malagasy",
-    "latlng": [
-      -20,
-      47
-    ],
+    "latitude": -20,
+    "longitude": 47,
     "population": 20696070,
     "calling_code": [
       "261"
@@ -6971,10 +6707,8 @@
       "ZMB"
     ],
     "demonym": "Malawian",
-    "latlng": [
-      -13.5,
-      34
-    ],
+    "latitude": -13.5,
+    "longitude": 34,
     "population": 16363000,
     "calling_code": [
       "265"
@@ -7025,10 +6759,8 @@
       "THA"
     ],
     "demonym": "Malaysian",
-    "latlng": [
-      2.5,
-      112.5
-    ],
+    "latitude": 2.5,
+    "longitude": 112.5,
     "population": 29793600,
     "calling_code": [
       "60"
@@ -7062,10 +6794,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Maldivan",
-    "latlng": [
-      3.25,
-      73
-    ],
+    "latitude": 3.25,
+    "longitude": 73,
     "population": 317280,
     "calling_code": [
       "960"
@@ -7120,10 +6850,8 @@
       "SEN"
     ],
     "demonym": "Malian",
-    "latlng": [
-      17,
-      -4
-    ],
+    "latitude": 17,
+    "longitude": -4,
     "population": 15302000,
     "calling_code": [
       "223"
@@ -7169,10 +6897,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Maltese",
-    "latlng": [
-      35.83333333,
-      14.58333333
-    ],
+    "latitude": 35.83333,
+    "longitude": 14.58333333,
     "population": 416055,
     "calling_code": [
       "356"
@@ -7220,10 +6946,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Marshallese",
-    "latlng": [
-      9,
-      168
-    ],
+    "latitude": 9,
+    "longitude": 168,
     "population": 56086,
     "calling_code": [
       "692"
@@ -7271,10 +6995,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "French",
-    "latlng": [
-      14.666667,
-      -61
-    ],
+    "latitude": 14.66666,
+    "longitude": -61,
     "population": 394173,
     "calling_code": [
       "596"
@@ -7323,10 +7045,8 @@
       "ESH"
     ],
     "demonym": "Mauritanian",
-    "latlng": [
-      20,
-      -12
-    ],
+    "latitude": 20,
+    "longitude": -12,
     "population": 3461041,
     "calling_code": [
       "222"
@@ -7373,10 +7093,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Mauritian",
-    "latlng": [
-      -20.28333333,
-      57.55
-    ],
+    "latitude": -20.2833,
+    "longitude": 57.55,
     "population": 1257900,
     "calling_code": [
       "230"
@@ -7422,10 +7140,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "French",
-    "latlng": [
-      -12.83333333,
-      45.16666666
-    ],
+    "latitude": -12.8333,
+    "longitude": 45.16666666,
     "population": 212600,
     "calling_code": [
       "262"
@@ -7475,10 +7191,8 @@
       "USA"
     ],
     "demonym": "Mexican",
-    "latlng": [
-      23,
-      -102
-    ],
+    "latitude": 23,
+    "longitude": -102,
     "population": 118395054,
     "calling_code": [
       "52"
@@ -7525,10 +7239,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Micronesian",
-    "latlng": [
-      6.91666666,
-      158.25
-    ],
+    "latitude": 6.916666,
+    "longitude": 158.25,
     "population": -1,
     "calling_code": [
       "691"
@@ -7576,10 +7288,8 @@
       "UKR"
     ],
     "demonym": "Moldovan",
-    "latlng": [
-      47,
-      29
-    ],
+    "latitude": 47,
+    "longitude": 29,
     "population": 3559500,
     "calling_code": [
       "373"
@@ -7627,10 +7337,8 @@
       "FRA"
     ],
     "demonym": "Monegasque",
-    "latlng": [
-      43.73333333,
-      7.4
-    ],
+    "latitude": 43.73333,
+    "longitude": 7.4,
     "population": 36136,
     "calling_code": [
       "377"
@@ -7679,10 +7387,8 @@
       "RUS"
     ],
     "demonym": "Mongolian",
-    "latlng": [
-      46,
-      105
-    ],
+    "latitude": 46,
+    "longitude": 105,
     "population": 2754685,
     "calling_code": [
       "976"
@@ -7732,10 +7438,8 @@
       "SRB"
     ],
     "demonym": "Montenegrin",
-    "latlng": [
-      42.5,
-      19.3
-    ],
+    "latitude": 42.5,
+    "longitude": 19.3,
     "population": 620029,
     "calling_code": [
       "382"
@@ -7783,10 +7487,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Montserratian",
-    "latlng": [
-      16.75,
-      -62.2
-    ],
+    "latitude": 16.75,
+    "longitude": -62.2,
     "population": 4922,
     "calling_code": [
       "1664"
@@ -7834,10 +7536,8 @@
       "ESP"
     ],
     "demonym": "Moroccan",
-    "latlng": [
-      32,
-      -5
-    ],
+    "latitude": 32,
+    "longitude": -5,
     "population": 33087700,
     "calling_code": [
       "212"
@@ -7891,10 +7591,8 @@
       "ZWE"
     ],
     "demonym": "Mozambican",
-    "latlng": [
-      -18.25,
-      35
-    ],
+    "latitude": -18.25,
+    "longitude": 35,
     "population": 23700715,
     "calling_code": [
       "258"
@@ -7940,10 +7638,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Myanmarian",
-    "latlng": [
-      22,
-      98
-    ],
+    "latitude": 22,
+    "longitude": 98,
     "population": -1,
     "calling_code": [
       "95"
@@ -7985,10 +7681,8 @@
       "ZMB"
     ],
     "demonym": "Namibian",
-    "latlng": [
-      -22,
-      17
-    ],
+    "latitude": -22,
+    "longitude": 17,
     "population": 2113077,
     "calling_code": [
       "264"
@@ -8036,10 +7730,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Nauruan",
-    "latlng": [
-      -0.53333333,
-      166.91666666
-    ],
+    "latitude": -0.53333,
+    "longitude": 166.91666666,
     "population": 9945,
     "calling_code": [
       "674"
@@ -8092,10 +7784,8 @@
       "IND"
     ],
     "demonym": "Nepalese",
-    "latlng": [
-      28,
-      84
-    ],
+    "latitude": 28,
+    "longitude": 84,
     "population": 26494504,
     "calling_code": [
       "977"
@@ -8144,10 +7834,8 @@
       "DEU"
     ],
     "demonym": "Dutch",
-    "latlng": [
-      52.5,
-      5.75
-    ],
+    "latitude": 52.5,
+    "longitude": 5.75,
     "population": 16807300,
     "calling_code": [
       "31"
@@ -8193,10 +7881,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "New Caledonian",
-    "latlng": [
-      -21.5,
-      165.5
-    ],
+    "latitude": -21.5,
+    "longitude": 165.5,
     "population": 258958,
     "calling_code": [
       "687"
@@ -8240,10 +7926,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "New Zealander",
-    "latlng": [
-      -41,
-      174
-    ],
+    "latitude": -41,
+    "longitude": 174,
     "population": 4478810,
     "calling_code": [
       "64"
@@ -8283,10 +7967,8 @@
       "HND"
     ],
     "demonym": "Nicaraguan",
-    "latlng": [
-      13,
-      -85
-    ],
+    "latitude": 13,
+    "longitude": -85,
     "population": 6071045,
     "calling_code": [
       "505"
@@ -8340,10 +8022,8 @@
       "NGA"
     ],
     "demonym": "Nigerian",
-    "latlng": [
-      16,
-      8
-    ],
+    "latitude": 16,
+    "longitude": 8,
     "population": 17129076,
     "calling_code": [
       "227"
@@ -8395,10 +8075,8 @@
       "NER"
     ],
     "demonym": "Nigerian",
-    "latlng": [
-      10,
-      8
-    ],
+    "latitude": 10,
+    "longitude": 8,
     "population": 173615000,
     "calling_code": [
       "234"
@@ -8445,10 +8123,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Niuean",
-    "latlng": [
-      -19.03333333,
-      -169.86666666
-    ],
+    "latitude": -19.0333,
+    "longitude": -169.86666666,
     "population": 1613,
     "calling_code": [
       "683"
@@ -8493,10 +8169,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Norfolk Islander",
-    "latlng": [
-      -29.03333333,
-      167.95
-    ],
+    "latitude": -29.0333,
+    "longitude": 167.95,
     "population": 2302,
     "calling_code": [
       "672"
@@ -8537,10 +8211,8 @@
       "RUS"
     ],
     "demonym": "North Korean",
-    "latlng": [
-      40,
-      127
-    ],
+    "latitude": 40,
+    "longitude": 127,
     "population": 24895000,
     "calling_code": [
       "850"
@@ -8587,10 +8259,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "American",
-    "latlng": [
-      15.2,
-      145.75
-    ],
+    "latitude": 15.2,
+    "longitude": 145.75,
     "population": 53883,
     "calling_code": [
       "1670"
@@ -8643,10 +8313,8 @@
       "RUS"
     ],
     "demonym": "Norwegian",
-    "latlng": [
-      62,
-      10
-    ],
+    "latitude": 62,
+    "longitude": 10,
     "population": 5077798,
     "calling_code": [
       "47"
@@ -8699,10 +8367,8 @@
       "YEM"
     ],
     "demonym": "Omani",
-    "latlng": [
-      21,
-      57
-    ],
+    "latitude": 21,
+    "longitude": 57,
     "population": 3929000,
     "calling_code": [
       "968"
@@ -8753,10 +8419,8 @@
       "IRN"
     ],
     "demonym": "Pakistani",
-    "latlng": [
-      30,
-      70
-    ],
+    "latitude": 30,
+    "longitude": 70,
     "population": 184845000,
     "calling_code": [
       "92"
@@ -8805,10 +8469,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Palauan",
-    "latlng": [
-      7.5,
-      134.5
-    ],
+    "latitude": 7.5,
+    "longitude": 134.5,
     "population": 20901,
     "calling_code": [
       "680"
@@ -8859,10 +8521,8 @@
       "JOR"
     ],
     "demonym": "Palestinian",
-    "latlng": [
-      31.9,
-      35.2
-    ],
+    "latitude": 31.9,
+    "longitude": 35.2,
     "population": -1,
     "calling_code": [
       "970"
@@ -8913,10 +8573,8 @@
       "CRI"
     ],
     "demonym": "Panamanian",
-    "latlng": [
-      9,
-      -80
-    ],
+    "latitude": 9,
+    "longitude": -80,
     "population": 3405813,
     "calling_code": [
       "507"
@@ -8965,10 +8623,8 @@
       "IDN"
     ],
     "demonym": "Papua New Guinean",
-    "latlng": [
-      -6,
-      147
-    ],
+    "latitude": -6,
+    "longitude": 147,
     "population": 7059653,
     "calling_code": [
       "675"
@@ -9020,10 +8676,8 @@
       "BRA"
     ],
     "demonym": "Paraguayan",
-    "latlng": [
-      -23,
-      -58
-    ],
+    "latitude": -23,
+    "longitude": -58,
     "population": 6783374,
     "calling_code": [
       "595"
@@ -9078,10 +8732,8 @@
       "ECU"
     ],
     "demonym": "Peruvian",
-    "latlng": [
-      -10,
-      -76
-    ],
+    "latitude": -10,
+    "longitude": -76,
     "population": 30475144,
     "calling_code": [
       "51"
@@ -9129,10 +8781,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Filipino",
-    "latlng": [
-      13,
-      122
-    ],
+    "latitude": 13,
+    "longitude": 122,
     "population": 98678000,
     "calling_code": [
       "63"
@@ -9169,10 +8819,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Pitcairn Islander",
-    "latlng": [
-      -25.06666666,
-      -130.1
-    ],
+    "latitude": -25.0666,
+    "longitude": -130.1,
     "population": 56,
     "calling_code": [
       "64"
@@ -9225,10 +8873,8 @@
       "UKR"
     ],
     "demonym": "Polish",
-    "latlng": [
-      52,
-      20
-    ],
+    "latitude": 52,
+    "longitude": 20,
     "population": 38533299,
     "calling_code": [
       "48"
@@ -9276,10 +8922,8 @@
       "ESP"
     ],
     "demonym": "Portuguese",
-    "latlng": [
-      39.5,
-      -8
-    ],
+    "latitude": 39.5,
+    "longitude": -8,
     "population": 10562178,
     "calling_code": [
       "351"
@@ -9326,10 +8970,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Puerto Rican",
-    "latlng": [
-      18.25,
-      -66.5
-    ],
+    "latitude": 18.25,
+    "longitude": -66.5,
     "population": 3667084,
     "calling_code": [
       "1787",
@@ -9380,10 +9022,8 @@
       "SAU"
     ],
     "demonym": "Qatari",
-    "latlng": [
-      25.5,
-      51.25
-    ],
+    "latitude": 25.5,
+    "longitude": 51.25,
     "population": 2024707,
     "calling_code": [
       "974"
@@ -9434,10 +9074,8 @@
       "SRB"
     ],
     "demonym": "Kosovar",
-    "latlng": [
-      42.666667,
-      21.166667
-    ],
+    "latitude": 42.66666,
+    "longitude": 21.166667,
     "population": 1733842,
     "calling_code": [
       "377",
@@ -9478,10 +9116,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "French",
-    "latlng": [
-      -21.15,
-      55.5
-    ],
+    "latitude": -21.15,
+    "longitude": 55.5,
     "population": 821136,
     "calling_code": [
       "262"
@@ -9532,10 +9168,8 @@
       "UKR"
     ],
     "demonym": "Romanian",
-    "latlng": [
-      46,
-      25
-    ],
+    "latitude": 46,
+    "longitude": 25,
     "population": 20121641,
     "calling_code": [
       "40"
@@ -9597,10 +9231,8 @@
       "UKR"
     ],
     "demonym": "Russian",
-    "latlng": [
-      60,
-      100
-    ],
+    "latitude": 60,
+    "longitude": 100,
     "population": 143500000,
     "calling_code": [
       "7"
@@ -9653,10 +9285,8 @@
       "UGA"
     ],
     "demonym": "Rwandan",
-    "latlng": [
-      -2,
-      30
-    ],
+    "latitude": -2,
+    "longitude": 30,
     "population": 10537222,
     "calling_code": [
       "250"
@@ -9707,10 +9337,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Saint Barthélemy Islander",
-    "latlng": [
-      18.5,
-      -63.41666666
-    ],
+    "latitude": 18.5,
+    "longitude": -63.41666666,
     "population": 8938,
     "calling_code": [
       "590"
@@ -9757,10 +9385,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Saint Helenian",
-    "latlng": [
-      -15.95,
-      -5.7
-    ],
+    "latitude": -15.95,
+    "longitude": -5.7,
     "population": -1,
     "calling_code": [
       "290"
@@ -9804,10 +9430,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Kittian and Nevisian",
-    "latlng": [
-      17.33333333,
-      -62.75
-    ],
+    "latitude": 17.33333,
+    "longitude": -62.75,
     "population": 54000,
     "calling_code": [
       "1869"
@@ -9852,10 +9476,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Saint Lucian",
-    "latlng": [
-      13.88333333,
-      -60.96666666
-    ],
+    "latitude": 13.88333,
+    "longitude": -60.96666666,
     "population": 166526,
     "calling_code": [
       "1758"
@@ -9902,10 +9524,8 @@
       "NLD"
     ],
     "demonym": "Saint Martin Islander",
-    "latlng": [
-      18.08333333,
-      -63.95
-    ],
+    "latitude": 18.08333,
+    "longitude": -63.95,
     "population": -1,
     "calling_code": [
       "590"
@@ -9955,10 +9575,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "French",
-    "latlng": [
-      46.83333333,
-      -56.33333333
-    ],
+    "latitude": 46.83333,
+    "longitude": -56.33333333,
     "population": 6081,
     "calling_code": [
       "508"
@@ -10003,10 +9621,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Saint Vincentian",
-    "latlng": [
-      13.25,
-      -61.2
-    ],
+    "latitude": 13.25,
+    "longitude": -61.2,
     "population": 109000,
     "calling_code": [
       "1784"
@@ -10050,10 +9666,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Samoan",
-    "latlng": [
-      -13.58333333,
-      -172.33333333
-    ],
+    "latitude": -13.5833,
+    "longitude": -172.33333333,
     "population": 187820,
     "calling_code": [
       "685"
@@ -10103,10 +9717,8 @@
       "ITA"
     ],
     "demonym": "Sammarinese",
-    "latlng": [
-      43.76666666,
-      12.41666666
-    ],
+    "latitude": 43.76666,
+    "longitude": 12.41666666,
     "population": 32509,
     "calling_code": [
       "378"
@@ -10152,10 +9764,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Sao Tomean",
-    "latlng": [
-      1,
-      7
-    ],
+    "latitude": 1,
+    "longitude": 7,
     "population": 187356,
     "calling_code": [
       "239"
@@ -10209,10 +9819,8 @@
       "YEM"
     ],
     "demonym": "Saudi Arabian",
-    "latlng": [
-      25,
-      45
-    ],
+    "latitude": 25,
+    "longitude": 45,
     "population": 29994272,
     "calling_code": [
       "966"
@@ -10264,10 +9872,8 @@
       "MRT"
     ],
     "demonym": "Senegalese",
-    "latlng": [
-      14,
-      -14
-    ],
+    "latitude": 14,
+    "longitude": -14,
     "population": 13567338,
     "calling_code": [
       "221"
@@ -10322,10 +9928,8 @@
       "ROU"
     ],
     "demonym": "Serbian",
-    "latlng": [
-      44,
-      21
-    ],
+    "latitude": 44,
+    "longitude": 21,
     "population": 7181505,
     "calling_code": [
       "381"
@@ -10373,10 +9977,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Seychellois",
-    "latlng": [
-      -4.58333333,
-      55.66666666
-    ],
+    "latitude": -4.58333,
+    "longitude": 55.66666666,
     "population": 90945,
     "calling_code": [
       "248"
@@ -10429,10 +10031,8 @@
       "LBR"
     ],
     "demonym": "Sierra Leonean",
-    "latlng": [
-      8.5,
-      -11.5
-    ],
+    "latitude": 8.5,
+    "longitude": -11.5,
     "population": 6190280,
     "calling_code": [
       "232"
@@ -10477,10 +10077,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Singaporean",
-    "latlng": [
-      1.36666666,
-      103.8
-    ],
+    "latitude": 1.366666,
+    "longitude": 103.8,
     "population": 5399200,
     "calling_code": [
       "65"
@@ -10527,10 +10125,8 @@
       "MAF"
     ],
     "demonym": "Dutch",
-    "latlng": [
-      18.033333,
-      -63.05
-    ],
+    "latitude": 18.03333,
+    "longitude": -63.05,
     "population": 37429,
     "calling_code": [
       "1721"
@@ -10571,10 +10167,8 @@
       "UKR"
     ],
     "demonym": "Slovak",
-    "latlng": [
-      48.66666666,
-      19.5
-    ],
+    "latitude": 48.66666,
+    "longitude": 19.5,
     "population": 5412008,
     "calling_code": [
       "421"
@@ -10625,10 +10219,8 @@
       "HUN"
     ],
     "demonym": "Slovene",
-    "latlng": [
-      46.11666666,
-      14.81666666
-    ],
+    "latitude": 46.11666,
+    "longitude": 14.81666666,
     "population": 2061405,
     "calling_code": [
       "386"
@@ -10674,10 +10266,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Solomon Islander",
-    "latlng": [
-      -8,
-      159
-    ],
+    "latitude": -8,
+    "longitude": 159,
     "population": 561000,
     "calling_code": [
       "677"
@@ -10725,10 +10315,8 @@
       "KEN"
     ],
     "demonym": "Somali",
-    "latlng": [
-      10,
-      49
-    ],
+    "latitude": 10,
+    "longitude": 49,
     "population": 10496000,
     "calling_code": [
       "252"
@@ -10785,10 +10373,8 @@
       "ZWE"
     ],
     "demonym": "South African",
-    "latlng": [
-      -29,
-      24
-    ],
+    "latitude": -29,
+    "longitude": 24,
     "population": 52981991,
     "calling_code": [
       "27"
@@ -10854,10 +10440,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "South Georgia and the South Sandwich Islander",
-    "latlng": [
-      -54.5,
-      -37
-    ],
+    "latitude": -54.5,
+    "longitude": -37,
     "population": -1,
     "calling_code": [
       "500"
@@ -10904,10 +10488,8 @@
       "PRK"
     ],
     "demonym": "South Korean",
-    "latlng": [
-      37,
-      127.5
-    ],
+    "latitude": 37,
+    "longitude": 127.5,
     "population": 50219669,
     "calling_code": [
       "82"
@@ -10959,10 +10541,8 @@
       "UGA"
     ],
     "demonym": "South Sudanese",
-    "latlng": [
-      7,
-      30
-    ],
+    "latitude": 7,
+    "longitude": 30,
     "population": 11296000,
     "calling_code": [
       "211"
@@ -11002,10 +10582,8 @@
       "MAR"
     ],
     "demonym": "Spanish",
-    "latlng": [
-      40,
-      -4
-    ],
+    "latitude": 40,
+    "longitude": -4,
     "population": 46704314,
     "calling_code": [
       "34"
@@ -11053,10 +10631,8 @@
       "IND"
     ],
     "demonym": "Sri Lankan",
-    "latlng": [
-      7,
-      81
-    ],
+    "latitude": 7,
+    "longitude": 81,
     "population": 20277597,
     "calling_code": [
       "94"
@@ -11112,10 +10688,8 @@
       "SSD"
     ],
     "demonym": "Sudanese",
-    "latlng": [
-      15,
-      30
-    ],
+    "latitude": 15,
+    "longitude": 30,
     "population": 37964000,
     "calling_code": [
       "249"
@@ -11168,10 +10742,8 @@
       "GUY"
     ],
     "demonym": "Surinamer",
-    "latlng": [
-      4,
-      -56
-    ],
+    "latitude": 4,
+    "longitude": -56,
     "population": 534189,
     "calling_code": [
       "597"
@@ -11219,10 +10791,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Norwegian",
-    "latlng": [
-      78,
-      20
-    ],
+    "latitude": 78,
+    "longitude": 20,
     "population": 2655,
     "calling_code": [
       "4779"
@@ -11270,10 +10840,8 @@
       "ZAF"
     ],
     "demonym": "Swazi",
-    "latlng": [
-      -26.5,
-      31.5
-    ],
+    "latitude": -26.5,
+    "longitude": 31.5,
     "population": 1250000,
     "calling_code": [
       "268"
@@ -11327,10 +10895,8 @@
       "NOR"
     ],
     "demonym": "Swedish",
-    "latlng": [
-      62,
-      15
-    ],
+    "latitude": 62,
+    "longitude": 15,
     "population": 9625444,
     "calling_code": [
       "46"
@@ -11382,10 +10948,8 @@
       "DEU"
     ],
     "demonym": "Swiss",
-    "latlng": [
-      47,
-      8
-    ],
+    "latitude": 47,
+    "longitude": 8,
     "population": 8085300,
     "calling_code": [
       "41"
@@ -11447,10 +11011,8 @@
       "TUR"
     ],
     "demonym": "Syrian",
-    "latlng": [
-      35,
-      38
-    ],
+    "latitude": 35,
+    "longitude": 38,
     "population": 21898000,
     "calling_code": [
       "963"
@@ -11496,10 +11058,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Taiwanese",
-    "latlng": [
-      23.5,
-      121
-    ],
+    "latitude": 23.5,
+    "longitude": 121,
     "population": 23361147,
     "calling_code": [
       "886"
@@ -11552,10 +11112,8 @@
       "UZB"
     ],
     "demonym": "Tadzhik",
-    "latlng": [
-      39,
-      71
-    ],
+    "latitude": 39,
+    "longitude": 71,
     "population": 8e+06,
     "calling_code": [
       "992"
@@ -11613,10 +11171,8 @@
       "ZMB"
     ],
     "demonym": "Tanzanian",
-    "latlng": [
-      -6,
-      35
-    ],
+    "latitude": -6,
+    "longitude": 35,
     "population": 44928923,
     "calling_code": [
       "255"
@@ -11669,10 +11225,8 @@
       "MYS"
     ],
     "demonym": "Thai",
-    "latlng": [
-      15,
-      100
-    ],
+    "latitude": 15,
+    "longitude": 100,
     "population": 65926261,
     "calling_code": [
       "66"
@@ -11713,10 +11267,8 @@
       "IDN"
     ],
     "demonym": "East Timorese",
-    "latlng": [
-      -8.83333333,
-      125.91666666
-    ],
+    "latitude": -8.83333,
+    "longitude": 125.91666666,
     "population": -1,
     "calling_code": [
       "670"
@@ -11759,10 +11311,8 @@
       "GHA"
     ],
     "demonym": "Togolese",
-    "latlng": [
-      8,
-      1.16666666
-    ],
+    "latitude": 8,
+    "longitude": 1.16666666,
     "population": 6191155,
     "calling_code": [
       "228"
@@ -11809,10 +11359,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Tokelauan",
-    "latlng": [
-      -9,
-      -172
-    ],
+    "latitude": -9,
+    "longitude": -172,
     "population": 1411,
     "calling_code": [
       "690"
@@ -11858,10 +11406,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Tongan",
-    "latlng": [
-      -20,
-      -175
-    ],
+    "latitude": -20,
+    "longitude": -175,
     "population": 103036,
     "calling_code": [
       "676"
@@ -11907,10 +11453,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Trinidadian",
-    "latlng": [
-      11,
-      -61
-    ],
+    "latitude": 11,
+    "longitude": -61,
     "population": 1328019,
     "calling_code": [
       "1868"
@@ -11958,10 +11502,8 @@
       "LBY"
     ],
     "demonym": "Tunisian",
-    "latlng": [
-      34,
-      9
-    ],
+    "latitude": 34,
+    "longitude": 9,
     "population": 10833431,
     "calling_code": [
       "216"
@@ -12017,10 +11559,8 @@
       "SYR"
     ],
     "demonym": "Turkish",
-    "latlng": [
-      39,
-      35
-    ],
+    "latitude": 39,
+    "longitude": 35,
     "population": 75627384,
     "calling_code": [
       "90"
@@ -12072,10 +11612,8 @@
       "UZB"
     ],
     "demonym": "Turkmen",
-    "latlng": [
-      40,
-      60
-    ],
+    "latitude": 40,
+    "longitude": 60,
     "population": 5240000,
     "calling_code": [
       "993"
@@ -12120,10 +11658,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Turks and Caicos Islander",
-    "latlng": [
-      21.75,
-      -71.58333333
-    ],
+    "latitude": 21.75,
+    "longitude": -71.58333333,
     "population": 31458,
     "calling_code": [
       "1649"
@@ -12167,10 +11703,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Tuvaluan",
-    "latlng": [
-      -8,
-      178
-    ],
+    "latitude": -8,
+    "longitude": 178,
     "population": 11323,
     "calling_code": [
       "688"
@@ -12221,10 +11755,8 @@
       "TZA"
     ],
     "demonym": "Ugandan",
-    "latlng": [
-      1,
-      32
-    ],
+    "latitude": 1,
+    "longitude": 32,
     "population": 35357000,
     "calling_code": [
       "256"
@@ -12280,10 +11812,8 @@
       "SVK"
     ],
     "demonym": "Ukrainian",
-    "latlng": [
-      49,
-      32
-    ],
+    "latitude": 49,
+    "longitude": 32,
     "population": 45461627,
     "calling_code": [
       "380"
@@ -12331,10 +11861,8 @@
       "SAU"
     ],
     "demonym": "Emirian",
-    "latlng": [
-      24,
-      54
-    ],
+    "latitude": 24,
+    "longitude": 54,
     "population": 8264070,
     "calling_code": [
       "971"
@@ -12381,10 +11909,8 @@
       "IRL"
     ],
     "demonym": "British",
-    "latlng": [
-      54,
-      -2
-    ],
+    "latitude": 54,
+    "longitude": -2,
     "population": 63705000,
     "calling_code": [
       "44"
@@ -12433,10 +11959,8 @@
       "MEX"
     ],
     "demonym": "American",
-    "latlng": [
-      38,
-      -97
-    ],
+    "latitude": 38,
+    "longitude": -97,
     "population": 317101000,
     "calling_code": [
       "1"
@@ -12484,10 +12008,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "American",
-    "latlng": [],
-    "population": -1,
-    "calling_code": [
-      ""
+      "latitude": "populatio,
+      "longitude": "calling_code": [,
     ],
     "currency": [
       "USD"
@@ -12528,10 +12050,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Virgin Islander",
-    "latlng": [
-      18.35,
-      -64.933333
-    ],
+    "latitude": 18.35,
+    "longitude": -64.933333,
     "population": 106405,
     "calling_code": [
       "1340"
@@ -12578,10 +12098,8 @@
       "BRA"
     ],
     "demonym": "Uruguayan",
-    "latlng": [
-      -33,
-      -56
-    ],
+    "latitude": -33,
+    "longitude": -56,
     "population": 3286314,
     "calling_code": [
       "598"
@@ -12634,10 +12152,8 @@
       "TKM"
     ],
     "demonym": "Uzbekistani",
-    "latlng": [
-      41,
-      64
-    ],
+    "latitude": 41,
+    "longitude": 64,
     "population": 30183400,
     "calling_code": [
       "998"
@@ -12685,10 +12201,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Ni-Vanuatu",
-    "latlng": [
-      -16,
-      167
-    ],
+    "latitude": -16,
+    "longitude": 167,
     "population": 264652,
     "calling_code": [
       "678"
@@ -12743,10 +12257,8 @@
       "GUY"
     ],
     "demonym": "Venezuelan",
-    "latlng": [
-      8,
-      -66
-    ],
+    "latitude": 8,
+    "longitude": -66,
     "population": 28946101,
     "calling_code": [
       "58"
@@ -12796,10 +12308,8 @@
       "LAO"
     ],
     "demonym": "Vietnamese",
-    "latlng": [
-      16.16666666,
-      107.83333333
-    ],
+    "latitude": 16.16666,
+    "longitude": 107.83333333,
     "population": 90388000,
     "calling_code": [
       "84"
@@ -12837,10 +12347,8 @@
     "doc_schema": "countries",
     "borders": [],
     "demonym": "Wallis and Futuna Islander",
-    "latlng": [
-      -13.3,
-      -176.2
-    ],
+    "latitude": -13.3,
+    "longitude": -176.2,
     "population": 13135,
     "calling_code": [
       "681"
@@ -12890,10 +12398,8 @@
       "MAR"
     ],
     "demonym": "Sahrawi",
-    "latlng": [
-      24.5,
-      -13
-    ],
+    "latitude": 24.5,
+    "longitude": -13,
     "population": 567000,
     "calling_code": [
       "212"
@@ -12945,10 +12451,8 @@
       "SAU"
     ],
     "demonym": "Yemeni",
-    "latlng": [
-      15,
-      48
-    ],
+    "latitude": 15,
+    "longitude": 48,
     "population": 24527000,
     "calling_code": [
       "967"
@@ -13003,10 +12507,8 @@
       "ZWE"
     ],
     "demonym": "Zambian",
-    "latlng": [
-      -15,
-      30
-    ],
+    "latitude": -15,
+    "longitude": 30,
     "population": 13092666,
     "calling_code": [
       "260"
@@ -13056,10 +12558,8 @@
       "ZMB"
     ],
     "demonym": "Zimbabwean",
-    "latlng": [
-      -20,
-      30
-    ],
+    "latitude": -20,
+    "longitude": 30,
     "population": 12973808,
     "calling_code": [
       "263"

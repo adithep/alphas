@@ -1,63 +1,97 @@
-json_control.insert_schema_keys = (json_s, json_k) ->
+json_control.insert_schema_keys = (json_s, json_k, json_t) ->
   json_s = json_s + ".json"
   json_k = json_k + ".json"
+  json_t = json_t + ".json"
   schema = EJSON.parse(Assets.getText(json_s))
   schema_keys = EJSON.parse(Assets.getText(json_k))
+  tags = EJSON.parse(Assets.getText(json_t))
   if schema and schema_keys and schema.length > 0 and schema_keys.length > 0
     i_schema = 0
     i_keys = 0
+    i_tags = 0
+    if tags and tags.length > 0
+      while i_tags < tags.length
+        get_tid[tags[i_tags].doc_name] = DATA.insert(tags[i_tags])
+        i_tags++
     while i_keys < schema_keys.length
-      key_id = DATA.insert(schema_keys[i_keys])
-      schema_obj.key_id[schema_keys[i_keys].key_name] = key_id
+      get_kid[schema_keys[i_keys].key_name] = DATA.insert(schema_keys[i_keys])
       i_keys++
     while i_schema < schema.length
-      i_kids = 0
-      i_dids = 0
-      _kids = schema[i_schema]._kids
-      _dids = schema[i_schema]._dids
-      if _kids and _kids.length > 0
-        while i_kids < _kids.length
-          _kid = schema_obj.key_id[_kids[i_kids]]
-          schema[i_schema]._kids[i_kids] = _kid
-          i_kids++
-      if _dids and _dids.length > 0
-        while i_dids < _dids.length
-          _did = schema_obj.schema_id[_dids[i_dids]]
-          schema[i_schema]._dids[i_dids] = _did
-          i_dids++
+      if schema[i_schema]._kids
+        if schema[i_schema]._kids.length > 0
+          schema[i_schema]._kids = while_loop(schema[i_schema]._kids, get_kid)
+      if schema[i_schema]._mids
+        if schema[i_schema]._mids.length > 0
+          schema[i_schema]._mids = while_loop(schema[i_schema]._mids, get_kid)
+      if schema[i_schema]._dids
+        if schema[i_schema]._dids.length > 0
+          schema[i_schema]._dids = while_loop(schema[i_schema]._dids, get_sid)
+      if schema[i_schema]._tids
+        if schema[i_schema]._tids.length > 0
+          i_tid = 0
+          while i_tid < schema[i_schema]._tids.length
+            schema[i_schema]._tids[i_tid].key = get_kid[schema[i_schema]._tids[i_tid].key]
+            schema[i_schema]._tids[i_tid].tags = while_loop(schema[i_schema]._tids[i_tid].tags, get_tid)
+            i_tid++
       schema_id = DATA.insert(schema[i_schema])
-      schema_obj.schema_id[schema[i_schema].doc_name] = schema_id
+      get_sid[schema[i_schema].doc_name] = schema_id
       i_schema++
-      
+        
 
-    DATA.find({_sid: "schema_key", $or: [{value_schema: {$exists: true}}, {array_values_schema: {$exists: true}}]}).forEach (doc) ->
+    DATA.find({_sid: "schema_key", value_schema: {$exists: true}}).forEach (doc) ->
       if doc.value_schema and doc.value_schema isnt "doc_schema" and doc.value_schema isnt "schema_key"
-        DATA.update({_id: doc._id}, {$set: {value_schema: schema_obj.schema_id[doc.value_schema]}})
-      if doc.array_values_schema and doc.array_values_schema isnt "doc_schema" and doc.array_values_schema isnt "schema_key"
-        DATA.update({_id: doc._id}, {$set: {array_values_schema: schema_obj.schema_id[doc.array_values_schema]}})
+        DATA.update({_id: doc._id}, {$set: {value_schema: get_sid[doc.value_schema]}})
 
     console.log "#{json_k} inserted"
   else
     console.warn "Cannot find or parse Json Files"
   return
 
+while_loop = (array, obj) ->
+  i = 0
+  j = 0
+  arr = []
+  while i < array.length
+    if obj[array[i]]
+      arr[j] = obj[array[i]]
+      j++
+    else
+      console.warn "no key for #{obj[array[i]]}"
+    i++
+  arr
+
+ejson_equals = (array, value) ->
+  i = 0
+  while i < array.length
+    if EJSON.equals(array[i], value)
+      return true
+    i++
+  false
+
 json_control.insert_json = (json, schema) ->
   json = json + ".json"
   json_obj = EJSON.parse(Assets.getText(json))
   if json_obj and json_obj.length > 0
-    schema_doc = DATA.fineOne(_sid: "doc_schema", doc_name: schema)
+    schema_doc = DATA.findOne(_id: schema)
     if schema_doc
+      console.log schema_doc
       i = 0
       while i < json_obj.length
         obj_keys = Object.keys(json_obj[i])
         i_obj = 0
         oid = DATA.insert(_sid: schema_doc._id)
         while i_obj < obj_keys.length
-          key_id = schema_obj.key_id[obj_keys[i_obj]]
+          key_id = get_kid[obj_keys[i_obj]]
           if key_id
-            if schema_doc._kids.indexOf(key_id) isnt -1
-              key_obj = DATA.fineOne(_id: key_id)
-              if key_obj
+            if schema_doc._kids and schema_doc._mids
+              s_arr = schema_doc._kids.cocat(schema_doc._mids)
+            else if schema_doc._kids
+              s_arr = schema_doc._kids
+            else if schema_doc._mids
+              s_arr = schema_doc._mids
+            if ejson_equals(s_arr, key_id)
+              key_obj = DATA.findOne(_id: key_id)
+              if key_obj and json_obj[i][obj_keys[i_obj]]
                 switch key_obj.value_type
                   when "string"
                     value_t = String(json_obj[i][obj_keys[i_obj]])
@@ -68,7 +102,7 @@ json_control.insert_json = (json, schema) ->
                     if typeof value_t is "number"
                       value = value_t
                   when "oid"
-                    doc = DATA.fineOne(_sid: key_obj.value_schema, doc_name: json_obj[i][obj_keys[i_obj]])
+                    doc = DATA.findOne(_sid: key_obj.value_schema, doc_name: json_obj[i][obj_keys[i_obj]])
                     if doc
                       value = doc._id
                     else
@@ -78,9 +112,25 @@ json_control.insert_json = (json, schema) ->
                       value = json_obj[i][obj_keys[i_obj]]
                   when "currency"
                     value_t = Number(json_obj[i][obj_keys[i_obj]])
-
-                date = new Date()
-                DATA.insert(_kid: key_obj._id, _did: oid, value: value, _modified: [{system: date}])
+                    if typeof value_t is "number"
+                      value = value_t
+                  when "phone"
+                    if json_obj[i][obj_keys[i_obj]].substring(0, 1) is "+"
+                      country_code = json_obj[i][obj_keys[i_obj]].substring(1, 2)
+                      doc_id = DATA.findOne(calling_code: country_code)
+                      cca2 = DATA.findOne(_did: doc_id._did, _kid: get_kid.cca2)
+                      if phone_format.isValidNumber(json_obj[i][obj_keys[i_obj]], cca2)
+                        value = json_obj[i][obj_keys[i_obj]]
+                  when "email"
+                    if email_format.reg.test(json_obj[i][obj_keys[i_obj]])
+                      value = json_obj[i][obj_keys[i_obj]]
+                  when "date"
+                    if json_obj[i][obj_keys[i_obj]] instanceof Date
+                      value = json_obj[i][obj_keys[i_obj]]
+                if value
+                  DATA.insert(_kid: key_obj._id, _did: oid, _sid: schema_doc._id, value: value, _modified: [{user: "server", date: new Date()}])
+                else
+                  console.warn "invalid value #{obj_keys[i_obj]}"
               else
                 console.warn "could not find key #{obj_keys[i_obj]}"
             else

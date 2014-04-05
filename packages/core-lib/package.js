@@ -3,8 +3,8 @@ Package.describe({
 });
 
 Package.on_use(function (api, where) {
-  api.add_files(['namespace.js', 'schema_keys.coffee'], ['client', 'server']);
-  api.export(['schema_obj', 'json_control', 'DATA', 'phone_format'])
+  api.add_files(['namespace.js'], ['client', 'server']);
+  api.export(['get_sid', 'get_kid', 'get_tid', 'fill_sid', 'json_control', 'DATA', 'phone_format', 'email_format'])
 });
 
 Package.on_test(function (api) {

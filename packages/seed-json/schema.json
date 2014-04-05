@@ -3,19 +3,20 @@
   {
     "doc_name": "titles",
     "_sid": "doc_schema",
-    "_kids": ["_sid", "doc_name"]
+    "_kids": ["doc_name"]
   },
 
   {
     "doc_name": "currencies",
     "_sid": "doc_schema",
-    "_kids": ["_sid", "doc_name", "usd_exchange_rate", "symbol", "symbol_native", "currency_name", "currency_code", "currency_name_plural"]
+    "_kids": ["doc_name", "usd_exchange_rate", "symbol", "symbol_native", "currency_name", "currency_code", "currency_name_plural"]
   },
 
   {
     "doc_name": "countries",
     "_sid": "doc_schema",
-    "_kids": ["_sid", "doc_name", "borders", "latlng", "population", "calling_code", "currency", "cca3", "cca2", "ccn3", "tld", "native_name", "capital", "alt_spellings", "region", "sub_region", "language"] 
+    "_kids": ["doc_name", "latitude", "longitude", "population", "cca3", "cca2", "ccn3", "native_name", "capital", "region", "sub_region"],
+    "_mids": ["borders", "calling_code", "currency", "tld", "alt_spellings", "language"] 
   },
 
   {
@@ -27,21 +28,23 @@
   {
     "doc_name": "cities",
     "_sid": "doc_schema",
-    "_kids": ["_sid", "doc_name", "population", "country", "latlng"]
-  },
-
-  {
-    "doc_name": "service_entity",
-    "_sid": "doc_schema",
-    "_kids": ["_sid", "date_of_entry", "service", "currency", "cost"]
+    "_kids": ["doc_name", "population", "country", "latitude", "longitude"]
   },
 
   {
     "doc_name": "humans",
     "_sid": "doc_schema",
-    "_kids": ["_sid", "titles", "first_name", "middle_name", "last_name", "email", "mobile", "date_of_birth", "city"],
-    "_s_tids": [{"key": "email", "tags": ["main", "personal", "work"]}, {"key": "mobile", "tags": ["main", "personal", "work"]}],
-    "_dids": ["service_entity"]
+    "_kids": ["titles", "first_name", "middle_name", "last_name", "date_of_birth", "city"],
+    "_mids": ["email", "mobile"],
+    "_tids": [{"key": "email", "tags": ["main", "personal", "work"]}, {"key": "mobile", "tags": ["main", "personal", "work"]}]
+    
+  },
+
+  {
+    "doc_name": "service_entity",
+    "_sid": "doc_schema",
+    "_kids": ["date_of_entry", "service", "currency", "cost"],
+    "_dids": ["humans"]
   }
 
   

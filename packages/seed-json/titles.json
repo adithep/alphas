@@ -1,10 +1,10 @@
 [
   {
     "doc_name": "Mr.",
-    "doc_schema": "titles"
+    "_sid": "titles"
   },
   {
     "doc_name": "Ms.",
-    "doc_schema": "titles"
+    "_sid": "titles"
   }
 ]

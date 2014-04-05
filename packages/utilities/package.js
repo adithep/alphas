@@ -3,8 +3,8 @@ Package.describe({
 });
 
 Package.on_use(function (api, where) {
-  api.use('core-lib');
-  api.add_files('phoneformat.js', ['client', 'server']);
+  api.use(['core-lib', 'coffeescript']);
+  api.add_files(['phoneformat.js', 'emailformat.coffee'], ['client', 'server']);
 });
 
 Package.on_test(function (api) {

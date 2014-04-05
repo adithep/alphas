@@ -4,7 +4,7 @@ Package.describe({
 
 Package.on_use(function (api, where) {
   api.add_files(['namespace.js', 'schema_keys.coffee'], ['client', 'server']);
-  api.export(['schema_obj', 'json_control', 'DATA'])
+  api.export(['schema_obj', 'json_control', 'DATA', 'phone_format'])
 });
 
 Package.on_test(function (api) {

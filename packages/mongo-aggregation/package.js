@@ -5,7 +5,7 @@ Package.describe({
 Npm.depends({mongodb: "1.3.17"});
 
 Package.on_use(function (api, where) {
-  api.use('coffeescript', ['server']);
+  api.use(['coffeescript', 'underscore'], ['server']);
   api.add_files('mongo-aggregation.coffee', ['client', 'server']);
 });
 

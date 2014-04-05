@@ -60,15 +60,24 @@ json_control.insert_json = (json, schema) ->
               if key_obj
                 switch key_obj.value_type
                   when "string"
-                    value = String(json_obj[i][obj_keys[i_obj]])
+                    value_t = String(json_obj[i][obj_keys[i_obj]])
+                    if typeof value_t is "string"
+                      value = value_t
                   when "number"
-                    value = Number(json_obj[i][obj_keys[i_obj]])
+                    value_t = Number(json_obj[i][obj_keys[i_obj]])
+                    if typeof value_t is "number"
+                      value = value_t
                   when "oid"
                     doc = DATA.fineOne(_sid: key_obj.value_schema, doc_name: json_obj[i][obj_keys[i_obj]])
-                    value = doc._id
+                    if doc
+                      value = doc._id
+                    else
+                      console.warn "cannot find id for #{json_obj[i][obj_keys[i_obj]]}"
                   when "boolean"
                     if typeof json_obj[i][obj_keys[i_obj]] is "bolean"
                       value = json_obj[i][obj_keys[i_obj]]
+                  when "currency"
+                    value_t = Number(json_obj[i][obj_keys[i_obj]])
 
                 date = new Date()
                 DATA.insert(_kid: key_obj._id, _did: oid, value: value, _modified: [{system: date}])

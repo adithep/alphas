@@ -3,7 +3,7 @@ Package.describe({
 });
 
 Package.on_use(function (api, where) {
-  api.use('core-lib')
+  api.use('core-lib');
   api.add_files('phoneformat.js', ['client', 'server']);
 });
 

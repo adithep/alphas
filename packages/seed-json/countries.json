@@ -3851,8 +3851,9 @@
   {
     "borders": [],
     "demonym": "French",
-      "latitude": "population": -1,
-      "longitude": "calling_code": [,
+    "population": -1,
+    "calling_code": [
+      ""
     ],
     "currency": [
       "EUR"
@@ -3865,6 +3866,7 @@
     ],
     "native_name": "Territoire des Terres australes et antarctiques françaises",
     "doc_name": "French Southern and Antarctic Lands",
+    "name": "French Southern and Antarctic Lands",
     "capital": "Port-aux-Français",
     "alt_spellings": [
       "TF"
@@ -11531,8 +11533,9 @@
   {
     "borders": [],
     "demonym": "American",
-      "latitude": "population": -1,
-      "longitude": "calling_code": [,
+    "population": -1,
+    "calling_code": [
+      ""
     ],
     "currency": [
       "USD"
@@ -11545,6 +11548,7 @@
     ],
     "native_name": "United States Minor Outlying Islands",
     "doc_name": "United States Minor Outlying Islands",
+    "name": "United States Minor Outlying Islands",
     "capital": "",
     "alt_spellings": [
       "UM"

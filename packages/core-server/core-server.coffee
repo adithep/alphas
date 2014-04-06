@@ -19,3 +19,7 @@ Meteor.startup ->
 
   if DATA.find(_sid: get_sid.currencies).count() is 0
     json_control.insert_json('currencies', get_sid.currencies)
+
+  if DATA.find(_sid: get_sid.countries).count() is 0
+    json_control.insert_json('countries', get_sid.countries)
+

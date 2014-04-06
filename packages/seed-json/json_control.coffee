@@ -73,6 +73,56 @@ while_loop = (array, obj) ->
     i++
   arr
 
+value_type = (value, key) ->
+  if key and value
+    switch key._vt
+      when "string"
+        if String(value) isnt ""
+          return String(value)
+      when "number"
+        if Number(value) isnt NaN
+          return Number(value)
+      when "oid"
+        doc = DATA.findOne(_sid: key._vs, _v: value, _kid: get_kid.doc_name)
+        if doc
+          return doc._did
+        else
+          console.warn "cannot find id for #{value}"
+      when "boolean"
+        if typeof value is "bolean"
+          return value
+      when "currency"
+        if Number(value) isnt NaN
+          return Number(value)
+      when "phone"
+        if value.substring(0, 1) is "+"
+          country_code = value.substring(1, 2)
+          doc_id = DATA.findOne(_v: country_code, _kid: get_kid.calling_code)
+          cca2 = DATA.findOne(_did: doc_id._did, _kid: get_kid.cca2)
+          if phone_format.isValidNumber(value, cca2.value)
+            return value
+      when "email"
+        if email_format.reg.test(value)
+          return value
+      when "date"
+        if value instanceof Date
+          return value
+  false
+
+array_loop = (array, key, key_id, oid, schema) ->
+  ine = 0
+  while ine < array.length
+    if Array.isArray(array[ine])
+      array_loop(array[ine], key)
+    else
+      value = value_type(array[ine], key)
+      if value
+        sdid = DATA.insert(_kid: key_id, _did: oid, _sid: schema, _v: value)
+        DATA.insert(_dte: new Date(), _v: "server", _sid: get_sid._mod, _did: sdid)
+      else
+        console.warn "invalid value #{array[ine]}"
+    ine++
+
 json_control.insert_json = (json, schema) ->
   json = json + ".json"
   json_obj = EJSON.parse(Assets.getText(json))
@@ -90,45 +140,15 @@ json_control.insert_json = (json, schema) ->
           if s_key and key_obj
             if s_key._mtl or DATA.find(_kid: key_id, _did: oid, _sid: schema).count() is 0
               if key_obj and json_obj[i][obj_keys[i_obj]]
-                switch key_obj._vt
-                  when "string"
-                    value_t = String(json_obj[i][obj_keys[i_obj]])
-                    if typeof value_t is "string"
-                      value = value_t
-                  when "number"
-                    value_t = Number(json_obj[i][obj_keys[i_obj]])
-                    if typeof value_t is "number"
-                      value = value_t
-                  when "oid"
-                    doc = DATA.findOne(_sid: key_obj._vs, value: json_obj[i][obj_keys[i_obj]], _kid: get_kid.doc_name)
-                    if doc
-                      value = doc._did
-                    else
-                      console.warn "cannot find id for #{json_obj[i][obj_keys[i_obj]]}"
-                  when "boolean"
-                    if typeof json_obj[i][obj_keys[i_obj]] is "bolean"
-                      value = json_obj[i][obj_keys[i_obj]]
-                  when "currency"
-                    value_t = Number(json_obj[i][obj_keys[i_obj]])
-                    if typeof value_t is "number"
-                      value = value_t
-                  when "phone"
-                    if json_obj[i][obj_keys[i_obj]].substring(0, 1) is "+"
-                      country_code = json_obj[i][obj_keys[i_obj]].substring(1, 2)
-                      doc_id = DATA.findOne(value: country_code, _kid: get_kid.calling_code)
-                      cca2 = DATA.findOne(_did: doc_id._did, _kid: get_kid.cca2)
-                      if phone_format.isValidNumber(json_obj[i][obj_keys[i_obj]], cca2.value)
-                        value = json_obj[i][obj_keys[i_obj]]
-                  when "email"
-                    if email_format.reg.test(json_obj[i][obj_keys[i_obj]])
-                      value = json_obj[i][obj_keys[i_obj]]
-                  when "date"
-                    if json_obj[i][obj_keys[i_obj]] instanceof Date
-                      value = json_obj[i][obj_keys[i_obj]]
-                if value
-                  DATA.insert(_kid: key_id, _did: oid, _sid: schema, _v: value, _mod: [{user: "server", date: new Date()}])
+                if Array.isArray(json_obj[i][obj_keys[i_obj]])
+                  array_loop(json_obj[i][obj_keys[i_obj]], key_obj, key_id, oid, schema)
                 else
-                  console.warn "invalid value #{obj_keys[i_obj]}"
+                  value = value_type(json_obj[i][obj_keys[i_obj]], key_obj)
+                  if value
+                    sdid = DATA.insert(_kid: key_id, _did: oid, _sid: schema, _v: value)
+                    DATA.insert(_dte: new Date(), _v: "server", _sid: get_sid._mod, _did: sdid)
+                  else
+                    console.warn "invalid value #{obj_keys[i_obj]}"
               else
                 console.warn "could not find key #{obj_keys[i_obj]}"
             else
@@ -137,7 +157,6 @@ json_control.insert_json = (json, schema) ->
             console.warn "cannot find key #{obj_keys[i_obj]}"
         else
           console.warn "could not find key #{obj_keys[i_obj]}"
-
         i_obj++
       i++
 

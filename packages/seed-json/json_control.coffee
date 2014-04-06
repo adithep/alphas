@@ -102,7 +102,7 @@ json_control.insert_json = (json, schema) ->
                     if typeof value_t is "number"
                       value = value_t
                   when "oid"
-                    doc = DATA.findOne(_sid: key_obj.value_schema, doc_name: json_obj[i][obj_keys[i_obj]])
+                    doc = DATA.findOne(_sid: key_obj.value_schema, value: json_obj[i][obj_keys[i_obj]], _kid: get_kid.doc_name)
                     if doc
                       value = doc._id
                     else
@@ -117,9 +117,9 @@ json_control.insert_json = (json, schema) ->
                   when "phone"
                     if json_obj[i][obj_keys[i_obj]].substring(0, 1) is "+"
                       country_code = json_obj[i][obj_keys[i_obj]].substring(1, 2)
-                      doc_id = DATA.findOne(calling_code: country_code)
+                      doc_id = DATA.findOne(value: country_code, _kid: get_kid.calling_code)
                       cca2 = DATA.findOne(_did: doc_id._did, _kid: get_kid.cca2)
-                      if phone_format.isValidNumber(json_obj[i][obj_keys[i_obj]], cca2)
+                      if phone_format.isValidNumber(json_obj[i][obj_keys[i_obj]], cca2.value)
                         value = json_obj[i][obj_keys[i_obj]]
                   when "email"
                     if email_format.reg.test(json_obj[i][obj_keys[i_obj]])
@@ -128,7 +128,7 @@ json_control.insert_json = (json, schema) ->
                     if json_obj[i][obj_keys[i_obj]] instanceof Date
                       value = json_obj[i][obj_keys[i_obj]]
                 if value
-                  DATA.insert(_kid: key_obj._id, _did: oid, _sid: schema_doc._id, value: value, _modified: [{user: "server", date: new Date()}])
+                  DATA.insert(_kid: key_obj._id, _did: oid, _sid: schema_doc._id, value: value, _mod: [{user: "server", date: new Date()}])
                 else
                   console.warn "invalid value #{obj_keys[i_obj]}"
               else

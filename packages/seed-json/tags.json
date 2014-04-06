@@ -1,16 +1,16 @@
 [
   {
-    "doc_name": "main",
+    "_v": "main",
     "_sid": "doc_tag"
   },
 
   {
-    "doc_name": "work",
+    "_v": "work",
     "_sid": "doc_tag"
   },
 
   {
-    "doc_name": "personal",
+    "_v": "personal",
     "_sid": "doc_tag"
   }
 

@@ -13,7 +13,7 @@ Meteor.startup ->
     DATA.remove({})
 
   if DATA.find().count() is 0
-    json_control.insert_schema_keys('schema', 'schema_keys', 'tags')
+    json_control.insert_schema_keys('keys', 'schema', 'schema_keys', 'tags')
   else
     fill_sid.init()
 

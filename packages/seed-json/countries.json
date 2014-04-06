@@ -1,6 +1,5 @@
 [
   {
-    "doc_schema": "countries",
     "borders": [
       "IRN",
       "PAK",
@@ -27,7 +26,6 @@
     ],
     "native_name": "Afġānistān",
     "doc_name": "Afghanistan",
-    "name": "Afghanistan",
     "capital": "Kabul",
     "alt_spellings": [
       "AF",
@@ -56,10 +54,9 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Ålandish",
-    "latitude": 60.11666,
+    "latitude": 60.116667,
     "longitude": 19.9,
     "population": 28502,
     "calling_code": [
@@ -76,7 +73,6 @@
     ],
     "native_name": "Åland",
     "doc_name": "Åland Islands",
-    "name": "Åland Islands",
     "capital": "Mariehamn",
     "alt_spellings": [
       "AX",
@@ -104,7 +100,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "MNE",
       "GRC",
@@ -129,7 +124,6 @@
     ],
     "native_name": "Shqipëria",
     "doc_name": "Albania",
-    "name": "Albania",
     "capital": "Tirana",
     "alt_spellings": [
       "AL",
@@ -157,7 +151,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "TUN",
       "LDY",
@@ -185,7 +178,6 @@
     ],
     "native_name": "al-Jazāʼir",
     "doc_name": "Algeria",
-    "name": "Algeria",
     "capital": "Algiers",
     "alt_spellings": [
       "DZ",
@@ -212,10 +204,9 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "American Samoan",
-    "latitude": -14.3333,
+    "latitude": -14.33333333,
     "longitude": -170,
     "population": 55519,
     "calling_code": [
@@ -232,7 +223,6 @@
     ],
     "native_name": "American Samoa",
     "doc_name": "American Samoa",
-    "name": "American Samoa",
     "capital": "Pago Pago",
     "alt_spellings": [
       "AS",
@@ -262,7 +252,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "FRA",
       "ESP"
@@ -285,7 +274,6 @@
     ],
     "native_name": "Andorra",
     "doc_name": "Andorra",
-    "name": "Andorra",
     "capital": "Andorra la Vella",
     "alt_spellings": [
       "AD",
@@ -312,7 +300,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "COG",
       "COD",
@@ -337,7 +324,6 @@
     ],
     "native_name": "Angola",
     "doc_name": "Angola",
-    "name": "Angola",
     "capital": "Luanda",
     "alt_spellings": [
       "AO",
@@ -364,7 +350,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Anguillian",
     "latitude": 18.25,
@@ -384,7 +369,6 @@
     ],
     "native_name": "Anguilla",
     "doc_name": "Anguilla",
-    "name": "Anguilla",
     "capital": "The Valley",
     "alt_spellings": [
       "AI"
@@ -409,7 +393,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "",
     "latitude": -90,
@@ -429,7 +412,6 @@
     ],
     "native_name": "",
     "doc_name": "Antarctica",
-    "name": "Antarctica",
     "capital": "",
     "alt_spellings": [
       "AQ"
@@ -452,7 +434,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Antiguan, Barbudan",
     "latitude": 17.05,
@@ -472,7 +453,6 @@
     ],
     "native_name": "Antigua and Barbuda",
     "doc_name": "Antigua and Barbuda",
-    "name": "Antigua and Barbuda",
     "capital": "Saint John's",
     "alt_spellings": [
       "AG"
@@ -497,7 +477,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "BOL",
       "BRA",
@@ -523,7 +502,6 @@
     ],
     "native_name": "Argentina",
     "doc_name": "Argentina",
-    "name": "Argentina",
     "capital": "Buenos Aires",
     "alt_spellings": [
       "AR",
@@ -551,7 +529,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "AZE",
       "GEO",
@@ -576,7 +553,6 @@
     ],
     "native_name": "Հայաստան",
     "doc_name": "Armenia",
-    "name": "Armenia",
     "capital": "Yerevan",
     "alt_spellings": [
       "AM",
@@ -605,7 +581,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Aruban",
     "latitude": 12.5,
@@ -625,7 +600,6 @@
     ],
     "native_name": "Aruba",
     "doc_name": "Aruba",
-    "name": "Aruba",
     "capital": "Oranjestad",
     "alt_spellings": [
       "AW"
@@ -651,7 +625,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Australian",
     "latitude": -27,
@@ -671,7 +644,6 @@
     ],
     "native_name": "Australia",
     "doc_name": "Australia",
-    "name": "Australia",
     "capital": "Canberra",
     "alt_spellings": [
       "AU"
@@ -686,7 +658,6 @@
     "translations": []
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "CZE",
       "DEU",
@@ -698,7 +669,7 @@
       "CHE"
     ],
     "demonym": "Austrian",
-    "latitude": 47.33333,
+    "latitude": 47.33333333,
     "longitude": 13.33333333,
     "population": 8501502,
     "calling_code": [
@@ -715,7 +686,6 @@
     ],
     "native_name": "Österreich",
     "doc_name": "Austria",
-    "name": "Austria",
     "capital": "Vienna",
     "alt_spellings": [
       "AT",
@@ -743,7 +713,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "ARM",
       "GEO",
@@ -769,7 +738,6 @@
     ],
     "native_name": "Azərbaycan",
     "doc_name": "Azerbaijan",
-    "name": "Azerbaijan",
     "capital": "Baku",
     "alt_spellings": [
       "AZ",
@@ -797,7 +765,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Bahamian",
     "latitude": 24.25,
@@ -817,7 +784,6 @@
     ],
     "native_name": "Bahamas",
     "doc_name": "Bahamas",
-    "name": "Bahamas",
     "capital": "Nassau",
     "alt_spellings": [
       "BS",
@@ -843,7 +809,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Bahraini",
     "latitude": 26,
@@ -863,7 +828,6 @@
     ],
     "native_name": "al-Baḥrayn",
     "doc_name": "Bahrain",
-    "name": "Bahrain",
     "capital": "Manama",
     "alt_spellings": [
       "BH",
@@ -890,7 +854,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "MMR",
       "IND"
@@ -913,7 +876,6 @@
     ],
     "native_name": "Bangladesh",
     "doc_name": "Bangladesh",
-    "name": "Bangladesh",
     "capital": "Dhaka",
     "alt_spellings": [
       "BD",
@@ -940,10 +902,9 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Barbadian",
-    "latitude": 13.16666,
+    "latitude": 13.16666666,
     "longitude": -59.53333333,
     "population": 274200,
     "calling_code": [
@@ -960,7 +921,6 @@
     ],
     "native_name": "Barbados",
     "doc_name": "Barbados",
-    "name": "Barbados",
     "capital": "Bridgetown",
     "alt_spellings": [
       "BB"
@@ -985,7 +945,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "LVA",
       "LTU",
@@ -1011,7 +970,6 @@
     ],
     "native_name": "Белару́сь",
     "doc_name": "Belarus",
-    "name": "Belarus",
     "capital": "Minsk",
     "alt_spellings": [
       "BY",
@@ -1044,7 +1002,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "FRA",
       "DEU",
@@ -1052,7 +1009,7 @@
       "NLD"
     ],
     "demonym": "Belgian",
-    "latitude": 50.83333,
+    "latitude": 50.83333333,
     "longitude": 4,
     "population": 11175653,
     "calling_code": [
@@ -1069,7 +1026,6 @@
     ],
     "native_name": "België",
     "doc_name": "Belgium",
-    "name": "Belgium",
     "capital": "Brussels",
     "alt_spellings": [
       "BE",
@@ -1106,7 +1062,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "GTM",
       "MEX"
@@ -1129,7 +1084,6 @@
     ],
     "native_name": "Belize",
     "doc_name": "Belize",
-    "name": "Belize",
     "capital": "Belmopan",
     "alt_spellings": [
       "BZ"
@@ -1155,7 +1109,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "BFA",
       "NER",
@@ -1180,7 +1133,6 @@
     ],
     "native_name": "Bénin",
     "doc_name": "Benin",
-    "name": "Benin",
     "capital": "Porto-Novo",
     "alt_spellings": [
       "BJ",
@@ -1207,10 +1159,9 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Bermudian",
-    "latitude": 32.33333,
+    "latitude": 32.33333333,
     "longitude": -64.75,
     "population": 64237,
     "calling_code": [
@@ -1227,7 +1178,6 @@
     ],
     "native_name": "Bermuda",
     "doc_name": "Bermuda",
-    "name": "Bermuda",
     "capital": "Hamilton",
     "alt_spellings": [
       "BM",
@@ -1255,7 +1205,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "CHN",
       "IND"
@@ -1279,7 +1228,6 @@
     ],
     "native_name": "ʼbrug-yul",
     "doc_name": "Bhutan",
-    "name": "Bhutan",
     "capital": "Thimphu",
     "alt_spellings": [
       "BT",
@@ -1305,7 +1253,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "ARG",
       "BRA",
@@ -1332,7 +1279,6 @@
     ],
     "native_name": "Bolivia",
     "doc_name": "Bolivia",
-    "name": "Bolivia",
     "capital": "Sucre",
     "alt_spellings": [
       "BO",
@@ -1369,7 +1315,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Dutch",
     "latitude": 12.15,
@@ -1390,7 +1335,6 @@
     ],
     "native_name": "Bonaire",
     "doc_name": "Bonaire",
-    "name": "Bonaire",
     "capital": "Kralendijk",
     "alt_spellings": [
       "BQ",
@@ -1406,7 +1350,6 @@
     "translations": []
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "HRV",
       "MNE",
@@ -1430,7 +1373,6 @@
     ],
     "native_name": "Bosna i Hercegovina",
     "doc_name": "Bosnia and Herzegovina",
-    "name": "Bosnia and Herzegovina",
     "capital": "Sarajevo",
     "alt_spellings": [
       "BA",
@@ -1461,7 +1403,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "NAM",
       "ZAF",
@@ -1486,7 +1427,6 @@
     ],
     "native_name": "Botswana",
     "doc_name": "Botswana",
-    "name": "Botswana",
     "capital": "Gaborone",
     "alt_spellings": [
       "BW",
@@ -1515,10 +1455,9 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "",
-    "latitude": -54.4333,
+    "latitude": -54.43333333,
     "longitude": 3.4,
     "population": -1,
     "calling_code": [
@@ -1535,7 +1474,6 @@
     ],
     "native_name": "Bouvetøya",
     "doc_name": "Bouvet Island",
-    "name": "Bouvet Island",
     "capital": "",
     "alt_spellings": [
       "BV",
@@ -1560,7 +1498,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "ARG",
       "BOL",
@@ -1591,7 +1528,6 @@
     ],
     "native_name": "Brasil",
     "doc_name": "Brazil",
-    "name": "Brazil",
     "capital": "Brasília",
     "alt_spellings": [
       "BR",
@@ -1619,7 +1555,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Indian",
     "latitude": -6,
@@ -1639,7 +1574,6 @@
     ],
     "native_name": "British Indian Ocean Territory",
     "doc_name": "British Indian Ocean Territory",
-    "name": "British Indian Ocean Territory",
     "capital": "Diego Garcia",
     "alt_spellings": [
       "IO"
@@ -1664,10 +1598,9 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Virgin Islander",
-    "latitude": 18.43138,
+    "latitude": 18.431383,
     "longitude": -64.62305,
     "population": 29537,
     "calling_code": [
@@ -1684,7 +1617,6 @@
     ],
     "native_name": "British Virgin Islands",
     "doc_name": "British Virgin Islands",
-    "name": "British Virgin Islands",
     "capital": "Road Town",
     "alt_spellings": [
       "VG"
@@ -1709,7 +1641,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "MYS"
     ],
@@ -1731,7 +1662,6 @@
     ],
     "native_name": "Negara Brunei Darussalam",
     "doc_name": "Brunei",
-    "name": "Brunei",
     "capital": "Bandar Seri Begawan",
     "alt_spellings": [
       "BN",
@@ -1750,7 +1680,6 @@
     "translations": []
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "GRC",
       "MKD",
@@ -1776,7 +1705,6 @@
     ],
     "native_name": "България",
     "doc_name": "Bulgaria",
-    "name": "Bulgaria",
     "capital": "Sofia",
     "alt_spellings": [
       "BG",
@@ -1803,7 +1731,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "BEN",
       "CIV",
@@ -1830,7 +1757,6 @@
     ],
     "native_name": "Burkina Faso",
     "doc_name": "Burkina Faso",
-    "name": "Burkina Faso",
     "capital": "Ouagadougou",
     "alt_spellings": [
       "BF"
@@ -1856,7 +1782,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "COD",
       "RWA",
@@ -1880,7 +1805,6 @@
     ],
     "native_name": "Burundi",
     "doc_name": "Burundi",
-    "name": "Burundi",
     "capital": "Bujumbura",
     "alt_spellings": [
       "BI",
@@ -1910,7 +1834,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "LAO",
       "THA",
@@ -1934,7 +1857,6 @@
     ],
     "native_name": "Kâmpŭchéa",
     "doc_name": "Cambodia",
-    "name": "Cambodia",
     "capital": "Phnom Penh",
     "alt_spellings": [
       "KH",
@@ -1950,7 +1872,6 @@
     "translations": []
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "CAF",
       "TCD",
@@ -1977,7 +1898,6 @@
     ],
     "native_name": "Cameroon",
     "doc_name": "Cameroon",
-    "name": "Cameroon",
     "capital": "Yaoundé",
     "alt_spellings": [
       "CM",
@@ -2006,7 +1926,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "USA"
     ],
@@ -2028,7 +1947,6 @@
     ],
     "native_name": "Canada",
     "doc_name": "Canada",
-    "name": "Canada",
     "capital": "Ottawa",
     "alt_spellings": [
       "CA"
@@ -2055,7 +1973,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Cape Verdian",
     "latitude": 16,
@@ -2075,7 +1992,6 @@
     ],
     "native_name": "Cabo Verde",
     "doc_name": "Cape Verde",
-    "name": "Cape Verde",
     "capital": "Praia",
     "alt_spellings": [
       "CV",
@@ -2102,7 +2018,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Caymanian",
     "latitude": 19.5,
@@ -2122,7 +2037,6 @@
     ],
     "native_name": "Cayman Islands",
     "doc_name": "Cayman Islands",
-    "name": "Cayman Islands",
     "capital": "George Town",
     "alt_spellings": [
       "KY"
@@ -2147,7 +2061,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "CMR",
       "TCD",
@@ -2174,7 +2087,6 @@
     ],
     "native_name": "Ködörösêse tî Bêafrîka",
     "doc_name": "Central African Republic",
-    "name": "Central African Republic",
     "capital": "Bangui",
     "alt_spellings": [
       "CF",
@@ -2203,7 +2115,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "CMR",
       "CAF",
@@ -2230,7 +2141,6 @@
     ],
     "native_name": "Tchad",
     "doc_name": "Chad",
-    "name": "Chad",
     "capital": "N'Djamena",
     "alt_spellings": [
       "TD",
@@ -2260,7 +2170,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "ARG",
       "BOL",
@@ -2285,7 +2194,6 @@
     ],
     "native_name": "Chile",
     "doc_name": "Chile",
-    "name": "Chile",
     "capital": "Santiago",
     "alt_spellings": [
       "CL",
@@ -2312,7 +2220,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "AFG",
       "BTN",
@@ -2348,7 +2255,6 @@
     ],
     "native_name": "中国",
     "doc_name": "China",
-    "name": "China",
     "capital": "Beijing",
     "alt_spellings": [
       "CN",
@@ -2379,7 +2285,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Christmas Island",
     "latitude": -10.5,
@@ -2399,7 +2304,6 @@
     ],
     "native_name": "Christmas Island",
     "doc_name": "Christmas Island",
-    "name": "Christmas Island",
     "capital": "Flying Fish Cove",
     "alt_spellings": [
       "CX",
@@ -2415,7 +2319,6 @@
     "translations": []
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Cocos Islander",
     "latitude": -12.5,
@@ -2435,7 +2338,6 @@
     ],
     "native_name": "Cocos (Keeling) Islands",
     "doc_name": "Cocos (Keeling) Islands",
-    "name": "Cocos (Keeling) Islands",
     "capital": "West Island",
     "alt_spellings": [
       "CC",
@@ -2452,7 +2354,6 @@
     "translations": []
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "BRA",
       "ECU",
@@ -2478,7 +2379,6 @@
     ],
     "native_name": "Colombia",
     "doc_name": "Colombia",
-    "name": "Colombia",
     "capital": "Bogotá",
     "alt_spellings": [
       "CO",
@@ -2505,10 +2405,9 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Comoran",
-    "latitude": -12.1666,
+    "latitude": -12.16666666,
     "longitude": 44.25,
     "population": 724300,
     "calling_code": [
@@ -2525,7 +2424,6 @@
     ],
     "native_name": "Komori",
     "doc_name": "Comoros",
-    "name": "Comoros",
     "capital": "Moroni",
     "alt_spellings": [
       "KM",
@@ -2557,7 +2455,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "AGO",
       "CMR",
@@ -2583,7 +2480,6 @@
     ],
     "native_name": "République du Congo",
     "doc_name": "Republic of the Congo",
-    "name": "Republic of the Congo",
     "capital": "Brazzaville",
     "alt_spellings": [
       "CG",
@@ -2610,7 +2506,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "AGO",
       "BDI",
@@ -2640,7 +2535,6 @@
     ],
     "native_name": "République démocratique du Congo",
     "doc_name": "Democratic Republic of the Congo",
-    "name": "Democratic Republic of the Congo",
     "capital": "Kinshasa",
     "alt_spellings": [
       "CD",
@@ -2672,10 +2566,9 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Cook Islander",
-    "latitude": -21.2333,
+    "latitude": -21.23333333,
     "longitude": -159.76666666,
     "population": 14974,
     "calling_code": [
@@ -2692,7 +2585,6 @@
     ],
     "native_name": "Cook Islands",
     "doc_name": "Cook Islands",
-    "name": "Cook Islands",
     "capital": "Avarua",
     "alt_spellings": [
       "CK",
@@ -2719,7 +2611,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "NIC",
       "PAN"
@@ -2742,7 +2633,6 @@
     ],
     "native_name": "Costa Rica",
     "doc_name": "Costa Rica",
-    "name": "Costa Rica",
     "capital": "San José",
     "alt_spellings": [
       "CR",
@@ -2769,7 +2659,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "BFA",
       "GHA",
@@ -2795,7 +2684,6 @@
     ],
     "native_name": "Côte d'Ivoire",
     "doc_name": "Côte d'Ivoire",
-    "name": "Côte d'Ivoire",
     "capital": "Yamoussoukro",
     "alt_spellings": [
       "CI",
@@ -2823,7 +2711,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "BIH",
       "HUN",
@@ -2832,7 +2719,7 @@
       "SVN"
     ],
     "demonym": "Croatian",
-    "latitude": 45.16666,
+    "latitude": 45.16666666,
     "longitude": 15.5,
     "population": 4290612,
     "calling_code": [
@@ -2849,7 +2736,6 @@
     ],
     "native_name": "Hrvatska",
     "doc_name": "Croatia",
-    "name": "Croatia",
     "capital": "Zagreb",
     "alt_spellings": [
       "HR",
@@ -2877,7 +2763,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Cuban",
     "latitude": 21.5,
@@ -2898,7 +2783,6 @@
     ],
     "native_name": "Cuba",
     "doc_name": "Cuba",
-    "name": "Cuba",
     "capital": "Havana",
     "alt_spellings": [
       "CU",
@@ -2925,10 +2809,9 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Dutch",
-    "latitude": 12.11666,
+    "latitude": 12.116667,
     "longitude": -68.933333,
     "population": 150563,
     "calling_code": [
@@ -2945,7 +2828,6 @@
     ],
     "native_name": "Curaçao",
     "doc_name": "Curaçao",
-    "name": "Curaçao",
     "capital": "Willemstad",
     "alt_spellings": [
       "CW",
@@ -2967,7 +2849,6 @@
     "translations": []
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "GBR"
     ],
@@ -2989,7 +2870,6 @@
     ],
     "native_name": "Κύπρος",
     "doc_name": "Cyprus",
-    "name": "Cyprus",
     "capital": "Nicosia",
     "alt_spellings": [
       "CY",
@@ -3022,7 +2902,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "AUT",
       "DEU",
@@ -3047,7 +2926,6 @@
     ],
     "native_name": "Česká republika",
     "doc_name": "Czech Republic",
-    "name": "Czech Republic",
     "capital": "Prague",
     "alt_spellings": [
       "CZ",
@@ -3075,7 +2953,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "DEU"
     ],
@@ -3097,7 +2974,6 @@
     ],
     "native_name": "Danmark",
     "doc_name": "Denmark",
-    "name": "Denmark",
     "capital": "Copenhagen",
     "alt_spellings": [
       "DK",
@@ -3125,7 +3001,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "ERI",
       "ETH",
@@ -3149,7 +3024,6 @@
     ],
     "native_name": "Djibouti",
     "doc_name": "Djibouti",
-    "name": "Djibouti",
     "capital": "Djibouti",
     "alt_spellings": [
       "DJ",
@@ -3182,10 +3056,9 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Dominican",
-    "latitude": 15.41666,
+    "latitude": 15.41666666,
     "longitude": -61.33333333,
     "population": 71293,
     "calling_code": [
@@ -3202,7 +3075,6 @@
     ],
     "native_name": "Dominica",
     "doc_name": "Dominica",
-    "name": "Dominica",
     "capital": "Roseau",
     "alt_spellings": [
       "DM",
@@ -3230,7 +3102,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "HTI"
     ],
@@ -3254,7 +3125,6 @@
     ],
     "native_name": "República Dominicana",
     "doc_name": "Dominican Republic",
-    "name": "Dominican Republic",
     "capital": "Santo Domingo",
     "alt_spellings": [
       "DO"
@@ -3279,7 +3149,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "COL",
       "PER"
@@ -3302,7 +3171,6 @@
     ],
     "native_name": "Ecuador",
     "doc_name": "Ecuador",
-    "name": "Ecuador",
     "capital": "Quito",
     "alt_spellings": [
       "EC",
@@ -3329,7 +3197,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "ISR",
       "LBY",
@@ -3353,7 +3220,6 @@
     ],
     "native_name": "Miṣr",
     "doc_name": "Egypt",
-    "name": "Egypt",
     "capital": "Cairo",
     "alt_spellings": [
       "EG",
@@ -3379,13 +3245,12 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "GTM",
       "HND"
     ],
     "demonym": "Salvadoran",
-    "latitude": 13.83333,
+    "latitude": 13.83333333,
     "longitude": -88.91666666,
     "population": 6340000,
     "calling_code": [
@@ -3403,7 +3268,6 @@
     ],
     "native_name": "El Salvador",
     "doc_name": "El Salvador",
-    "name": "El Salvador",
     "capital": "San Salvador",
     "alt_spellings": [
       "SV",
@@ -3430,7 +3294,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "CMR",
       "GAB"
@@ -3453,7 +3316,6 @@
     ],
     "native_name": "Guinea Ecuatorial",
     "doc_name": "Equatorial Guinea",
-    "name": "Equatorial Guinea",
     "capital": "Malabo",
     "alt_spellings": [
       "GQ",
@@ -3485,7 +3347,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "DJI",
       "ETH",
@@ -3509,7 +3370,6 @@
     ],
     "native_name": "ኤርትራ",
     "doc_name": "Eritrea",
-    "name": "Eritrea",
     "capital": "Asmara",
     "alt_spellings": [
       "ER",
@@ -3544,7 +3404,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "LVA",
       "RUS"
@@ -3567,7 +3426,6 @@
     ],
     "native_name": "Eesti",
     "doc_name": "Estonia",
-    "name": "Estonia",
     "capital": "Tallinn",
     "alt_spellings": [
       "EE",
@@ -3595,7 +3453,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "DJI",
       "ERI",
@@ -3622,7 +3479,6 @@
     ],
     "native_name": "ኢትዮጵያ",
     "doc_name": "Ethiopia",
-    "name": "Ethiopia",
     "capital": "Addis Ababa",
     "alt_spellings": [
       "ET",
@@ -3650,7 +3506,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Falkland Islander",
     "latitude": -51.75,
@@ -3670,7 +3525,6 @@
     ],
     "native_name": "Falkland Islands",
     "doc_name": "Falkland Islands",
-    "name": "Falkland Islands",
     "capital": "Stanley",
     "alt_spellings": [
       "FK",
@@ -3696,7 +3550,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Faroese",
     "latitude": 62,
@@ -3716,7 +3569,6 @@
     ],
     "native_name": "Føroyar",
     "doc_name": "Faroe Islands",
-    "name": "Faroe Islands",
     "capital": "Tórshavn",
     "alt_spellings": [
       "FO",
@@ -3744,7 +3596,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Fijian",
     "latitude": -18,
@@ -3764,7 +3615,6 @@
     ],
     "native_name": "Fiji",
     "doc_name": "Fiji",
-    "name": "Fiji",
     "capital": "Suva",
     "alt_spellings": [
       "FJ",
@@ -3798,7 +3648,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "NOR",
       "SWE",
@@ -3822,7 +3671,6 @@
     ],
     "native_name": "Suomi",
     "doc_name": "Finland",
-    "name": "Finland",
     "capital": "Helsinki",
     "alt_spellings": [
       "FI",
@@ -3853,7 +3701,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "AND",
       "BEL",
@@ -3882,7 +3729,6 @@
     ],
     "native_name": "France",
     "doc_name": "France",
-    "name": "France",
     "capital": "Paris",
     "alt_spellings": [
       "FR",
@@ -3909,7 +3755,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "BRA",
       "SUR"
@@ -3932,7 +3777,6 @@
     ],
     "native_name": "Guyane française",
     "doc_name": "French Guiana",
-    "name": "French Guiana",
     "capital": "Cayenne",
     "alt_spellings": [
       "GF",
@@ -3959,7 +3803,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "French Polynesian",
     "latitude": -15,
@@ -3979,7 +3822,6 @@
     ],
     "native_name": "Polynésie française",
     "doc_name": "French Polynesia",
-    "name": "French Polynesia",
     "capital": "Papeetē",
     "alt_spellings": [
       "PF",
@@ -4007,10 +3849,9 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "French",
-      "latitude": "populatio,
+      "latitude": "population": -1,
       "longitude": "calling_code": [,
     ],
     "currency": [
@@ -4024,7 +3865,6 @@
     ],
     "native_name": "Territoire des Terres australes et antarctiques françaises",
     "doc_name": "French Southern and Antarctic Lands",
-    "name": "French Southern and Antarctic Lands",
     "capital": "Port-aux-Français",
     "alt_spellings": [
       "TF"
@@ -4049,7 +3889,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "CMR",
       "COG",
@@ -4073,7 +3912,6 @@
     ],
     "native_name": "Gabon",
     "doc_name": "Gabon",
-    "name": "Gabon",
     "capital": "Libreville",
     "alt_spellings": [
       "GA",
@@ -4100,12 +3938,11 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "SEN"
     ],
     "demonym": "Gambian",
-    "latitude": 13.46666,
+    "latitude": 13.46666666,
     "longitude": -16.56666666,
     "population": -1,
     "calling_code": [
@@ -4122,7 +3959,6 @@
     ],
     "native_name": "Gambia",
     "doc_name": "Gambia",
-    "name": "Gambia",
     "capital": "Banjul",
     "alt_spellings": [
       "GM",
@@ -4148,7 +3984,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "ARM",
       "AZE",
@@ -4173,7 +4008,6 @@
     ],
     "native_name": "საქართველო",
     "doc_name": "Georgia",
-    "name": "Georgia",
     "capital": "Tbilisi",
     "alt_spellings": [
       "GE",
@@ -4199,7 +4033,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "AUT",
       "BEL",
@@ -4229,7 +4062,6 @@
     ],
     "native_name": "Deutschland",
     "doc_name": "Germany",
-    "name": "Germany",
     "capital": "Berlin",
     "alt_spellings": [
       "DE",
@@ -4256,7 +4088,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "BFA",
       "CIV",
@@ -4280,7 +4111,6 @@
     ],
     "native_name": "Ghana",
     "doc_name": "Ghana",
-    "name": "Ghana",
     "capital": "Accra",
     "alt_spellings": [
       "GH"
@@ -4305,12 +4135,11 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "ESP"
     ],
     "demonym": "Gibraltar",
-    "latitude": 36.13333,
+    "latitude": 36.13333333,
     "longitude": -5.35,
     "population": 29752,
     "calling_code": [
@@ -4327,7 +4156,6 @@
     ],
     "native_name": "Gibraltar",
     "doc_name": "Gibraltar",
-    "name": "Gibraltar",
     "capital": "Gibraltar",
     "alt_spellings": [
       "GI"
@@ -4352,7 +4180,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "ALB",
       "BGR",
@@ -4377,7 +4204,6 @@
     ],
     "native_name": "Ελλάδα",
     "doc_name": "Greece",
-    "name": "Greece",
     "capital": "Athens",
     "alt_spellings": [
       "GR",
@@ -4405,7 +4231,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Greenlandic",
     "latitude": 72,
@@ -4425,7 +4250,6 @@
     ],
     "native_name": "Kalaallit Nunaat",
     "doc_name": "Greenland",
-    "name": "Greenland",
     "capital": "Nuuk",
     "alt_spellings": [
       "GL",
@@ -4451,10 +4275,9 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Grenadian",
-    "latitude": 12.11666,
+    "latitude": 12.11666666,
     "longitude": -61.66666666,
     "population": 103328,
     "calling_code": [
@@ -4471,7 +4294,6 @@
     ],
     "native_name": "Grenada",
     "doc_name": "Grenada",
-    "name": "Grenada",
     "capital": "St. George's",
     "alt_spellings": [
       "GD"
@@ -4496,7 +4318,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Guadeloupian",
     "latitude": 16.25,
@@ -4516,7 +4337,6 @@
     ],
     "native_name": "Guadeloupe",
     "doc_name": "Guadeloupe",
-    "name": "Guadeloupe",
     "capital": "Basse-Terre",
     "alt_spellings": [
       "GP",
@@ -4542,10 +4362,9 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Guamanian",
-    "latitude": 13.46666,
+    "latitude": 13.46666666,
     "longitude": 144.78333333,
     "population": 159358,
     "calling_code": [
@@ -4562,7 +4381,6 @@
     ],
     "native_name": "Guam",
     "doc_name": "Guam",
-    "name": "Guam",
     "capital": "Hagåtña",
     "alt_spellings": [
       "GU",
@@ -4591,7 +4409,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "BLZ",
       "SLV",
@@ -4616,7 +4433,6 @@
     ],
     "native_name": "Guatemala",
     "doc_name": "Guatemala",
-    "name": "Guatemala",
     "capital": "Guatemala City",
     "alt_spellings": [
       "GT"
@@ -4641,10 +4457,9 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Channel Islander",
-    "latitude": 49.46666,
+    "latitude": 49.46666666,
     "longitude": -2.58333333,
     "population": 62431,
     "calling_code": [
@@ -4661,7 +4476,6 @@
     ],
     "native_name": "Guernsey",
     "doc_name": "Guernsey",
-    "name": "Guernsey",
     "capital": "St. Peter Port",
     "alt_spellings": [
       "GG",
@@ -4690,7 +4504,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "CIV",
       "GNB",
@@ -4717,7 +4530,6 @@
     ],
     "native_name": "Guinée",
     "doc_name": "Guinea",
-    "name": "Guinea",
     "capital": "Conakry",
     "alt_spellings": [
       "GN",
@@ -4745,7 +4557,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "GIN",
       "SEN"
@@ -4768,7 +4579,6 @@
     ],
     "native_name": "Guiné-Bissau",
     "doc_name": "Guinea-Bissau",
-    "name": "Guinea-Bissau",
     "capital": "Bissau",
     "alt_spellings": [
       "GW",
@@ -4795,7 +4605,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "BRA",
       "SUR",
@@ -4819,7 +4628,6 @@
     ],
     "native_name": "Guyana",
     "doc_name": "Guyana",
-    "name": "Guyana",
     "capital": "Georgetown",
     "alt_spellings": [
       "GY",
@@ -4845,7 +4653,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "DOM"
     ],
@@ -4868,7 +4675,6 @@
     ],
     "native_name": "Haïti",
     "doc_name": "Haiti",
-    "name": "Haiti",
     "capital": "Port-au-Prince",
     "alt_spellings": [
       "HT",
@@ -4898,7 +4704,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Heard and McDonald Islander",
     "latitude": -53.1,
@@ -4919,7 +4724,6 @@
     ],
     "native_name": "Heard Island and McDonald Islands",
     "doc_name": "Heard Island and McDonald Islands",
-    "name": "Heard Island and McDonald Islands",
     "capital": "",
     "alt_spellings": [
       "HM"
@@ -4944,7 +4748,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "ITA"
     ],
@@ -4967,7 +4770,6 @@
     ],
     "native_name": "Vaticano",
     "doc_name": "Vatican City",
-    "name": "Vatican City",
     "capital": "Vatican City",
     "alt_spellings": [
       "VA",
@@ -4995,7 +4797,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "GTM",
       "SLV",
@@ -5019,7 +4820,6 @@
     ],
     "native_name": "Honduras",
     "doc_name": "Honduras",
-    "name": "Honduras",
     "capital": "Tegucigalpa",
     "alt_spellings": [
       "HN",
@@ -5046,7 +4846,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "CHN"
     ],
@@ -5068,7 +4867,6 @@
     ],
     "native_name": "Hong Kong",
     "doc_name": "Hong Kong",
-    "name": "Hong Kong",
     "capital": "City of Victoria",
     "alt_spellings": [
       "HK",
@@ -5096,7 +4894,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "AUT",
       "HRV",
@@ -5124,7 +4921,6 @@
     ],
     "native_name": "Magyarország",
     "doc_name": "Hungary",
-    "name": "Hungary",
     "capital": "Budapest",
     "alt_spellings": [
       "HU"
@@ -5149,7 +4945,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Icelander",
     "latitude": 65,
@@ -5169,7 +4964,6 @@
     ],
     "native_name": "Ísland",
     "doc_name": "Iceland",
-    "name": "Iceland",
     "capital": "Reykjavik",
     "alt_spellings": [
       "IS",
@@ -5197,7 +4991,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "AFG",
       "BGD",
@@ -5226,7 +5019,6 @@
     ],
     "native_name": "भारत",
     "doc_name": "India",
-    "name": "India",
     "capital": "New Delhi",
     "alt_spellings": [
       "IN",
@@ -5256,7 +5048,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "TLS",
       "MYS",
@@ -5280,7 +5071,6 @@
     ],
     "native_name": "Indonesia",
     "doc_name": "Indonesia",
-    "name": "Indonesia",
     "capital": "Jakarta",
     "alt_spellings": [
       "ID",
@@ -5297,7 +5087,6 @@
     "translations": []
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "AFG",
       "ARM",
@@ -5325,7 +5114,6 @@
     ],
     "native_name": "Irān",
     "doc_name": "Iran",
-    "name": "Iran",
     "capital": "Tehran",
     "alt_spellings": [
       "IR",
@@ -5351,7 +5139,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "IRN",
       "JOR",
@@ -5378,7 +5165,6 @@
     ],
     "native_name": "Irāq",
     "doc_name": "Iraq",
-    "name": "Iraq",
     "capital": "Baghdad",
     "alt_spellings": [
       "IQ",
@@ -5406,7 +5192,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "GBR"
     ],
@@ -5428,7 +5213,6 @@
     ],
     "native_name": "Éire",
     "doc_name": "Ireland",
-    "name": "Ireland",
     "capital": "Dublin",
     "alt_spellings": [
       "IE",
@@ -5458,7 +5242,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Manx",
     "latitude": 54.25,
@@ -5478,7 +5261,6 @@
     ],
     "native_name": "Isle of Man",
     "doc_name": "Isle of Man",
-    "name": "Isle of Man",
     "capital": "Douglas",
     "alt_spellings": [
       "IM",
@@ -5508,7 +5290,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "EGY",
       "JOR",
@@ -5533,7 +5314,6 @@
     ],
     "native_name": "Yisrā'el",
     "doc_name": "Israel",
-    "name": "Israel",
     "capital": "Jerusalem",
     "alt_spellings": [
       "IL",
@@ -5562,7 +5342,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "AUT",
       "FRA",
@@ -5572,7 +5351,7 @@
       "VAT"
     ],
     "demonym": "Italian",
-    "latitude": 42.83333,
+    "latitude": 42.83333333,
     "longitude": 12.83333333,
     "population": 59829079,
     "calling_code": [
@@ -5589,7 +5368,6 @@
     ],
     "native_name": "Italia",
     "doc_name": "Italy",
-    "name": "Italy",
     "capital": "Rome",
     "alt_spellings": [
       "IT",
@@ -5616,7 +5394,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Jamaican",
     "latitude": 18.25,
@@ -5636,7 +5413,6 @@
     ],
     "native_name": "Jamaica",
     "doc_name": "Jamaica",
-    "name": "Jamaica",
     "capital": "Kingston",
     "alt_spellings": [
       "JM"
@@ -5661,7 +5437,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Japanese",
     "latitude": 36,
@@ -5681,7 +5456,6 @@
     ],
     "native_name": "日本",
     "doc_name": "Japan",
-    "name": "Japan",
     "capital": "Tokyo",
     "alt_spellings": [
       "JP",
@@ -5708,7 +5482,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Channel Islander",
     "latitude": 49.25,
@@ -5728,7 +5501,6 @@
     ],
     "native_name": "Jersey",
     "doc_name": "Jersey",
-    "name": "Jersey",
     "capital": "Saint Helier",
     "alt_spellings": [
       "JE",
@@ -5758,7 +5530,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "IRQ",
       "ISR",
@@ -5783,7 +5554,6 @@
     ],
     "native_name": "al-Urdun",
     "doc_name": "Jordan",
-    "name": "Jordan",
     "capital": "Amman",
     "alt_spellings": [
       "JO",
@@ -5810,7 +5580,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "CHN",
       "KGZ",
@@ -5838,7 +5607,6 @@
     ],
     "native_name": "Қазақстан",
     "doc_name": "Kazakhstan",
-    "name": "Kazakhstan",
     "capital": "Astana",
     "alt_spellings": [
       "KZ",
@@ -5872,7 +5640,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "ETH",
       "SOM",
@@ -5898,7 +5665,6 @@
     ],
     "native_name": "Kenya",
     "doc_name": "Kenya",
-    "name": "Kenya",
     "capital": "Nairobi",
     "alt_spellings": [
       "KE",
@@ -5927,10 +5693,9 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "I-Kiribati",
-    "latitude": 1.416666,
+    "latitude": 1.41666666,
     "longitude": 173,
     "population": 106461,
     "calling_code": [
@@ -5947,7 +5712,6 @@
     ],
     "native_name": "Kiribati",
     "doc_name": "Kiribati",
-    "name": "Kiribati",
     "capital": "South Tarawa",
     "alt_spellings": [
       "KI",
@@ -5975,7 +5739,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "IRN",
       "SAU"
@@ -5998,7 +5761,6 @@
     ],
     "native_name": "al-Kuwayt",
     "doc_name": "Kuwait",
-    "name": "Kuwait",
     "capital": "Kuwait City",
     "alt_spellings": [
       "KW",
@@ -6025,7 +5787,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "CHN",
       "KAZ",
@@ -6050,7 +5811,6 @@
     ],
     "native_name": "Кыргызстан",
     "doc_name": "Kyrgyzstan",
-    "name": "Kyrgyzstan",
     "capital": "Bishkek",
     "alt_spellings": [
       "KG",
@@ -6081,7 +5841,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "MMR",
       "KHM",
@@ -6107,7 +5866,6 @@
     ],
     "native_name": "ສປປລາວ",
     "doc_name": "Laos",
-    "name": "Laos",
     "capital": "Vientiane",
     "alt_spellings": [
       "LA",
@@ -6125,7 +5883,6 @@
     "translations": []
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "BLR",
       "EST",
@@ -6150,7 +5907,6 @@
     ],
     "native_name": "Latvija",
     "doc_name": "Latvia",
-    "name": "Latvia",
     "capital": "Riga",
     "alt_spellings": [
       "LV",
@@ -6177,13 +5933,12 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "ISR",
       "SYR"
     ],
     "demonym": "Lebanese",
-    "latitude": 33.83333,
+    "latitude": 33.83333333,
     "longitude": 35.83333333,
     "population": 4822000,
     "calling_code": [
@@ -6200,7 +5955,6 @@
     ],
     "native_name": "Libnān",
     "doc_name": "Lebanon",
-    "name": "Lebanon",
     "capital": "Beirut",
     "alt_spellings": [
       "LB",
@@ -6229,7 +5983,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "ZAF"
     ],
@@ -6252,7 +6005,6 @@
     ],
     "native_name": "Lesotho",
     "doc_name": "Lesotho",
-    "name": "Lesotho",
     "capital": "Maseru",
     "alt_spellings": [
       "LS",
@@ -6281,7 +6033,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "GIN",
       "CIV",
@@ -6305,7 +6056,6 @@
     ],
     "native_name": "Liberia",
     "doc_name": "Liberia",
-    "name": "Liberia",
     "capital": "Monrovia",
     "alt_spellings": [
       "LR",
@@ -6331,7 +6081,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "DZA",
       "TCD",
@@ -6358,7 +6107,6 @@
     ],
     "native_name": "Lībyā",
     "doc_name": "Libya",
-    "name": "Libya",
     "capital": "Tripoli",
     "alt_spellings": [
       "LY",
@@ -6385,13 +6133,12 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "AUT",
       "CHE"
     ],
     "demonym": "Liechtensteiner",
-    "latitude": 47.26666,
+    "latitude": 47.26666666,
     "longitude": 9.53333333,
     "population": 36842,
     "calling_code": [
@@ -6408,7 +6155,6 @@
     ],
     "native_name": "Liechtenstein",
     "doc_name": "Liechtenstein",
-    "name": "Liechtenstein",
     "capital": "Vaduz",
     "alt_spellings": [
       "LI",
@@ -6435,7 +6181,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "BLR",
       "LVA",
@@ -6460,7 +6205,6 @@
     ],
     "native_name": "Lietuva",
     "doc_name": "Lithuania",
-    "name": "Lithuania",
     "capital": "Vilnius",
     "alt_spellings": [
       "LT",
@@ -6487,7 +6231,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "BEL",
       "FRA",
@@ -6511,7 +6254,6 @@
     ],
     "native_name": "Luxembourg",
     "doc_name": "Luxembourg",
-    "name": "Luxembourg",
     "capital": "Luxembourg",
     "alt_spellings": [
       "LU",
@@ -6544,12 +6286,11 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "CHN"
     ],
     "demonym": "Chinese",
-    "latitude": 22.16666,
+    "latitude": 22.16666666,
     "longitude": 113.55,
     "population": -1,
     "calling_code": [
@@ -6566,7 +6307,6 @@
     ],
     "native_name": "澳門",
     "doc_name": "Macau",
-    "name": "Macau",
     "capital": "",
     "alt_spellings": [
       "MO",
@@ -6597,7 +6337,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "ALB",
       "BGR",
@@ -6606,7 +6345,7 @@
       "SRB"
     ],
     "demonym": "Macedonian",
-    "latitude": 41.83333,
+    "latitude": 41.83333333,
     "longitude": 22,
     "population": -1,
     "calling_code": [
@@ -6623,7 +6362,6 @@
     ],
     "native_name": "Македонија",
     "doc_name": "Macedonia",
-    "name": "Macedonia",
     "capital": "Skopje",
     "alt_spellings": [
       "MK",
@@ -6650,7 +6388,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Malagasy",
     "latitude": -20,
@@ -6670,7 +6407,6 @@
     ],
     "native_name": "Madagasikara",
     "doc_name": "Madagascar",
-    "name": "Madagascar",
     "capital": "Antananarivo",
     "alt_spellings": [
       "MG",
@@ -6700,7 +6436,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "MOZ",
       "TZA",
@@ -6724,7 +6459,6 @@
     ],
     "native_name": "Malawi",
     "doc_name": "Malawi",
-    "name": "Malawi",
     "capital": "Lilongwe",
     "alt_spellings": [
       "MW",
@@ -6752,7 +6486,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "BRN",
       "IDN",
@@ -6776,7 +6509,6 @@
     ],
     "native_name": "Malaysia",
     "doc_name": "Malaysia",
-    "name": "Malaysia",
     "capital": "Kuala Lumpur",
     "alt_spellings": [
       "MY"
@@ -6791,7 +6523,6 @@
     "translations": []
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Maldivan",
     "latitude": 3.25,
@@ -6811,7 +6542,6 @@
     ],
     "native_name": "Maldives",
     "doc_name": "Maldives",
-    "name": "Maldives",
     "capital": "Malé",
     "alt_spellings": [
       "MV",
@@ -6839,7 +6569,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "DZA",
       "BFA",
@@ -6867,7 +6596,6 @@
     ],
     "native_name": "Mali",
     "doc_name": "Mali",
-    "name": "Mali",
     "capital": "Bamako",
     "alt_spellings": [
       "ML",
@@ -6894,10 +6622,9 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Maltese",
-    "latitude": 35.83333,
+    "latitude": 35.83333333,
     "longitude": 14.58333333,
     "population": 416055,
     "calling_code": [
@@ -6914,7 +6641,6 @@
     ],
     "native_name": "Malta",
     "doc_name": "Malta",
-    "name": "Malta",
     "capital": "Valletta",
     "alt_spellings": [
       "MT",
@@ -6943,7 +6669,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Marshallese",
     "latitude": 9,
@@ -6963,7 +6688,6 @@
     ],
     "native_name": "M̧ajeļ",
     "doc_name": "Marshall Islands",
-    "name": "Marshall Islands",
     "capital": "Majuro",
     "alt_spellings": [
       "MH",
@@ -6992,10 +6716,9 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "French",
-    "latitude": 14.66666,
+    "latitude": 14.666667,
     "longitude": -61,
     "population": 394173,
     "calling_code": [
@@ -7012,7 +6735,6 @@
     ],
     "native_name": "Martinique",
     "doc_name": "Martinique",
-    "name": "Martinique",
     "capital": "Fort-de-France",
     "alt_spellings": [
       "MQ"
@@ -7037,7 +6759,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "DZA",
       "MLI",
@@ -7062,7 +6783,6 @@
     ],
     "native_name": "Mūrītānyā",
     "doc_name": "Mauritania",
-    "name": "Mauritania",
     "capital": "Nouakchott",
     "alt_spellings": [
       "MR",
@@ -7090,10 +6810,9 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Mauritian",
-    "latitude": -20.2833,
+    "latitude": -20.28333333,
     "longitude": 57.55,
     "population": 1257900,
     "calling_code": [
@@ -7110,7 +6829,6 @@
     ],
     "native_name": "Maurice",
     "doc_name": "Mauritius",
-    "name": "Mauritius",
     "capital": "Port Louis",
     "alt_spellings": [
       "MU",
@@ -7137,10 +6855,9 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "French",
-    "latitude": -12.8333,
+    "latitude": -12.83333333,
     "longitude": 45.16666666,
     "population": 212600,
     "calling_code": [
@@ -7157,7 +6874,6 @@
     ],
     "native_name": "Mayotte",
     "doc_name": "Mayotte",
-    "name": "Mayotte",
     "capital": "Mamoudzou",
     "alt_spellings": [
       "YT",
@@ -7184,7 +6900,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "BLZ",
       "GTM",
@@ -7208,7 +6923,6 @@
     ],
     "native_name": "México",
     "doc_name": "Mexico",
-    "name": "Mexico",
     "capital": "Mexico City",
     "alt_spellings": [
       "MX",
@@ -7236,10 +6950,9 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Micronesian",
-    "latitude": 6.916666,
+    "latitude": 6.91666666,
     "longitude": 158.25,
     "population": -1,
     "calling_code": [
@@ -7256,7 +6969,6 @@
     ],
     "native_name": "Micronesia",
     "doc_name": "Micronesia",
-    "name": "Micronesia",
     "capital": "Palikir",
     "alt_spellings": [
       "FM",
@@ -7282,7 +6994,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "ROU",
       "UKR"
@@ -7305,7 +7016,6 @@
     ],
     "native_name": "Moldova",
     "doc_name": "Moldova",
-    "name": "Moldova",
     "capital": "Chișinău",
     "alt_spellings": [
       "MD",
@@ -7332,12 +7042,11 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "FRA"
     ],
     "demonym": "Monegasque",
-    "latitude": 43.73333,
+    "latitude": 43.73333333,
     "longitude": 7.4,
     "population": 36136,
     "calling_code": [
@@ -7354,7 +7063,6 @@
     ],
     "native_name": "Monaco",
     "doc_name": "Monaco",
-    "name": "Monaco",
     "capital": "Monaco",
     "alt_spellings": [
       "MC",
@@ -7381,7 +7089,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "CHN",
       "RUS"
@@ -7404,7 +7111,6 @@
     ],
     "native_name": "Монгол улс",
     "doc_name": "Mongolia",
-    "name": "Mongolia",
     "capital": "Ulan Bator",
     "alt_spellings": [
       "MN"
@@ -7429,7 +7135,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "ALB",
       "BIH",
@@ -7455,7 +7160,6 @@
     ],
     "native_name": "Црна Гора",
     "doc_name": "Montenegro",
-    "name": "Montenegro",
     "capital": "Podgorica",
     "alt_spellings": [
       "ME",
@@ -7484,7 +7188,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Montserratian",
     "latitude": 16.75,
@@ -7504,7 +7207,6 @@
     ],
     "native_name": "Montserrat",
     "doc_name": "Montserrat",
-    "name": "Montserrat",
     "capital": "Plymouth",
     "alt_spellings": [
       "MS"
@@ -7529,7 +7231,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "DZA",
       "ESH",
@@ -7553,7 +7254,6 @@
     ],
     "native_name": "al-Maġrib",
     "doc_name": "Morocco",
-    "name": "Morocco",
     "capital": "Rabat",
     "alt_spellings": [
       "MA",
@@ -7581,7 +7281,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "MWI",
       "ZAF",
@@ -7608,7 +7307,6 @@
     ],
     "native_name": "Moçambique",
     "doc_name": "Mozambique",
-    "name": "Mozambique",
     "capital": "Maputo",
     "alt_spellings": [
       "MZ",
@@ -7635,7 +7333,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Myanmarian",
     "latitude": 22,
@@ -7655,7 +7352,6 @@
     ],
     "native_name": "Myanma",
     "doc_name": "Myanmar",
-    "name": "Myanmar",
     "capital": "Naypyidaw",
     "alt_spellings": [
       "MM",
@@ -7673,7 +7369,6 @@
     "translations": []
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "AGO",
       "BWA",
@@ -7699,7 +7394,6 @@
     ],
     "native_name": "Namibia",
     "doc_name": "Namibia",
-    "name": "Namibia",
     "capital": "Windhoek",
     "alt_spellings": [
       "NA",
@@ -7727,10 +7421,9 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Nauruan",
-    "latitude": -0.53333,
+    "latitude": -0.53333333,
     "longitude": 166.91666666,
     "population": 9945,
     "calling_code": [
@@ -7747,7 +7440,6 @@
     ],
     "native_name": "Nauru",
     "doc_name": "Nauru",
-    "name": "Nauru",
     "capital": "Yaren",
     "alt_spellings": [
       "NR",
@@ -7778,7 +7470,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "CHN",
       "IND"
@@ -7801,7 +7492,6 @@
     ],
     "native_name": "नपल",
     "doc_name": "Nepal",
-    "name": "Nepal",
     "capital": "Kathmandu",
     "alt_spellings": [
       "NP",
@@ -7828,7 +7518,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "BEL",
       "DEU"
@@ -7851,7 +7540,6 @@
     ],
     "native_name": "Nederland",
     "doc_name": "Netherlands",
-    "name": "Netherlands",
     "capital": "Amsterdam",
     "alt_spellings": [
       "NL",
@@ -7878,7 +7566,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "New Caledonian",
     "latitude": -21.5,
@@ -7898,7 +7585,6 @@
     ],
     "native_name": "Nouvelle-Calédonie",
     "doc_name": "New Caledonia",
-    "name": "New Caledonia",
     "capital": "Nouméa",
     "alt_spellings": [
       "NC"
@@ -7923,7 +7609,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "New Zealander",
     "latitude": -41,
@@ -7943,7 +7628,6 @@
     ],
     "native_name": "New Zealand",
     "doc_name": "New Zealand",
-    "name": "New Zealand",
     "capital": "Wellington",
     "alt_spellings": [
       "NZ",
@@ -7961,7 +7645,6 @@
     "translations": []
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "CRI",
       "HND"
@@ -7984,7 +7667,6 @@
     ],
     "native_name": "Nicaragua",
     "doc_name": "Nicaragua",
-    "name": "Nicaragua",
     "capital": "Managua",
     "alt_spellings": [
       "NI",
@@ -8011,7 +7693,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "DZA",
       "BEN",
@@ -8039,7 +7720,6 @@
     ],
     "native_name": "Niger",
     "doc_name": "Niger",
-    "name": "Niger",
     "capital": "Niamey",
     "alt_spellings": [
       "NE",
@@ -8067,7 +7747,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "BEN",
       "CMR",
@@ -8092,7 +7771,6 @@
     ],
     "native_name": "Nigeria",
     "doc_name": "Nigeria",
-    "name": "Nigeria",
     "capital": "Abuja",
     "alt_spellings": [
       "NG",
@@ -8120,10 +7798,9 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Niuean",
-    "latitude": -19.0333,
+    "latitude": -19.03333333,
     "longitude": -169.86666666,
     "population": 1613,
     "calling_code": [
@@ -8140,7 +7817,6 @@
     ],
     "native_name": "Niuē",
     "doc_name": "Niue",
-    "name": "Niue",
     "capital": "Alofi",
     "alt_spellings": [
       "NU"
@@ -8166,10 +7842,9 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Norfolk Islander",
-    "latitude": -29.0333,
+    "latitude": -29.03333333,
     "longitude": 167.95,
     "population": 2302,
     "calling_code": [
@@ -8186,7 +7861,6 @@
     ],
     "native_name": "Norfolk Island",
     "doc_name": "Norfolk Island",
-    "name": "Norfolk Island",
     "capital": "Kingston",
     "alt_spellings": [
       "NF",
@@ -8204,7 +7878,6 @@
     "translations": []
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "CHN",
       "KOR",
@@ -8228,7 +7901,6 @@
     ],
     "native_name": "북한",
     "doc_name": "North Korea",
-    "name": "North Korea",
     "capital": "Pyongyang",
     "alt_spellings": [
       "KP",
@@ -8256,7 +7928,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "American",
     "latitude": 15.2,
@@ -8276,7 +7947,6 @@
     ],
     "native_name": "Northern Mariana Islands",
     "doc_name": "Northern Mariana Islands",
-    "name": "Northern Mariana Islands",
     "capital": "Saipan",
     "alt_spellings": [
       "MP",
@@ -8306,7 +7976,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "FIN",
       "SWE",
@@ -8330,7 +7999,6 @@
     ],
     "native_name": "Norge",
     "doc_name": "Norway",
-    "name": "Norway",
     "capital": "Oslo",
     "alt_spellings": [
       "NO",
@@ -8360,7 +8028,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "SAU",
       "ARE",
@@ -8384,7 +8051,6 @@
     ],
     "native_name": "ʻUmān",
     "doc_name": "Oman",
-    "name": "Oman",
     "capital": "Muscat",
     "alt_spellings": [
       "OM",
@@ -8411,7 +8077,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "AFG",
       "CHN",
@@ -8436,7 +8101,6 @@
     ],
     "native_name": "Pakistan",
     "doc_name": "Pakistan",
-    "name": "Pakistan",
     "capital": "Islamabad",
     "alt_spellings": [
       "PK",
@@ -8466,7 +8130,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Palauan",
     "latitude": 7.5,
@@ -8486,7 +8149,6 @@
     ],
     "native_name": "Palau",
     "doc_name": "Palau",
-    "name": "Palau",
     "capital": "Ngerulmud",
     "alt_spellings": [
       "PW",
@@ -8514,7 +8176,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "ISR",
       "EGY",
@@ -8538,7 +8199,6 @@
     ],
     "native_name": "Filasṭin",
     "doc_name": "Palestine",
-    "name": "Palestine",
     "capital": "Ramallah",
     "alt_spellings": [
       "PS",
@@ -8567,7 +8227,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "COL",
       "CRI"
@@ -8591,7 +8250,6 @@
     ],
     "native_name": "Panamá",
     "doc_name": "Panama",
-    "name": "Panama",
     "capital": "Panama City",
     "alt_spellings": [
       "PA",
@@ -8618,7 +8276,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "IDN"
     ],
@@ -8640,7 +8297,6 @@
     ],
     "native_name": "Papua Niugini",
     "doc_name": "Papua New Guinea",
-    "name": "Papua New Guinea",
     "capital": "Port Moresby",
     "alt_spellings": [
       "PG",
@@ -8669,7 +8325,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "ARG",
       "BOL",
@@ -8693,7 +8348,6 @@
     ],
     "native_name": "Paraguay",
     "doc_name": "Paraguay",
-    "name": "Paraguay",
     "capital": "Asunción",
     "alt_spellings": [
       "PY",
@@ -8723,7 +8377,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "BOL",
       "BRA",
@@ -8749,7 +8402,6 @@
     ],
     "native_name": "Perú",
     "doc_name": "Peru",
-    "name": "Peru",
     "capital": "Lima",
     "alt_spellings": [
       "PE",
@@ -8778,7 +8430,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Filipino",
     "latitude": 13,
@@ -8798,7 +8449,6 @@
     ],
     "native_name": "Pilipinas",
     "doc_name": "Philippines",
-    "name": "Philippines",
     "capital": "Manila",
     "alt_spellings": [
       "PH",
@@ -8816,10 +8466,9 @@
     "translations": []
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Pitcairn Islander",
-    "latitude": -25.0666,
+    "latitude": -25.06666666,
     "longitude": -130.1,
     "population": 56,
     "calling_code": [
@@ -8836,7 +8485,6 @@
     ],
     "native_name": "Pitcairn Islands",
     "doc_name": "Pitcairn Islands",
-    "name": "Pitcairn Islands",
     "capital": "Adamstown",
     "alt_spellings": [
       "PN",
@@ -8862,7 +8510,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "BLR",
       "CZE",
@@ -8890,7 +8537,6 @@
     ],
     "native_name": "Polska",
     "doc_name": "Poland",
-    "name": "Poland",
     "capital": "Warsaw",
     "alt_spellings": [
       "PL",
@@ -8917,7 +8563,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "ESP"
     ],
@@ -8939,7 +8584,6 @@
     ],
     "native_name": "Portugal",
     "doc_name": "Portugal",
-    "name": "Portugal",
     "capital": "Lisbon",
     "alt_spellings": [
       "PT",
@@ -8967,7 +8611,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Puerto Rican",
     "latitude": 18.25,
@@ -8988,7 +8631,6 @@
     ],
     "native_name": "Puerto Rico",
     "doc_name": "Puerto Rico",
-    "name": "Puerto Rico",
     "capital": "San Juan",
     "alt_spellings": [
       "PR",
@@ -9017,7 +8659,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "SAU"
     ],
@@ -9039,7 +8680,6 @@
     ],
     "native_name": "Qaṭar",
     "doc_name": "Qatar",
-    "name": "Qatar",
     "capital": "Doha",
     "alt_spellings": [
       "QA",
@@ -9066,7 +8706,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "ALB",
       "MKD",
@@ -9074,7 +8713,7 @@
       "SRB"
     ],
     "demonym": "Kosovar",
-    "latitude": 42.66666,
+    "latitude": 42.666667,
     "longitude": 21.166667,
     "population": 1733842,
     "calling_code": [
@@ -9093,7 +8732,6 @@
     ],
     "native_name": "Republika e Kosovës",
     "doc_name": "Republic of Kosovo",
-    "name": "Republic of Kosovo",
     "capital": "Pristina",
     "alt_spellings": [
       "XK",
@@ -9113,7 +8751,6 @@
     "translations": []
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "French",
     "latitude": -21.15,
@@ -9133,7 +8770,6 @@
     ],
     "native_name": "La Réunion",
     "doc_name": "Réunion",
-    "name": "Réunion",
     "capital": "Saint-Denis",
     "alt_spellings": [
       "RE",
@@ -9159,7 +8795,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "BGR",
       "HUN",
@@ -9185,7 +8820,6 @@
     ],
     "native_name": "România",
     "doc_name": "Romania",
-    "name": "Romania",
     "capital": "Bucharest",
     "alt_spellings": [
       "RO",
@@ -9213,7 +8847,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "AZE",
       "BLR",
@@ -9248,7 +8881,6 @@
     ],
     "native_name": "Россия",
     "doc_name": "Russia",
-    "name": "Russia",
     "capital": "Moscow",
     "alt_spellings": [
       "RU",
@@ -9277,7 +8909,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "BDI",
       "COD",
@@ -9302,7 +8933,6 @@
     ],
     "native_name": "Rwanda",
     "doc_name": "Rwanda",
-    "name": "Rwanda",
     "capital": "Kigali",
     "alt_spellings": [
       "RW",
@@ -9334,7 +8964,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Saint Barthélemy Islander",
     "latitude": 18.5,
@@ -9354,7 +8983,6 @@
     ],
     "native_name": "Saint-Barthélemy",
     "doc_name": "Saint Barthélemy",
-    "name": "Saint Barthélemy",
     "capital": "Gustavia",
     "alt_spellings": [
       "BL",
@@ -9382,7 +9010,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Saint Helenian",
     "latitude": -15.95,
@@ -9402,7 +9029,6 @@
     ],
     "native_name": "Saint Helena",
     "doc_name": "Saint Helena",
-    "name": "Saint Helena",
     "capital": "Jamestown",
     "alt_spellings": [
       "SH"
@@ -9427,10 +9053,9 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Kittian and Nevisian",
-    "latitude": 17.33333,
+    "latitude": 17.33333333,
     "longitude": -62.75,
     "population": 54000,
     "calling_code": [
@@ -9447,7 +9072,6 @@
     ],
     "native_name": "Saint Kitts and Nevis",
     "doc_name": "Saint Kitts and Nevis",
-    "name": "Saint Kitts and Nevis",
     "capital": "Basseterre",
     "alt_spellings": [
       "KN",
@@ -9473,10 +9097,9 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Saint Lucian",
-    "latitude": 13.88333,
+    "latitude": 13.88333333,
     "longitude": -60.96666666,
     "population": 166526,
     "calling_code": [
@@ -9493,7 +9116,6 @@
     ],
     "native_name": "Saint Lucia",
     "doc_name": "Saint Lucia",
-    "name": "Saint Lucia",
     "capital": "Castries",
     "alt_spellings": [
       "LC"
@@ -9518,13 +9140,12 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "SXM",
       "NLD"
     ],
     "demonym": "Saint Martin Islander",
-    "latitude": 18.08333,
+    "latitude": 18.08333333,
     "longitude": -63.95,
     "population": -1,
     "calling_code": [
@@ -9543,7 +9164,6 @@
     ],
     "native_name": "Saint-Martin",
     "doc_name": "Saint Martin",
-    "name": "Saint Martin",
     "capital": "Marigot",
     "alt_spellings": [
       "MF",
@@ -9572,10 +9192,9 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "French",
-    "latitude": 46.83333,
+    "latitude": 46.83333333,
     "longitude": -56.33333333,
     "population": 6081,
     "calling_code": [
@@ -9592,7 +9211,6 @@
     ],
     "native_name": "Saint-Pierre-et-Miquelon",
     "doc_name": "Saint Pierre and Miquelon",
-    "name": "Saint Pierre and Miquelon",
     "capital": "Saint-Pierre",
     "alt_spellings": [
       "PM",
@@ -9618,7 +9236,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Saint Vincentian",
     "latitude": 13.25,
@@ -9638,7 +9255,6 @@
     ],
     "native_name": "Saint Vincent and the Grenadines",
     "doc_name": "Saint Vincent and the Grenadines",
-    "name": "Saint Vincent and the Grenadines",
     "capital": "Kingstown",
     "alt_spellings": [
       "VC"
@@ -9663,10 +9279,9 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Samoan",
-    "latitude": -13.5833,
+    "latitude": -13.58333333,
     "longitude": -172.33333333,
     "population": 187820,
     "calling_code": [
@@ -9683,7 +9298,6 @@
     ],
     "native_name": "Samoa",
     "doc_name": "Samoa",
-    "name": "Samoa",
     "capital": "Apia",
     "alt_spellings": [
       "WS",
@@ -9712,12 +9326,11 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "ITA"
     ],
     "demonym": "Sammarinese",
-    "latitude": 43.76666,
+    "latitude": 43.76666666,
     "longitude": 12.41666666,
     "population": 32509,
     "calling_code": [
@@ -9734,7 +9347,6 @@
     ],
     "native_name": "San Marino",
     "doc_name": "San Marino",
-    "name": "San Marino",
     "capital": "City of San Marino",
     "alt_spellings": [
       "SM",
@@ -9761,7 +9373,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Sao Tomean",
     "latitude": 1,
@@ -9781,7 +9392,6 @@
     ],
     "native_name": "São Tomé e Príncipe",
     "doc_name": "São Tomé and Príncipe",
-    "name": "São Tomé and Príncipe",
     "capital": "São Tomé",
     "alt_spellings": [
       "ST",
@@ -9808,7 +9418,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "IRQ",
       "JOR",
@@ -9836,7 +9445,6 @@
     ],
     "native_name": "as-Su‘ūdiyyah",
     "doc_name": "Saudi Arabia",
-    "name": "Saudi Arabia",
     "capital": "Riyadh",
     "alt_spellings": [
       "SA",
@@ -9863,7 +9471,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "The Gambia",
       "GIN",
@@ -9889,7 +9496,6 @@
     ],
     "native_name": "Sénégal",
     "doc_name": "Senegal",
-    "name": "Senegal",
     "capital": "Dakar",
     "alt_spellings": [
       "SN",
@@ -9916,7 +9522,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "BIH",
       "BGR",
@@ -9945,7 +9550,6 @@
     ],
     "native_name": "Србија",
     "doc_name": "Serbia",
-    "name": "Serbia",
     "capital": "Belgrade",
     "alt_spellings": [
       "RS",
@@ -9974,10 +9578,9 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Seychellois",
-    "latitude": -4.58333,
+    "latitude": -4.58333333,
     "longitude": 55.66666666,
     "population": 90945,
     "calling_code": [
@@ -9994,7 +9597,6 @@
     ],
     "native_name": "Seychelles",
     "doc_name": "Seychelles",
-    "name": "Seychelles",
     "capital": "Victoria",
     "alt_spellings": [
       "SC",
@@ -10025,7 +9627,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "GIN",
       "LBR"
@@ -10048,7 +9649,6 @@
     ],
     "native_name": "Sierra Leone",
     "doc_name": "Sierra Leone",
-    "name": "Sierra Leone",
     "capital": "Freetown",
     "alt_spellings": [
       "SL",
@@ -10074,10 +9674,9 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Singaporean",
-    "latitude": 1.366666,
+    "latitude": 1.36666666,
     "longitude": 103.8,
     "population": 5399200,
     "calling_code": [
@@ -10094,7 +9693,6 @@
     ],
     "native_name": "Singapore",
     "doc_name": "Singapore",
-    "name": "Singapore",
     "capital": "Singapore",
     "alt_spellings": [
       "SG",
@@ -10120,12 +9718,11 @@
     "translations": []
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "MAF"
     ],
     "demonym": "Dutch",
-    "latitude": 18.03333,
+    "latitude": 18.033333,
     "longitude": -63.05,
     "population": 37429,
     "calling_code": [
@@ -10142,7 +9739,6 @@
     ],
     "native_name": "Sint Maarten",
     "doc_name": "Sint Maarten",
-    "name": "Sint Maarten",
     "capital": "Philipsburg",
     "alt_spellings": [
       "SX"
@@ -10158,7 +9754,6 @@
     "translations": []
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "AUT",
       "CZE",
@@ -10167,7 +9762,7 @@
       "UKR"
     ],
     "demonym": "Slovak",
-    "latitude": 48.66666,
+    "latitude": 48.66666666,
     "longitude": 19.5,
     "population": 5412008,
     "calling_code": [
@@ -10184,7 +9779,6 @@
     ],
     "native_name": "Slovensko",
     "doc_name": "Slovakia",
-    "name": "Slovakia",
     "capital": "Bratislava",
     "alt_spellings": [
       "SK",
@@ -10211,7 +9805,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "AUT",
       "HRV",
@@ -10219,7 +9812,7 @@
       "HUN"
     ],
     "demonym": "Slovene",
-    "latitude": 46.11666,
+    "latitude": 46.11666666,
     "longitude": 14.81666666,
     "population": 2061405,
     "calling_code": [
@@ -10236,7 +9829,6 @@
     ],
     "native_name": "Slovenija",
     "doc_name": "Slovenia",
-    "name": "Slovenia",
     "capital": "Ljubljana",
     "alt_spellings": [
       "SI",
@@ -10263,7 +9855,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Solomon Islander",
     "latitude": -8,
@@ -10283,7 +9874,6 @@
     ],
     "native_name": "Solomon Islands",
     "doc_name": "Solomon Islands",
-    "name": "Solomon Islands",
     "capital": "Honiara",
     "alt_spellings": [
       "SB"
@@ -10308,7 +9898,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "DJI",
       "ETH",
@@ -10332,7 +9921,6 @@
     ],
     "native_name": "Soomaaliya",
     "doc_name": "Somalia",
-    "name": "Somalia",
     "capital": "Mogadishu",
     "alt_spellings": [
       "SO",
@@ -10363,7 +9951,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "BWA",
       "LSO",
@@ -10390,7 +9977,6 @@
     ],
     "native_name": "South Africa",
     "doc_name": "South Africa",
-    "name": "South Africa",
     "capital": "Cape Town",
     "alt_spellings": [
       "ZA",
@@ -10437,7 +10023,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "South Georgia and the South Sandwich Islander",
     "latitude": -54.5,
@@ -10457,7 +10042,6 @@
     ],
     "native_name": "South Georgia",
     "doc_name": "South Georgia",
-    "name": "South Georgia",
     "capital": "King Edward Point",
     "alt_spellings": [
       "GS",
@@ -10483,7 +10067,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "PRK"
     ],
@@ -10505,7 +10088,6 @@
     ],
     "native_name": "대한민국",
     "doc_name": "South Korea",
-    "name": "South Korea",
     "capital": "Seoul",
     "alt_spellings": [
       "KR",
@@ -10531,7 +10113,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "CAF",
       "COD",
@@ -10558,7 +10139,6 @@
     ],
     "native_name": "South Sudan",
     "doc_name": "South Sudan",
-    "name": "South Sudan",
     "capital": "Juba",
     "alt_spellings": [
       "SS"
@@ -10573,7 +10153,6 @@
     "translations": []
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "AND",
       "FRA",
@@ -10599,7 +10178,6 @@
     ],
     "native_name": "España",
     "doc_name": "Spain",
-    "name": "Spain",
     "capital": "Madrid",
     "alt_spellings": [
       "ES",
@@ -10626,7 +10204,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "IND"
     ],
@@ -10648,7 +10225,6 @@
     ],
     "native_name": "śrī laṃkāva",
     "doc_name": "Sri Lanka",
-    "name": "Sri Lanka",
     "capital": "Colombo",
     "alt_spellings": [
       "LK",
@@ -10677,7 +10253,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "CAF",
       "TCD",
@@ -10705,7 +10280,6 @@
     ],
     "native_name": "as-Sūdān",
     "doc_name": "Sudan",
-    "name": "Sudan",
     "capital": "Khartoum",
     "alt_spellings": [
       "SD",
@@ -10734,7 +10308,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "BRA",
       "GUF",
@@ -10759,7 +10332,6 @@
     ],
     "native_name": "Suriname",
     "doc_name": "Suriname",
-    "name": "Suriname",
     "capital": "Paramaribo",
     "alt_spellings": [
       "SR",
@@ -10788,7 +10360,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Norwegian",
     "latitude": 78,
@@ -10808,7 +10379,6 @@
     ],
     "native_name": "Svalbard og Jan Mayen",
     "doc_name": "Svalbard and Jan Mayen",
-    "name": "Svalbard and Jan Mayen",
     "capital": "Longyearbyen",
     "alt_spellings": [
       "SJ",
@@ -10834,7 +10404,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "MOZ",
       "ZAF"
@@ -10857,7 +10426,6 @@
     ],
     "native_name": "Swaziland",
     "doc_name": "Swaziland",
-    "name": "Swaziland",
     "capital": "Lobamba",
     "alt_spellings": [
       "SZ",
@@ -10889,7 +10457,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "FIN",
       "NOR"
@@ -10912,7 +10479,6 @@
     ],
     "native_name": "Sverige",
     "doc_name": "Sweden",
-    "name": "Sweden",
     "capital": "Stockholm",
     "alt_spellings": [
       "SE",
@@ -10939,7 +10505,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "AUT",
       "FRA",
@@ -10967,7 +10532,6 @@
     ],
     "native_name": "Schweiz",
     "doc_name": "Switzerland",
-    "name": "Switzerland",
     "capital": "Bern",
     "alt_spellings": [
       "CH",
@@ -11002,7 +10566,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "IRQ",
       "ISR",
@@ -11028,7 +10591,6 @@
     ],
     "native_name": "Sūriyā",
     "doc_name": "Syria",
-    "name": "Syria",
     "capital": "Damascus",
     "alt_spellings": [
       "SY",
@@ -11055,7 +10617,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Taiwanese",
     "latitude": 23.5,
@@ -11075,7 +10636,6 @@
     ],
     "native_name": "臺灣",
     "doc_name": "Taiwan",
-    "name": "Taiwan",
     "capital": "Taipei",
     "alt_spellings": [
       "TW",
@@ -11104,7 +10664,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "AFG",
       "CHN",
@@ -11129,7 +10688,6 @@
     ],
     "native_name": "Тоҷикистон",
     "doc_name": "Tajikistan",
-    "name": "Tajikistan",
     "capital": "Dushanbe",
     "alt_spellings": [
       "TJ",
@@ -11159,7 +10717,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "BDI",
       "COD",
@@ -11188,7 +10745,6 @@
     ],
     "native_name": "Tanzania",
     "doc_name": "Tanzania",
-    "name": "Tanzania",
     "capital": "Dodoma",
     "alt_spellings": [
       "TZ",
@@ -11217,7 +10773,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "Burma",
       "KHM",
@@ -11242,7 +10797,6 @@
     ],
     "native_name": "ประเทศไทย",
     "doc_name": "Thailand",
-    "name": "Thailand",
     "capital": "Bangkok",
     "alt_spellings": [
       "TH",
@@ -11262,12 +10816,11 @@
     "translations": []
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "IDN"
     ],
     "demonym": "East Timorese",
-    "latitude": -8.83333,
+    "latitude": -8.83333333,
     "longitude": 125.91666666,
     "population": -1,
     "calling_code": [
@@ -11284,7 +10837,6 @@
     ],
     "native_name": "Timor-Leste",
     "doc_name": "Timor-Leste",
-    "name": "Timor-Leste",
     "capital": "Dili",
     "alt_spellings": [
       "TL",
@@ -11304,7 +10856,6 @@
     "translations": []
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "BEN",
       "BFA",
@@ -11328,7 +10879,6 @@
     ],
     "native_name": "Togo",
     "doc_name": "Togo",
-    "name": "Togo",
     "capital": "Lomé",
     "alt_spellings": [
       "TG",
@@ -11356,7 +10906,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Tokelauan",
     "latitude": -9,
@@ -11376,7 +10925,6 @@
     ],
     "native_name": "Tokelau",
     "doc_name": "Tokelau",
-    "name": "Tokelau",
     "capital": "Fakaofo",
     "alt_spellings": [
       "TK"
@@ -11403,7 +10951,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Tongan",
     "latitude": -20,
@@ -11423,7 +10970,6 @@
     ],
     "native_name": "Tonga",
     "doc_name": "Tonga",
-    "name": "Tonga",
     "capital": "Nuku'alofa",
     "alt_spellings": [
       "TO"
@@ -11450,7 +10996,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Trinidadian",
     "latitude": 11,
@@ -11470,7 +11015,6 @@
     ],
     "native_name": "Trinidad and Tobago",
     "doc_name": "Trinidad and Tobago",
-    "name": "Trinidad and Tobago",
     "capital": "Port of Spain",
     "alt_spellings": [
       "TT",
@@ -11496,7 +11040,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "DZA",
       "LBY"
@@ -11519,7 +11062,6 @@
     ],
     "native_name": "Tūnis",
     "doc_name": "Tunisia",
-    "name": "Tunisia",
     "capital": "Tunis",
     "alt_spellings": [
       "TN",
@@ -11547,7 +11089,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "ARM",
       "AZE",
@@ -11576,7 +11117,6 @@
     ],
     "native_name": "Türkiye",
     "doc_name": "Turkey",
-    "name": "Turkey",
     "capital": "Ankara",
     "alt_spellings": [
       "TR",
@@ -11604,7 +11144,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "AFG",
       "IRN",
@@ -11629,7 +11168,6 @@
     ],
     "native_name": "Türkmenistan",
     "doc_name": "Turkmenistan",
-    "name": "Turkmenistan",
     "capital": "Ashgabat",
     "alt_spellings": [
       "TM"
@@ -11655,7 +11193,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Turks and Caicos Islander",
     "latitude": 21.75,
@@ -11675,7 +11212,6 @@
     ],
     "native_name": "Turks and Caicos Islands",
     "doc_name": "Turks and Caicos Islands",
-    "name": "Turks and Caicos Islands",
     "capital": "Cockburn Town",
     "alt_spellings": [
       "TC"
@@ -11700,7 +11236,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Tuvaluan",
     "latitude": -8,
@@ -11720,7 +11255,6 @@
     ],
     "native_name": "Tuvalu",
     "doc_name": "Tuvalu",
-    "name": "Tuvalu",
     "capital": "Funafuti",
     "alt_spellings": [
       "TV"
@@ -11746,7 +11280,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "COD",
       "KEN",
@@ -11772,7 +11305,6 @@
     ],
     "native_name": "Uganda",
     "doc_name": "Uganda",
-    "name": "Uganda",
     "capital": "Kampala",
     "alt_spellings": [
       "UG",
@@ -11801,7 +11333,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "BLR",
       "HUN",
@@ -11829,7 +11360,6 @@
     ],
     "native_name": "Україна",
     "doc_name": "Ukraine",
-    "name": "Ukraine",
     "capital": "Kiev",
     "alt_spellings": [
       "UA",
@@ -11855,7 +11385,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "OMN",
       "SAU"
@@ -11878,7 +11407,6 @@
     ],
     "native_name": "Dawlat al-ʾImārāt al-ʿArabiyyah al-Muttaḥidah",
     "doc_name": "United Arab Emirates",
-    "name": "United Arab Emirates",
     "capital": "Abu Dhabi",
     "alt_spellings": [
       "AE",
@@ -11904,7 +11432,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "IRL"
     ],
@@ -11926,7 +11453,6 @@
     ],
     "native_name": "United Kingdom",
     "doc_name": "United Kingdom",
-    "name": "United Kingdom",
     "capital": "London",
     "alt_spellings": [
       "GB",
@@ -11953,7 +11479,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "CAN",
       "MEX"
@@ -11978,7 +11503,6 @@
     ],
     "native_name": "United States",
     "doc_name": "United States",
-    "name": "United States",
     "capital": "Washington D.C.",
     "alt_spellings": [
       "US",
@@ -12005,10 +11529,9 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "American",
-      "latitude": "populatio,
+      "latitude": "population": -1,
       "longitude": "calling_code": [,
     ],
     "currency": [
@@ -12022,7 +11545,6 @@
     ],
     "native_name": "United States Minor Outlying Islands",
     "doc_name": "United States Minor Outlying Islands",
-    "name": "United States Minor Outlying Islands",
     "capital": "",
     "alt_spellings": [
       "UM"
@@ -12047,7 +11569,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Virgin Islander",
     "latitude": 18.35,
@@ -12067,7 +11588,6 @@
     ],
     "native_name": "United States Virgin Islands",
     "doc_name": "United States Virgin Islands",
-    "name": "United States Virgin Islands",
     "capital": "Charlotte Amalie",
     "alt_spellings": [
       "VI"
@@ -12092,7 +11612,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "ARG",
       "BRA"
@@ -12116,7 +11635,6 @@
     ],
     "native_name": "Uruguay",
     "doc_name": "Uruguay",
-    "name": "Uruguay",
     "capital": "Montevideo",
     "alt_spellings": [
       "UY",
@@ -12143,7 +11661,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "AFG",
       "KAZ",
@@ -12169,7 +11686,6 @@
     ],
     "native_name": "O‘zbekiston",
     "doc_name": "Uzbekistan",
-    "name": "Uzbekistan",
     "capital": "Tashkent",
     "alt_spellings": [
       "UZ",
@@ -12198,7 +11714,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Ni-Vanuatu",
     "latitude": -16,
@@ -12218,7 +11733,6 @@
     ],
     "native_name": "Vanuatu",
     "doc_name": "Vanuatu",
-    "name": "Vanuatu",
     "capital": "Port Vila",
     "alt_spellings": [
       "VU",
@@ -12250,7 +11764,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "BRA",
       "COL",
@@ -12274,7 +11787,6 @@
     ],
     "native_name": "Venezuela",
     "doc_name": "Venezuela",
-    "name": "Venezuela",
     "capital": "Caracas",
     "alt_spellings": [
       "VE",
@@ -12301,14 +11813,13 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "KHM",
       "CHN",
       "LAO"
     ],
     "demonym": "Vietnamese",
-    "latitude": 16.16666,
+    "latitude": 16.16666666,
     "longitude": 107.83333333,
     "population": 90388000,
     "calling_code": [
@@ -12325,7 +11836,6 @@
     ],
     "native_name": "Việt Nam",
     "doc_name": "Vietnam",
-    "name": "Vietnam",
     "capital": "Hanoi",
     "alt_spellings": [
       "VN",
@@ -12344,7 +11854,6 @@
     "translations": []
   },
   {
-    "doc_schema": "countries",
     "borders": [],
     "demonym": "Wallis and Futuna Islander",
     "latitude": -13.3,
@@ -12364,7 +11873,6 @@
     ],
     "native_name": "Wallis et Futuna",
     "doc_name": "Wallis and Futuna",
-    "name": "Wallis and Futuna",
     "capital": "Mata-Utu",
     "alt_spellings": [
       "WF",
@@ -12391,7 +11899,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "DZA",
       "MRT",
@@ -12417,7 +11924,6 @@
     ],
     "native_name": "Aṣ-Ṣaḥrā’ al-Ġarbiyya",
     "doc_name": "Western Sahara",
-    "name": "Western Sahara",
     "capital": "El Aaiún",
     "alt_spellings": [
       "EH",
@@ -12445,7 +11951,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "OMN",
       "SAU"
@@ -12468,7 +11973,6 @@
     ],
     "native_name": "al-Yaman",
     "doc_name": "Yemen",
-    "name": "Yemen",
     "capital": "Sana'a",
     "alt_spellings": [
       "YE",
@@ -12495,7 +11999,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "AGO",
       "BWA",
@@ -12524,7 +12027,6 @@
     ],
     "native_name": "Zambia",
     "doc_name": "Zambia",
-    "name": "Zambia",
     "capital": "Lusaka",
     "alt_spellings": [
       "ZM",
@@ -12550,7 +12052,6 @@
     }
   },
   {
-    "doc_schema": "countries",
     "borders": [
       "BWA",
       "MOZ",
@@ -12575,7 +12076,6 @@
     ],
     "native_name": "Zimbabwe",
     "doc_name": "Zimbabwe",
-    "name": "Zimbabwe",
     "capital": "Harare",
     "alt_spellings": [
       "ZW",

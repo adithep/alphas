@@ -1,51 +1,39 @@
 [
 
   {
-    "doc_name": "titles",
-    "_sid": "doc_schema",
-    "_kids": ["doc_name"]
+    "_v": "titles",
+    "_sid": "doc_schema"
   },
 
   {
-    "doc_name": "currencies",
-    "_sid": "doc_schema",
-    "_kids": ["doc_name", "usd_exchange_rate", "symbol", "symbol_native", "currency_name", "currency_code", "currency_name_plural"]
+    "_v": "currencies",
+    "_sid": "doc_schema"
   },
 
   {
-    "doc_name": "countries",
-    "_sid": "doc_schema",
-    "_kids": ["doc_name", "latitude", "longitude", "population", "cca3", "cca2", "ccn3", "native_name", "capital", "region", "sub_region"],
-    "_mids": ["borders", "calling_code", "currency", "tld", "alt_spellings", "language"] 
+    "_v": "countries",
+    "_sid": "doc_schema"
   },
 
   {
-    "doc_name": "services",
-    "_sid": "doc_schema",
-    "_kids": ["_sid", "doc_name"]
+    "_v": "services",
+    "_sid": "doc_schema"
   },
 
   {
-    "doc_name": "cities",
-    "_sid": "doc_schema",
-    "_kids": ["doc_name", "population", "country", "latitude", "longitude"]
+    "_v": "cities",
+    "_sid": "doc_schema"
   },
 
   {
-    "doc_name": "humans",
-    "_sid": "doc_schema",
-    "_kids": ["titles", "first_name", "middle_name", "last_name", "date_of_birth", "city"],
-    "_mids": ["email", "mobile"],
-    "_tids": [{"key": "email", "tags": ["main", "personal", "work"]}, {"key": "mobile", "tags": ["main", "personal", "work"]}]
+    "_v": "humans",
+    "_sid": "doc_schema"
     
   },
 
   {
-    "doc_name": "service_entity",
-    "_sid": "doc_schema",
-    "_kids": ["date_of_entry", "service", "currency", "cost"],
-    "_dids": ["humans"]
+    "_v": "service_entity",
+    "_sid": "doc_schema"
   }
 
-  
 ]

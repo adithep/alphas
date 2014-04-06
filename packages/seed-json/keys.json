@@ -1,0 +1,227 @@
+[
+  {
+    "_v": "doc_name",
+    "_vt": "string",
+    "_sid": "schema_key"
+  },
+
+  {
+    "_v": "_sid",
+    "_vt": "oid",
+    "_vs": "doc_schema",
+    "_sid": "schema_key"
+  },
+
+  {
+    "_v": "key",
+    "_vt": "oid",
+    "_vs": "schema_key",
+    "_sid": "schema_key"
+  },
+
+  {
+    "_v": "usd_exchange_rate",
+    "_vt": "number",
+    "_sid": "schema_key"
+  },
+
+  {
+    "_v": "latitude",
+    "_vt": "number",
+    "_sid": "schema_key"
+  },
+
+  {
+    "_v": "longitude",
+    "_vt": "number",
+    "_sid": "schema_key"
+  },
+
+  {
+    "_v": "default",
+    "_vt": "boolean",
+    "_sid": "schema_key"
+  },
+
+  {
+    "_v": "symbol",
+    "_vt": "string",
+    "_sid": "schema_key"
+  },
+
+  {
+    "_v": "symbol_native",
+    "_vt": "string",
+    "_sid": "schema_key"
+  },
+
+  {
+    "_v": "currency_name",
+    "_vt": "string",
+    "_sid": "schema_key"
+  },
+
+  {
+    "_v": "currency_code",
+    "_vt": "string",
+    "_sid": "schema_key"
+  },
+
+  {
+    "_v": "currency_name_plural",
+    "_vt": "string",
+    "_sid": "schema_key"
+  },
+
+  {
+    "_v": "borders",
+    "_vt": "string",
+    "_sid": "schema_key"
+  },
+  {
+    "_v": "population",
+    "_vt": "number",
+    "_sid": "schema_key"
+  },
+  {
+    "_v": "calling_code",
+    "_vt": "string",
+    "_sid": "schema_key"
+  },
+  {
+    "_v": "currency",
+    "_vt": "oid",
+    "_vs": "currencies",
+    "_sid": "schema_key"
+  },
+  {
+    "_v": "cca3",
+    "_vt": "string",
+    "_sid": "schema_key"
+  },
+  {
+    "_v": "cca2",
+    "_vt": "string",
+    "_sid": "schema_key"
+  },
+  {
+    "_v": "ccn3",
+    "_vt": "string",
+    "_sid": "schema_key"
+  },
+  {
+    "_v": "tld",
+    "_vt": "string",
+    "_sid": "schema_key"
+  },
+  {
+    "_v": "native_name",
+    "_vt": "string",
+    "_sid": "schema_key"
+  },
+  {
+    "_v": "capital",
+    "_vt": "string",
+    "_sid": "schema_key"
+  },
+  {
+    "_v": "alt_spellings",
+    "_vt": "string",
+    "_sid": "schema_key"
+  },
+  {
+    "_v": "region",
+    "_vt": "string",
+    "_sid": "schema_key"
+  },
+  {
+    "_v": "sub_region",
+    "_vt": "string",
+    "_sid": "schema_key"
+  },
+  {
+    "_v": "language",
+    "_vt": "string",
+    "_sid": "schema_key"
+  },
+
+  {
+    "_v": "country",
+    "_vt": "oid",
+    "_vs": "countries",
+    "_sid": "schema_key"
+  },
+
+  {
+    "_v": "titles",
+    "_vt": "oid",
+    "_vs": "titles",
+    "_sid": "schema_key"
+  },
+  {
+    "_v": "first_name",
+    "_vt": "string",
+    "_sid": "schema_key"
+  },
+  {
+    "_v": "middle_name",
+    "_vt": "string",
+    "_sid": "schema_key"
+  },
+  {
+    "_v": "last_name",
+    "_vt": "string"
+  },
+  {
+    "_v": "email",
+    "_vt": "email",
+    "_sid": "schema_key"
+  },
+  {
+    "_v": "mobile",
+    "_vt": "phone",
+    "_sid": "schema_key"
+  },
+      
+  {
+    "_v": "date_of_entry",
+    "_vt": "date",
+    "_sid": "schema_key"
+  },
+  {
+    "_v": "service",
+    "_vt": "oid",
+    "_vs": "services",
+    "_sid": "schema_key"
+  },
+  {
+    "_v": "currency",
+    "_vt": "oid",
+    "_vs": "currencies",
+    "_sid": "schema_key"
+  },
+  {
+    "_v": "cost",
+    "_vt": "currency",
+    "_sid": "schema_key"
+  },
+
+  {
+    "_v": "date_of_birth",
+    "_vt": "date",
+    "_sid": "schema_key"
+  },
+  {
+    "_v": "city",
+    "_vt": "oid",
+    "_vs": "cities",
+    "_sid": "schema_key"
+  },
+
+  {
+    "_v": "human",
+    "_vt": "oid",
+    "_vs": "humans",
+    "_sid": "schema_key"
+  }
+]

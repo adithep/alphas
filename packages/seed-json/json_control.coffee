@@ -117,8 +117,7 @@ array_loop = (array, key, key_id, oid, schema) ->
     else
       value = value_type(array[ine], key)
       if value
-        sdid = DATA.insert(_kid: key_id, _did: oid, _sid: schema, _v: value)
-        DATA.insert(_dte: new Date(), _v: "server", _sid: get_sid._mod, _did: sdid)
+        DATA.insert(_kid: key_id, _did: oid, _sid: schema, _v: value, _usr: "server", _dte: new Date())
       else
         console.warn "invalid value #{array[ine]}"
     ine++
@@ -131,7 +130,7 @@ json_control.insert_json = (json, schema) ->
     while i < json_obj.length
       obj_keys = Object.keys(json_obj[i])
       i_obj = 0
-      oid = DATA.insert(_sid: schema)
+      oid = DATA.insert(_sid: schema, _root: true)
       while i_obj < obj_keys.length
         key_id = get_kid[obj_keys[i_obj]]
         if key_id
@@ -145,8 +144,7 @@ json_control.insert_json = (json, schema) ->
                 else
                   value = value_type(json_obj[i][obj_keys[i_obj]], key_obj)
                   if value
-                    sdid = DATA.insert(_kid: key_id, _did: oid, _sid: schema, _v: value)
-                    DATA.insert(_dte: new Date(), _v: "server", _sid: get_sid._mod, _did: sdid)
+                    DATA.insert(_kid: key_id, _did: oid, _sid: schema, _v: value, _usr: "server", _dte: new Date())
                   else
                     console.warn "invalid value #{obj_keys[i_obj]}"
               else

@@ -135,7 +135,7 @@ json_control.insert_json = (json, schema) ->
           key_obj = DATA.findOne(_id: key_id)
           if s_key and key_obj
             if s_key._mtl or DATA.find(_kid: key_id, _did: oid, _sid: schema).count() is 0
-              if key_obj and json_obj[i][obj_keys[i_obj]]
+              if json_obj[i][obj_keys[i_obj]]
                 if Array.isArray(json_obj[i][obj_keys[i_obj]])
                   array_loop(json_obj[i][obj_keys[i_obj]], key_obj, key_id, oid, schema)
                 else
@@ -145,7 +145,7 @@ json_control.insert_json = (json, schema) ->
                   else
                     console.warn "invalid value #{obj_keys[i_obj]}"
               else
-                console.warn "could not find key #{obj_keys[i_obj]}"
+                console.warn "invalid or blank value #{obj_keys[i_obj]}"
             else
               console.warn "multiple value of #{obj_keys[i_obj]} not allowed"    
           else

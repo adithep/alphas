@@ -95,12 +95,9 @@ value_type = (value, key) ->
         if Number(value) isnt NaN
           return Number(value)
       when "phone"
-        if value.substring(0, 1) is "+"
-          country_code = value.substring(1, 2)
-          doc_id = DATA.findOne(_v: country_code, _kid: get_kid.calling_code)
-          cca2 = DATA.findOne(_did: doc_id._did, _kid: get_kid.cca2)
-          if phone_format.isValidNumber(value, cca2.value)
-            return value
+        phone = phone_format.format_number(value)
+        if phone
+          return phone
       when "email"
         if email_format.reg.test(value)
           return value

@@ -1,0 +1,27 @@
+template(name="authentication")
+  div(class="row", id="logindiv")
+    div(class="large-12 columns")
+      h1 Login
+      if currentUser.username
+        h1 logged in
+      else if loggingIn
+        p Logging in...
+      else if creatingAccount
+        +new_account_form
+      else
+        +login_form
+
+template(name="new_account_form")
+  input(type="text", id="email", placeholder="email")
+  input(type="text", id="name", placeholder="name")
+  input(type="text", id="username", placeholder="username")
+  input(type="password", id="password", placeholder="password")
+  button(id="createaccount") Create
+  p(id="loginform") (Login)
+
+template(name="login_form")
+  input(type="text", id="username", placeholder="username")
+  input(type="password", id="password", placeholder="password")
+  button(id="login") Login
+  br
+  button(id="accountform") Create Account

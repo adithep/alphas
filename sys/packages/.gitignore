@@ -11,3 +11,7 @@
 /core-lib
 /utilities
 /mongo-aggregation
+/layout
+/authentication
+/template-control
+/foundation

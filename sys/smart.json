@@ -15,6 +15,18 @@
     "mongo-aggregation": {
       "path": "../packages/mongo-aggregation"
     },
+    "layout": {
+      "path": "../packages/layout"
+    },
+    "authentication": {
+      "path": "../packages/authentication"
+    },
+    "template-control": {
+      "path": "../packages/template-control"
+    },
+    "foundation": {
+      "path": "../packages/foundation"
+    },
     "jade": {},
     "iron-router": {},
     "collection-hooks": {}

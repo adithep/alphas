@@ -3,7 +3,7 @@ Package.describe({
 });
 
 Package.on_use(function (api, where) {
-  api.use(['coffeescript', 'standard-app-packages'])
+  api.use(['coffeescript', 'standard-app-packages', 'ui'])
   api.add_files(['foundation.min.css', 'normalize.css', 'foundation.coffee'], 'client');
 });
 

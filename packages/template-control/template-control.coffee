@@ -1,7 +1,4 @@
-Router.configure
-  layoutTemplate: 'layout'
-  notFoundTemplate: 'sorry_man'
-  loadingTemplate: 'loading'
+
 
 
 Router.map ->

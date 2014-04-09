@@ -4,7 +4,7 @@ Package.describe({
 
 Package.on_use(function (api, where) {
   api.use(['coffeescript', 'iron-router', 'core-lib', 'utilities', 'jade', 'stylus', 'standard-app-packages']);
-  api.add_files(['authentication.coffee', 'authentication.jade', 'authentication.stylus'], 'client');
+  api.add_files(['authentication.jade', 'authentication.coffee', 'authentication.stylus'], 'client');
 });
 
 Package.on_test(function (api) {

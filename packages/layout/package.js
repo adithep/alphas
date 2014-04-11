@@ -3,7 +3,7 @@ Package.describe({
 });
 
 Package.on_use(function (api, where) {
-  api.use(['coffeescript', 'iron-router', 'core-lib', 'utilities', 'jade', 'stylus', 'standard-app-packages']);
+  api.use(['coffeescript', 'core-lib', 'utilities', 'jade', 'stylus', 'standard-app-packages']);
   api.add_files(['layout.jade', 'layout.coffee', 'layout.sty'], 'client');
 });
 

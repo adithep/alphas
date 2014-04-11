@@ -27,8 +27,13 @@
     "foundation": {
       "path": "../packages/foundation"
     },
+    "alpha-router": {
+      "path": "../packages/alpha-router"
+    },
+    "alpha-form": {
+      "path": "../packages/alpha-form"
+    },
     "jade": {},
-    "iron-router": {},
     "collection-hooks": {}
   }
 }

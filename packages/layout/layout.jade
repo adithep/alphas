@@ -2,6 +2,12 @@ head
   meta(name="viewport", content="width=device-width, initial-scale=1.0")
   title αSΨS
 
+body
+  if currentUser
+    +layout
+  else
+    +authentication
+
 template(name="layout")
   div(id="parent")
     nav(class="top-bar", data-topbar="")
@@ -16,11 +22,11 @@ template(name="layout")
         ul(class="left")
           li(class="divider")
           li
-            a(data-path="an", href="{{pathFor 'module_test'}}") moduleTest
+            a(data-path="an", href="/module_test") moduleTest
           li
-            a(data-path="an", href="{{pathFor 'add_contact'}}") Add Contact
+            a(data-path="an", href="/add_contact") Add Contact
           li
-            a(data-path="an", href="{{pathFor 'display_human'}}") Display Contact
+            a(data-path="an", href="/display_humans") Display Contact
         ul(class="right")
           li(class="divider")
           li(class="has-dropdown")
@@ -30,7 +36,7 @@ template(name="layout")
                 a(id="logout") logout
     div(class="row", id="yieldchild")
       div(class="large-12 columns")
-        +yield
+        +alpha_yield
 
 template(name="module_test")
   h1 αSΨS

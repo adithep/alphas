@@ -1,5 +1,3 @@
-Router.configure
-  layoutTemplate: 'layout'
-
-Router.map ->
-  this.route 'module_test', {path: 'module_test'}
+UI.body.events
+  'click #logout': (e, t) ->
+    Meteor.logout()

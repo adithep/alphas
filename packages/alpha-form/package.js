@@ -1,8 +1,9 @@
 Package.describe({
-  summary: "REPLACEME - What does this package (or the original one you're wrapping) do?"
+  summary: "Provides form functionality"
 });
 
 Package.on_use(function (api, where) {
+  api.use(['coffeescript', 'jade', 'stylus', 'standard-app-packages', 'core-lib'])
   api.add_files(['alpha-form.jade', 'alpha-form.coffee', 'alpha-form.sty'], 'client');
 });
 

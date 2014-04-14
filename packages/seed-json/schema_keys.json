@@ -259,6 +259,7 @@
     "_sid": "doc_schema",
     "_did": "humans",
     "_sort": 0,
+    "_req": true,
     "_v": "titles"
   },
 
@@ -267,6 +268,7 @@
     "_sid": "doc_schema",
     "_did": "humans",
     "_sort": 1,
+    "_req": true,
     "_v": "first_name"
   },
 
@@ -319,6 +321,14 @@
     "_sid": "doc_schema",
     "_did": "humans",
     "_sort": 7,
+    "_v": "service_entity"
+  },
+
+  {
+    "_kid": "key",
+    "_sid": "doc_schema",
+    "_did": "humans",
+    "_sort": 8,
     "_v": "city"
   },
 
@@ -328,14 +338,6 @@
     "_did": "service_entity",
     "_sort": 0,
     "_v": "date_of_entry"
-  },
-
-  {
-    "_kid": "key",
-    "_sid": "doc_schema",
-    "_did": "service_entity",
-    "_sort": 1,
-    "_v": "human"
   },
 
   {

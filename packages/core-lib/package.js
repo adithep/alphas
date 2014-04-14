@@ -4,7 +4,7 @@ Package.describe({
 
 Package.on_use(function (api, where) {
   api.add_files(['namespace.js'], ['client', 'server']);
-  api.export(['get_sid', 'get_kid', 'get_tid', 'fill_sid', 'json_control', 'DATA', 'phone_format', 'email_format'])
+  api.export(['get_sid', 'get_kid', 'get_tid', 'fill_sid', 'json_control', 'DATA', 'phone_format', 'email_format', 'subscription'])
 });
 
 Package.on_test(function (api) {

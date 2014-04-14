@@ -6,3 +6,8 @@ fill_sid.init = ->
     get_kid[doc._v] = doc._id
   DATA.find(_sid: "doc_tag").forEach (doc) ->
     get_tid[doc._v] = doc._id
+    
+fill_sid.destroy = ->
+  get_sid = {}
+  get_kid = {}
+  get_tid = {}

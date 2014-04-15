@@ -5,7 +5,6 @@
 node_modules
 node_modules/*
 .Ulysses-Group.plist
-.meteor/*
-.meteor
+.meteor/local
 smart.lock
 αSΨS/packages

@@ -4,7 +4,7 @@ Package.describe({
 
 Package.on_use(function (api, where) {
   api.use(['coffeescript', 'core-lib', 'utilities', 'jade', 'stylus', 'standard-app-packages', 'famono']);
-  api.add_files(['layout.jade', 'layout.coffee', 'layout.sty'], 'client');
+  api.add_files(['layout.html', 'layout.coffee', 'layout.sty'], 'client');
 });
 
 Package.on_test(function (api) {

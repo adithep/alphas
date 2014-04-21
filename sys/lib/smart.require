@@ -4,11 +4,5 @@
   },
   "famous-polyfills": {
     "git": "https://github.com/Famous/polyfills.git"
-  },
-  "famous-widgets": {
-    "git": "https://github.com/Famous/widgets.git"
-  },
-  "famous-surfaces": {
-    "git": "https://github.com/Famous/surfaces.git"
   }
 }

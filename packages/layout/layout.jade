@@ -4,12 +4,15 @@ head
   meta(http-equiv="X-UA-Compatible", content="IE=edge")
   title αSΨS
 body
-  +site
-  
+  +layout
 
-template(name="input")
-  input(name="this", type="text", placeholder="click me baby, one more time")
+template(name="layout")
+  nav(class="nav_large")
+    h1
+      a αSΨS
 
+    a Insert
 
-template(name="site")
-  div(id="site")
+    a Display
+
+    a(class="right") User : #{currentUser.username}

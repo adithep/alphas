@@ -1,0 +1,77 @@
+@require 'require.styl'
+
+@font-face
+  font-family 'liga'
+  src url('/websymbolsligaregular.eot')
+  src url('/websymbolsligaregular.eot?#iefix') format('embeded-opentype')
+    , url('/websymbolsligaregular.woff') format('woff')
+    , url('/websymbolsligaregular.ttf') format('truetype')
+    , url('/websymbolsligaregular.sbf#web_symbols_ligaregular') format('svg')
+
+
+
+body
+  margin 35px
+  padding 0
+  -webkit-font-smoothing antialiased
+  font-family "Helvetica", arial
+  font-weight normal
+  font-size 16px
+  color #666
+
+.nav_large
+  margin 0 auto
+  overflow hidden
+  background $red
+  border-radius(5px)
+  box-shadow(2px 2px 3px rgba(0,0,0,.3))
+
+.nav_large h1
+  float left
+  margin 35px
+  font-size 41px
+  font-weight 200
+  color $text-white
+  display inline-block
+  @media screen and (max-width: 768px)
+    display block
+    width 100%
+
+
+
+.nav_large> a
+  display inline-block
+  box-sizing()
+  padding 50px 15px 50px 15px
+  float left
+  background $brown
+  color $text-white
+  font-size 14px
+  text-decoration none
+  transition(background .3s)
+  &.right
+    float right
+  @media screen and (max-width: 768px)
+    display block
+    width 100%
+    text-align center
+    padding 15px
+
+/*
+.nav_large> a
+  display inline-block
+  height 35px
+  line-height 35px
+  margin 0 0 35px 20px
+  background $brown
+  color $text-white
+  padding-left 15px
+  padding-right 15px
+  font-size 14px
+  text-decoration none
+  border-radius(50px)
+  transition(background .3s)
+*/
+
+.nav_large> a:hover
+  background $black

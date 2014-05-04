@@ -34,7 +34,6 @@
       "path": "../packages/alpha-form"
     },
     "jade": {},
-    "collection-hooks": {},
-    "famono": {}
+    "collection-hooks": {}
   }
 }

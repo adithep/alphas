@@ -33,12 +33,51 @@ body
   font-weight 200
   color $text-white
   display inline-block
-  @media screen and (max-width: 768px)
+  @media screen and (max-width: 600px)
     display block
+    text-align center
+    float center
+
+
+.nav_large ul
+  display inline-block
+  margin 0
+  padding 0
+  float left
+  background $brown
+  color $text-white
+  list-style-type: none
+  &.right
+    float right
+  @media screen and (max-width: 600px)
+    display none
     width 100%
+    text-align center
+    padding 15px
 
+.nav_large li
+  box-sizing()
+  float left
+  padding 50px 15px 50px 15px
+  border-left 1px solid #959595
+  transition(background .3s)
+  &:first-child
+    border-left none
 
+.nav_large li a
+  display block
+  float center
+  margin 0
+  padding 0
+  text-align center
+  line-height 100%
+  font-size 20px
+  font-weight 200
 
+.nav_large li:hover
+  background $black
+
+/*
 .nav_large> a
   display inline-block
   box-sizing()
@@ -52,12 +91,12 @@ body
   &.right
     float right
   @media screen and (max-width: 768px)
-    display block
+    display none
     width 100%
     text-align center
     padding 15px
 
-/*
+
 .nav_large> a
   display inline-block
   height 35px
@@ -72,6 +111,3 @@ body
   border-radius(50px)
   transition(background .3s)
 */
-
-.nav_large> a:hover
-  background $black

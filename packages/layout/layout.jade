@@ -8,11 +8,12 @@ body
 
 template(name="layout")
   nav(class="nav_large")
-    h1
-      a αSΨS
-
-    a Insert
-
-    a Display
-
-    a(class="right") User : #{currentUser.username}
+    h1 αSΨS
+    ul
+      li
+        a Insert
+      li
+        a Display
+    ul(class="right")
+      li
+        a User: #{currentUser.username}

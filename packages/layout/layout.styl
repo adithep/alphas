@@ -2,11 +2,11 @@
 
 @font-face
   font-family 'liga'
-  src url('/websymbolsligaregular.eot')
-  src url('/websymbolsligaregular.eot?#iefix') format('embeded-opentype')
-    , url('/websymbolsligaregular.woff') format('woff')
-    , url('/websymbolsligaregular.ttf') format('truetype')
-    , url('/websymbolsligaregular.sbf#web_symbols_ligaregular') format('svg')
+  src url('liga/websymbolsligaregular.eot')
+  src url('liga/websymbolsligaregular.eot?#iefix') format('embeded-opentype')
+    , url('liga/websymbolsligaregular.woff') format('woff')
+    , url('liga/websymbolsligaregular.ttf') format('truetype')
+    , url('liga/websymbolsligaregular.svg#web_symbols_ligaregular') format('svg')
 
 
 
@@ -28,8 +28,8 @@ body
 
 .nav_large h1
   float left
-  margin 35px
-  font-size 41px
+  margin 25px
+  font-size 31px
   font-weight 200
   color $text-white
   display inline-block
@@ -58,24 +58,68 @@ body
 .nav_large li
   box-sizing()
   float left
-  padding 50px 15px 50px 15px
-  border-left 1px solid #959595
+  display flex
+  justify-content center
+  align-items center
+  height 90px
+  padding-left 10px
+  padding-right 10px
   transition(background .3s)
   &:first-child
     border-left none
 
 .nav_large li a
-  display block
-  float center
-  margin 0
-  padding 0
-  text-align center
-  line-height 100%
   font-size 20px
   font-weight 200
 
 .nav_large li:hover
   background $black
+
+
+.nav_list ul
+  list-style-type none
+  float left
+  max-width 320px
+  width 100%
+  margin 0
+  padding 0
+  background $brown
+  color $text-white
+  box-shadow(1px 1px 2px rgb(0,0,0,.55))
+
+.nav_list li
+  overflow hidden
+  height 103px
+  border-bottom 1px solid #372929
+
+.nav_list div
+  float left
+  height 100%
+  background $yellow
+
+.nav_list span
+  float right
+  width 20px
+  margin-right -20px
+  font-family "liga"
+  color $yellow
+  text-indent -8px
+.nav_list div a
+  display block
+  width 70px
+  height 35px
+  line-height 34px
+  text-align center
+  font-size 25px
+  font-family "liga"
+  text-decoration none
+  color $text-black
+  transition(all .3s)
+.nav_list div a:hover
+  background $brown
+  color $text-white
+
+
 
 /*
 .nav_large> a

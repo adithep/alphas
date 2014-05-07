@@ -70,6 +70,8 @@ body
 
 .nav_large li a
   font-size 20px
+  color $text-white
+  text-decoration none
   font-weight 200
 
 .nav_large li:hover
@@ -92,11 +94,34 @@ body
   height 103px
   border-bottom 1px solid #372929
 
+.nav_large .right li:last-child
+  height 100%
+  justify-content center
+  height 90px
+  align-items center
+  background $yellow
+  display none
+.nav_large .right li:last-child.show
+  display flex
 .nav_list div
   float left
   height 100%
   background $yellow
-
+  margin-left -110%
+  transition(margin-left .3s)
+.nav_list div.show
+  margin-left 0
+.nav_large .right li:last-child a
+  display block
+  text-align center
+  font-size 25px
+  font-family "liga"
+  text-decoration none
+  color $text-black
+  transition(all .3s)
+.nav_large div a:hover
+  background $brown
+  color $text-white
 .nav_list span
   float right
   width 20px
@@ -115,10 +140,18 @@ body
   text-decoration none
   color $text-black
   transition(all .3s)
+
 .nav_list div a:hover
   background $brown
   color $text-white
 
+.nav_list p
+  overflow hidden
+  height 67px
+  line-height 22px
+  font-size 14px
+  margin 0
+  padding 20px 20px 0 20px
 
 
 /*

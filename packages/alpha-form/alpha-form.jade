@@ -1,19 +1,19 @@
 template(name="alpha_form")
 
-  a(class="button right tiny save_human_json") Save Json
-
-  ul(class="button-group radius")
-    each schema_buttons
-      +_schema_buttons
+  a(class="save_human_json") Save Json
+  nav(class="form_nav")
+    ul
+      each schema_buttons
+        +_schema_buttons
 
   form(class="contact_form")
-    div(class="row")
+    div
       each input_element
         +_each_input
-    a(class="button form_submit") Submit
+    a(class="form_submit") Submit
 
 template(name="_schema_buttons")
   li
-    a(class="button small click-input") #{this._dis}
+    a(class="click-input") #{this._dis}
 
 template(name="_string_input")

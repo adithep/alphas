@@ -8,6 +8,8 @@ Package.on_use(function (api, where, asset) {
     , 'core-lib'
     , 'utilities'
     , 'jade'
+    , 'authentication'
+    , 'jquery'
     , 'stylus'
     , 'standard-app-packages']);
   api.add_files([

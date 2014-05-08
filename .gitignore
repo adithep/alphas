@@ -7,4 +7,4 @@ node_modules/*
 .Ulysses-Group.plist
 .meteor/local
 smart.lock
-αSΨS/packages
+sys/packages

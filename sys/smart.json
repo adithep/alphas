@@ -33,7 +33,11 @@
     "alpha-form": {
       "path": "../packages/alpha-form"
     },
+    "alpha-stylus": {
+      "path": "../packages/alpha-stylus"
+    },
     "jade": {},
-    "collection-hooks": {}
+    "collection-hooks": {},
+    "npm": {}
   }
 }

@@ -10,14 +10,13 @@ Package.on_use(function (api, where, asset) {
     , 'jade'
     , 'authentication'
     , 'jquery'
-    , 'stylus'
+    , 'alpha-stylus'
     , 'standard-app-packages']);
   api.add_files([
     'liga/websymbolsligaregular.eot'
     , 'liga/websymbolsligaregular.svg'
     , 'liga/websymbolsligaregular.ttf'
-    , 'liga/websymbolsligaregular.woff'
-    , 'require.styl'], 'client', {isAsset: true});
+    , 'liga/websymbolsligaregular.woff'], 'client', {isAsset: true});
   api.add_files([
     'layout.jade'
     , 'layout.coffee'

@@ -3,7 +3,7 @@ Package.describe({
 });
 
 Package.on_use(function (api, where) {
-  api.use(['coffeescript', 'jade', 'stylus', 'standard-app-packages', 'core-lib', 'underscore', 'layout'])
+  api.use(['coffeescript', 'jade', 'alpha-stylus', 'standard-app-packages', 'core-lib', 'underscore', 'layout'])
   api.add_files(['alpha-form.jade', 'alpha-form.coffee', 'alpha-form.styl'], 'client');
 });
 

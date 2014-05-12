@@ -2,11 +2,6 @@ HUMAN_FORM = new Meteor.Collection(null, idGeneration: "MONGO")
 CITIES = new Meteor.Collection(null, {idGeneration:"MONGO"})
 HUMAN_B = new Meteor.Collection(null, {idGeneration:"MONGO"})
 
-MyComponent = UI.Component.extend
-  render: ->
-    console.log this
-    return HTML.INPUT({type: 'text', placeholder: 'hello'})
-
 
 Deps.autorun ->
   if Session.equals("subscription", true)
@@ -29,7 +24,16 @@ Template.alpha_form.helpers
   input_element: ->
     HUMAN_FORM.find()
   _each_input: ->
+    self = this
     if this._vt is "string"
-      return Template._string_input
+      console.log self
+      return UI.With (->
+        console.log self
+        return self
+      ), Template._string_input
     else
       null
+Template.alpha_form.events
+  'click .click_input': (e, t) ->
+    console.log this
+    HUMAN_FORM.insert(this)

@@ -3,21 +3,29 @@
 @import 'alpmixins'
 
 .form_nav
-  float center
-  padding 40px
+  padding 0
+  box-shadow(1px 1px 2px rgba(0,0,0,.55))
+  margin 0
   display inline-block
-  border-radius 5px
-  -webkit-border-radius 5px
-  margin 0 auto
+  background $brown
+  border-radius(5px)
 
 .form_nav ul
   padding 0
   margin 0
-  list-style-type: none
+  list-style-type none
 
 .form_nav li
+  border-left 1px solid $black
   display inline-block
+  padding 25px 5px
+  &:first-child
+    border-left none
+  @media screen and (max-width: 600px)
+    display block
+    border-left none
+    border-bottom 1px solid $black
+    &:last-child
+      border-bottom none
 .form_nav a
-  background $brown
-  padding 10px
   color $text-white

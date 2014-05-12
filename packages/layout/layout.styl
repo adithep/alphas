@@ -46,6 +46,7 @@
   padding-left 10px
   padding-right 10px
   transition(background .3s)
+  border-left 1px solid $black
   &:first-child
     border-left none
 
@@ -57,18 +58,6 @@
 
 .nav_large li:hover
   background $black
-
-
-.nav_list ul
-  list-style-type none
-  float left
-  max-width 320px
-  width 100%
-  margin 0
-  padding 0
-  background $brown
-  color $text-white
-  box-shadow(1px 1px 2px rgb(0,0,0,.55))
 
 .nav_list li
   overflow hidden
@@ -82,16 +71,30 @@
   align-items center
   background $yellow
   display none
+
 .nav_large .right li:last-child.show
   display flex
+
 .nav_list div
   float left
   height 100%
   background $yellow
   margin-left -110%
   transition(margin-left .3s)
+
 .nav_list div.show
   margin-left 0
+
+.nav_list ul
+  list-style-type none
+  float left
+  max-width 320px
+  width 100%
+  margin 0
+  padding 0
+  background $brown
+  color $text-white
+  box-shadow(1px 1px 2px rgb(0,0,0,.55))
 .nav_large .right li:last-child a
   display block
   text-align center
@@ -100,9 +103,11 @@
   text-decoration none
   color $text-black
   transition(all .3s)
+
 .nav_large div a:hover
   background $brown
   color $text-white
+
 .nav_list span
   float right
   width 20px
@@ -110,6 +115,7 @@
   font-family "liga"
   color $yellow
   text-indent -8px
+
 .nav_list div a
   display block
   width 70px

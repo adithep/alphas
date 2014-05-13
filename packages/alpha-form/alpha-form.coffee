@@ -2,6 +2,7 @@ HUMAN_FORM = new Meteor.Collection(null, idGeneration: "MONGO")
 CITIES = new Meteor.Collection(null, {idGeneration:"MONGO"})
 HUMAN_B = new Meteor.Collection(null, {idGeneration:"MONGO"})
 
+_each_dis = undefined
 
 Deps.autorun ->
   if Session.equals("subscription", true)
@@ -16,6 +17,8 @@ Deps.autorun ->
       key = DATA.findOne(_id: doc._v)
       doc._skid = doc._id
       merge = _.extend(doc, key)
+      merge._key = merge._id
+      delete merge._id
       HUMAN_FORM.insert(merge)
 
 Template.alpha_form.helpers
@@ -24,16 +27,21 @@ Template.alpha_form.helpers
   input_element: ->
     HUMAN_FORM.find()
   _each_input: ->
-    self = this
+    _each_dis = this
     if this._vt is "string"
-      console.log self
       return UI.With (->
-        console.log self
-        return self
+        return _each_dis
       ), Template._string_input
     else
       null
 Template.alpha_form.events
   'click .click_input': (e, t) ->
     console.log this
-    HUMAN_FORM.insert(this)
+    self = this
+    self._key = self._id
+    delete self._id
+    console.log HUMAN_FORM.find(_key: self._id).fetch()
+    if self._mtl
+      HUMAN_FORM.insert(self)
+    else if HUMAN_FORM.find(_key: self._id).count() is 0
+      HUMAN_FORM.insert(self)

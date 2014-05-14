@@ -1,15 +1,15 @@
 template(name="alpha_form")
 
-  a(class="save_human_json") Save Json
+  a(class="save_human_json right") Save Json
   nav(class="form_nav")
     ul
       each schema_buttons
         +_schema_buttons
 
   form(class="contact_form")
-    div
-      each input_element
-        +_each_input
+    each input_element
+      +_each_input
+    br
     a(class="form_submit") Submit
 
 template(name="_schema_buttons")

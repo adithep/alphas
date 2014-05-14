@@ -34,14 +34,17 @@ Template.alpha_form.helpers
       ), Template._string_input
     else
       null
-Template.alpha_form.events
+
+Template._schema_buttons.events
   'click .click_input': (e, t) ->
-    console.log this
-    self = this
+    self = EJSON.clone(t.data)
     self._key = self._id
     delete self._id
-    console.log HUMAN_FORM.find(_key: self._id).fetch()
     if self._mtl
       HUMAN_FORM.insert(self)
-    else if HUMAN_FORM.find(_key: self._id).count() is 0
+    else if HUMAN_FORM.find(_key: self._key).count() is 0
       HUMAN_FORM.insert(self)
+    else
+      HUMAN_FORM.remove(_key: self._key)
+
+    return

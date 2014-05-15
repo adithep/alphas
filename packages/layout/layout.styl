@@ -11,13 +11,17 @@
   center(max_width = 1410px)
   overflow hidden
   background $red
-  height 90px
+  margin-bottom 15px
   border-radius(5px)
   box-shadow(2px 2px 3px rgba(0,0,0,.3))
 
+.nav_large>a
+  text-decoration none
+
 .nav_large h1
   float left
-  margin 25px
+  margin-left 25px
+  margin-right 25px
   font-size 31px
   font-weight 200
   color $text-white
@@ -48,13 +52,12 @@
   box-sizing()
   float left
   display block
-  height 100%
   text-align center
   transition(background .3s)
-  white-space nowrap
-  text-overflow ellipsis
-  max-width 100px
   border-left 1px solid $black
+  &:last-child
+    border-right 1px solid $black
+
 
 .nav_large li a
   font-size 20px
@@ -72,6 +75,7 @@
   max-height 70px
   background $yellow
   display none
+  border-right none
 
 .nav_large .right li:last-child.show
   display inline-block

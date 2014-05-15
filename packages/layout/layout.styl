@@ -45,30 +45,26 @@
 .nav_large li
   box-sizing()
   float left
-  display flex
-  justify-content center
-  align-items center
+  display inline-block
+  text-align center
   height 90px
   padding-left 10px
   padding-right 10px
   transition(background .3s)
   border-left 1px solid $black
-  &:first-child
-    border-left none
 
 .nav_large li a
   font-size 20px
   color $text-white
   text-decoration none
+  position relative
+  margin-top 50%
+  display inline-block
   font-weight 200
 
 .nav_large li:hover
   background $black
 
-.nav_list li
-  overflow hidden
-  height 103px
-  border-bottom 1px solid #372929
 
 .nav_large .right li:last-child
   height 100%
@@ -79,105 +75,18 @@
   display none
 
 .nav_large .right li:last-child.show
-  display flex
+  display inline-block
 
-.nav_list div
-  float left
-  height 100%
-  background $yellow
-  margin-left -110%
-  transition(margin-left .3s)
-
-.nav_list div.show
-  margin-left 0
-
-.nav_list ul
-  list-style-type none
-  float left
-  max-width 320px
-  width 100%
-  margin 0
-  padding 0
-  background $brown
-  color $text-white
-  box-shadow(1px 1px 2px rgb(0,0,0,.55))
 .nav_large .right li:last-child a
-  display block
-  text-align center
+  display inline-block
   font-size 25px
   font-family "liga"
   text-decoration none
+  position relative
+  margin-top 50%
   color $text-black
   transition(all .3s)
 
 .nav_large div a:hover
   background $brown
   color $text-white
-
-.nav_list span
-  float right
-  width 20px
-  margin-right -20px
-  font-family "liga"
-  color $yellow
-  text-indent -8px
-
-.nav_list div a
-  display block
-  width 70px
-  height 35px
-  line-height 34px
-  text-align center
-  font-size 25px
-  font-family "liga"
-  text-decoration none
-  color $text-black
-  transition(all .3s)
-
-.nav_list div a:hover
-  background $brown
-  color $text-white
-
-.nav_list p
-  overflow hidden
-  height 67px
-  line-height 22px
-  font-size 14px
-  margin 0
-  padding 20px 20px 0 20px
-
-
-/*
-.nav_large> a
-  display inline-block
-  box-sizing()
-  padding 50px 15px 50px 15px
-  float left
-  background $brown
-  color $text-white
-  font-size 14px
-  text-decoration none
-  transition(background .3s)
-  &.right
-    float right
-  @media screen and (max-width: 768px)
-    display none
-    width 100%
-    text-align center
-    padding 15px
-
-
-.nav_large> a
-  display inline-block
-  height 35px
-  line-height 35px
-  margin 0 0 35px 20px
-  background $brown
-  color $text-white
-  padding-left 15px
-  padding-right 15px
-  font-size 14px
-  text-decoration none
-  border-radius(50px)
-  transition(background .3s)
-*/

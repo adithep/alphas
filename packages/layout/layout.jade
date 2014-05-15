@@ -12,7 +12,8 @@ body
 
 template(name="layout")
   nav(class="nav_large")
-    h1 αSΨS
+    div
+      h1 αSΨS
     ul
       li
         a(href="/alpha_form") Insert
@@ -20,9 +21,7 @@ template(name="layout")
         a Display
     ul(class="right user")
       li
-        a User:
-          br
-          span #{currentUser.username}
+        a #{currentUser.username}
       li
         a(href="#", class="logout") `
   div(id="content")

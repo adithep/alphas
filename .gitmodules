@@ -1,6 +1,3 @@
-[submodule "alpha-stylus"]
-  path = packages/alpha-stylus
-  url = git://github.com/adithep/alpha-stylus.git
 [submodule "alpmixins"]
   path = packages/alpmixins
   url = git://github.com/adithep/alpha-mixins.git

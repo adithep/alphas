@@ -17,4 +17,14 @@ template(name="_schema_buttons")
     a(class="click_input") #{this._dis}
 
 template(name="_string_input")
-  input(placeholder="#{this._dis}")
+  div(class="contact_div")
+    span Î
+    input(type="#{this.type}", placeholder="#{this._dis}", class="input_ui")
+template(name="_string_select")
+  div(class="contact_div")
+    span Î
+    select(class="input_ui")
+      each select_options
+        +_string_select_options
+template(name="_string_select_options")
+  option #{this._v}

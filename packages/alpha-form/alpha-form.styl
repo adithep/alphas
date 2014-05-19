@@ -1,6 +1,7 @@
 
 
 @import 'alpmixins'
+@import 'jeet'
 
 .form_nav
   padding 0
@@ -29,3 +30,51 @@
       border-bottom none
 .form_nav a
   color $text-white
+
+.contact_form input.input_ui
+  width 100%
+  padding 5px 20px
+  padding-right 35px
+  border-radius(20px)
+  box-sizing()
+
+.contact_form select.input_ui
+  width 100%
+  padding 7px 20px
+  padding-right 35px
+  border-radius(20px)
+  box-sizing()
+
+.contact_form
+  margin 20px 0
+  center(max_width = 1410px)
+
+.contact_form .input_ui
+  -webkit-font-smoothing antialiased
+  outline none
+  border none
+  background $brown
+  color $text-white
+  font-size .9em
+  line-height 25px
+  resize none
+.contact_form .contact_div
+  position relative
+  col(1/5)
+.contact_form span+input
+  padding-left 35px
+  margin 0
+.contact_form span
+  display block
+  position absolute
+  width 25px
+  right 5px
+  height 25px
+  margin 5px 0 0 5px
+  background $yellow
+  color $text-black
+  text-align center
+  font-family "liga"
+  font-size 20px
+  border-radius(50%)
+  line-height 27px

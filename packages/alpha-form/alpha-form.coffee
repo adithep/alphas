@@ -21,6 +21,10 @@ Deps.autorun ->
       delete merge._id
       HUMAN_FORM.insert(merge)
 
+Template._string_select.helpers
+  select_options: ->
+    DATA.find(_sid: this._vs, _kid: get_kid.doc_name)
+
 Template.alpha_form.helpers
   schema_buttons: ->
     HUMAN_B.find({}, {sort: _sort: 1})
@@ -29,9 +33,34 @@ Template.alpha_form.helpers
   _each_input: ->
     _each_dis = this
     if this._vt is "string"
+      _each_dis.type = "text"
       return UI.With (->
         return _each_dis
       ), Template._string_input
+    else if this._vt is "email"
+      _each_dis.type = "text"
+      return UI.With (->
+        return _each_dis
+      ), Template._string_input
+    else if this._vt is "date"
+      _each_dis.type = "date"
+      return UI.With (->
+        return _each_dis
+      ), Template._string_input
+    else if this._vt is "phone"
+      _each_dis.type = "text"
+      return UI.With (->
+        return _each_dis
+      ), Template._string_input
+    else if this._vt is "date"
+      _each_dis.type = "date"
+      return UI.With (->
+        return _each_dis
+      ), Template._string_input
+    else if this._vt is "oid"
+      return UI.With (->
+        return _each_dis
+      ), Template._string_select
     else
       null
 

@@ -140,7 +140,8 @@
   },
   {
     "_v": "capital",
-    "_vt": "string",
+    "_vt": "oid",
+    "_vs": "cities",
     "_sid": "schema_key",
     "_dis": "Capital"
   },

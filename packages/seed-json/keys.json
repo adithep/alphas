@@ -245,6 +245,7 @@
     "_v": "city",
     "_vt": "oid",
     "_vs": "cities",
+    "_big": true,
     "_sid": "schema_key",
     "_dis": "City"
   },

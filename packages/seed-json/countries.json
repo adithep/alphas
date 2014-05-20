@@ -4478,7 +4478,7 @@
     ],
     "native_name": "Guernsey",
     "doc_name": "Guernsey",
-    "capital": "St. Peter Port",
+    "capital": "Saint Peter Port",
     "alt_spellings": [
       "GG",
       "Bailiwick of Guernsey",
@@ -4869,7 +4869,7 @@
     ],
     "native_name": "Hong Kong",
     "doc_name": "Hong Kong",
-    "capital": "City of Victoria",
+    "capital": "Central",
     "alt_spellings": [
       "HK",
       "香港"
@@ -4966,7 +4966,7 @@
     ],
     "native_name": "Ísland",
     "doc_name": "Iceland",
-    "capital": "Reykjavik",
+    "capital": "Reykjavík",
     "alt_spellings": [
       "IS",
       "Island",
@@ -5116,7 +5116,7 @@
     ],
     "native_name": "Irān",
     "doc_name": "Iran",
-    "capital": "Tehran",
+    "capital": "Tehrān",
     "alt_spellings": [
       "IR",
       "Islamic Republic of Iran",
@@ -7354,7 +7354,7 @@
     ],
     "native_name": "Myanma",
     "doc_name": "Myanmar",
-    "capital": "Naypyidaw",
+    "capital": "Nay Pyi Taw",
     "alt_spellings": [
       "MM",
       "Burma",
@@ -8151,7 +8151,7 @@
     ],
     "native_name": "Palau",
     "doc_name": "Palau",
-    "capital": "Ngerulmud",
+    "capital": "Melekeok",
     "alt_spellings": [
       "PW",
       "Republic of Palau",
@@ -10972,7 +10972,7 @@
     ],
     "native_name": "Tonga",
     "doc_name": "Tonga",
-    "capital": "Nuku'alofa",
+    "capital": "Nuku‘alofa",
     "alt_spellings": [
       "TO"
     ],
@@ -11505,7 +11505,7 @@
     ],
     "native_name": "United States",
     "doc_name": "United States",
-    "capital": "Washington D.C.",
+    "capital": "Washington, D.C.",
     "alt_spellings": [
       "US",
       "USA",

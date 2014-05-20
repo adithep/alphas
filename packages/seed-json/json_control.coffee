@@ -25,7 +25,7 @@ json_control.insert_schema_keys = (j_k, json_s, json_k, json_t) ->
           keys[i_keys]._vs = get_sid[keys[i_keys]._vs]
       get_kid[keys[i_keys]._v] = DATA.insert(keys[i_keys])
       i_keys++
-    
+
     while i_skeys < schema_keys.length
       if schema_keys[i_skeys]._kid
         if get_kid[schema_keys[i_skeys]._kid]
@@ -88,6 +88,7 @@ value_type = (value, key) ->
           return doc._did
         else
           console.warn "cannot find id for #{value}"
+          return String(value)
       when "boolean"
         if typeof value is "bolean"
           return value
@@ -114,7 +115,13 @@ array_loop = (array, key, key_id, oid, schema) ->
     else
       value = value_type(array[ine], key)
       if value
-        DATA.insert(_kid: key_id, _did: oid, _sid: schema, _v: value, _usr: "server", _dte: new Date())
+        DATA.insert
+          _kid: key_id
+          , _did: oid
+          , _sid: schema
+          , _v: value
+          , _usr: "server"
+          , _dte: new Date()
       else
         console.warn "invalid value #{array[ine]}"
     ine++
@@ -131,23 +138,42 @@ json_control.insert_json = (json, schema) ->
       while i_obj < obj_keys.length
         key_id = get_kid[obj_keys[i_obj]]
         if key_id
-          s_key = DATA.findOne(_v: key_id, _did: schema, _sid: "doc_schema", _kid: get_kid.key)
+          s_key = DATA.findOne
+            _v: key_id
+            , _did: schema
+            , _sid: "doc_schema"
+            , _kid: get_kid.key
           key_obj = DATA.findOne(_id: key_id)
           if s_key and key_obj
-            if s_key._mtl or DATA.find(_kid: key_id, _did: oid, _sid: schema).count() is 0
+            if s_key._mtl or DATA.find(
+              _kid: key_id
+              , _did: oid
+              , _sid: schema
+            ).count() is 0
               if json_obj[i][obj_keys[i_obj]]
                 if Array.isArray(json_obj[i][obj_keys[i_obj]])
-                  array_loop(json_obj[i][obj_keys[i_obj]], key_obj, key_id, oid, schema)
+                  array_loop(
+                    json_obj[i][obj_keys[i_obj]]
+                    , key_obj
+                    , key_id
+                    , oid
+                    , schema)
                 else
                   value = value_type(json_obj[i][obj_keys[i_obj]], key_obj)
                   if value
-                    DATA.insert(_kid: key_id, _did: oid, _sid: schema, _v: value, _usr: "server", _dte: new Date())
+                    DATA.insert
+                      _kid: key_id
+                      , _did: oid
+                      , _sid: schema
+                      , _v: value
+                      , _usr: "server"
+                      , _dte: new Date()
                   else
                     console.warn "invalid value #{obj_keys[i_obj]}"
               else
                 console.warn "invalid or blank value #{obj_keys[i_obj]}"
             else
-              console.warn "multiple value of #{obj_keys[i_obj]} not allowed"    
+              console.warn "multiple value of #{obj_keys[i_obj]} not allowed"
           else
             console.warn "cannot find key #{obj_keys[i_obj]}"
         else

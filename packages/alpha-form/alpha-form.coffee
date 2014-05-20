@@ -98,14 +98,14 @@ Template._string_input.events
               c_i = DATA.findOne(_did: _city[n]._did, _kid: get_kid.country)
               if c_i
                 country = DATA.findOne(_did: c_i._v, _kid: get_kid.doc_name)
-                console.log country
+                console.log "#{_city[n]._v}: #{country._v}"
                 CITIES.insert({city: _city[n], country: country})
 
             else if EJSON.equals(get_sid.countries, _city[n]._sid)
               c_i = DATA.findOne(_did: _city[n]._did, _kid: get_kid.capital)
               if c_i
                 city = DATA.findOne(_did: c_i._v, _kid: get_kid.doc_name)
-                console.log city
+                console.log "#{_city[n]._v}: #{city._v}"
                 CITIES.insert({country: _city[n], city: country})
             n++
 

@@ -27,10 +27,13 @@ Meteor.publish "cities_list", (args) ->
       else if EJSON.equals(get_sid.countries, data[n]._sid)
         country[n] = DATA.findOne(_did: data[n]._did, _kid: get_kid.capital)
         console.log country[n]
-        co[n] = DATA.findOne(_sid: get_sid.cities, _kid: get_kid.doc_name, _did: country[n]._v)
+        h = DATA.findOne(_sid: get_sid.cities, _kid: get_kid.doc_name, _did: country[n]._v)
+        if h
+          co[n] = h
         console.log "countreis"
         console.log(co[n])
       n++
+    console.log co
     c_id = _.pluck(country, '_id')
     co_id = _.pluck(co, '_id')
     ci_id = _.pluck(data, '_id')

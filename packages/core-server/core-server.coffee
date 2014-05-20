@@ -32,17 +32,22 @@ Meteor.startup ->
   if DATA.find(_sid: get_sid.cities).count() is 0
     json_control.insert_json('cities', get_sid.cities)
     DATA.find(_sid: get_sid.countries, _kid: get_kid.capital).forEach (doc) ->
-      co = DATA.findOne
+      
+      city = DATA.find(
         _sid: get_sid.cities
-        , _kid: get_kid.country
-        , _v: doc._did
-      city = DATA.findOne
-        _sid: get_sid.cities
-        , _did: co._did
         , _kid: get_kid.doc_name
-        , _v: doc._v
+        , _v: doc._v).fetch()
       if city
-        DATA.update({_id: doc._id}, $set: {_v: city._did})
-        console.log "#{city._v} updated"
+        did = _.pluck(city, "_did")
+        co = DATA.findOne
+          _sid: get_sid.cities
+          , _kid: get_kid.country
+          , _did: {$in: did}
+          , _v: doc._did
+        if city and co
+          DATA.update({_id: doc._id}, $set: {_v: co._did})
+          console.log "#{doc._v} updated"
+        else
+          console.log "cannot find city #{doc._v}"
       else
-        console.log "cannot find city #{doc._v}"
+        console.log doc._v

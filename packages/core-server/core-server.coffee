@@ -51,9 +51,7 @@ Meteor.startup ->
         }}
         , {$match: {
           count: {$gt: 1}
-        }
-
-        }
+        }}
       ]
       result = DATA.aggregate pipeline
       if result

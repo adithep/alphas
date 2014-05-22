@@ -1,5 +1,10 @@
 Meteor.publish "schema", ->
-  DATA.find($or: [{_sid: "schema_key"}, {_sid: "doc_schema"}, {_sid: "doc_tag"}])
+  DATA.find
+    $or: [
+      {_sid: "schema_key"}
+      , {_sid: "doc_schema"}
+      , {_sid: "doc_tag"}
+    ]
 Meteor.publish "list", ->
   DATA.find($or: [
     {_sid: get_sid.currencies, _kid: get_kid.doc_name, _root: {$exists: false}},
@@ -21,13 +26,21 @@ Meteor.publish "cities_list", (args) ->
   co = []
   while n < data.length
     if EJSON.equals(get_sid.cities, data[n]._sid)
-      country[n] = DATA.findOne(_did: data[n]._did, _kid: get_kid.country)
-      co[n] = DATA.findOne(_sid: get_sid.countries, _kid: get_kid.doc_name, _did: country[n]._v)
+      country[n] = DATA.findOne
+        _did: data[n]._did
+        , _kid: get_kid.country
+      co[n] = DATA.findOne
+        _sid: get_sid.countries
+        , _kid: get_kid.doc_name
+        , _did: country[n]._v
 
     else if EJSON.equals(get_sid.countries, data[n]._sid)
       country[n] = DATA.findOne(_did: data[n]._did, _kid: get_kid.capital)
       console.log country[n]
-      h = DATA.findOne(_sid: get_sid.cities, _kid: get_kid.doc_name, _did: country[n]._v)
+      h = DATA.findOne
+        _sid: get_sid.cities
+        , _kid: get_kid.doc_name
+        , _did: country[n]._v
       if h
         co[n] = h
       console.log "countreis"

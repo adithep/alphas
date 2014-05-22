@@ -90,6 +90,3 @@ _.extend Meteor.Collection::,
     options = options || {};
     options.readPreference = "primary";
     _callMapReduce @_name, map, reduce, options
-
-
-

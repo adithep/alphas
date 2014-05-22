@@ -2,7 +2,7 @@ Package.describe({
   summary: "REPLACEME - What does this package (or the original one you're wrapping) do?"
 });
 
-Npm.depends({mongodb: "1.3.17"});
+Npm.depends({mongodb: "1.4.5"});
 
 Package.on_use(function (api, where) {
   api.use(['coffeescript', 'underscore'], ['server']);

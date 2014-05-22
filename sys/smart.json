@@ -38,6 +38,7 @@
     },
     "jade": {},
     "collection-hooks": {},
-    "npm": {}
+    "npm": {},
+    "mongodb-server-aggregation": {}
   }
 }

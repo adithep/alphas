@@ -38,7 +38,7 @@ Meteor.startup ->
       bs.city = new BSON.ObjectID(get_sid.cities._str)
       bs.doc_name = new BSON.ObjectID(get_kid.doc_name._str)
       bs.country = new BSON.ObjectID(get_kid.country._str)
-      bs._v = BSON.ObjectID(doc._did._str)
+      bs._v = new BSON.ObjectID(doc._did._str)
       pipeline = [
         {$match: {
           _sid: bs.city
@@ -57,7 +57,7 @@ Meteor.startup ->
       ]
       result = DATA.aggregate pipeline
       if result
-        oid = new Meteor.Collection.ObjectID(result[0].toString())
+        oid = new Meteor.Collection.ObjectID(result[0]._id.toString())
         if oid
           DATA.update({_id: doc._id}, $set: {_v: oid})
           console.log "#{doc._v} updated: #{oid._str}"

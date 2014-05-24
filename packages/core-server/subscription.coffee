@@ -43,10 +43,7 @@ Meteor.publish "cities_list", (args) ->
         , _did: country[n]._v
       if h
         co[n] = h
-      console.log "countreis"
-      console.log(co[n])
     n++
-  console.log co
   c_id = _.pluck(country, '_id')
   co_id = _.pluck(co, '_id')
   ci_id = _.pluck(data, '_id')

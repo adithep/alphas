@@ -7,13 +7,21 @@ _each_dis = undefined
 Deps.autorun ->
   if Session.equals("subscription", true)
     HUMAN_B.remove({})
-    DATA.find(_sid: "doc_schema", _did: get_sid.humans, _req: {$exists: false}).forEach (doc) ->
+    DATA.find(
+      _sid: "doc_schema"
+      , _did: get_sid.humans
+      , _req: {$exists: false}
+    ).forEach (doc) ->
       key = DATA.findOne(_id: doc._v)
       doc._skid = doc._id
       merge = _.extend(doc, key)
       HUMAN_B.insert(merge)
     HUMAN_FORM.remove({})
-    DATA.find(_sid: "doc_schema", _did: get_sid.humans, _req: true).forEach (doc) ->
+    DATA.find(
+      _sid: "doc_schema"
+      , _did: get_sid.humans
+      , _req: true
+    ).forEach (doc) ->
       key = DATA.findOne(_id: doc._v)
       doc._skid = doc._id
       merge = _.extend(doc, key)
@@ -73,6 +81,12 @@ Template.alpha_form.helpers
         ), Template._string_select
     else
       null
+
+Template.alpha_form.events
+  'keypress form': (e, t) ->
+    if e.which is 13
+      e.preventDefault()
+
 
 Template._string_input.events
   'keyup .input_subscribe': (e, t) ->

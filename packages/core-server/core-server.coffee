@@ -45,6 +45,9 @@ Meteor.startup ->
           , _kid: {$in: [bs.doc_name, bs.country]}
           , _v: {$in: [bs._v, doc._v]}
         }}
+        , {$sort: {
+          _did: 1
+        }}
         , {$group: {
           _id: "$_did"
           , count: {$sum: 1}

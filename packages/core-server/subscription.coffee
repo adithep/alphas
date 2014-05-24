@@ -6,11 +6,11 @@ Meteor.publish "schema", ->
       , {_sid: "doc_tag"}
     ]
 Meteor.publish "list", ->
-  DATA.find($or: [
+  DATA.find({$or: [
     {_sid: get_sid.currencies, _kid: get_kid.doc_name, _root: {$exists: false}},
     {_sid: get_sid.titles, _kid: get_kid.doc_name, _root: {$exists: false}},
     {_sid: get_sid.services, _kid: get_kid.doc_name, _root: {$exists: false}}
-  ])
+  ]}, {fields: {_dte: 0, _usr: 0}})
 Meteor.publish "cities_list", (args) ->
 
   data  = DATA.find(
@@ -36,7 +36,6 @@ Meteor.publish "cities_list", (args) ->
 
     else if EJSON.equals(get_sid.countries, data[n]._sid)
       country[n] = DATA.findOne(_did: data[n]._did, _kid: get_kid.capital)
-      console.log country[n]
       h = DATA.findOne
         _sid: get_sid.cities
         , _kid: get_kid.doc_name
@@ -48,4 +47,4 @@ Meteor.publish "cities_list", (args) ->
   co_id = _.pluck(co, '_id')
   ci_id = _.pluck(data, '_id')
   arr = c_id.concat(ci_id).concat(co_id)
-  return DATA.find(_id: {$in: arr})
+  return DATA.find({_id: {$in: arr}}, {fields: {_dte: 0, _usr: 0}})

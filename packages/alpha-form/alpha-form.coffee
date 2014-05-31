@@ -62,11 +62,6 @@ Template.alpha_form.helpers
       return UI.With (->
         return _each_dis
       ), Template._string_input
-    else if this._vt is "date"
-      _each_dis.type = "date"
-      return UI.With (->
-        return _each_dis
-      ), Template._string_input
     else if this._vt is "oid"
       if this._new
         null

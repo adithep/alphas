@@ -20,6 +20,10 @@ template(name="_string_input")
   div(class="contact_div")
     span Î
     input(type="#{this.type}", placeholder="#{this._dis}", class="input_ui #{this.class}")
+    div(class="adropdown")
+      ul
+        each aselect
+          +_aselect_li
 template(name="_string_select")
   div(class="contact_div")
     span Î
@@ -28,3 +32,5 @@ template(name="_string_select")
         +_string_select_options
 template(name="_string_select_options")
   option #{this._v}
+template(name="_a_selectli")
+  li #{this._v}

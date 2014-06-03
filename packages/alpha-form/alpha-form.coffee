@@ -33,6 +33,10 @@ Template._string_select.helpers
   select_options: ->
     DATA.find(_sid: this._vs, _kid: get_kid.doc_name)
 
+Template._string_input.helpers
+  aselect: ->
+    CITIES.find()
+
 
 
 Template.alpha_form.helpers
@@ -84,39 +88,39 @@ Template.alpha_form.events
 
 
 Template._string_input.events
+
+  'focus .input_subscribe': (e, t) ->
+    t.$('.adropdown').addClass('show')
+
+  'blur .input_subscribe': (e, t) ->
+    t.$('.adropdown').removeClass('show')
+
   'keyup .input_subscribe': (e, t) ->
 
     if e.currentTarget.value isnt ""
 
-
       params = {input: e.currentTarget.value, field: this._sid}
 
       Meteor.subscribe "cities_list", params, ->
-        _city = DATA.find(
+        CITIES.remove({})
+        DATA.find(
           {$and: [
             _sid: {$in: [get_sid.countries, get_sid.cities]}
             , _kid: get_kid.doc_name
             , _v: { $regex: e.currentTarget.value, $options: 'i' }
           ]}, { limit: 5 }
-        ).fetch()
-        if _city
-          CITIES.remove({})
-          n = 0
-          while n < _city.length
-            if EJSON.equals(get_sid.cities, _city[n]._sid)
-              c_i = DATA.findOne(_did: _city[n]._did, _kid: get_kid.country)
-              if c_i
-                country = DATA.findOne(_did: c_i._v, _kid: get_kid.doc_name)
-                console.log "#{_city[n]._v}: #{country._v}"
-                CITIES.insert({city: _city[n], country: country})
+        ).forEach (doc) ->
+          if EJSON.equals(get_sid.cities, doc._sid)
+            c_i = DATA.findOne(_did: doc._did, _kid: get_kid.country)
+            if c_i
+              country = DATA.findOne(_did: c_i._v, _kid: get_kid.doc_name)
+              CITIES.insert({city: doc, country: country})
 
-            else if EJSON.equals(get_sid.countries, _city[n]._sid)
-              c_i = DATA.findOne(_did: _city[n]._did, _kid: get_kid.capital)
-              if c_i
-                city = DATA.findOne(_did: c_i._v, _kid: get_kid.doc_name)
-                console.log "#{_city[n]._v}: #{city._v}"
-                CITIES.insert({country: _city[n], city: country})
-            n++
+          else if EJSON.equals(get_sid.countries, doc._sid)
+            c_i = DATA.findOne(_did: doc._did, _kid: get_kid.capital)
+            if c_i
+              city = DATA.findOne(_did: c_i._v, _kid: get_kid.doc_name)
+              CITIES.insert({country: doc, city: city})
 
       return
 

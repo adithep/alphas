@@ -23,7 +23,7 @@ template(name="_string_input")
     div(class="adropdown")
       ul
         each aselect
-          +_aselect_li
+          +_a_select_li
 template(name="_string_select")
   div(class="contact_div")
     span Î
@@ -32,5 +32,6 @@ template(name="_string_select")
         +_string_select_options
 template(name="_string_select_options")
   option #{this._v}
-template(name="_a_selectli")
-  li #{this._v}
+template(name="_a_select_li")
+  li
+    a #{this.city._v} #{this.country._v}

@@ -5,6 +5,7 @@ HUMAN_B = new Meteor.Collection(null, {idGeneration:"MONGO"})
 _each_dis = undefined
 
 Deps.autorun ->
+
   if Session.equals("subscription", true)
     HUMAN_B.remove({})
     DATA.find(
@@ -40,6 +41,7 @@ Template._string_input.helpers
 
 
 Template.alpha_form.helpers
+
   schema_buttons: ->
     HUMAN_B.find({}, {sort: _sort: 1})
   input_element: ->
@@ -82,6 +84,7 @@ Template.alpha_form.helpers
       null
 
 Template.alpha_form.events
+
   'keypress form': (e, t) ->
     if e.which is 13
       e.preventDefault()
@@ -125,6 +128,7 @@ Template._string_input.events
       return
 
 Template._schema_buttons.events
+
   'click .click_input': (e, t) ->
     self = EJSON.clone(t.data)
     self._key = self._id

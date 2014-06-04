@@ -1,0 +1,45 @@
+[
+  {
+    "code": "AF",
+    "continent_name": "Africa",
+    "continent": true
+  },
+
+  {
+    "code": "AS",
+    "continent_name": "Asia",
+    "continent": true
+  },
+
+  {
+    "code": "EU",
+    "continent_name": "Europe",
+    "continent": true
+  },
+
+  {
+    "code": "NA",
+    "continent_name": "North America",
+    "continent": true
+  },
+
+  {
+    "code": "SA",
+    "continent_name": "South America",
+    "continent": true
+  },
+
+  {
+    "code": "OC",
+    "continent_name": "Oceania",
+    "continent": true
+  },
+
+  {
+    "code": "AN",
+    "continent_name": "Antarctica",
+    "continent": true
+  }
+
+
+]

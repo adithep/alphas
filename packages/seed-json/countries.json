@@ -9,12 +9,9 @@
       "CHN"
     ],
     "demonym": "Afghan",
-    "latitude": 33,
-    "longitude": 65,
+    "loc": { "type": "Point", "coordinates": [65, 33] },
     "population": 25500100,
-    "calling_code": [
-      "93"
-    ],
+    "calling_code": "93",
     "currency": [
       "AFN"
     ],
@@ -25,7 +22,8 @@
       ".af"
     ],
     "native_name": "Afġānistān",
-    "doc_name": "Afghanistan",
+    "country_name": "Afghanistan",
+    "country": true,
     "capital": "Kabul",
     "alt_spellings": [
       "AF",
@@ -56,12 +54,9 @@
   {
     "borders": [],
     "demonym": "Ålandish",
-    "latitude": 60.116667,
-    "longitude": 19.9,
+    "loc": { "type": "Point", "coordinates": [19.9, 60.116667] },
     "population": 28502,
-    "calling_code": [
-      "358"
-    ],
+    "calling_code": "358",
     "currency": [
       "EUR"
     ],
@@ -72,7 +67,8 @@
       ".ax"
     ],
     "native_name": "Åland",
-    "doc_name": "Åland Islands",
+    "country_name": "Åland Islands",
+    "country": true,
     "capital": "Mariehamn",
     "alt_spellings": [
       "AX",
@@ -107,12 +103,9 @@
       "KOS"
     ],
     "demonym": "Albanian",
-    "latitude": 41,
-    "longitude": 20,
+    "loc": { "type": "Point", "coordinates": [20, 41] },
     "population": 2821977,
-    "calling_code": [
-      "355"
-    ],
+    "calling_code": "355",
     "currency": [
       "ALL"
     ],
@@ -123,7 +116,8 @@
       ".al"
     ],
     "native_name": "Shqipëria",
-    "doc_name": "Albania",
+    "country_name": "Albania",
+    "country": true,
     "capital": "Tirana",
     "alt_spellings": [
       "AL",
@@ -161,12 +155,9 @@
       "MAR"
     ],
     "demonym": "Algerian",
-    "latitude": 28,
-    "longitude": 3,
+    "loc": { "type": "Point", "coordinates": [3, 28] },
     "population": 37900000,
-    "calling_code": [
-      "213"
-    ],
+    "calling_code": "213",
     "currency": [
       "DZD"
     ],
@@ -177,7 +168,8 @@
       ".dz"
     ],
     "native_name": "al-Jazāʼir",
-    "doc_name": "Algeria",
+    "country_name": "Algeria",
+    "country": true,
     "capital": "Algiers",
     "alt_spellings": [
       "DZ",
@@ -206,12 +198,9 @@
   {
     "borders": [],
     "demonym": "American Samoan",
-    "latitude": -14.33333333,
-    "longitude": -170,
+    "loc": { "type": "Point", "coordinates": [-170, -14.33333333] },
     "population": 55519,
-    "calling_code": [
-      "1684"
-    ],
+    "calling_code": "1684",
     "currency": [
       "USD"
     ],
@@ -222,7 +211,8 @@
       ".as"
     ],
     "native_name": "American Samoa",
-    "doc_name": "American Samoa",
+    "country_name": "American Samoa",
+    "country": true,
     "capital": "Pago Pago",
     "alt_spellings": [
       "AS",
@@ -257,12 +247,9 @@
       "ESP"
     ],
     "demonym": "Andorran",
-    "latitude": 42.5,
-    "longitude": 1.5,
+    "loc": { "type": "Point", "coordinates": [1.5, 42.5] },
     "population": 76246,
-    "calling_code": [
-      "376"
-    ],
+    "calling_code": "376",
     "currency": [
       "EUR"
     ],
@@ -273,7 +260,8 @@
       ".ad"
     ],
     "native_name": "Andorra",
-    "doc_name": "Andorra",
+    "country_name": "Andorra",
+    "country": true,
     "capital": "Andorra la Vella",
     "alt_spellings": [
       "AD",
@@ -307,12 +295,9 @@
       "NAM"
     ],
     "demonym": "Angolan",
-    "latitude": -12.5,
-    "longitude": 18.5,
+    "loc": { "type": "Point", "coordinates": [18.5, -12.5] },
     "population": 20609294,
-    "calling_code": [
-      "244"
-    ],
+    "calling_code": "244",
     "currency": [
       "AOA"
     ],
@@ -323,7 +308,8 @@
       ".ao"
     ],
     "native_name": "Angola",
-    "doc_name": "Angola",
+    "country_name": "Angola",
+    "country": true,
     "capital": "Luanda",
     "alt_spellings": [
       "AO",
@@ -352,12 +338,9 @@
   {
     "borders": [],
     "demonym": "Anguillian",
-    "latitude": 18.25,
-    "longitude": -63.16666666,
+    "loc": { "type": "Point", "coordinates": [-63.16666666, 18.25] },
     "population": 13452,
-    "calling_code": [
-      "1264"
-    ],
+    "calling_code": "1264",
     "currency": [
       "XCD"
     ],
@@ -368,7 +351,8 @@
       ".ai"
     ],
     "native_name": "Anguilla",
-    "doc_name": "Anguilla",
+    "country_name": "Anguilla",
+    "country": true,
     "capital": "The Valley",
     "alt_spellings": [
       "AI"
@@ -395,12 +379,9 @@
   {
     "borders": [],
     "demonym": "",
-    "latitude": -90,
-    "longitude": 0,
+    "loc": { "type": "Point", "coordinates": [0, -90] },
     "population": -1,
-    "calling_code": [
-      ""
-    ],
+    "calling_code": "",
     "currency": [
       ""
     ],
@@ -411,7 +392,8 @@
       ".aq"
     ],
     "native_name": "",
-    "doc_name": "Antarctica",
+    "country_name": "Antarctica",
+    "country": true,
     "capital": "",
     "alt_spellings": [
       "AQ"
@@ -436,12 +418,9 @@
   {
     "borders": [],
     "demonym": "Antiguan, Barbudan",
-    "latitude": 17.05,
-    "longitude": -61.8,
+    "loc": { "type": "Point", "coordinates": [-61.8, 17.05] },
     "population": 86295,
-    "calling_code": [
-      "1268"
-    ],
+    "calling_code": "1268",
     "currency": [
       "XCD"
     ],
@@ -452,7 +431,8 @@
       ".ag"
     ],
     "native_name": "Antigua and Barbuda",
-    "doc_name": "Antigua and Barbuda",
+    "country_name": "Antigua and Barbuda",
+    "country": true,
     "capital": "Saint John’s",
     "alt_spellings": [
       "AG"
@@ -485,12 +465,9 @@
       "URY"
     ],
     "demonym": "Argentinean",
-    "latitude": -34,
-    "longitude": -64,
+    "loc": { "type": "Point", "coordinates": [-64, -34] },
     "population": 40117096,
-    "calling_code": [
-      "54"
-    ],
+    "calling_code": "54",
     "currency": [
       "ARS"
     ],
@@ -501,7 +478,8 @@
       ".ar"
     ],
     "native_name": "Argentina",
-    "doc_name": "Argentina",
+    "country_name": "Argentina",
+    "country": true,
     "capital": "Buenos Aires",
     "alt_spellings": [
       "AR",
@@ -536,12 +514,9 @@
       "TUR"
     ],
     "demonym": "Armenian",
-    "latitude": 40,
-    "longitude": 45,
+    "loc": { "type": "Point", "coordinates": [45, 40] },
     "population": 3024100,
-    "calling_code": [
-      "374"
-    ],
+    "calling_code": "374",
     "currency": [
       "AMD"
     ],
@@ -552,7 +527,8 @@
       ".am"
     ],
     "native_name": "Հայաստան",
-    "doc_name": "Armenia",
+    "country_name": "Armenia",
+    "country": true,
     "capital": "Yerevan",
     "alt_spellings": [
       "AM",
@@ -583,12 +559,9 @@
   {
     "borders": [],
     "demonym": "Aruban",
-    "latitude": 12.5,
-    "longitude": -69.96666666,
+    "loc": { "type": "Point", "coordinates": [-69.96666666, 12.5] },
     "population": 101484,
-    "calling_code": [
-      "297"
-    ],
+    "calling_code": "297",
     "currency": [
       "AWG"
     ],
@@ -599,7 +572,8 @@
       ".aw"
     ],
     "native_name": "Aruba",
-    "doc_name": "Aruba",
+    "country_name": "Aruba",
+    "country": true,
     "capital": "Oranjestad",
     "alt_spellings": [
       "AW"
@@ -627,12 +601,9 @@
   {
     "borders": [],
     "demonym": "Australian",
-    "latitude": -27,
-    "longitude": 133,
+    "loc": { "type": "Point", "coordinates": [133, -27] },
     "population": 23254142,
-    "calling_code": [
-      "61"
-    ],
+    "calling_code": "61",
     "currency": [
       "AUD"
     ],
@@ -643,7 +614,8 @@
       ".au"
     ],
     "native_name": "Australia",
-    "doc_name": "Australia",
+    "country_name": "Australia",
+    "country": true,
     "capital": "Canberra",
     "alt_spellings": [
       "AU"
@@ -669,12 +641,9 @@
       "CHE"
     ],
     "demonym": "Austrian",
-    "latitude": 47.33333333,
-    "longitude": 13.33333333,
+    "loc": { "type": "Point", "coordinates": [13.33333333, 47.33333333] },
     "population": 8501502,
-    "calling_code": [
-      "43"
-    ],
+    "calling_code": "43",
     "currency": [
       "EUR"
     ],
@@ -685,7 +654,8 @@
       ".at"
     ],
     "native_name": "Österreich",
-    "doc_name": "Austria",
+    "country_name": "Austria",
+    "country": true,
     "capital": "Vienna",
     "alt_spellings": [
       "AT",
@@ -721,12 +691,9 @@
       "TUR"
     ],
     "demonym": "Azerbaijani",
-    "latitude": 40.5,
-    "longitude": 47.5,
+    "loc": { "type": "Point", "coordinates": [47.5, 40.5] },
     "population": 9235100,
-    "calling_code": [
-      "994"
-    ],
+    "calling_code": "994",
     "currency": [
       "AZN"
     ],
@@ -737,7 +704,8 @@
       ".az"
     ],
     "native_name": "Azərbaycan",
-    "doc_name": "Azerbaijan",
+    "country_name": "Azerbaijan",
+    "country": true,
     "capital": "Baku",
     "alt_spellings": [
       "AZ",
@@ -767,12 +735,9 @@
   {
     "borders": [],
     "demonym": "Bahamian",
-    "latitude": 24.25,
-    "longitude": -76,
+    "loc": { "type": "Point", "coordinates": [-76, 24.25] },
     "population": -1,
-    "calling_code": [
-      "1242"
-    ],
+    "calling_code": "1242",
     "currency": [
       "BSD"
     ],
@@ -783,7 +748,8 @@
       ".bs"
     ],
     "native_name": "Bahamas",
-    "doc_name": "Bahamas",
+    "country_name": "Bahamas",
+    "country": true,
     "capital": "Nassau",
     "alt_spellings": [
       "BS",
@@ -811,12 +777,9 @@
   {
     "borders": [],
     "demonym": "Bahraini",
-    "latitude": 26,
-    "longitude": 50.55,
+    "loc": { "type": "Point", "coordinates": [50.55, 26] },
     "population": 1234571,
-    "calling_code": [
-      "973"
-    ],
+    "calling_code": "973",
     "currency": [
       "BHD"
     ],
@@ -827,7 +790,8 @@
       ".bh"
     ],
     "native_name": "al-Baḥrayn",
-    "doc_name": "Bahrain",
+    "country_name": "Bahrain",
+    "country": true,
     "capital": "Manama",
     "alt_spellings": [
       "BH",
@@ -859,12 +823,9 @@
       "IND"
     ],
     "demonym": "Bangladeshi",
-    "latitude": 24,
-    "longitude": 90,
+    "loc": { "type": "Point", "coordinates": [90, 24] },
     "population": 152518015,
-    "calling_code": [
-      "880"
-    ],
+    "calling_code": "880",
     "currency": [
       "BDT"
     ],
@@ -875,7 +836,8 @@
       ".bd"
     ],
     "native_name": "Bangladesh",
-    "doc_name": "Bangladesh",
+    "country_name": "Bangladesh",
+    "country": true,
     "capital": "Dhaka",
     "alt_spellings": [
       "BD",
@@ -904,12 +866,9 @@
   {
     "borders": [],
     "demonym": "Barbadian",
-    "latitude": 13.16666666,
-    "longitude": -59.53333333,
+    "loc": { "type": "Point", "coordinates": [-59.53333333, 13.16666666] },
     "population": 274200,
-    "calling_code": [
-      "1246"
-    ],
+    "calling_code": "1246",
     "currency": [
       "BBD"
     ],
@@ -920,7 +879,8 @@
       ".bb"
     ],
     "native_name": "Barbados",
-    "doc_name": "Barbados",
+    "country_name": "Barbados",
+    "country": true,
     "capital": "Bridgetown",
     "alt_spellings": [
       "BB"
@@ -953,12 +913,9 @@
       "UKR"
     ],
     "demonym": "Belarusian",
-    "latitude": 53,
-    "longitude": 28,
+    "loc": { "type": "Point", "coordinates": [28, 53] },
     "population": 9465500,
-    "calling_code": [
-      "375"
-    ],
+    "calling_code": "375",
     "currency": [
       "BYR"
     ],
@@ -969,7 +926,8 @@
       ".by"
     ],
     "native_name": "Белару́сь",
-    "doc_name": "Belarus",
+    "country_name": "Belarus",
+    "country": true,
     "capital": "Minsk",
     "alt_spellings": [
       "BY",
@@ -1009,12 +967,9 @@
       "NLD"
     ],
     "demonym": "Belgian",
-    "latitude": 50.83333333,
-    "longitude": 4,
+    "loc": { "type": "Point", "coordinates": [4, 50.83333333] },
     "population": 11175653,
-    "calling_code": [
-      "32"
-    ],
+    "calling_code": "32",
     "currency": [
       "EUR"
     ],
@@ -1025,7 +980,8 @@
       ".be"
     ],
     "native_name": "België",
-    "doc_name": "Belgium",
+    "country_name": "Belgium",
+    "country": true,
     "capital": "Brussels",
     "alt_spellings": [
       "BE",
@@ -1067,12 +1023,9 @@
       "MEX"
     ],
     "demonym": "Belizean",
-    "latitude": 17.25,
-    "longitude": -88.75,
+    "loc": { "type": "Point", "coordinates": [-88.75, 17.25] },
     "population": 312971,
-    "calling_code": [
-      "501"
-    ],
+    "calling_code": "501",
     "currency": [
       "BZD"
     ],
@@ -1083,7 +1036,8 @@
       ".bz"
     ],
     "native_name": "Belize",
-    "doc_name": "Belize",
+    "country_name": "Belize",
+    "country": true,
     "capital": "Belmopan",
     "alt_spellings": [
       "BZ"
@@ -1116,12 +1070,9 @@
       "TGO"
     ],
     "demonym": "Beninese",
-    "latitude": 9.5,
-    "longitude": 2.25,
+    "loc": { "type": "Point", "coordinates": [2.25, 9.5] },
     "population": 10323000,
-    "calling_code": [
-      "229"
-    ],
+    "calling_code": "229",
     "currency": [
       "XOF"
     ],
@@ -1132,7 +1083,8 @@
       ".bj"
     ],
     "native_name": "Bénin",
-    "doc_name": "Benin",
+    "country_name": "Benin",
+    "country": true,
     "capital": "Porto-Novo",
     "alt_spellings": [
       "BJ",
@@ -1161,12 +1113,9 @@
   {
     "borders": [],
     "demonym": "Bermudian",
-    "latitude": 32.33333333,
-    "longitude": -64.75,
+    "loc": { "type": "Point", "coordinates": [-64.75, 32.33333333] },
     "population": 64237,
-    "calling_code": [
-      "1441"
-    ],
+    "calling_code": "1441",
     "currency": [
       "BMD"
     ],
@@ -1177,7 +1126,8 @@
       ".bm"
     ],
     "native_name": "Bermuda",
-    "doc_name": "Bermuda",
+    "country_name": "Bermuda",
+    "country": true,
     "capital": "Hamilton",
     "alt_spellings": [
       "BM",
@@ -1210,12 +1160,9 @@
       "IND"
     ],
     "demonym": "Bhutanese",
-    "latitude": 27.5,
-    "longitude": 90.5,
+    "loc": { "type": "Point", "coordinates": [90.5, 27.5] },
     "population": 740990,
-    "calling_code": [
-      "975"
-    ],
+    "calling_code": "975",
     "currency": [
       "BTN",
       "INR"
@@ -1227,7 +1174,8 @@
       ".bt"
     ],
     "native_name": "ʼbrug-yul",
-    "doc_name": "Bhutan",
+    "country_name": "Bhutan",
+    "country": true,
     "capital": "Thimphu",
     "alt_spellings": [
       "BT",
@@ -1261,12 +1209,9 @@
       "PRU"
     ],
     "demonym": "Bolivian",
-    "latitude": -17,
-    "longitude": -65,
+    "loc": { "type": "Point", "coordinates": [-65, -17] },
     "population": 10027254,
-    "calling_code": [
-      "591"
-    ],
+    "calling_code": "591",
     "currency": [
       "BOB",
       "BOV"
@@ -1278,7 +1223,8 @@
       ".bo"
     ],
     "native_name": "Bolivia",
-    "doc_name": "Bolivia",
+    "country_name": "Bolivia",
+    "country": true,
     "capital": "Sucre",
     "alt_spellings": [
       "BO",
@@ -1317,12 +1263,9 @@
   {
     "borders": [],
     "demonym": "Dutch",
-    "latitude": 12.15,
-    "longitude": -68.266667,
+    "loc": { "type": "Point", "coordinates": [-68.266667, 12.15] },
     "population": -1,
-    "calling_code": [
-      "5997"
-    ],
+    "calling_code": "5997",
     "currency": [
       "USD"
     ],
@@ -1334,7 +1277,8 @@
       ".nl"
     ],
     "native_name": "Bonaire",
-    "doc_name": "Bonaire",
+    "country_name": "Bonaire",
+    "country": true,
     "capital": "Kralendijk",
     "alt_spellings": [
       "BQ",
@@ -1356,12 +1300,9 @@
       "SRB"
     ],
     "demonym": "Bosnian, Herzegovinian",
-    "latitude": 44,
-    "longitude": 18,
+    "loc": { "type": "Point", "coordinates": [18, 44] },
     "population": 3791622,
-    "calling_code": [
-      "387"
-    ],
+    "calling_code": "387",
     "currency": [
       "BAM"
     ],
@@ -1372,7 +1313,8 @@
       ".ba"
     ],
     "native_name": "Bosna i Hercegovina",
-    "doc_name": "Bosnia and Herzegovina",
+    "country_name": "Bosnia and Herzegovina",
+    "country": true,
     "capital": "Sarajevo",
     "alt_spellings": [
       "BA",
@@ -1410,12 +1352,9 @@
       "ZWE"
     ],
     "demonym": "Motswana",
-    "latitude": -22,
-    "longitude": 24,
+    "loc": { "type": "Point", "coordinates": [24, -22] },
     "population": 2024904,
-    "calling_code": [
-      "267"
-    ],
+    "calling_code": "267",
     "currency": [
       "BWP"
     ],
@@ -1426,7 +1365,8 @@
       ".bw"
     ],
     "native_name": "Botswana",
-    "doc_name": "Botswana",
+    "country_name": "Botswana",
+    "country": true,
     "capital": "Gaborone",
     "alt_spellings": [
       "BW",
@@ -1457,12 +1397,9 @@
   {
     "borders": [],
     "demonym": "",
-    "latitude": -54.43333333,
-    "longitude": 3.4,
+    "loc": { "type": "Point", "coordinates": [3.4, -54.43333333] },
     "population": -1,
-    "calling_code": [
-      ""
-    ],
+    "calling_code": "",
     "currency": [
       "NOK"
     ],
@@ -1473,7 +1410,8 @@
       ".bv"
     ],
     "native_name": "Bouvetøya",
-    "doc_name": "Bouvet Island",
+    "country_name": "Bouvet Island",
+    "country": true,
     "capital": "",
     "alt_spellings": [
       "BV",
@@ -1511,12 +1449,9 @@
       "VEN"
     ],
     "demonym": "Brazilian",
-    "latitude": -10,
-    "longitude": -55,
+    "loc": { "type": "Point", "coordinates": [-55, -10] },
     "population": 201032714,
-    "calling_code": [
-      "55"
-    ],
+    "calling_code": "55",
     "currency": [
       "BRL"
     ],
@@ -1527,7 +1462,8 @@
       ".br"
     ],
     "native_name": "Brasil",
-    "doc_name": "Brazil",
+    "country_name": "Brazil",
+    "country": true,
     "capital": "Brasília",
     "alt_spellings": [
       "BR",
@@ -1557,12 +1493,9 @@
   {
     "borders": [],
     "demonym": "Indian",
-    "latitude": -6,
-    "longitude": 71.5,
+    "loc": { "type": "Point", "coordinates": [71.5, -6] },
     "population": -1,
-    "calling_code": [
-      "246"
-    ],
+    "calling_code": "246",
     "currency": [
       "USD"
     ],
@@ -1573,7 +1506,8 @@
       ".io"
     ],
     "native_name": "British Indian Ocean Territory",
-    "doc_name": "British Indian Ocean Territory",
+    "country_name": "British Indian Ocean Territory",
+    "country": true,
     "capital": "Diego Garcia",
     "alt_spellings": [
       "IO"
@@ -1600,12 +1534,9 @@
   {
     "borders": [],
     "demonym": "Virgin Islander",
-    "latitude": 18.431383,
-    "longitude": -64.62305,
+    "loc": { "type": "Point", "coordinates": [-64.62305, 18.431383] },
     "population": 29537,
-    "calling_code": [
-      "1284"
-    ],
+    "calling_code": "1284",
     "currency": [
       "USD"
     ],
@@ -1616,7 +1547,8 @@
       ".vg"
     ],
     "native_name": "British Virgin Islands",
-    "doc_name": "British Virgin Islands",
+    "country_name": "British Virgin Islands",
+    "country": true,
     "capital": "Road Town",
     "alt_spellings": [
       "VG"
@@ -1645,12 +1577,9 @@
       "MYS"
     ],
     "demonym": "Bruneian",
-    "latitude": 4.5,
-    "longitude": 114.66666666,
+    "loc": { "type": "Point", "coordinates": [114.66666666, 4.5] },
     "population": 393162,
-    "calling_code": [
-      "673"
-    ],
+    "calling_code": "673",
     "currency": [
       "BND"
     ],
@@ -1661,7 +1590,8 @@
       ".bn"
     ],
     "native_name": "Negara Brunei Darussalam",
-    "doc_name": "Brunei",
+    "country_name": "Brunei",
+    "country": true,
     "capital": "Bandar Seri Begawan",
     "alt_spellings": [
       "BN",
@@ -1688,12 +1618,9 @@
       "TUR"
     ],
     "demonym": "Bulgarian",
-    "latitude": 43,
-    "longitude": 25,
+    "loc": { "type": "Point", "coordinates": [25, 43] },
     "population": 7282041,
-    "calling_code": [
-      "359"
-    ],
+    "calling_code": "359",
     "currency": [
       "BGN"
     ],
@@ -1704,7 +1631,8 @@
       ".bg"
     ],
     "native_name": "България",
-    "doc_name": "Bulgaria",
+    "country_name": "Bulgaria",
+    "country": true,
     "capital": "Sofia",
     "alt_spellings": [
       "BG",
@@ -1740,12 +1668,9 @@
       "TGO"
     ],
     "demonym": "Burkinabe",
-    "latitude": 13,
-    "longitude": -2,
+    "loc": { "type": "Point", "coordinates": [-2, 13] },
     "population": 17322796,
-    "calling_code": [
-      "226"
-    ],
+    "calling_code": "226",
     "currency": [
       "XOF"
     ],
@@ -1756,7 +1681,8 @@
       ".bf"
     ],
     "native_name": "Burkina Faso",
-    "doc_name": "Burkina Faso",
+    "country_name": "Burkina Faso",
+    "country": true,
     "capital": "Ouagadougou",
     "alt_spellings": [
       "BF"
@@ -1788,12 +1714,9 @@
       "TZA"
     ],
     "demonym": "Burundian",
-    "latitude": -3.5,
-    "longitude": 30,
+    "loc": { "type": "Point", "coordinates": [30, -3.5] },
     "population": 10163000,
-    "calling_code": [
-      "257"
-    ],
+    "calling_code": "257",
     "currency": [
       "BIF"
     ],
@@ -1804,7 +1727,8 @@
       ".bi"
     ],
     "native_name": "Burundi",
-    "doc_name": "Burundi",
+    "country_name": "Burundi",
+    "country": true,
     "capital": "Bujumbura",
     "alt_spellings": [
       "BI",
@@ -1840,12 +1764,9 @@
       "VNM"
     ],
     "demonym": "Cambodian",
-    "latitude": 13,
-    "longitude": 105,
+    "loc": { "type": "Point", "coordinates": [105, 13] },
     "population": 15135000,
-    "calling_code": [
-      "855"
-    ],
+    "calling_code": "855",
     "currency": [
       "KHR"
     ],
@@ -1856,7 +1777,8 @@
       ".kh"
     ],
     "native_name": "Kâmpŭchéa",
-    "doc_name": "Cambodia",
+    "country_name": "Cambodia",
+    "country": true,
     "capital": "Phnom Penh",
     "alt_spellings": [
       "KH",
@@ -1881,12 +1803,9 @@
       "NGA"
     ],
     "demonym": "Cameroonian",
-    "latitude": 6,
-    "longitude": 12,
+    "loc": { "type": "Point", "coordinates": [12, 6] },
     "population": 20386799,
-    "calling_code": [
-      "237"
-    ],
+    "calling_code": "237",
     "currency": [
       "XAF"
     ],
@@ -1897,7 +1816,8 @@
       ".cm"
     ],
     "native_name": "Cameroon",
-    "doc_name": "Cameroon",
+    "country_name": "Cameroon",
+    "country": true,
     "capital": "Yaoundé",
     "alt_spellings": [
       "CM",
@@ -1930,12 +1850,9 @@
       "USA"
     ],
     "demonym": "Canadian",
-    "latitude": 60,
-    "longitude": -95,
+    "loc": { "type": "Point", "coordinates": [-95, 60] },
     "population": 35158304,
-    "calling_code": [
-      "1"
-    ],
+    "calling_code": "1",
     "currency": [
       "CAD"
     ],
@@ -1946,7 +1863,8 @@
       ".ca"
     ],
     "native_name": "Canada",
-    "doc_name": "Canada",
+    "country_name": "Canada",
+    "country": true,
     "capital": "Ottawa",
     "alt_spellings": [
       "CA"
@@ -1975,12 +1893,9 @@
   {
     "borders": [],
     "demonym": "Cape Verdian",
-    "latitude": 16,
-    "longitude": -24,
+    "loc": { "type": "Point", "coordinates": [-24, 16] },
     "population": 491875,
-    "calling_code": [
-      "238"
-    ],
+    "calling_code": "238",
     "currency": [
       "CVE"
     ],
@@ -1991,7 +1906,8 @@
       ".cv"
     ],
     "native_name": "Cabo Verde",
-    "doc_name": "Cape Verde",
+    "country_name": "Cape Verde",
+    "country": true,
     "capital": "Praia",
     "alt_spellings": [
       "CV",
@@ -2020,12 +1936,9 @@
   {
     "borders": [],
     "demonym": "Caymanian",
-    "latitude": 19.5,
-    "longitude": -80.5,
+    "loc": { "type": "Point", "coordinates": [-80.5, 19.5] },
     "population": 55456,
-    "calling_code": [
-      "1345"
-    ],
+    "calling_code": "1345",
     "currency": [
       "KYD"
     ],
@@ -2036,7 +1949,8 @@
       ".ky"
     ],
     "native_name": "Cayman Islands",
-    "doc_name": "Cayman Islands",
+    "country_name": "Cayman Islands",
+    "country": true,
     "capital": "George Town",
     "alt_spellings": [
       "KY"
@@ -2070,12 +1984,9 @@
       "SDN"
     ],
     "demonym": "Central African",
-    "latitude": 7,
-    "longitude": 21,
+    "loc": { "type": "Point", "coordinates": [21, 7] },
     "population": 4616000,
-    "calling_code": [
-      "236"
-    ],
+    "calling_code": "236",
     "currency": [
       "XAF"
     ],
@@ -2086,7 +1997,8 @@
       ".cf"
     ],
     "native_name": "Ködörösêse tî Bêafrîka",
-    "doc_name": "Central African Republic",
+    "country_name": "Central African Republic",
+    "country": true,
     "capital": "Bangui",
     "alt_spellings": [
       "CF",
@@ -2124,12 +2036,9 @@
       "SSD"
     ],
     "demonym": "Chadian",
-    "latitude": 15,
-    "longitude": 19,
+    "loc": { "type": "Point", "coordinates": [19, 15] },
     "population": 12825000,
-    "calling_code": [
-      "235"
-    ],
+    "calling_code": "235",
     "currency": [
       "XAF"
     ],
@@ -2140,7 +2049,8 @@
       ".td"
     ],
     "native_name": "Tchad",
-    "doc_name": "Chad",
+    "country_name": "Chad",
+    "country": true,
     "capital": "N'Djamena",
     "alt_spellings": [
       "TD",
@@ -2176,12 +2086,9 @@
       "PER"
     ],
     "demonym": "Chilean",
-    "latitude": -30,
-    "longitude": -71,
+    "loc": { "type": "Point", "coordinates": [-71, -30] },
     "population": 16634603,
-    "calling_code": [
-      "56"
-    ],
+    "calling_code": "56",
     "currency": [
       "CLF",
       "CLP"
@@ -2193,7 +2100,8 @@
       ".cl"
     ],
     "native_name": "Chile",
-    "doc_name": "Chile",
+    "country_name": "Chile",
+    "country": true,
     "capital": "Santiago",
     "alt_spellings": [
       "CL",
@@ -2238,12 +2146,9 @@
       "VNM"
     ],
     "demonym": "Chinese",
-    "latitude": 35,
-    "longitude": 105,
+    "loc": { "type": "Point", "coordinates": [105, 35] },
     "population": 1361170000,
-    "calling_code": [
-      "86"
-    ],
+    "calling_code": "86",
     "currency": [
       "CNY"
     ],
@@ -2254,7 +2159,8 @@
       ".cn"
     ],
     "native_name": "中国",
-    "doc_name": "China",
+    "country_name": "China",
+    "country": true,
     "capital": "Beijing",
     "alt_spellings": [
       "CN",
@@ -2287,12 +2193,9 @@
   {
     "borders": [],
     "demonym": "Christmas Island",
-    "latitude": -10.5,
-    "longitude": 105.66666666,
+    "loc": { "type": "Point", "coordinates": [105.66666666, -10.5] },
     "population": 2072,
-    "calling_code": [
-      "61"
-    ],
+    "calling_code": "61",
     "currency": [
       "AUD"
     ],
@@ -2303,7 +2206,8 @@
       ".cx"
     ],
     "native_name": "Christmas Island",
-    "doc_name": "Christmas Island",
+    "country_name": "Christmas Island",
+    "country": true,
     "capital": "Flying Fish Cove",
     "alt_spellings": [
       "CX",
@@ -2321,12 +2225,9 @@
   {
     "borders": [],
     "demonym": "Cocos Islander",
-    "latitude": -12.5,
-    "longitude": 96.83333333,
+    "loc": { "type": "Point", "coordinates": [96.83333333, -12.5] },
     "population": 550,
-    "calling_code": [
-      "61"
-    ],
+    "calling_code": "61",
     "currency": [
       "AUD"
     ],
@@ -2337,7 +2238,8 @@
       ".cc"
     ],
     "native_name": "Cocos (Keeling) Islands",
-    "doc_name": "Cocos (Keeling) Islands",
+    "country_name": "Cocos (Keeling) Islands",
+    "country": true,
     "capital": "West Island",
     "alt_spellings": [
       "CC",
@@ -2362,12 +2264,9 @@
       "VEN"
     ],
     "demonym": "Colombian",
-    "latitude": 4,
-    "longitude": -72,
+    "loc": { "type": "Point", "coordinates": [-72, 4] },
     "population": 47330000,
-    "calling_code": [
-      "57"
-    ],
+    "calling_code": "57",
     "currency": [
       "COP"
     ],
@@ -2378,7 +2277,8 @@
       ".co"
     ],
     "native_name": "Colombia",
-    "doc_name": "Colombia",
+    "country_name": "Colombia",
+    "country": true,
     "capital": "Bogotá",
     "alt_spellings": [
       "CO",
@@ -2407,12 +2307,9 @@
   {
     "borders": [],
     "demonym": "Comoran",
-    "latitude": -12.16666666,
-    "longitude": 44.25,
+    "loc": { "type": "Point", "coordinates": [44.25, -12.16666666] },
     "population": 724300,
-    "calling_code": [
-      "269"
-    ],
+    "calling_code": "269",
     "currency": [
       "KMF"
     ],
@@ -2423,7 +2320,8 @@
       ".km"
     ],
     "native_name": "Komori",
-    "doc_name": "Comoros",
+    "country_name": "Comoros",
+    "country": true,
     "capital": "Moroni",
     "alt_spellings": [
       "KM",
@@ -2463,12 +2361,9 @@
       "GAB"
     ],
     "demonym": "Congolese",
-    "latitude": -1,
-    "longitude": 15,
+    "loc": { "type": "Point", "coordinates": [15, -1] },
     "population": 4448000,
-    "calling_code": [
-      "242"
-    ],
+    "calling_code": "242",
     "currency": [
       "XAF"
     ],
@@ -2479,7 +2374,8 @@
       ".cg"
     ],
     "native_name": "République du Congo",
-    "doc_name": "Republic of the Congo",
+    "country_name": "Republic of the Congo",
+    "country": true,
     "capital": "Brazzaville",
     "alt_spellings": [
       "CG",
@@ -2518,12 +2414,9 @@
       "ZMB"
     ],
     "demonym": "Congolese",
-    "latitude": 0,
-    "longitude": 25,
+    "loc": { "type": "Point", "coordinates": [25, 0] },
     "population": 67514000,
-    "calling_code": [
-      "243"
-    ],
+    "calling_code": "243",
     "currency": [
       "CDF"
     ],
@@ -2534,7 +2427,8 @@
       ".cd"
     ],
     "native_name": "République démocratique du Congo",
-    "doc_name": "Democratic Republic of the Congo",
+    "country_name": "Democratic Republic of the Congo",
+    "country": true,
     "capital": "Kinshasa",
     "alt_spellings": [
       "CD",
@@ -2568,12 +2462,9 @@
   {
     "borders": [],
     "demonym": "Cook Islander",
-    "latitude": -21.23333333,
-    "longitude": -159.76666666,
+    "loc": { "type": "Point", "coordinates": [-159.76666666, -21.23333333] },
     "population": 14974,
-    "calling_code": [
-      "682"
-    ],
+    "calling_code": "682",
     "currency": [
       "NZD"
     ],
@@ -2584,7 +2475,8 @@
       ".ck"
     ],
     "native_name": "Cook Islands",
-    "doc_name": "Cook Islands",
+    "country_name": "Cook Islands",
+    "country": true,
     "capital": "Avarua",
     "alt_spellings": [
       "CK",
@@ -2616,12 +2508,9 @@
       "PAN"
     ],
     "demonym": "Costa Rican",
-    "latitude": 10,
-    "longitude": -84,
+    "loc": { "type": "Point", "coordinates": [-84, 10] },
     "population": 4667096,
-    "calling_code": [
-      "506"
-    ],
+    "calling_code": "506",
     "currency": [
       "CRC"
     ],
@@ -2632,7 +2521,8 @@
       ".cr"
     ],
     "native_name": "Costa Rica",
-    "doc_name": "Costa Rica",
+    "country_name": "Costa Rica",
+    "country": true,
     "capital": "San José",
     "alt_spellings": [
       "CR",
@@ -2667,12 +2557,9 @@
       "MLI"
     ],
     "demonym": "Ivorian",
-    "latitude": 8,
-    "longitude": -5,
+    "loc": { "type": "Point", "coordinates": [-5, 8] },
     "population": -1,
-    "calling_code": [
-      "225"
-    ],
+    "calling_code": "225",
     "currency": [
       "XOF"
     ],
@@ -2683,7 +2570,8 @@
       ".ci"
     ],
     "native_name": "Côte d'Ivoire",
-    "doc_name": "Côte d'Ivoire",
+    "country_name": "Côte d'Ivoire",
+    "country": true,
     "capital": "Yamoussoukro",
     "alt_spellings": [
       "CI",
@@ -2719,12 +2607,9 @@
       "SVN"
     ],
     "demonym": "Croatian",
-    "latitude": 45.16666666,
-    "longitude": 15.5,
+    "loc": { "type": "Point", "coordinates": [15.5, 45.16666666] },
     "population": 4290612,
-    "calling_code": [
-      "385"
-    ],
+    "calling_code": "385",
     "currency": [
       "HRK"
     ],
@@ -2735,7 +2620,8 @@
       ".hr"
     ],
     "native_name": "Hrvatska",
-    "doc_name": "Croatia",
+    "country_name": "Croatia",
+    "country": true,
     "capital": "Zagreb",
     "alt_spellings": [
       "HR",
@@ -2765,12 +2651,9 @@
   {
     "borders": [],
     "demonym": "Cuban",
-    "latitude": 21.5,
-    "longitude": -80,
+    "loc": { "type": "Point", "coordinates": [-80, 21.5] },
     "population": 11167325,
-    "calling_code": [
-      "53"
-    ],
+    "calling_code": "53",
     "currency": [
       "CUC",
       "CUP"
@@ -2782,7 +2665,8 @@
       ".cu"
     ],
     "native_name": "Cuba",
-    "doc_name": "Cuba",
+    "country_name": "Cuba",
+    "country": true,
     "capital": "Havana",
     "alt_spellings": [
       "CU",
@@ -2811,12 +2695,9 @@
   {
     "borders": [],
     "demonym": "Dutch",
-    "latitude": 12.116667,
-    "longitude": -68.933333,
+    "loc": { "type": "Point", "coordinates": [-68.933333, 12.116667] },
     "population": 150563,
-    "calling_code": [
-      "5999"
-    ],
+    "calling_code": "5999",
     "currency": [
       "ANG"
     ],
@@ -2827,7 +2708,8 @@
       ".cw"
     ],
     "native_name": "Curaçao",
-    "doc_name": "Curaçao",
+    "country_name": "Curaçao",
+    "country": true,
     "capital": "Willemstad",
     "alt_spellings": [
       "CW",
@@ -2853,12 +2735,9 @@
       "GBR"
     ],
     "demonym": "Cypriot",
-    "latitude": 35,
-    "longitude": 33,
+    "loc": { "type": "Point", "coordinates": [33, 35] },
     "population": 865878,
-    "calling_code": [
-      "357"
-    ],
+    "calling_code": "357",
     "currency": [
       "EUR"
     ],
@@ -2869,7 +2748,8 @@
       ".cy"
     ],
     "native_name": "Κύπρος",
-    "doc_name": "Cyprus",
+    "country_name": "Cyprus",
+    "country": true,
     "capital": "Nicosia",
     "alt_spellings": [
       "CY",
@@ -2909,12 +2789,9 @@
       "SVK"
     ],
     "demonym": "Czech",
-    "latitude": 49.75,
-    "longitude": 15.5,
+    "loc": { "type": "Point", "coordinates": [15.5, 49.75] },
     "population": 10512900,
-    "calling_code": [
-      "420"
-    ],
+    "calling_code": "420",
     "currency": [
       "CZK"
     ],
@@ -2925,7 +2802,8 @@
       ".cz"
     ],
     "native_name": "Česká republika",
-    "doc_name": "Czech Republic",
+    "country_name": "Czech Republic",
+    "country": true,
     "capital": "Prague",
     "alt_spellings": [
       "CZ",
@@ -2957,12 +2835,9 @@
       "DEU"
     ],
     "demonym": "Danish",
-    "latitude": 56,
-    "longitude": 10,
+    "loc": { "type": "Point", "coordinates": [10, 56] },
     "population": 5623501,
-    "calling_code": [
-      "45"
-    ],
+    "calling_code": "45",
     "currency": [
       "DKK"
     ],
@@ -2973,7 +2848,8 @@
       ".dk"
     ],
     "native_name": "Danmark",
-    "doc_name": "Denmark",
+    "country_name": "Denmark",
+    "country": true,
     "capital": "Copenhagen",
     "alt_spellings": [
       "DK",
@@ -3007,12 +2883,9 @@
       "SOM"
     ],
     "demonym": "Djibouti",
-    "latitude": 11.5,
-    "longitude": 43,
+    "loc": { "type": "Point", "coordinates": [43, 11.5] },
     "population": 864618,
-    "calling_code": [
-      "253"
-    ],
+    "calling_code": "253",
     "currency": [
       "DJF"
     ],
@@ -3023,7 +2896,8 @@
       ".dj"
     ],
     "native_name": "Djibouti",
-    "doc_name": "Djibouti",
+    "country_name": "Djibouti",
+    "country": true,
     "capital": "Djibouti",
     "alt_spellings": [
       "DJ",
@@ -3058,12 +2932,9 @@
   {
     "borders": [],
     "demonym": "Dominican",
-    "latitude": 15.41666666,
-    "longitude": -61.33333333,
+    "loc": { "type": "Point", "coordinates": [-61.33333333, 15.41666666] },
     "population": 71293,
-    "calling_code": [
-      "1767"
-    ],
+    "calling_code": "1767",
     "currency": [
       "XCD"
     ],
@@ -3074,7 +2945,8 @@
       ".dm"
     ],
     "native_name": "Dominica",
-    "doc_name": "Dominica",
+    "country_name": "Dominica",
+    "country": true,
     "capital": "Roseau",
     "alt_spellings": [
       "DM",
@@ -3106,12 +2978,9 @@
       "HTI"
     ],
     "demonym": "Dominican",
-    "latitude": 19,
-    "longitude": -70.66666666,
+    "loc": { "type": "Point", "coordinates": [-70.66666666, 19] },
     "population": 9445281,
-    "calling_code": [
-      "1809",
-      "1829",
+    "calling_code": ,,
       "1849"
     ],
     "currency": [
@@ -3124,7 +2993,8 @@
       ".do"
     ],
     "native_name": "República Dominicana",
-    "doc_name": "Dominican Republic",
+    "country_name": "Dominican Republic",
+    "country": true,
     "capital": "Santo Domingo",
     "alt_spellings": [
       "DO"
@@ -3154,12 +3024,9 @@
       "PER"
     ],
     "demonym": "Ecuadorean",
-    "latitude": -2,
-    "longitude": -77.5,
+    "loc": { "type": "Point", "coordinates": [-77.5, -2] },
     "population": 15617900,
-    "calling_code": [
-      "593"
-    ],
+    "calling_code": "593",
     "currency": [
       "USD"
     ],
@@ -3170,7 +3037,8 @@
       ".ec"
     ],
     "native_name": "Ecuador",
-    "doc_name": "Ecuador",
+    "country_name": "Ecuador",
+    "country": true,
     "capital": "Quito",
     "alt_spellings": [
       "EC",
@@ -3203,12 +3071,9 @@
       "SDN"
     ],
     "demonym": "Egyptian",
-    "latitude": 27,
-    "longitude": 30,
+    "loc": { "type": "Point", "coordinates": [30, 27] },
     "population": 83661000,
-    "calling_code": [
-      "20"
-    ],
+    "calling_code": "20",
     "currency": [
       "EGP"
     ],
@@ -3219,7 +3084,8 @@
       ".eg"
     ],
     "native_name": "Miṣr",
-    "doc_name": "Egypt",
+    "country_name": "Egypt",
+    "country": true,
     "capital": "Cairo",
     "alt_spellings": [
       "EG",
@@ -3250,12 +3116,9 @@
       "HND"
     ],
     "demonym": "Salvadoran",
-    "latitude": 13.83333333,
-    "longitude": -88.91666666,
+    "loc": { "type": "Point", "coordinates": [-88.91666666, 13.83333333] },
     "population": 6340000,
-    "calling_code": [
-      "503"
-    ],
+    "calling_code": "503",
     "currency": [
       "SVC",
       "USD"
@@ -3267,7 +3130,8 @@
       ".sv"
     ],
     "native_name": "El Salvador",
-    "doc_name": "El Salvador",
+    "country_name": "El Salvador",
+    "country": true,
     "capital": "San Salvador",
     "alt_spellings": [
       "SV",
@@ -3299,12 +3163,9 @@
       "GAB"
     ],
     "demonym": "Equatorial Guinean",
-    "latitude": 2,
-    "longitude": 10,
+    "loc": { "type": "Point", "coordinates": [10, 2] },
     "population": 1622000,
-    "calling_code": [
-      "240"
-    ],
+    "calling_code": "240",
     "currency": [
       "XAF"
     ],
@@ -3315,7 +3176,8 @@
       ".gq"
     ],
     "native_name": "Guinea Ecuatorial",
-    "doc_name": "Equatorial Guinea",
+    "country_name": "Equatorial Guinea",
+    "country": true,
     "capital": "Malabo",
     "alt_spellings": [
       "GQ",
@@ -3353,12 +3215,9 @@
       "SDN"
     ],
     "demonym": "Eritrean",
-    "latitude": 15,
-    "longitude": 39,
+    "loc": { "type": "Point", "coordinates": [39, 15] },
     "population": 6333000,
-    "calling_code": [
-      "291"
-    ],
+    "calling_code": "291",
     "currency": [
       "ERN"
     ],
@@ -3369,7 +3228,8 @@
       ".er"
     ],
     "native_name": "ኤርትራ",
-    "doc_name": "Eritrea",
+    "country_name": "Eritrea",
+    "country": true,
     "capital": "Asmara",
     "alt_spellings": [
       "ER",
@@ -3409,12 +3269,9 @@
       "RUS"
     ],
     "demonym": "Estonian",
-    "latitude": 59,
-    "longitude": 26,
+    "loc": { "type": "Point", "coordinates": [26, 59] },
     "population": 1286540,
-    "calling_code": [
-      "372"
-    ],
+    "calling_code": "372",
     "currency": [
       "EUR"
     ],
@@ -3425,7 +3282,8 @@
       ".ee"
     ],
     "native_name": "Eesti",
-    "doc_name": "Estonia",
+    "country_name": "Estonia",
+    "country": true,
     "capital": "Tallinn",
     "alt_spellings": [
       "EE",
@@ -3462,12 +3320,9 @@
       "SDN"
     ],
     "demonym": "Ethiopian",
-    "latitude": 8,
-    "longitude": 38,
+    "loc": { "type": "Point", "coordinates": [38, 8] },
     "population": 86613986,
-    "calling_code": [
-      "251"
-    ],
+    "calling_code": "251",
     "currency": [
       "ETB"
     ],
@@ -3478,7 +3333,8 @@
       ".et"
     ],
     "native_name": "ኢትዮጵያ",
-    "doc_name": "Ethiopia",
+    "country_name": "Ethiopia",
+    "country": true,
     "capital": "Addis Ababa",
     "alt_spellings": [
       "ET",
@@ -3508,12 +3364,9 @@
   {
     "borders": [],
     "demonym": "Falkland Islander",
-    "latitude": -51.75,
-    "longitude": -59,
+    "loc": { "type": "Point", "coordinates": [-59, -51.75] },
     "population": 2563,
-    "calling_code": [
-      "500"
-    ],
+    "calling_code": "500",
     "currency": [
       "FKP"
     ],
@@ -3524,7 +3377,8 @@
       ".fk"
     ],
     "native_name": "Falkland Islands",
-    "doc_name": "Falkland Islands",
+    "country_name": "Falkland Islands",
+    "country": true,
     "capital": "Stanley",
     "alt_spellings": [
       "FK",
@@ -3552,12 +3406,9 @@
   {
     "borders": [],
     "demonym": "Faroese",
-    "latitude": 62,
-    "longitude": -7,
+    "loc": { "type": "Point", "coordinates": [-7, 62] },
     "population": 48509,
-    "calling_code": [
-      "298"
-    ],
+    "calling_code": "298",
     "currency": [
       "DKK"
     ],
@@ -3568,7 +3419,8 @@
       ".fo"
     ],
     "native_name": "Føroyar",
-    "doc_name": "Faroe Islands",
+    "country_name": "Faroe Islands",
+    "country": true,
     "capital": "Tórshavn",
     "alt_spellings": [
       "FO",
@@ -3598,12 +3450,9 @@
   {
     "borders": [],
     "demonym": "Fijian",
-    "latitude": -18,
-    "longitude": 175,
+    "loc": { "type": "Point", "coordinates": [175, -18] },
     "population": 858038,
-    "calling_code": [
-      "679"
-    ],
+    "calling_code": "679",
     "currency": [
       "FJD"
     ],
@@ -3614,7 +3463,8 @@
       ".fj"
     ],
     "native_name": "Fiji",
-    "doc_name": "Fiji",
+    "country_name": "Fiji",
+    "country": true,
     "capital": "Suva",
     "alt_spellings": [
       "FJ",
@@ -3654,12 +3504,9 @@
       "RUS"
     ],
     "demonym": "Finnish",
-    "latitude": 64,
-    "longitude": 26,
+    "loc": { "type": "Point", "coordinates": [26, 64] },
     "population": 5445883,
-    "calling_code": [
-      "358"
-    ],
+    "calling_code": "358",
     "currency": [
       "EUR"
     ],
@@ -3670,7 +3517,8 @@
       ".fi"
     ],
     "native_name": "Suomi",
-    "doc_name": "Finland",
+    "country_name": "Finland",
+    "country": true,
     "capital": "Helsinki",
     "alt_spellings": [
       "FI",
@@ -3712,12 +3560,9 @@
       "CHE"
     ],
     "demonym": "French",
-    "latitude": 46,
-    "longitude": 2,
+    "loc": { "type": "Point", "coordinates": [2, 46] },
     "population": 65806000,
-    "calling_code": [
-      "33"
-    ],
+    "calling_code": "33",
     "currency": [
       "EUR"
     ],
@@ -3728,7 +3573,8 @@
       ".fr"
     ],
     "native_name": "France",
-    "doc_name": "France",
+    "country_name": "France",
+    "country": true,
     "capital": "Paris",
     "alt_spellings": [
       "FR",
@@ -3760,12 +3606,9 @@
       "SUR"
     ],
     "demonym": "",
-    "latitude": 4,
-    "longitude": -53,
+    "loc": { "type": "Point", "coordinates": [-53, 4] },
     "population": 229040,
-    "calling_code": [
-      "594"
-    ],
+    "calling_code": "594",
     "currency": [
       "EUR"
     ],
@@ -3776,7 +3619,8 @@
       ".gf"
     ],
     "native_name": "Guyane française",
-    "doc_name": "French Guiana",
+    "country_name": "French Guiana",
+    "country": true,
     "capital": "Cayenne",
     "alt_spellings": [
       "GF",
@@ -3805,12 +3649,9 @@
   {
     "borders": [],
     "demonym": "French Polynesian",
-    "latitude": -15,
-    "longitude": -140,
+    "loc": { "type": "Point", "coordinates": [-140, -15] },
     "population": 268270,
-    "calling_code": [
-      "689"
-    ],
+    "calling_code": "689",
     "currency": [
       "XPF"
     ],
@@ -3821,7 +3662,8 @@
       ".pf"
     ],
     "native_name": "Polynésie française",
-    "doc_name": "French Polynesia",
+    "country_name": "French Polynesia",
+    "country": true,
     "capital": "Papeetē",
     "alt_spellings": [
       "PF",
@@ -3852,9 +3694,7 @@
     "borders": [],
     "demonym": "French",
     "population": -1,
-    "calling_code": [
-      ""
-    ],
+    "calling_code": "",
     "currency": [
       "EUR"
     ],
@@ -3865,7 +3705,8 @@
       ".tf"
     ],
     "native_name": "Territoire des Terres australes et antarctiques françaises",
-    "doc_name": "French Southern and Antarctic Lands",
+    "country_name": "French Southern and Antarctic Lands",
+    "country": true,
     "name": "French Southern and Antarctic Lands",
     "capital": "Port-aux-Français",
     "alt_spellings": [
@@ -3897,12 +3738,9 @@
       "GNQ"
     ],
     "demonym": "Gabonese",
-    "latitude": -1,
-    "longitude": 11.75,
+    "loc": { "type": "Point", "coordinates": [11.75, -1] },
     "population": 1672000,
-    "calling_code": [
-      "241"
-    ],
+    "calling_code": "241",
     "currency": [
       "XAF"
     ],
@@ -3913,7 +3751,8 @@
       ".ga"
     ],
     "native_name": "Gabon",
-    "doc_name": "Gabon",
+    "country_name": "Gabon",
+    "country": true,
     "capital": "Libreville",
     "alt_spellings": [
       "GA",
@@ -3944,12 +3783,9 @@
       "SEN"
     ],
     "demonym": "Gambian",
-    "latitude": 13.46666666,
-    "longitude": -16.56666666,
+    "loc": { "type": "Point", "coordinates": [-16.56666666, 13.46666666] },
     "population": -1,
-    "calling_code": [
-      "220"
-    ],
+    "calling_code": "220",
     "currency": [
       "GMD"
     ],
@@ -3960,7 +3796,8 @@
       ".gm"
     ],
     "native_name": "Gambia",
-    "doc_name": "Gambia",
+    "country_name": "Gambia",
+    "country": true,
     "capital": "Banjul",
     "alt_spellings": [
       "GM",
@@ -3993,12 +3830,9 @@
       "TUR"
     ],
     "demonym": "Georgian",
-    "latitude": 42,
-    "longitude": 43.5,
+    "loc": { "type": "Point", "coordinates": [43.5, 42] },
     "population": -1,
-    "calling_code": [
-      "995"
-    ],
+    "calling_code": "995",
     "currency": [
       "GEL"
     ],
@@ -4009,7 +3843,8 @@
       ".ge"
     ],
     "native_name": "საქართველო",
-    "doc_name": "Georgia",
+    "country_name": "Georgia",
+    "country": true,
     "capital": "Tbilisi",
     "alt_spellings": [
       "GE",
@@ -4047,12 +3882,9 @@
       "CHE"
     ],
     "demonym": "German",
-    "latitude": 51,
-    "longitude": 9,
+    "loc": { "type": "Point", "coordinates": [9, 51] },
     "population": 80523700,
-    "calling_code": [
-      "49"
-    ],
+    "calling_code": "49",
     "currency": [
       "EUR"
     ],
@@ -4063,7 +3895,8 @@
       ".de"
     ],
     "native_name": "Deutschland",
-    "doc_name": "Germany",
+    "country_name": "Germany",
+    "country": true,
     "capital": "Berlin",
     "alt_spellings": [
       "DE",
@@ -4096,12 +3929,9 @@
       "TGO"
     ],
     "demonym": "Ghanaian",
-    "latitude": 8,
-    "longitude": -2,
+    "loc": { "type": "Point", "coordinates": [-2, 8] },
     "population": 24658823,
-    "calling_code": [
-      "233"
-    ],
+    "calling_code": "233",
     "currency": [
       "GHS"
     ],
@@ -4112,7 +3942,8 @@
       ".gh"
     ],
     "native_name": "Ghana",
-    "doc_name": "Ghana",
+    "country_name": "Ghana",
+    "country": true,
     "capital": "Accra",
     "alt_spellings": [
       "GH"
@@ -4141,12 +3972,9 @@
       "ESP"
     ],
     "demonym": "Gibraltar",
-    "latitude": 36.13333333,
-    "longitude": -5.35,
+    "loc": { "type": "Point", "coordinates": [-5.35, 36.13333333] },
     "population": 29752,
-    "calling_code": [
-      "350"
-    ],
+    "calling_code": "350",
     "currency": [
       "GIP"
     ],
@@ -4157,7 +3985,8 @@
       ".gi"
     ],
     "native_name": "Gibraltar",
-    "doc_name": "Gibraltar",
+    "country_name": "Gibraltar",
+    "country": true,
     "capital": "Gibraltar",
     "alt_spellings": [
       "GI"
@@ -4189,12 +4018,9 @@
       "MKD"
     ],
     "demonym": "Greek",
-    "latitude": 39,
-    "longitude": 22,
+    "loc": { "type": "Point", "coordinates": [22, 39] },
     "population": 10815197,
-    "calling_code": [
-      "30"
-    ],
+    "calling_code": "30",
     "currency": [
       "EUR"
     ],
@@ -4205,7 +4031,8 @@
       ".gr"
     ],
     "native_name": "Ελλάδα",
-    "doc_name": "Greece",
+    "country_name": "Greece",
+    "country": true,
     "capital": "Athens",
     "alt_spellings": [
       "GR",
@@ -4235,12 +4062,9 @@
   {
     "borders": [],
     "demonym": "Greenlandic",
-    "latitude": 72,
-    "longitude": -40,
+    "loc": { "type": "Point", "coordinates": [-40, 72] },
     "population": 56370,
-    "calling_code": [
-      "299"
-    ],
+    "calling_code": "299",
     "currency": [
       "DKK"
     ],
@@ -4251,7 +4075,8 @@
       ".gl"
     ],
     "native_name": "Kalaallit Nunaat",
-    "doc_name": "Greenland",
+    "country_name": "Greenland",
+    "country": true,
     "capital": "Nuuk",
     "alt_spellings": [
       "GL",
@@ -4279,12 +4104,9 @@
   {
     "borders": [],
     "demonym": "Grenadian",
-    "latitude": 12.11666666,
-    "longitude": -61.66666666,
+    "loc": { "type": "Point", "coordinates": [-61.66666666, 12.11666666] },
     "population": 103328,
-    "calling_code": [
-      "1473"
-    ],
+    "calling_code": "1473",
     "currency": [
       "XCD"
     ],
@@ -4295,7 +4117,8 @@
       ".gd"
     ],
     "native_name": "Grenada",
-    "doc_name": "Grenada",
+    "country_name": "Grenada",
+    "country": true,
     "capital": "Saint George's",
     "alt_spellings": [
       "GD"
@@ -4322,12 +4145,9 @@
   {
     "borders": [],
     "demonym": "Guadeloupian",
-    "latitude": 16.25,
-    "longitude": -61.583333,
+    "loc": { "type": "Point", "coordinates": [-61.583333, 16.25] },
     "population": 403355,
-    "calling_code": [
-      "590"
-    ],
+    "calling_code": "590",
     "currency": [
       "EUR"
     ],
@@ -4338,7 +4158,8 @@
       ".gp"
     ],
     "native_name": "Guadeloupe",
-    "doc_name": "Guadeloupe",
+    "country_name": "Guadeloupe",
+    "country": true,
     "capital": "Basse-Terre",
     "alt_spellings": [
       "GP",
@@ -4366,12 +4187,9 @@
   {
     "borders": [],
     "demonym": "Guamanian",
-    "latitude": 13.46666666,
-    "longitude": 144.78333333,
+    "loc": { "type": "Point", "coordinates": [144.78333333, 13.46666666] },
     "population": 159358,
-    "calling_code": [
-      "1671"
-    ],
+    "calling_code": "1671",
     "currency": [
       "USD"
     ],
@@ -4382,7 +4200,8 @@
       ".gu"
     ],
     "native_name": "Guam",
-    "doc_name": "Guam",
+    "country_name": "Guam",
+    "country": true,
     "capital": "Hagåtña",
     "alt_spellings": [
       "GU",
@@ -4418,12 +4237,9 @@
       "MEX"
     ],
     "demonym": "Guatemalan",
-    "latitude": 15.5,
-    "longitude": -90.25,
+    "loc": { "type": "Point", "coordinates": [-90.25, 15.5] },
     "population": 15438384,
-    "calling_code": [
-      "502"
-    ],
+    "calling_code": "502",
     "currency": [
       "GTQ"
     ],
@@ -4434,7 +4250,8 @@
       ".gt"
     ],
     "native_name": "Guatemala",
-    "doc_name": "Guatemala",
+    "country_name": "Guatemala",
+    "country": true,
     "capital": "Guatemala City",
     "alt_spellings": [
       "GT"
@@ -4461,12 +4278,9 @@
   {
     "borders": [],
     "demonym": "Channel Islander",
-    "latitude": 49.46666666,
-    "longitude": -2.58333333,
+    "loc": { "type": "Point", "coordinates": [-2.58333333, 49.46666666] },
     "population": 62431,
-    "calling_code": [
-      "44"
-    ],
+    "calling_code": "44",
     "currency": [
       "GBP"
     ],
@@ -4477,7 +4291,8 @@
       ".gg"
     ],
     "native_name": "Guernsey",
-    "doc_name": "Guernsey",
+    "country_name": "Guernsey",
+    "country": true,
     "capital": "Saint Peter Port",
     "alt_spellings": [
       "GG",
@@ -4515,12 +4330,9 @@
       "SLE"
     ],
     "demonym": "Guinean",
-    "latitude": 11,
-    "longitude": -10,
+    "loc": { "type": "Point", "coordinates": [-10, 11] },
     "population": 10824200,
-    "calling_code": [
-      "224"
-    ],
+    "calling_code": "224",
     "currency": [
       "GNF"
     ],
@@ -4531,7 +4343,8 @@
       ".gn"
     ],
     "native_name": "Guinée",
-    "doc_name": "Guinea",
+    "country_name": "Guinea",
+    "country": true,
     "capital": "Conakry",
     "alt_spellings": [
       "GN",
@@ -4564,12 +4377,9 @@
       "SEN"
     ],
     "demonym": "Guinea-Bissauan",
-    "latitude": 12,
-    "longitude": -15,
+    "loc": { "type": "Point", "coordinates": [-15, 12] },
     "population": 1704000,
-    "calling_code": [
-      "245"
-    ],
+    "calling_code": "245",
     "currency": [
       "XOF"
     ],
@@ -4580,7 +4390,8 @@
       ".gw"
     ],
     "native_name": "Guiné-Bissau",
-    "doc_name": "Guinea-Bissau",
+    "country_name": "Guinea-Bissau",
+    "country": true,
     "capital": "Bissau",
     "alt_spellings": [
       "GW",
@@ -4613,12 +4424,9 @@
       "VEN"
     ],
     "demonym": "Guyanese",
-    "latitude": 5,
-    "longitude": -59,
+    "loc": { "type": "Point", "coordinates": [-59, 5] },
     "population": 784894,
-    "calling_code": [
-      "592"
-    ],
+    "calling_code": "592",
     "currency": [
       "GYD"
     ],
@@ -4629,7 +4437,8 @@
       ".gy"
     ],
     "native_name": "Guyana",
-    "doc_name": "Guyana",
+    "country_name": "Guyana",
+    "country": true,
     "capital": "Georgetown",
     "alt_spellings": [
       "GY",
@@ -4659,12 +4468,9 @@
       "DOM"
     ],
     "demonym": "Haitian",
-    "latitude": 19,
-    "longitude": -72.41666666,
+    "loc": { "type": "Point", "coordinates": [-72.41666666, 19] },
     "population": 10413211,
-    "calling_code": [
-      "509"
-    ],
+    "calling_code": "509",
     "currency": [
       "HTG",
       "USD"
@@ -4676,7 +4482,8 @@
       ".ht"
     ],
     "native_name": "Haïti",
-    "doc_name": "Haiti",
+    "country_name": "Haiti",
+    "country": true,
     "capital": "Port-au-Prince",
     "alt_spellings": [
       "HT",
@@ -4708,12 +4515,9 @@
   {
     "borders": [],
     "demonym": "Heard and McDonald Islander",
-    "latitude": -53.1,
-    "longitude": 72.51666666,
+    "loc": { "type": "Point", "coordinates": [72.51666666, -53.1] },
     "population": -1,
-    "calling_code": [
-      ""
-    ],
+    "calling_code": "",
     "currency": [
       "AUD"
     ],
@@ -4725,7 +4529,8 @@
       ".aq"
     ],
     "native_name": "Heard Island and McDonald Islands",
-    "doc_name": "Heard Island and McDonald Islands",
+    "country_name": "Heard Island and McDonald Islands",
+    "country": true,
     "capital": "",
     "alt_spellings": [
       "HM"
@@ -4754,12 +4559,9 @@
       "ITA"
     ],
     "demonym": "Italian",
-    "latitude": 41.9,
-    "longitude": 12.45,
+    "loc": { "type": "Point", "coordinates": [12.45, 41.9] },
     "population": 800,
-    "calling_code": [
-      "39066",
-      "379"
+    "calling_code": ,,
     ],
     "currency": [
       "EUR"
@@ -4771,7 +4573,8 @@
       ".va"
     ],
     "native_name": "Vaticano",
-    "doc_name": "Vatican City",
+    "country_name": "Vatican City",
+    "country": true,
     "capital": "Vatican City",
     "alt_spellings": [
       "VA",
@@ -4805,12 +4608,9 @@
       "NIC"
     ],
     "demonym": "Honduran",
-    "latitude": 15,
-    "longitude": -86.5,
+    "loc": { "type": "Point", "coordinates": [-86.5, 15] },
     "population": 8555072,
-    "calling_code": [
-      "504"
-    ],
+    "calling_code": "504",
     "currency": [
       "HNL"
     ],
@@ -4821,7 +4621,8 @@
       ".hn"
     ],
     "native_name": "Honduras",
-    "doc_name": "Honduras",
+    "country_name": "Honduras",
+    "country": true,
     "capital": "Tegucigalpa",
     "alt_spellings": [
       "HN",
@@ -4852,12 +4653,9 @@
       "CHN"
     ],
     "demonym": "Chinese",
-    "latitude": 22.25,
-    "longitude": 114.16666666,
+    "loc": { "type": "Point", "coordinates": [114.16666666, 22.25] },
     "population": 7184000,
-    "calling_code": [
-      "852"
-    ],
+    "calling_code": "852",
     "currency": [
       "HKD"
     ],
@@ -4868,7 +4666,8 @@
       ".hk"
     ],
     "native_name": "Hong Kong",
-    "doc_name": "Hong Kong",
+    "country_name": "Hong Kong",
+    "country": true,
     "capital": "Central",
     "alt_spellings": [
       "HK",
@@ -4906,12 +4705,9 @@
       "UKR"
     ],
     "demonym": "Hungarian",
-    "latitude": 47,
-    "longitude": 20,
+    "loc": { "type": "Point", "coordinates": [20, 47] },
     "population": 9906000,
-    "calling_code": [
-      "36"
-    ],
+    "calling_code": "36",
     "currency": [
       "HUF"
     ],
@@ -4922,7 +4718,8 @@
       ".hu"
     ],
     "native_name": "Magyarország",
-    "doc_name": "Hungary",
+    "country_name": "Hungary",
+    "country": true,
     "capital": "Budapest",
     "alt_spellings": [
       "HU"
@@ -4949,12 +4746,9 @@
   {
     "borders": [],
     "demonym": "Icelander",
-    "latitude": 65,
-    "longitude": -18,
+    "loc": { "type": "Point", "coordinates": [-18, 65] },
     "population": 325010,
-    "calling_code": [
-      "354"
-    ],
+    "calling_code": "354",
     "currency": [
       "ISK"
     ],
@@ -4965,7 +4759,8 @@
       ".is"
     ],
     "native_name": "Ísland",
-    "doc_name": "Iceland",
+    "country_name": "Iceland",
+    "country": true,
     "capital": "Reykjavík",
     "alt_spellings": [
       "IS",
@@ -5004,12 +4799,9 @@
       "LKA"
     ],
     "demonym": "Indian",
-    "latitude": 20,
-    "longitude": 77,
+    "loc": { "type": "Point", "coordinates": [77, 20] },
     "population": 1236670000,
-    "calling_code": [
-      "91"
-    ],
+    "calling_code": "91",
     "currency": [
       "INR"
     ],
@@ -5020,7 +4812,8 @@
       ".in"
     ],
     "native_name": "भारत",
-    "doc_name": "India",
+    "country_name": "India",
+    "country": true,
     "capital": "New Delhi",
     "alt_spellings": [
       "IN",
@@ -5056,12 +4849,9 @@
       "PNG"
     ],
     "demonym": "Indonesian",
-    "latitude": -5,
-    "longitude": 120,
+    "loc": { "type": "Point", "coordinates": [120, -5] },
     "population": 237641326,
-    "calling_code": [
-      "62"
-    ],
+    "calling_code": "62",
     "currency": [
       "IDR"
     ],
@@ -5072,7 +4862,8 @@
       ".id"
     ],
     "native_name": "Indonesia",
-    "doc_name": "Indonesia",
+    "country_name": "Indonesia",
+    "country": true,
     "capital": "Jakarta",
     "alt_spellings": [
       "ID",
@@ -5099,12 +4890,9 @@
       "TKM"
     ],
     "demonym": "Iranian",
-    "latitude": 32,
-    "longitude": 53,
+    "loc": { "type": "Point", "coordinates": [53, 32] },
     "population": 77068000,
-    "calling_code": [
-      "98"
-    ],
+    "calling_code": "98",
     "currency": [
       "IRR"
     ],
@@ -5115,7 +4903,8 @@
       ".ir"
     ],
     "native_name": "Irān",
-    "doc_name": "Iran",
+    "country_name": "Iran",
+    "country": true,
     "capital": "Tehrān",
     "alt_spellings": [
       "IR",
@@ -5150,12 +4939,9 @@
       "TUR"
     ],
     "demonym": "Iraqi",
-    "latitude": 33,
-    "longitude": 44,
+    "loc": { "type": "Point", "coordinates": [44, 33] },
     "population": 34035000,
-    "calling_code": [
-      "964"
-    ],
+    "calling_code": "964",
     "currency": [
       "IQD"
     ],
@@ -5166,7 +4952,8 @@
       ".iq"
     ],
     "native_name": "Irāq",
-    "doc_name": "Iraq",
+    "country_name": "Iraq",
+    "country": true,
     "capital": "Baghdad",
     "alt_spellings": [
       "IQ",
@@ -5198,12 +4985,9 @@
       "GBR"
     ],
     "demonym": "Irish",
-    "latitude": 53,
-    "longitude": -8,
+    "loc": { "type": "Point", "coordinates": [-8, 53] },
     "population": -1,
-    "calling_code": [
-      "353"
-    ],
+    "calling_code": "353",
     "currency": [
       "EUR"
     ],
@@ -5214,7 +4998,8 @@
       ".ie"
     ],
     "native_name": "Éire",
-    "doc_name": "Ireland",
+    "country_name": "Ireland",
+    "country": true,
     "capital": "Dublin",
     "alt_spellings": [
       "IE",
@@ -5246,12 +5031,9 @@
   {
     "borders": [],
     "demonym": "Manx",
-    "latitude": 54.25,
-    "longitude": -4.5,
+    "loc": { "type": "Point", "coordinates": [-4.5, 54.25] },
     "population": 84497,
-    "calling_code": [
-      "44"
-    ],
+    "calling_code": "44",
     "currency": [
       "GBP"
     ],
@@ -5262,7 +5044,8 @@
       ".im"
     ],
     "native_name": "Isle of Man",
-    "doc_name": "Isle of Man",
+    "country_name": "Isle of Man",
+    "country": true,
     "capital": "Douglas",
     "alt_spellings": [
       "IM",
@@ -5299,12 +5082,9 @@
       "SYR"
     ],
     "demonym": "Israeli",
-    "latitude": 31.5,
-    "longitude": 34.75,
+    "loc": { "type": "Point", "coordinates": [34.75, 31.5] },
     "population": 8092700,
-    "calling_code": [
-      "972"
-    ],
+    "calling_code": "972",
     "currency": [
       "ILS"
     ],
@@ -5315,7 +5095,8 @@
       ".il"
     ],
     "native_name": "Yisrā'el",
-    "doc_name": "Israel",
+    "country_name": "Israel",
+    "country": true,
     "capital": "Jerusalem",
     "alt_spellings": [
       "IL",
@@ -5353,12 +5134,9 @@
       "VAT"
     ],
     "demonym": "Italian",
-    "latitude": 42.83333333,
-    "longitude": 12.83333333,
+    "loc": { "type": "Point", "coordinates": [12.83333333, 42.83333333] },
     "population": 59829079,
-    "calling_code": [
-      "39"
-    ],
+    "calling_code": "39",
     "currency": [
       "EUR"
     ],
@@ -5369,7 +5147,8 @@
       ".it"
     ],
     "native_name": "Italia",
-    "doc_name": "Italy",
+    "country_name": "Italy",
+    "country": true,
     "capital": "Rome",
     "alt_spellings": [
       "IT",
@@ -5398,12 +5177,9 @@
   {
     "borders": [],
     "demonym": "Jamaican",
-    "latitude": 18.25,
-    "longitude": -77.5,
+    "loc": { "type": "Point", "coordinates": [-77.5, 18.25] },
     "population": 2711476,
-    "calling_code": [
-      "1876"
-    ],
+    "calling_code": "1876",
     "currency": [
       "JMD"
     ],
@@ -5414,7 +5190,8 @@
       ".jm"
     ],
     "native_name": "Jamaica",
-    "doc_name": "Jamaica",
+    "country_name": "Jamaica",
+    "country": true,
     "capital": "Kingston",
     "alt_spellings": [
       "JM"
@@ -5441,12 +5218,9 @@
   {
     "borders": [],
     "demonym": "Japanese",
-    "latitude": 36,
-    "longitude": 138,
+    "loc": { "type": "Point", "coordinates": [138, 36] },
     "population": 127290000,
-    "calling_code": [
-      "81"
-    ],
+    "calling_code": "81",
     "currency": [
       "JPY"
     ],
@@ -5457,7 +5231,8 @@
       ".jp"
     ],
     "native_name": "日本",
-    "doc_name": "Japan",
+    "country_name": "Japan",
+    "country": true,
     "capital": "Tokyo",
     "alt_spellings": [
       "JP",
@@ -5486,12 +5261,9 @@
   {
     "borders": [],
     "demonym": "Channel Islander",
-    "latitude": 49.25,
-    "longitude": -2.16666666,
+    "loc": { "type": "Point", "coordinates": [-2.16666666, 49.25] },
     "population": 97857,
-    "calling_code": [
-      "44"
-    ],
+    "calling_code": "44",
     "currency": [
       "GBP"
     ],
@@ -5502,7 +5274,8 @@
       ".je"
     ],
     "native_name": "Jersey",
-    "doc_name": "Jersey",
+    "country_name": "Jersey",
+    "country": true,
     "capital": "Saint Helier",
     "alt_spellings": [
       "JE",
@@ -5539,12 +5312,9 @@
       "SYR"
     ],
     "demonym": "Jordanian",
-    "latitude": 31,
-    "longitude": 36,
+    "loc": { "type": "Point", "coordinates": [36, 31] },
     "population": 6512600,
-    "calling_code": [
-      "962"
-    ],
+    "calling_code": "962",
     "currency": [
       "JOD"
     ],
@@ -5555,7 +5325,8 @@
       ".jo"
     ],
     "native_name": "al-Urdun",
-    "doc_name": "Jordan",
+    "country_name": "Jordan",
+    "country": true,
     "capital": "Amman",
     "alt_spellings": [
       "JO",
@@ -5590,13 +5361,9 @@
       "UZB"
     ],
     "demonym": "Kazakhstani",
-    "latitude": 48,
-    "longitude": 68,
+    "loc": { "type": "Point", "coordinates": [68, 48] },
     "population": 17099000,
-    "calling_code": [
-      "76",
-      "77"
-    ],
+    "calling_code": "7",
     "currency": [
       "KZT"
     ],
@@ -5608,7 +5375,8 @@
       ".қаз"
     ],
     "native_name": "Қазақстан",
-    "doc_name": "Kazakhstan",
+    "country_name": "Kazakhstan",
+    "country": true,
     "capital": "Astana",
     "alt_spellings": [
       "KZ",
@@ -5650,12 +5418,9 @@
       "UGA"
     ],
     "demonym": "Kenyan",
-    "latitude": 1,
-    "longitude": 38,
+    "loc": { "type": "Point", "coordinates": [38, 1] },
     "population": 44354000,
-    "calling_code": [
-      "254"
-    ],
+    "calling_code": "254",
     "currency": [
       "KES"
     ],
@@ -5666,7 +5431,8 @@
       ".ke"
     ],
     "native_name": "Kenya",
-    "doc_name": "Kenya",
+    "country_name": "Kenya",
+    "country": true,
     "capital": "Nairobi",
     "alt_spellings": [
       "KE",
@@ -5697,12 +5463,9 @@
   {
     "borders": [],
     "demonym": "I-Kiribati",
-    "latitude": 1.41666666,
-    "longitude": 173,
+    "loc": { "type": "Point", "coordinates": [173, 1.41666666] },
     "population": 106461,
-    "calling_code": [
-      "686"
-    ],
+    "calling_code": "686",
     "currency": [
       "AUD"
     ],
@@ -5713,7 +5476,8 @@
       ".ki"
     ],
     "native_name": "Kiribati",
-    "doc_name": "Kiribati",
+    "country_name": "Kiribati",
+    "country": true,
     "capital": "South Tarawa",
     "alt_spellings": [
       "KI",
@@ -5746,12 +5510,9 @@
       "SAU"
     ],
     "demonym": "Kuwaiti",
-    "latitude": 29.5,
-    "longitude": 45.75,
+    "loc": { "type": "Point", "coordinates": [45.75, 29.5] },
     "population": 3582054,
-    "calling_code": [
-      "965"
-    ],
+    "calling_code": "965",
     "currency": [
       "KWD"
     ],
@@ -5762,7 +5523,8 @@
       ".kw"
     ],
     "native_name": "al-Kuwayt",
-    "doc_name": "Kuwait",
+    "country_name": "Kuwait",
+    "country": true,
     "capital": "Kuwait City",
     "alt_spellings": [
       "KW",
@@ -5796,12 +5558,9 @@
       "UZB"
     ],
     "demonym": "Kirghiz",
-    "latitude": 41,
-    "longitude": 75,
+    "loc": { "type": "Point", "coordinates": [75, 41] },
     "population": 5551900,
-    "calling_code": [
-      "996"
-    ],
+    "calling_code": "996",
     "currency": [
       "KGS"
     ],
@@ -5812,7 +5571,8 @@
       ".kg"
     ],
     "native_name": "Кыргызстан",
-    "doc_name": "Kyrgyzstan",
+    "country_name": "Kyrgyzstan",
+    "country": true,
     "capital": "Bishkek",
     "alt_spellings": [
       "KG",
@@ -5851,12 +5611,9 @@
       "VNM"
     ],
     "demonym": "Laotian",
-    "latitude": 18,
-    "longitude": 105,
+    "loc": { "type": "Point", "coordinates": [105, 18] },
     "population": 6580800,
-    "calling_code": [
-      "856"
-    ],
+    "calling_code": "856",
     "currency": [
       "LAK"
     ],
@@ -5867,7 +5624,8 @@
       ".la"
     ],
     "native_name": "ສປປລາວ",
-    "doc_name": "Laos",
+    "country_name": "Laos",
+    "country": true,
     "capital": "Vientiane",
     "alt_spellings": [
       "LA",
@@ -5892,12 +5650,9 @@
       "RUS"
     ],
     "demonym": "Latvian",
-    "latitude": 57,
-    "longitude": 25,
+    "loc": { "type": "Point", "coordinates": [25, 57] },
     "population": 2014000,
-    "calling_code": [
-      "371"
-    ],
+    "calling_code": "371",
     "currency": [
       "LVL"
     ],
@@ -5908,7 +5663,8 @@
       ".lv"
     ],
     "native_name": "Latvija",
-    "doc_name": "Latvia",
+    "country_name": "Latvia",
+    "country": true,
     "capital": "Riga",
     "alt_spellings": [
       "LV",
@@ -5940,12 +5696,9 @@
       "SYR"
     ],
     "demonym": "Lebanese",
-    "latitude": 33.83333333,
-    "longitude": 35.83333333,
+    "loc": { "type": "Point", "coordinates": [35.83333333, 33.83333333] },
     "population": 4822000,
-    "calling_code": [
-      "961"
-    ],
+    "calling_code": "961",
     "currency": [
       "LBP"
     ],
@@ -5956,7 +5709,8 @@
       ".lb"
     ],
     "native_name": "Libnān",
-    "doc_name": "Lebanon",
+    "country_name": "Lebanon",
+    "country": true,
     "capital": "Beirut",
     "alt_spellings": [
       "LB",
@@ -5989,12 +5743,9 @@
       "ZAF"
     ],
     "demonym": "Mosotho",
-    "latitude": -29.5,
-    "longitude": 28.5,
+    "loc": { "type": "Point", "coordinates": [28.5, -29.5] },
     "population": 2074000,
-    "calling_code": [
-      "266"
-    ],
+    "calling_code": "266",
     "currency": [
       "LSL",
       "ZAR"
@@ -6006,7 +5757,8 @@
       ".ls"
     ],
     "native_name": "Lesotho",
-    "doc_name": "Lesotho",
+    "country_name": "Lesotho",
+    "country": true,
     "capital": "Maseru",
     "alt_spellings": [
       "LS",
@@ -6041,12 +5793,9 @@
       "SLE"
     ],
     "demonym": "Liberian",
-    "latitude": 6.5,
-    "longitude": -9.5,
+    "loc": { "type": "Point", "coordinates": [-9.5, 6.5] },
     "population": 4294000,
-    "calling_code": [
-      "231"
-    ],
+    "calling_code": "231",
     "currency": [
       "LRD"
     ],
@@ -6057,7 +5806,8 @@
       ".lr"
     ],
     "native_name": "Liberia",
-    "doc_name": "Liberia",
+    "country_name": "Liberia",
+    "country": true,
     "capital": "Monrovia",
     "alt_spellings": [
       "LR",
@@ -6092,12 +5842,9 @@
       "TUN"
     ],
     "demonym": "Libyan",
-    "latitude": 25,
-    "longitude": 17,
+    "loc": { "type": "Point", "coordinates": [17, 25] },
     "population": 6202000,
-    "calling_code": [
-      "218"
-    ],
+    "calling_code": "218",
     "currency": [
       "LYD"
     ],
@@ -6108,7 +5855,8 @@
       ".ly"
     ],
     "native_name": "Lībyā",
-    "doc_name": "Libya",
+    "country_name": "Libya",
+    "country": true,
     "capital": "Tripoli",
     "alt_spellings": [
       "LY",
@@ -6140,12 +5888,9 @@
       "CHE"
     ],
     "demonym": "Liechtensteiner",
-    "latitude": 47.26666666,
-    "longitude": 9.53333333,
+    "loc": { "type": "Point", "coordinates": [9.53333333, 47.26666666] },
     "population": 36842,
-    "calling_code": [
-      "423"
-    ],
+    "calling_code": "423",
     "currency": [
       "CHF"
     ],
@@ -6156,7 +5901,8 @@
       ".li"
     ],
     "native_name": "Liechtenstein",
-    "doc_name": "Liechtenstein",
+    "country_name": "Liechtenstein",
+    "country": true,
     "capital": "Vaduz",
     "alt_spellings": [
       "LI",
@@ -6190,12 +5936,9 @@
       "RUS"
     ],
     "demonym": "Lithuanian",
-    "latitude": 56,
-    "longitude": 24,
+    "loc": { "type": "Point", "coordinates": [24, 56] },
     "population": 2950684,
-    "calling_code": [
-      "370"
-    ],
+    "calling_code": "370",
     "currency": [
       "LTL"
     ],
@@ -6206,7 +5949,8 @@
       ".lt"
     ],
     "native_name": "Lietuva",
-    "doc_name": "Lithuania",
+    "country_name": "Lithuania",
+    "country": true,
     "capital": "Vilnius",
     "alt_spellings": [
       "LT",
@@ -6239,12 +5983,9 @@
       "DEU"
     ],
     "demonym": "Luxembourger",
-    "latitude": 49.75,
-    "longitude": 6.16666666,
+    "loc": { "type": "Point", "coordinates": [6.16666666, 49.75] },
     "population": 537000,
-    "calling_code": [
-      "352"
-    ],
+    "calling_code": "352",
     "currency": [
       "EUR"
     ],
@@ -6255,7 +5996,8 @@
       ".lu"
     ],
     "native_name": "Luxembourg",
-    "doc_name": "Luxembourg",
+    "country_name": "Luxembourg",
+    "country": true,
     "capital": "Luxembourg",
     "alt_spellings": [
       "LU",
@@ -6292,12 +6034,9 @@
       "CHN"
     ],
     "demonym": "Chinese",
-    "latitude": 22.16666666,
-    "longitude": 113.55,
+    "loc": { "type": "Point", "coordinates": [113.55, 22.16666666] },
     "population": -1,
-    "calling_code": [
-      "853"
-    ],
+    "calling_code": "853",
     "currency": [
       "MOP"
     ],
@@ -6308,7 +6047,8 @@
       ".mo"
     ],
     "native_name": "澳門",
-    "doc_name": "Macau",
+    "country_name": "Macau",
+    "country": true,
     "capital": "",
     "alt_spellings": [
       "MO",
@@ -6347,12 +6087,9 @@
       "SRB"
     ],
     "demonym": "Macedonian",
-    "latitude": 41.83333333,
-    "longitude": 22,
+    "loc": { "type": "Point", "coordinates": [22, 41.83333333] },
     "population": -1,
-    "calling_code": [
-      "389"
-    ],
+    "calling_code": "389",
     "currency": [
       "MKD"
     ],
@@ -6363,7 +6100,8 @@
       ".mk"
     ],
     "native_name": "Македонија",
-    "doc_name": "Macedonia",
+    "country_name": "Macedonia",
+    "country": true,
     "capital": "Skopje",
     "alt_spellings": [
       "MK",
@@ -6392,12 +6130,9 @@
   {
     "borders": [],
     "demonym": "Malagasy",
-    "latitude": -20,
-    "longitude": 47,
+    "loc": { "type": "Point", "coordinates": [47, -20] },
     "population": 20696070,
-    "calling_code": [
-      "261"
-    ],
+    "calling_code": "261",
     "currency": [
       "MGA"
     ],
@@ -6408,7 +6143,8 @@
       ".mg"
     ],
     "native_name": "Madagasikara",
-    "doc_name": "Madagascar",
+    "country_name": "Madagascar",
+    "country": true,
     "capital": "Antananarivo",
     "alt_spellings": [
       "MG",
@@ -6444,12 +6180,9 @@
       "ZMB"
     ],
     "demonym": "Malawian",
-    "latitude": -13.5,
-    "longitude": 34,
+    "loc": { "type": "Point", "coordinates": [34, -13.5] },
     "population": 16363000,
-    "calling_code": [
-      "265"
-    ],
+    "calling_code": "265",
     "currency": [
       "MWK"
     ],
@@ -6460,7 +6193,8 @@
       ".mw"
     ],
     "native_name": "Malawi",
-    "doc_name": "Malawi",
+    "country_name": "Malawi",
+    "country": true,
     "capital": "Lilongwe",
     "alt_spellings": [
       "MW",
@@ -6494,12 +6228,9 @@
       "THA"
     ],
     "demonym": "Malaysian",
-    "latitude": 2.5,
-    "longitude": 112.5,
+    "loc": { "type": "Point", "coordinates": [112.5, 2.5] },
     "population": 29793600,
-    "calling_code": [
-      "60"
-    ],
+    "calling_code": "60",
     "currency": [
       "MYR"
     ],
@@ -6510,7 +6241,8 @@
       ".my"
     ],
     "native_name": "Malaysia",
-    "doc_name": "Malaysia",
+    "country_name": "Malaysia",
+    "country": true,
     "capital": "Kuala Lumpur",
     "alt_spellings": [
       "MY"
@@ -6527,12 +6259,9 @@
   {
     "borders": [],
     "demonym": "Maldivan",
-    "latitude": 3.25,
-    "longitude": 73,
+    "loc": { "type": "Point", "coordinates": [73, 3.25] },
     "population": 317280,
-    "calling_code": [
-      "960"
-    ],
+    "calling_code": "960",
     "currency": [
       "MVR"
     ],
@@ -6543,7 +6272,8 @@
       ".mv"
     ],
     "native_name": "Maldives",
-    "doc_name": "Maldives",
+    "country_name": "Maldives",
+    "country": true,
     "capital": "Malé",
     "alt_spellings": [
       "MV",
@@ -6581,12 +6311,9 @@
       "SEN"
     ],
     "demonym": "Malian",
-    "latitude": 17,
-    "longitude": -4,
+    "loc": { "type": "Point", "coordinates": [-4, 17] },
     "population": 15302000,
-    "calling_code": [
-      "223"
-    ],
+    "calling_code": "223",
     "currency": [
       "XOF"
     ],
@@ -6597,7 +6324,8 @@
       ".ml"
     ],
     "native_name": "Mali",
-    "doc_name": "Mali",
+    "country_name": "Mali",
+    "country": true,
     "capital": "Bamako",
     "alt_spellings": [
       "ML",
@@ -6626,12 +6354,9 @@
   {
     "borders": [],
     "demonym": "Maltese",
-    "latitude": 35.83333333,
-    "longitude": 14.58333333,
+    "loc": { "type": "Point", "coordinates": [14.58333333, 35.83333333] },
     "population": 416055,
-    "calling_code": [
-      "356"
-    ],
+    "calling_code": "356",
     "currency": [
       "EUR"
     ],
@@ -6642,7 +6367,8 @@
       ".mt"
     ],
     "native_name": "Malta",
-    "doc_name": "Malta",
+    "country_name": "Malta",
+    "country": true,
     "capital": "Valletta",
     "alt_spellings": [
       "MT",
@@ -6673,12 +6399,9 @@
   {
     "borders": [],
     "demonym": "Marshallese",
-    "latitude": 9,
-    "longitude": 168,
+    "loc": { "type": "Point", "coordinates": [168, 9] },
     "population": 56086,
-    "calling_code": [
-      "692"
-    ],
+    "calling_code": "692",
     "currency": [
       "USD"
     ],
@@ -6689,7 +6412,8 @@
       ".mh"
     ],
     "native_name": "M̧ajeļ",
-    "doc_name": "Marshall Islands",
+    "country_name": "Marshall Islands",
+    "country": true,
     "capital": "Majuro",
     "alt_spellings": [
       "MH",
@@ -6720,12 +6444,9 @@
   {
     "borders": [],
     "demonym": "French",
-    "latitude": 14.666667,
-    "longitude": -61,
+    "loc": { "type": "Point", "coordinates": [-61, 14.666667] },
     "population": 394173,
-    "calling_code": [
-      "596"
-    ],
+    "calling_code": "596",
     "currency": [
       "EUR"
     ],
@@ -6736,7 +6457,8 @@
       ".mq"
     ],
     "native_name": "Martinique",
-    "doc_name": "Martinique",
+    "country_name": "Martinique",
+    "country": true,
     "capital": "Fort-de-France",
     "alt_spellings": [
       "MQ"
@@ -6768,12 +6490,9 @@
       "ESH"
     ],
     "demonym": "Mauritanian",
-    "latitude": 20,
-    "longitude": -12,
+    "loc": { "type": "Point", "coordinates": [-12, 20] },
     "population": 3461041,
-    "calling_code": [
-      "222"
-    ],
+    "calling_code": "222",
     "currency": [
       "MRO"
     ],
@@ -6784,7 +6503,8 @@
       ".mr"
     ],
     "native_name": "Mūrītānyā",
-    "doc_name": "Mauritania",
+    "country_name": "Mauritania",
+    "country": true,
     "capital": "Nouakchott",
     "alt_spellings": [
       "MR",
@@ -6814,12 +6534,9 @@
   {
     "borders": [],
     "demonym": "Mauritian",
-    "latitude": -20.28333333,
-    "longitude": 57.55,
+    "loc": { "type": "Point", "coordinates": [57.55, -20.28333333] },
     "population": 1257900,
-    "calling_code": [
-      "230"
-    ],
+    "calling_code": "230",
     "currency": [
       "MUR"
     ],
@@ -6830,7 +6547,8 @@
       ".mu"
     ],
     "native_name": "Maurice",
-    "doc_name": "Mauritius",
+    "country_name": "Mauritius",
+    "country": true,
     "capital": "Port Louis",
     "alt_spellings": [
       "MU",
@@ -6859,12 +6577,9 @@
   {
     "borders": [],
     "demonym": "French",
-    "latitude": -12.83333333,
-    "longitude": 45.16666666,
+    "loc": { "type": "Point", "coordinates": [45.16666666, -12.83333333] },
     "population": 212600,
-    "calling_code": [
-      "262"
-    ],
+    "calling_code": "262",
     "currency": [
       "EUR"
     ],
@@ -6875,7 +6590,8 @@
       ".yt"
     ],
     "native_name": "Mayotte",
-    "doc_name": "Mayotte",
+    "country_name": "Mayotte",
+    "country": true,
     "capital": "Mamoudzou",
     "alt_spellings": [
       "YT",
@@ -6908,12 +6624,9 @@
       "USA"
     ],
     "demonym": "Mexican",
-    "latitude": 23,
-    "longitude": -102,
+    "loc": { "type": "Point", "coordinates": [-102, 23] },
     "population": 118395054,
-    "calling_code": [
-      "52"
-    ],
+    "calling_code": "52",
     "currency": [
       "MXN"
     ],
@@ -6924,7 +6637,8 @@
       ".mx"
     ],
     "native_name": "México",
-    "doc_name": "Mexico",
+    "country_name": "Mexico",
+    "country": true,
     "capital": "Mexico City",
     "alt_spellings": [
       "MX",
@@ -6954,12 +6668,9 @@
   {
     "borders": [],
     "demonym": "Micronesian",
-    "latitude": 6.91666666,
-    "longitude": 158.25,
+    "loc": { "type": "Point", "coordinates": [158.25, 6.91666666] },
     "population": -1,
-    "calling_code": [
-      "691"
-    ],
+    "calling_code": "691",
     "currency": [
       "USD"
     ],
@@ -6970,7 +6681,8 @@
       ".fm"
     ],
     "native_name": "Micronesia",
-    "doc_name": "Micronesia",
+    "country_name": "Micronesia",
+    "country": true,
     "capital": "Palikir",
     "alt_spellings": [
       "FM",
@@ -7001,12 +6713,9 @@
       "UKR"
     ],
     "demonym": "Moldovan",
-    "latitude": 47,
-    "longitude": 29,
+    "loc": { "type": "Point", "coordinates": [29, 47] },
     "population": 3559500,
-    "calling_code": [
-      "373"
-    ],
+    "calling_code": "373",
     "currency": [
       "MDL"
     ],
@@ -7017,7 +6726,8 @@
       ".md"
     ],
     "native_name": "Moldova",
-    "doc_name": "Moldova",
+    "country_name": "Moldova",
+    "country": true,
     "capital": "Chișinău",
     "alt_spellings": [
       "MD",
@@ -7048,12 +6758,9 @@
       "FRA"
     ],
     "demonym": "Monegasque",
-    "latitude": 43.73333333,
-    "longitude": 7.4,
+    "loc": { "type": "Point", "coordinates": [7.4, 43.73333333] },
     "population": 36136,
-    "calling_code": [
-      "377"
-    ],
+    "calling_code": "377",
     "currency": [
       "EUR"
     ],
@@ -7064,7 +6771,8 @@
       ".mc"
     ],
     "native_name": "Monaco",
-    "doc_name": "Monaco",
+    "country_name": "Monaco",
+    "country": true,
     "capital": "Monaco",
     "alt_spellings": [
       "MC",
@@ -7096,12 +6804,9 @@
       "RUS"
     ],
     "demonym": "Mongolian",
-    "latitude": 46,
-    "longitude": 105,
+    "loc": { "type": "Point", "coordinates": [105, 46] },
     "population": 2754685,
-    "calling_code": [
-      "976"
-    ],
+    "calling_code": "976",
     "currency": [
       "MNT"
     ],
@@ -7112,7 +6817,8 @@
       ".mn"
     ],
     "native_name": "Монгол улс",
-    "doc_name": "Mongolia",
+    "country_name": "Mongolia",
+    "country": true,
     "capital": "Ulan Bator",
     "alt_spellings": [
       "MN"
@@ -7145,12 +6851,9 @@
       "SRB"
     ],
     "demonym": "Montenegrin",
-    "latitude": 42.5,
-    "longitude": 19.3,
+    "loc": { "type": "Point", "coordinates": [19.3, 42.5] },
     "population": 620029,
-    "calling_code": [
-      "382"
-    ],
+    "calling_code": "382",
     "currency": [
       "EUR"
     ],
@@ -7161,7 +6864,8 @@
       ".me"
     ],
     "native_name": "Црна Гора",
-    "doc_name": "Montenegro",
+    "country_name": "Montenegro",
+    "country": true,
     "capital": "Podgorica",
     "alt_spellings": [
       "ME",
@@ -7192,12 +6896,9 @@
   {
     "borders": [],
     "demonym": "Montserratian",
-    "latitude": 16.75,
-    "longitude": -62.2,
+    "loc": { "type": "Point", "coordinates": [-62.2, 16.75] },
     "population": 4922,
-    "calling_code": [
-      "1664"
-    ],
+    "calling_code": "1664",
     "currency": [
       "XCD"
     ],
@@ -7208,7 +6909,8 @@
       ".ms"
     ],
     "native_name": "Montserrat",
-    "doc_name": "Montserrat",
+    "country_name": "Montserrat",
+    "country": true,
     "capital": "Plymouth",
     "alt_spellings": [
       "MS"
@@ -7239,12 +6941,9 @@
       "ESP"
     ],
     "demonym": "Moroccan",
-    "latitude": 32,
-    "longitude": -5,
+    "loc": { "type": "Point", "coordinates": [-5, 32] },
     "population": 33087700,
-    "calling_code": [
-      "212"
-    ],
+    "calling_code": "212",
     "currency": [
       "MAD"
     ],
@@ -7255,7 +6954,8 @@
       ".ma"
     ],
     "native_name": "al-Maġrib",
-    "doc_name": "Morocco",
+    "country_name": "Morocco",
+    "country": true,
     "capital": "Rabat",
     "alt_spellings": [
       "MA",
@@ -7292,12 +6992,9 @@
       "ZWE"
     ],
     "demonym": "Mozambican",
-    "latitude": -18.25,
-    "longitude": 35,
+    "loc": { "type": "Point", "coordinates": [35, -18.25] },
     "population": 23700715,
-    "calling_code": [
-      "258"
-    ],
+    "calling_code": "258",
     "currency": [
       "MZN"
     ],
@@ -7308,7 +7005,8 @@
       ".mz"
     ],
     "native_name": "Moçambique",
-    "doc_name": "Mozambique",
+    "country_name": "Mozambique",
+    "country": true,
     "capital": "Maputo",
     "alt_spellings": [
       "MZ",
@@ -7337,12 +7035,9 @@
   {
     "borders": [],
     "demonym": "Myanmarian",
-    "latitude": 22,
-    "longitude": 98,
+    "loc": { "type": "Point", "coordinates": [98, 22] },
     "population": -1,
-    "calling_code": [
-      "95"
-    ],
+    "calling_code": "95",
     "currency": [
       "MMK"
     ],
@@ -7353,7 +7048,8 @@
       ".mm"
     ],
     "native_name": "Myanma",
-    "doc_name": "Myanmar",
+    "country_name": "Myanmar",
+    "country": true,
     "capital": "Nay Pyi Taw",
     "alt_spellings": [
       "MM",
@@ -7378,12 +7074,9 @@
       "ZMB"
     ],
     "demonym": "Namibian",
-    "latitude": -22,
-    "longitude": 17,
+    "loc": { "type": "Point", "coordinates": [17, -22] },
     "population": 2113077,
-    "calling_code": [
-      "264"
-    ],
+    "calling_code": "264",
     "currency": [
       "NAD",
       "ZAR"
@@ -7395,7 +7088,8 @@
       ".na"
     ],
     "native_name": "Namibia",
-    "doc_name": "Namibia",
+    "country_name": "Namibia",
+    "country": true,
     "capital": "Windhoek",
     "alt_spellings": [
       "NA",
@@ -7425,12 +7119,9 @@
   {
     "borders": [],
     "demonym": "Nauruan",
-    "latitude": -0.53333333,
-    "longitude": 166.91666666,
+    "loc": { "type": "Point", "coordinates": [166.91666666, -0.53333333] },
     "population": 9945,
-    "calling_code": [
-      "674"
-    ],
+    "calling_code": "674",
     "currency": [
       "AUD"
     ],
@@ -7441,7 +7132,8 @@
       ".nr"
     ],
     "native_name": "Nauru",
-    "doc_name": "Nauru",
+    "country_name": "Nauru",
+    "country": true,
     "capital": "Yaren",
     "alt_spellings": [
       "NR",
@@ -7477,12 +7169,9 @@
       "IND"
     ],
     "demonym": "Nepalese",
-    "latitude": 28,
-    "longitude": 84,
+    "loc": { "type": "Point", "coordinates": [84, 28] },
     "population": 26494504,
-    "calling_code": [
-      "977"
-    ],
+    "calling_code": "977",
     "currency": [
       "NPR"
     ],
@@ -7493,7 +7182,8 @@
       ".np"
     ],
     "native_name": "नपल",
-    "doc_name": "Nepal",
+    "country_name": "Nepal",
+    "country": true,
     "capital": "Kathmandu",
     "alt_spellings": [
       "NP",
@@ -7525,12 +7215,9 @@
       "DEU"
     ],
     "demonym": "Dutch",
-    "latitude": 52.5,
-    "longitude": 5.75,
+    "loc": { "type": "Point", "coordinates": [5.75, 52.5] },
     "population": 16807300,
-    "calling_code": [
-      "31"
-    ],
+    "calling_code": "31",
     "currency": [
       "EUR"
     ],
@@ -7541,7 +7228,8 @@
       ".nl"
     ],
     "native_name": "Nederland",
-    "doc_name": "Netherlands",
+    "country_name": "Netherlands",
+    "country": true,
     "capital": "Amsterdam",
     "alt_spellings": [
       "NL",
@@ -7570,12 +7258,9 @@
   {
     "borders": [],
     "demonym": "New Caledonian",
-    "latitude": -21.5,
-    "longitude": 165.5,
+    "loc": { "type": "Point", "coordinates": [165.5, -21.5] },
     "population": 258958,
-    "calling_code": [
-      "687"
-    ],
+    "calling_code": "687",
     "currency": [
       "XPF"
     ],
@@ -7586,7 +7271,8 @@
       ".nc"
     ],
     "native_name": "Nouvelle-Calédonie",
-    "doc_name": "New Caledonia",
+    "country_name": "New Caledonia",
+    "country": true,
     "capital": "Nouméa",
     "alt_spellings": [
       "NC"
@@ -7613,12 +7299,9 @@
   {
     "borders": [],
     "demonym": "New Zealander",
-    "latitude": -41,
-    "longitude": 174,
+    "loc": { "type": "Point", "coordinates": [174, -41] },
     "population": 4478810,
-    "calling_code": [
-      "64"
-    ],
+    "calling_code": "64",
     "currency": [
       "NZD"
     ],
@@ -7629,7 +7312,8 @@
       ".nz"
     ],
     "native_name": "New Zealand",
-    "doc_name": "New Zealand",
+    "country_name": "New Zealand",
+    "country": true,
     "capital": "Wellington",
     "alt_spellings": [
       "NZ",
@@ -7652,12 +7336,9 @@
       "HND"
     ],
     "demonym": "Nicaraguan",
-    "latitude": 13,
-    "longitude": -85,
+    "loc": { "type": "Point", "coordinates": [-85, 13] },
     "population": 6071045,
-    "calling_code": [
-      "505"
-    ],
+    "calling_code": "505",
     "currency": [
       "NIO"
     ],
@@ -7668,7 +7349,8 @@
       ".ni"
     ],
     "native_name": "Nicaragua",
-    "doc_name": "Nicaragua",
+    "country_name": "Nicaragua",
+    "country": true,
     "capital": "Managua",
     "alt_spellings": [
       "NI",
@@ -7705,12 +7387,9 @@
       "NGA"
     ],
     "demonym": "Nigerian",
-    "latitude": 16,
-    "longitude": 8,
+    "loc": { "type": "Point", "coordinates": [8, 16] },
     "population": 17129076,
-    "calling_code": [
-      "227"
-    ],
+    "calling_code": "227",
     "currency": [
       "XOF"
     ],
@@ -7721,7 +7400,8 @@
       ".ne"
     ],
     "native_name": "Niger",
-    "doc_name": "Niger",
+    "country_name": "Niger",
+    "country": true,
     "capital": "Niamey",
     "alt_spellings": [
       "NE",
@@ -7756,12 +7436,9 @@
       "NER"
     ],
     "demonym": "Nigerian",
-    "latitude": 10,
-    "longitude": 8,
+    "loc": { "type": "Point", "coordinates": [8, 10] },
     "population": 173615000,
-    "calling_code": [
-      "234"
-    ],
+    "calling_code": "234",
     "currency": [
       "NGN"
     ],
@@ -7772,7 +7449,8 @@
       ".ng"
     ],
     "native_name": "Nigeria",
-    "doc_name": "Nigeria",
+    "country_name": "Nigeria",
+    "country": true,
     "capital": "Abuja",
     "alt_spellings": [
       "NG",
@@ -7802,12 +7480,9 @@
   {
     "borders": [],
     "demonym": "Niuean",
-    "latitude": -19.03333333,
-    "longitude": -169.86666666,
+    "loc": { "type": "Point", "coordinates": [-169.86666666, -19.03333333] },
     "population": 1613,
-    "calling_code": [
-      "683"
-    ],
+    "calling_code": "683",
     "currency": [
       "NZD"
     ],
@@ -7818,7 +7493,8 @@
       ".nu"
     ],
     "native_name": "Niuē",
-    "doc_name": "Niue",
+    "country_name": "Niue",
+    "country": true,
     "capital": "Alofi",
     "alt_spellings": [
       "NU"
@@ -7846,12 +7522,9 @@
   {
     "borders": [],
     "demonym": "Norfolk Islander",
-    "latitude": -29.03333333,
-    "longitude": 167.95,
+    "loc": { "type": "Point", "coordinates": [167.95, -29.03333333] },
     "population": 2302,
-    "calling_code": [
-      "672"
-    ],
+    "calling_code": "672",
     "currency": [
       "AUD"
     ],
@@ -7862,7 +7535,8 @@
       ".nf"
     ],
     "native_name": "Norfolk Island",
-    "doc_name": "Norfolk Island",
+    "country_name": "Norfolk Island",
+    "country": true,
     "capital": "Kingston",
     "alt_spellings": [
       "NF",
@@ -7886,12 +7560,9 @@
       "RUS"
     ],
     "demonym": "North Korean",
-    "latitude": 40,
-    "longitude": 127,
+    "loc": { "type": "Point", "coordinates": [127, 40] },
     "population": 24895000,
-    "calling_code": [
-      "850"
-    ],
+    "calling_code": "850",
     "currency": [
       "KPW"
     ],
@@ -7902,7 +7573,8 @@
       ".kp"
     ],
     "native_name": "북한",
-    "doc_name": "North Korea",
+    "country_name": "North Korea",
+    "country": true,
     "capital": "Pyongyang",
     "alt_spellings": [
       "KP",
@@ -7932,12 +7604,9 @@
   {
     "borders": [],
     "demonym": "American",
-    "latitude": 15.2,
-    "longitude": 145.75,
+    "loc": { "type": "Point", "coordinates": [145.75, 15.2] },
     "population": 53883,
-    "calling_code": [
-      "1670"
-    ],
+    "calling_code": "1670",
     "currency": [
       "USD"
     ],
@@ -7948,7 +7617,8 @@
       ".mp"
     ],
     "native_name": "Northern Mariana Islands",
-    "doc_name": "Northern Mariana Islands",
+    "country_name": "Northern Mariana Islands",
+    "country": true,
     "capital": "Saipan",
     "alt_spellings": [
       "MP",
@@ -7984,12 +7654,9 @@
       "RUS"
     ],
     "demonym": "Norwegian",
-    "latitude": 62,
-    "longitude": 10,
+    "loc": { "type": "Point", "coordinates": [10, 62] },
     "population": 5077798,
-    "calling_code": [
-      "47"
-    ],
+    "calling_code": "47",
     "currency": [
       "NOK"
     ],
@@ -8000,7 +7667,8 @@
       ".no"
     ],
     "native_name": "Norge",
-    "doc_name": "Norway",
+    "country_name": "Norway",
+    "country": true,
     "capital": "Oslo",
     "alt_spellings": [
       "NO",
@@ -8036,12 +7704,9 @@
       "YEM"
     ],
     "demonym": "Omani",
-    "latitude": 21,
-    "longitude": 57,
+    "loc": { "type": "Point", "coordinates": [57, 21] },
     "population": 3929000,
-    "calling_code": [
-      "968"
-    ],
+    "calling_code": "968",
     "currency": [
       "OMR"
     ],
@@ -8052,7 +7717,8 @@
       ".om"
     ],
     "native_name": "ʻUmān",
-    "doc_name": "Oman",
+    "country_name": "Oman",
+    "country": true,
     "capital": "Muscat",
     "alt_spellings": [
       "OM",
@@ -8086,12 +7752,9 @@
       "IRN"
     ],
     "demonym": "Pakistani",
-    "latitude": 30,
-    "longitude": 70,
+    "loc": { "type": "Point", "coordinates": [70, 30] },
     "population": 184845000,
-    "calling_code": [
-      "92"
-    ],
+    "calling_code": "92",
     "currency": [
       "PKR"
     ],
@@ -8102,7 +7765,8 @@
       ".pk"
     ],
     "native_name": "Pakistan",
-    "doc_name": "Pakistan",
+    "country_name": "Pakistan",
+    "country": true,
     "capital": "Islamabad",
     "alt_spellings": [
       "PK",
@@ -8134,12 +7798,9 @@
   {
     "borders": [],
     "demonym": "Palauan",
-    "latitude": 7.5,
-    "longitude": 134.5,
+    "loc": { "type": "Point", "coordinates": [134.5, 7.5] },
     "population": 20901,
-    "calling_code": [
-      "680"
-    ],
+    "calling_code": "680",
     "currency": [
       "USD"
     ],
@@ -8150,7 +7811,8 @@
       ".pw"
     ],
     "native_name": "Palau",
-    "doc_name": "Palau",
+    "country_name": "Palau",
+    "country": true,
     "capital": "Melekeok",
     "alt_spellings": [
       "PW",
@@ -8184,12 +7846,9 @@
       "JOR"
     ],
     "demonym": "Palestinian",
-    "latitude": 31.9,
-    "longitude": 35.2,
+    "loc": { "type": "Point", "coordinates": [35.2, 31.9] },
     "population": -1,
-    "calling_code": [
-      "970"
-    ],
+    "calling_code": "970",
     "currency": [
       "ILS"
     ],
@@ -8200,7 +7859,8 @@
       ".ps"
     ],
     "native_name": "Filasṭin",
-    "doc_name": "Palestine",
+    "country_name": "Palestine",
+    "country": true,
     "capital": "Ramallah",
     "alt_spellings": [
       "PS",
@@ -8234,12 +7894,9 @@
       "CRI"
     ],
     "demonym": "Panamanian",
-    "latitude": 9,
-    "longitude": -80,
+    "loc": { "type": "Point", "coordinates": [-80, 9] },
     "population": 3405813,
-    "calling_code": [
-      "507"
-    ],
+    "calling_code": "507",
     "currency": [
       "PAB",
       "USD"
@@ -8251,7 +7908,8 @@
       ".pa"
     ],
     "native_name": "Panamá",
-    "doc_name": "Panama",
+    "country_name": "Panama",
+    "country": true,
     "capital": "Panama City",
     "alt_spellings": [
       "PA",
@@ -8282,12 +7940,9 @@
       "IDN"
     ],
     "demonym": "Papua New Guinean",
-    "latitude": -6,
-    "longitude": 147,
+    "loc": { "type": "Point", "coordinates": [147, -6] },
     "population": 7059653,
-    "calling_code": [
-      "675"
-    ],
+    "calling_code": "675",
     "currency": [
       "PGK"
     ],
@@ -8298,7 +7953,8 @@
       ".pg"
     ],
     "native_name": "Papua Niugini",
-    "doc_name": "Papua New Guinea",
+    "country_name": "Papua New Guinea",
+    "country": true,
     "capital": "Port Moresby",
     "alt_spellings": [
       "PG",
@@ -8333,12 +7989,9 @@
       "BRA"
     ],
     "demonym": "Paraguayan",
-    "latitude": -23,
-    "longitude": -58,
+    "loc": { "type": "Point", "coordinates": [-58, -23] },
     "population": 6783374,
-    "calling_code": [
-      "595"
-    ],
+    "calling_code": "595",
     "currency": [
       "PYG"
     ],
@@ -8349,7 +8002,8 @@
       ".py"
     ],
     "native_name": "Paraguay",
-    "doc_name": "Paraguay",
+    "country_name": "Paraguay",
+    "country": true,
     "capital": "Asunción",
     "alt_spellings": [
       "PY",
@@ -8387,12 +8041,9 @@
       "ECU"
     ],
     "demonym": "Peruvian",
-    "latitude": -10,
-    "longitude": -76,
+    "loc": { "type": "Point", "coordinates": [-76, -10] },
     "population": 30475144,
-    "calling_code": [
-      "51"
-    ],
+    "calling_code": "51",
     "currency": [
       "PEN"
     ],
@@ -8403,7 +8054,8 @@
       ".pe"
     ],
     "native_name": "Perú",
-    "doc_name": "Peru",
+    "country_name": "Peru",
+    "country": true,
     "capital": "Lima",
     "alt_spellings": [
       "PE",
@@ -8434,12 +8086,9 @@
   {
     "borders": [],
     "demonym": "Filipino",
-    "latitude": 13,
-    "longitude": 122,
+    "loc": { "type": "Point", "coordinates": [122, 13] },
     "population": 98678000,
-    "calling_code": [
-      "63"
-    ],
+    "calling_code": "63",
     "currency": [
       "PHP"
     ],
@@ -8450,7 +8099,8 @@
       ".ph"
     ],
     "native_name": "Pilipinas",
-    "doc_name": "Philippines",
+    "country_name": "Philippines",
+    "country": true,
     "capital": "Manila",
     "alt_spellings": [
       "PH",
@@ -8470,12 +8120,9 @@
   {
     "borders": [],
     "demonym": "Pitcairn Islander",
-    "latitude": -25.06666666,
-    "longitude": -130.1,
+    "loc": { "type": "Point", "coordinates": [-130.1, -25.06666666] },
     "population": 56,
-    "calling_code": [
-      "64"
-    ],
+    "calling_code": "64",
     "currency": [
       "NZD"
     ],
@@ -8486,7 +8133,8 @@
       ".pn"
     ],
     "native_name": "Pitcairn Islands",
-    "doc_name": "Pitcairn Islands",
+    "country_name": "Pitcairn Islands",
+    "country": true,
     "capital": "Adamstown",
     "alt_spellings": [
       "PN",
@@ -8522,12 +8170,9 @@
       "UKR"
     ],
     "demonym": "Polish",
-    "latitude": 52,
-    "longitude": 20,
+    "loc": { "type": "Point", "coordinates": [20, 52] },
     "population": 38533299,
-    "calling_code": [
-      "48"
-    ],
+    "calling_code": "48",
     "currency": [
       "PLN"
     ],
@@ -8538,7 +8183,8 @@
       ".pl"
     ],
     "native_name": "Polska",
-    "doc_name": "Poland",
+    "country_name": "Poland",
+    "country": true,
     "capital": "Warsaw",
     "alt_spellings": [
       "PL",
@@ -8569,12 +8215,9 @@
       "ESP"
     ],
     "demonym": "Portuguese",
-    "latitude": 39.5,
-    "longitude": -8,
+    "loc": { "type": "Point", "coordinates": [-8, 39.5] },
     "population": 10562178,
-    "calling_code": [
-      "351"
-    ],
+    "calling_code": "351",
     "currency": [
       "EUR"
     ],
@@ -8585,7 +8228,8 @@
       ".pt"
     ],
     "native_name": "Portugal",
-    "doc_name": "Portugal",
+    "country_name": "Portugal",
+    "country": true,
     "capital": "Lisbon",
     "alt_spellings": [
       "PT",
@@ -8615,12 +8259,9 @@
   {
     "borders": [],
     "demonym": "Puerto Rican",
-    "latitude": 18.25,
-    "longitude": -66.5,
+    "loc": { "type": "Point", "coordinates": [-66.5, 18.25] },
     "population": 3667084,
-    "calling_code": [
-      "1787",
-      "1939"
+    "calling_code": ,,
     ],
     "currency": [
       "USD"
@@ -8632,7 +8273,8 @@
       ".pr"
     ],
     "native_name": "Puerto Rico",
-    "doc_name": "Puerto Rico",
+    "country_name": "Puerto Rico",
+    "country": true,
     "capital": "San Juan",
     "alt_spellings": [
       "PR",
@@ -8665,12 +8307,9 @@
       "SAU"
     ],
     "demonym": "Qatari",
-    "latitude": 25.5,
-    "longitude": 51.25,
+    "loc": { "type": "Point", "coordinates": [51.25, 25.5] },
     "population": 2024707,
-    "calling_code": [
-      "974"
-    ],
+    "calling_code": "974",
     "currency": [
       "QAR"
     ],
@@ -8681,7 +8320,8 @@
       ".qa"
     ],
     "native_name": "Qaṭar",
-    "doc_name": "Qatar",
+    "country_name": "Qatar",
+    "country": true,
     "capital": "Doha",
     "alt_spellings": [
       "QA",
@@ -8715,14 +8355,9 @@
       "SRB"
     ],
     "demonym": "Kosovar",
-    "latitude": 42.666667,
-    "longitude": 21.166667,
+    "loc": { "type": "Point", "coordinates": [21.166667, 42.666667] },
     "population": 1733842,
-    "calling_code": [
-      "377",
-      "381",
-      "386"
-    ],
+    "calling_code": "381",
     "currency": [
       "EUR"
     ],
@@ -8733,7 +8368,8 @@
       ""
     ],
     "native_name": "Republika e Kosovës",
-    "doc_name": "Republic of Kosovo",
+    "country_name": "Republic of Kosovo",
+    "country": true,
     "capital": "Pristina",
     "alt_spellings": [
       "XK",
@@ -8755,12 +8391,9 @@
   {
     "borders": [],
     "demonym": "French",
-    "latitude": -21.15,
-    "longitude": 55.5,
+    "loc": { "type": "Point", "coordinates": [55.5, -21.15] },
     "population": 821136,
-    "calling_code": [
-      "262"
-    ],
+    "calling_code": "262",
     "currency": [
       "EUR"
     ],
@@ -8771,7 +8404,8 @@
       ".re"
     ],
     "native_name": "La Réunion",
-    "doc_name": "Réunion",
+    "country_name": "Réunion",
+    "country": true,
     "capital": "Saint-Denis",
     "alt_spellings": [
       "RE",
@@ -8805,12 +8439,9 @@
       "UKR"
     ],
     "demonym": "Romanian",
-    "latitude": 46,
-    "longitude": 25,
+    "loc": { "type": "Point", "coordinates": [25, 46] },
     "population": 20121641,
-    "calling_code": [
-      "40"
-    ],
+    "calling_code": "40",
     "currency": [
       "RON"
     ],
@@ -8821,7 +8452,8 @@
       ".ro"
     ],
     "native_name": "România",
-    "doc_name": "Romania",
+    "country_name": "Romania",
+    "country": true,
     "capital": "Bucharest",
     "alt_spellings": [
       "RO",
@@ -8866,12 +8498,9 @@
       "UKR"
     ],
     "demonym": "Russian",
-    "latitude": 60,
-    "longitude": 100,
+    "loc": { "type": "Point", "coordinates": [100, 60] },
     "population": 143500000,
-    "calling_code": [
-      "7"
-    ],
+    "calling_code": "7",
     "currency": [
       "RUB"
     ],
@@ -8882,7 +8511,8 @@
       ".ru"
     ],
     "native_name": "Россия",
-    "doc_name": "Russia",
+    "country_name": "Russia",
+    "country": true,
     "capital": "Moscow",
     "alt_spellings": [
       "RU",
@@ -8918,12 +8548,9 @@
       "UGA"
     ],
     "demonym": "Rwandan",
-    "latitude": -2,
-    "longitude": 30,
+    "loc": { "type": "Point", "coordinates": [30, -2] },
     "population": 10537222,
-    "calling_code": [
-      "250"
-    ],
+    "calling_code": "250",
     "currency": [
       "RWF"
     ],
@@ -8934,7 +8561,8 @@
       ".rw"
     ],
     "native_name": "Rwanda",
-    "doc_name": "Rwanda",
+    "country_name": "Rwanda",
+    "country": true,
     "capital": "Kigali",
     "alt_spellings": [
       "RW",
@@ -8968,12 +8596,9 @@
   {
     "borders": [],
     "demonym": "Saint Barthélemy Islander",
-    "latitude": 18.5,
-    "longitude": -63.41666666,
+    "loc": { "type": "Point", "coordinates": [-63.41666666, 18.5] },
     "population": 8938,
-    "calling_code": [
-      "590"
-    ],
+    "calling_code": "590",
     "currency": [
       "EUR"
     ],
@@ -8984,7 +8609,8 @@
       ".bl"
     ],
     "native_name": "Saint-Barthélemy",
-    "doc_name": "Saint Barthélemy",
+    "country_name": "Saint Barthélemy",
+    "country": true,
     "capital": "Gustavia",
     "alt_spellings": [
       "BL",
@@ -9014,12 +8640,9 @@
   {
     "borders": [],
     "demonym": "Saint Helenian",
-    "latitude": -15.95,
-    "longitude": -5.7,
+    "loc": { "type": "Point", "coordinates": [-5.7, -15.95] },
     "population": -1,
-    "calling_code": [
-      "290"
-    ],
+    "calling_code": "290",
     "currency": [
       "SHP"
     ],
@@ -9030,7 +8653,8 @@
       ".sh"
     ],
     "native_name": "Saint Helena",
-    "doc_name": "Saint Helena",
+    "country_name": "Saint Helena",
+    "country": true,
     "capital": "Jamestown",
     "alt_spellings": [
       "SH"
@@ -9057,12 +8681,9 @@
   {
     "borders": [],
     "demonym": "Kittian and Nevisian",
-    "latitude": 17.33333333,
-    "longitude": -62.75,
+    "loc": { "type": "Point", "coordinates": [-62.75, 17.33333333] },
     "population": 54000,
-    "calling_code": [
-      "1869"
-    ],
+    "calling_code": "1869",
     "currency": [
       "XCD"
     ],
@@ -9073,7 +8694,8 @@
       ".kn"
     ],
     "native_name": "Saint Kitts and Nevis",
-    "doc_name": "Saint Kitts and Nevis",
+    "country_name": "Saint Kitts and Nevis",
+    "country": true,
     "capital": "Basseterre",
     "alt_spellings": [
       "KN",
@@ -9101,12 +8723,9 @@
   {
     "borders": [],
     "demonym": "Saint Lucian",
-    "latitude": 13.88333333,
-    "longitude": -60.96666666,
+    "loc": { "type": "Point", "coordinates": [-60.96666666, 13.88333333] },
     "population": 166526,
-    "calling_code": [
-      "1758"
-    ],
+    "calling_code": "1758",
     "currency": [
       "XCD"
     ],
@@ -9117,7 +8736,8 @@
       ".lc"
     ],
     "native_name": "Saint Lucia",
-    "doc_name": "Saint Lucia",
+    "country_name": "Saint Lucia",
+    "country": true,
     "capital": "Castries",
     "alt_spellings": [
       "LC"
@@ -9147,12 +8767,9 @@
       "NLD"
     ],
     "demonym": "Saint Martin Islander",
-    "latitude": 18.08333333,
-    "longitude": -63.95,
+    "loc": { "type": "Point", "coordinates": [-63.95, 18.08333333] },
     "population": -1,
-    "calling_code": [
-      "590"
-    ],
+    "calling_code": "590",
     "currency": [
       "EUR"
     ],
@@ -9165,7 +8782,8 @@
       ".gp"
     ],
     "native_name": "Saint-Martin",
-    "doc_name": "Saint Martin",
+    "country_name": "Saint Martin",
+    "country": true,
     "capital": "Marigot",
     "alt_spellings": [
       "MF",
@@ -9196,12 +8814,9 @@
   {
     "borders": [],
     "demonym": "French",
-    "latitude": 46.83333333,
-    "longitude": -56.33333333,
+    "loc": { "type": "Point", "coordinates": [-56.33333333, 46.83333333] },
     "population": 6081,
-    "calling_code": [
-      "508"
-    ],
+    "calling_code": "508",
     "currency": [
       "EUR"
     ],
@@ -9212,7 +8827,8 @@
       ".pm"
     ],
     "native_name": "Saint-Pierre-et-Miquelon",
-    "doc_name": "Saint Pierre and Miquelon",
+    "country_name": "Saint Pierre and Miquelon",
+    "country": true,
     "capital": "Saint-Pierre",
     "alt_spellings": [
       "PM",
@@ -9240,12 +8856,9 @@
   {
     "borders": [],
     "demonym": "Saint Vincentian",
-    "latitude": 13.25,
-    "longitude": -61.2,
+    "loc": { "type": "Point", "coordinates": [-61.2, 13.25] },
     "population": 109000,
-    "calling_code": [
-      "1784"
-    ],
+    "calling_code": "1784",
     "currency": [
       "XCD"
     ],
@@ -9256,7 +8869,8 @@
       ".vc"
     ],
     "native_name": "Saint Vincent and the Grenadines",
-    "doc_name": "Saint Vincent and the Grenadines",
+    "country_name": "Saint Vincent and the Grenadines",
+    "country": true,
     "capital": "Kingstown",
     "alt_spellings": [
       "VC"
@@ -9283,12 +8897,9 @@
   {
     "borders": [],
     "demonym": "Samoan",
-    "latitude": -13.58333333,
-    "longitude": -172.33333333,
+    "loc": { "type": "Point", "coordinates": [-172.33333333, -13.58333333] },
     "population": 187820,
-    "calling_code": [
-      "685"
-    ],
+    "calling_code": "685",
     "currency": [
       "WST"
     ],
@@ -9299,7 +8910,8 @@
       ".ws"
     ],
     "native_name": "Samoa",
-    "doc_name": "Samoa",
+    "country_name": "Samoa",
+    "country": true,
     "capital": "Apia",
     "alt_spellings": [
       "WS",
@@ -9332,12 +8944,9 @@
       "ITA"
     ],
     "demonym": "Sammarinese",
-    "latitude": 43.76666666,
-    "longitude": 12.41666666,
+    "loc": { "type": "Point", "coordinates": [12.41666666, 43.76666666] },
     "population": 32509,
-    "calling_code": [
-      "378"
-    ],
+    "calling_code": "378",
     "currency": [
       "EUR"
     ],
@@ -9348,7 +8957,8 @@
       ".sm"
     ],
     "native_name": "San Marino",
-    "doc_name": "San Marino",
+    "country_name": "San Marino",
+    "country": true,
     "capital": "City of San Marino",
     "alt_spellings": [
       "SM",
@@ -9377,12 +8987,9 @@
   {
     "borders": [],
     "demonym": "Sao Tomean",
-    "latitude": 1,
-    "longitude": 7,
+    "loc": { "type": "Point", "coordinates": [7, 1] },
     "population": 187356,
-    "calling_code": [
-      "239"
-    ],
+    "calling_code": "239",
     "currency": [
       "STD"
     ],
@@ -9393,7 +9000,8 @@
       ".st"
     ],
     "native_name": "São Tomé e Príncipe",
-    "doc_name": "São Tomé and Príncipe",
+    "country_name": "São Tomé and Príncipe",
+    "country": true,
     "capital": "São Tomé",
     "alt_spellings": [
       "ST",
@@ -9430,12 +9038,9 @@
       "YEM"
     ],
     "demonym": "Saudi Arabian",
-    "latitude": 25,
-    "longitude": 45,
+    "loc": { "type": "Point", "coordinates": [45, 25] },
     "population": 29994272,
-    "calling_code": [
-      "966"
-    ],
+    "calling_code": "966",
     "currency": [
       "SAR"
     ],
@@ -9446,7 +9051,8 @@
       ".sa"
     ],
     "native_name": "as-Su‘ūdiyyah",
-    "doc_name": "Saudi Arabia",
+    "country_name": "Saudi Arabia",
+    "country": true,
     "capital": "Riyadh",
     "alt_spellings": [
       "SA",
@@ -9481,12 +9087,9 @@
       "MRT"
     ],
     "demonym": "Senegalese",
-    "latitude": 14,
-    "longitude": -14,
+    "loc": { "type": "Point", "coordinates": [-14, 14] },
     "population": 13567338,
-    "calling_code": [
-      "221"
-    ],
+    "calling_code": "221",
     "currency": [
       "XOF"
     ],
@@ -9497,7 +9100,8 @@
       ".sn"
     ],
     "native_name": "Sénégal",
-    "doc_name": "Senegal",
+    "country_name": "Senegal",
+    "country": true,
     "capital": "Dakar",
     "alt_spellings": [
       "SN",
@@ -9535,12 +9139,9 @@
       "ROU"
     ],
     "demonym": "Serbian",
-    "latitude": 44,
-    "longitude": 21,
+    "loc": { "type": "Point", "coordinates": [21, 44] },
     "population": 7181505,
-    "calling_code": [
-      "381"
-    ],
+    "calling_code": "381",
     "currency": [
       "RSD"
     ],
@@ -9551,7 +9152,8 @@
       ".rs"
     ],
     "native_name": "Србија",
-    "doc_name": "Serbia",
+    "country_name": "Serbia",
+    "country": true,
     "capital": "Belgrade",
     "alt_spellings": [
       "RS",
@@ -9582,12 +9184,9 @@
   {
     "borders": [],
     "demonym": "Seychellois",
-    "latitude": -4.58333333,
-    "longitude": 55.66666666,
+    "loc": { "type": "Point", "coordinates": [55.66666666, -4.58333333] },
     "population": 90945,
-    "calling_code": [
-      "248"
-    ],
+    "calling_code": "248",
     "currency": [
       "SCR"
     ],
@@ -9598,7 +9197,8 @@
       ".sc"
     ],
     "native_name": "Seychelles",
-    "doc_name": "Seychelles",
+    "country_name": "Seychelles",
+    "country": true,
     "capital": "Victoria",
     "alt_spellings": [
       "SC",
@@ -9634,12 +9234,9 @@
       "LBR"
     ],
     "demonym": "Sierra Leonean",
-    "latitude": 8.5,
-    "longitude": -11.5,
+    "loc": { "type": "Point", "coordinates": [-11.5, 8.5] },
     "population": 6190280,
-    "calling_code": [
-      "232"
-    ],
+    "calling_code": "232",
     "currency": [
       "SLL"
     ],
@@ -9650,7 +9247,8 @@
       ".sl"
     ],
     "native_name": "Sierra Leone",
-    "doc_name": "Sierra Leone",
+    "country_name": "Sierra Leone",
+    "country": true,
     "capital": "Freetown",
     "alt_spellings": [
       "SL",
@@ -9678,12 +9276,9 @@
   {
     "borders": [],
     "demonym": "Singaporean",
-    "latitude": 1.36666666,
-    "longitude": 103.8,
+    "loc": { "type": "Point", "coordinates": [103.8, 1.36666666] },
     "population": 5399200,
-    "calling_code": [
-      "65"
-    ],
+    "calling_code": "65",
     "currency": [
       "SGD"
     ],
@@ -9694,7 +9289,8 @@
       ".sg"
     ],
     "native_name": "Singapore",
-    "doc_name": "Singapore",
+    "country_name": "Singapore",
+    "country": true,
     "capital": "Singapore",
     "alt_spellings": [
       "SG",
@@ -9724,12 +9320,9 @@
       "MAF"
     ],
     "demonym": "Dutch",
-    "latitude": 18.033333,
-    "longitude": -63.05,
+    "loc": { "type": "Point", "coordinates": [-63.05, 18.033333] },
     "population": 37429,
-    "calling_code": [
-      "1721"
-    ],
+    "calling_code": "1721",
     "currency": [
       "ANG"
     ],
@@ -9740,7 +9333,8 @@
       ".sx"
     ],
     "native_name": "Sint Maarten",
-    "doc_name": "Sint Maarten",
+    "country_name": "Sint Maarten",
+    "country": true,
     "capital": "Philipsburg",
     "alt_spellings": [
       "SX"
@@ -9764,12 +9358,9 @@
       "UKR"
     ],
     "demonym": "Slovak",
-    "latitude": 48.66666666,
-    "longitude": 19.5,
+    "loc": { "type": "Point", "coordinates": [19.5, 48.66666666] },
     "population": 5412008,
-    "calling_code": [
-      "421"
-    ],
+    "calling_code": "421",
     "currency": [
       "EUR"
     ],
@@ -9780,7 +9371,8 @@
       ".sk"
     ],
     "native_name": "Slovensko",
-    "doc_name": "Slovakia",
+    "country_name": "Slovakia",
+    "country": true,
     "capital": "Bratislava",
     "alt_spellings": [
       "SK",
@@ -9814,12 +9406,9 @@
       "HUN"
     ],
     "demonym": "Slovene",
-    "latitude": 46.11666666,
-    "longitude": 14.81666666,
+    "loc": { "type": "Point", "coordinates": [14.81666666, 46.11666666] },
     "population": 2061405,
-    "calling_code": [
-      "386"
-    ],
+    "calling_code": "386",
     "currency": [
       "EUR"
     ],
@@ -9830,7 +9419,8 @@
       ".si"
     ],
     "native_name": "Slovenija",
-    "doc_name": "Slovenia",
+    "country_name": "Slovenia",
+    "country": true,
     "capital": "Ljubljana",
     "alt_spellings": [
       "SI",
@@ -9859,12 +9449,9 @@
   {
     "borders": [],
     "demonym": "Solomon Islander",
-    "latitude": -8,
-    "longitude": 159,
+    "loc": { "type": "Point", "coordinates": [159, -8] },
     "population": 561000,
-    "calling_code": [
-      "677"
-    ],
+    "calling_code": "677",
     "currency": [
       "SDB"
     ],
@@ -9875,7 +9462,8 @@
       ".sb"
     ],
     "native_name": "Solomon Islands",
-    "doc_name": "Solomon Islands",
+    "country_name": "Solomon Islands",
+    "country": true,
     "capital": "Honiara",
     "alt_spellings": [
       "SB"
@@ -9906,12 +9494,9 @@
       "KEN"
     ],
     "demonym": "Somali",
-    "latitude": 10,
-    "longitude": 49,
+    "loc": { "type": "Point", "coordinates": [49, 10] },
     "population": 10496000,
-    "calling_code": [
-      "252"
-    ],
+    "calling_code": "252",
     "currency": [
       "SOS"
     ],
@@ -9922,7 +9507,8 @@
       ".so"
     ],
     "native_name": "Soomaaliya",
-    "doc_name": "Somalia",
+    "country_name": "Somalia",
+    "country": true,
     "capital": "Mogadishu",
     "alt_spellings": [
       "SO",
@@ -9962,12 +9548,9 @@
       "ZWE"
     ],
     "demonym": "South African",
-    "latitude": -29,
-    "longitude": 24,
+    "loc": { "type": "Point", "coordinates": [24, -29] },
     "population": 52981991,
-    "calling_code": [
-      "27"
-    ],
+    "calling_code": "27",
     "currency": [
       "ZAR"
     ],
@@ -9978,7 +9561,8 @@
       ".za"
     ],
     "native_name": "South Africa",
-    "doc_name": "South Africa",
+    "country_name": "South Africa",
+    "country": true,
     "capital": "Cape Town",
     "alt_spellings": [
       "ZA",
@@ -10027,12 +9611,9 @@
   {
     "borders": [],
     "demonym": "South Georgia and the South Sandwich Islander",
-    "latitude": -54.5,
-    "longitude": -37,
+    "loc": { "type": "Point", "coordinates": [-37, -54.5] },
     "population": -1,
-    "calling_code": [
-      "500"
-    ],
+    "calling_code": "500",
     "currency": [
       "GBP"
     ],
@@ -10043,7 +9624,8 @@
       ".gs"
     ],
     "native_name": "South Georgia",
-    "doc_name": "South Georgia",
+    "country_name": "South Georgia",
+    "country": true,
     "capital": "King Edward Point",
     "alt_spellings": [
       "GS",
@@ -10073,12 +9655,9 @@
       "PRK"
     ],
     "demonym": "South Korean",
-    "latitude": 37,
-    "longitude": 127.5,
+    "loc": { "type": "Point", "coordinates": [127.5, 37] },
     "population": 50219669,
-    "calling_code": [
-      "82"
-    ],
+    "calling_code": "82",
     "currency": [
       "KRW"
     ],
@@ -10089,7 +9668,8 @@
       ".kr"
     ],
     "native_name": "대한민국",
-    "doc_name": "South Korea",
+    "country_name": "South Korea",
+    "country": true,
     "capital": "Seoul",
     "alt_spellings": [
       "KR",
@@ -10124,12 +9704,9 @@
       "UGA"
     ],
     "demonym": "South Sudanese",
-    "latitude": 7,
-    "longitude": 30,
+    "loc": { "type": "Point", "coordinates": [30, 7] },
     "population": 11296000,
-    "calling_code": [
-      "211"
-    ],
+    "calling_code": "211",
     "currency": [
       "SSP"
     ],
@@ -10140,7 +9717,8 @@
       ".ss"
     ],
     "native_name": "South Sudan",
-    "doc_name": "South Sudan",
+    "country_name": "South Sudan",
+    "country": true,
     "capital": "Juba",
     "alt_spellings": [
       "SS"
@@ -10163,12 +9741,9 @@
       "MAR"
     ],
     "demonym": "Spanish",
-    "latitude": 40,
-    "longitude": -4,
+    "loc": { "type": "Point", "coordinates": [-4, 40] },
     "population": 46704314,
-    "calling_code": [
-      "34"
-    ],
+    "calling_code": "34",
     "currency": [
       "EUR"
     ],
@@ -10179,7 +9754,8 @@
       ".es"
     ],
     "native_name": "España",
-    "doc_name": "Spain",
+    "country_name": "Spain",
+    "country": true,
     "capital": "Madrid",
     "alt_spellings": [
       "ES",
@@ -10210,12 +9786,9 @@
       "IND"
     ],
     "demonym": "Sri Lankan",
-    "latitude": 7,
-    "longitude": 81,
+    "loc": { "type": "Point", "coordinates": [81, 7] },
     "population": 20277597,
-    "calling_code": [
-      "94"
-    ],
+    "calling_code": "94",
     "currency": [
       "LKR"
     ],
@@ -10226,7 +9799,8 @@
       ".lk"
     ],
     "native_name": "śrī laṃkāva",
-    "doc_name": "Sri Lanka",
+    "country_name": "Sri Lanka",
+    "country": true,
     "capital": "Colombo",
     "alt_spellings": [
       "LK",
@@ -10265,12 +9839,9 @@
       "SSD"
     ],
     "demonym": "Sudanese",
-    "latitude": 15,
-    "longitude": 30,
+    "loc": { "type": "Point", "coordinates": [30, 15] },
     "population": 37964000,
-    "calling_code": [
-      "249"
-    ],
+    "calling_code": "249",
     "currency": [
       "SDG"
     ],
@@ -10281,7 +9852,8 @@
       ".sd"
     ],
     "native_name": "as-Sūdān",
-    "doc_name": "Sudan",
+    "country_name": "Sudan",
+    "country": true,
     "capital": "Khartoum",
     "alt_spellings": [
       "SD",
@@ -10317,12 +9889,9 @@
       "GUY"
     ],
     "demonym": "Surinamer",
-    "latitude": 4,
-    "longitude": -56,
+    "loc": { "type": "Point", "coordinates": [-56, 4] },
     "population": 534189,
-    "calling_code": [
-      "597"
-    ],
+    "calling_code": "597",
     "currency": [
       "SRD"
     ],
@@ -10333,7 +9902,8 @@
       ".sr"
     ],
     "native_name": "Suriname",
-    "doc_name": "Suriname",
+    "country_name": "Suriname",
+    "country": true,
     "capital": "Paramaribo",
     "alt_spellings": [
       "SR",
@@ -10364,12 +9934,9 @@
   {
     "borders": [],
     "demonym": "Norwegian",
-    "latitude": 78,
-    "longitude": 20,
+    "loc": { "type": "Point", "coordinates": [20, 78] },
     "population": 2655,
-    "calling_code": [
-      "4779"
-    ],
+    "calling_code": "4779",
     "currency": [
       "NOK"
     ],
@@ -10380,7 +9947,8 @@
       ".sj"
     ],
     "native_name": "Svalbard og Jan Mayen",
-    "doc_name": "Svalbard and Jan Mayen",
+    "country_name": "Svalbard and Jan Mayen",
+    "country": true,
     "capital": "Longyearbyen",
     "alt_spellings": [
       "SJ",
@@ -10411,12 +9979,9 @@
       "ZAF"
     ],
     "demonym": "Swazi",
-    "latitude": -26.5,
-    "longitude": 31.5,
+    "loc": { "type": "Point", "coordinates": [31.5, -26.5] },
     "population": 1250000,
-    "calling_code": [
-      "268"
-    ],
+    "calling_code": "268",
     "currency": [
       "SZL"
     ],
@@ -10427,7 +9992,8 @@
       ".sz"
     ],
     "native_name": "Swaziland",
-    "doc_name": "Swaziland",
+    "country_name": "Swaziland",
+    "country": true,
     "capital": "Lobamba",
     "alt_spellings": [
       "SZ",
@@ -10464,12 +10030,9 @@
       "NOR"
     ],
     "demonym": "Swedish",
-    "latitude": 62,
-    "longitude": 15,
+    "loc": { "type": "Point", "coordinates": [15, 62] },
     "population": 9625444,
-    "calling_code": [
-      "46"
-    ],
+    "calling_code": "46",
     "currency": [
       "SEK"
     ],
@@ -10480,7 +10043,8 @@
       ".se"
     ],
     "native_name": "Sverige",
-    "doc_name": "Sweden",
+    "country_name": "Sweden",
+    "country": true,
     "capital": "Stockholm",
     "alt_spellings": [
       "SE",
@@ -10515,12 +10079,9 @@
       "DEU"
     ],
     "demonym": "Swiss",
-    "latitude": 47,
-    "longitude": 8,
+    "loc": { "type": "Point", "coordinates": [8, 47] },
     "population": 8085300,
-    "calling_code": [
-      "41"
-    ],
+    "calling_code": "41",
     "currency": [
       "CHE",
       "CHF",
@@ -10533,7 +10094,8 @@
       ".ch"
     ],
     "native_name": "Schweiz",
-    "doc_name": "Switzerland",
+    "country_name": "Switzerland",
+    "country": true,
     "capital": "Bern",
     "alt_spellings": [
       "CH",
@@ -10576,12 +10138,9 @@
       "TUR"
     ],
     "demonym": "Syrian",
-    "latitude": 35,
-    "longitude": 38,
+    "loc": { "type": "Point", "coordinates": [38, 35] },
     "population": 21898000,
-    "calling_code": [
-      "963"
-    ],
+    "calling_code": "963",
     "currency": [
       "SYP"
     ],
@@ -10592,7 +10151,8 @@
       ".sy"
     ],
     "native_name": "Sūriyā",
-    "doc_name": "Syria",
+    "country_name": "Syria",
+    "country": true,
     "capital": "Damascus",
     "alt_spellings": [
       "SY",
@@ -10621,12 +10181,9 @@
   {
     "borders": [],
     "demonym": "Taiwanese",
-    "latitude": 23.5,
-    "longitude": 121,
+    "loc": { "type": "Point", "coordinates": [121, 23.5] },
     "population": 23361147,
-    "calling_code": [
-      "886"
-    ],
+    "calling_code": "886",
     "currency": [
       "TWD"
     ],
@@ -10637,7 +10194,8 @@
       ".tw"
     ],
     "native_name": "臺灣",
-    "doc_name": "Taiwan",
+    "country_name": "Taiwan",
+    "country": true,
     "capital": "Taipei",
     "alt_spellings": [
       "TW",
@@ -10673,12 +10231,9 @@
       "UZB"
     ],
     "demonym": "Tadzhik",
-    "latitude": 39,
-    "longitude": 71,
+    "loc": { "type": "Point", "coordinates": [71, 39] },
     "population": 8e+06,
-    "calling_code": [
-      "992"
-    ],
+    "calling_code": "992",
     "currency": [
       "TJS"
     ],
@@ -10689,7 +10244,8 @@
       ".tj"
     ],
     "native_name": "Тоҷикистон",
-    "doc_name": "Tajikistan",
+    "country_name": "Tajikistan",
+    "country": true,
     "capital": "Dushanbe",
     "alt_spellings": [
       "TJ",
@@ -10730,12 +10286,9 @@
       "ZMB"
     ],
     "demonym": "Tanzanian",
-    "latitude": -6,
-    "longitude": 35,
+    "loc": { "type": "Point", "coordinates": [35, -6] },
     "population": 44928923,
-    "calling_code": [
-      "255"
-    ],
+    "calling_code": "255",
     "currency": [
       "TZS"
     ],
@@ -10746,7 +10299,8 @@
       ".tz"
     ],
     "native_name": "Tanzania",
-    "doc_name": "Tanzania",
+    "country_name": "Tanzania",
+    "country": true,
     "capital": "Dodoma",
     "alt_spellings": [
       "TZ",
@@ -10782,12 +10336,9 @@
       "MYS"
     ],
     "demonym": "Thai",
-    "latitude": 15,
-    "longitude": 100,
+    "loc": { "type": "Point", "coordinates": [100, 15] },
     "population": 65926261,
-    "calling_code": [
-      "66"
-    ],
+    "calling_code": "66",
     "currency": [
       "THB"
     ],
@@ -10798,7 +10349,8 @@
       ".th"
     ],
     "native_name": "ประเทศไทย",
-    "doc_name": "Thailand",
+    "country_name": "Thailand",
+    "country": true,
     "capital": "Bangkok",
     "alt_spellings": [
       "TH",
@@ -10822,12 +10374,9 @@
       "IDN"
     ],
     "demonym": "East Timorese",
-    "latitude": -8.83333333,
-    "longitude": 125.91666666,
+    "loc": { "type": "Point", "coordinates": [125.91666666, -8.83333333] },
     "population": -1,
-    "calling_code": [
-      "670"
-    ],
+    "calling_code": "670",
     "currency": [
       "USD"
     ],
@@ -10838,7 +10387,8 @@
       ".tl"
     ],
     "native_name": "Timor-Leste",
-    "doc_name": "Timor-Leste",
+    "country_name": "Timor-Leste",
+    "country": true,
     "capital": "Dili",
     "alt_spellings": [
       "TL",
@@ -10864,12 +10414,9 @@
       "GHA"
     ],
     "demonym": "Togolese",
-    "latitude": 8,
-    "longitude": 1.16666666,
+    "loc": { "type": "Point", "coordinates": [1.16666666, 8] },
     "population": 6191155,
-    "calling_code": [
-      "228"
-    ],
+    "calling_code": "228",
     "currency": [
       "XOF"
     ],
@@ -10880,7 +10427,8 @@
       ".tg"
     ],
     "native_name": "Togo",
-    "doc_name": "Togo",
+    "country_name": "Togo",
+    "country": true,
     "capital": "Lomé",
     "alt_spellings": [
       "TG",
@@ -10910,12 +10458,9 @@
   {
     "borders": [],
     "demonym": "Tokelauan",
-    "latitude": -9,
-    "longitude": -172,
+    "loc": { "type": "Point", "coordinates": [-172, -9] },
     "population": 1411,
-    "calling_code": [
-      "690"
-    ],
+    "calling_code": "690",
     "currency": [
       "NZD"
     ],
@@ -10926,7 +10471,8 @@
       ".tk"
     ],
     "native_name": "Tokelau",
-    "doc_name": "Tokelau",
+    "country_name": "Tokelau",
+    "country": true,
     "capital": "Fakaofo",
     "alt_spellings": [
       "TK"
@@ -10955,12 +10501,9 @@
   {
     "borders": [],
     "demonym": "Tongan",
-    "latitude": -20,
-    "longitude": -175,
+    "loc": { "type": "Point", "coordinates": [-175, -20] },
     "population": 103036,
-    "calling_code": [
-      "676"
-    ],
+    "calling_code": "676",
     "currency": [
       "TOP"
     ],
@@ -10971,7 +10514,8 @@
       ".to"
     ],
     "native_name": "Tonga",
-    "doc_name": "Tonga",
+    "country_name": "Tonga",
+    "country": true,
     "capital": "Nuku‘alofa",
     "alt_spellings": [
       "TO"
@@ -11000,12 +10544,9 @@
   {
     "borders": [],
     "demonym": "Trinidadian",
-    "latitude": 11,
-    "longitude": -61,
+    "loc": { "type": "Point", "coordinates": [-61, 11] },
     "population": 1328019,
-    "calling_code": [
-      "1868"
-    ],
+    "calling_code": "1868",
     "currency": [
       "TTD"
     ],
@@ -11016,7 +10557,8 @@
       ".tt"
     ],
     "native_name": "Trinidad and Tobago",
-    "doc_name": "Trinidad and Tobago",
+    "country_name": "Trinidad and Tobago",
+    "country": true,
     "capital": "Port of Spain",
     "alt_spellings": [
       "TT",
@@ -11047,12 +10589,9 @@
       "LBY"
     ],
     "demonym": "Tunisian",
-    "latitude": 34,
-    "longitude": 9,
+    "loc": { "type": "Point", "coordinates": [9, 34] },
     "population": 10833431,
-    "calling_code": [
-      "216"
-    ],
+    "calling_code": "216",
     "currency": [
       "TND"
     ],
@@ -11063,7 +10602,8 @@
       ".tn"
     ],
     "native_name": "Tūnis",
-    "doc_name": "Tunisia",
+    "country_name": "Tunisia",
+    "country": true,
     "capital": "Tunis",
     "alt_spellings": [
       "TN",
@@ -11102,12 +10642,9 @@
       "SYR"
     ],
     "demonym": "Turkish",
-    "latitude": 39,
-    "longitude": 35,
+    "loc": { "type": "Point", "coordinates": [35, 39] },
     "population": 75627384,
-    "calling_code": [
-      "90"
-    ],
+    "calling_code": "90",
     "currency": [
       "TRY"
     ],
@@ -11118,7 +10655,8 @@
       ".tr"
     ],
     "native_name": "Türkiye",
-    "doc_name": "Turkey",
+    "country_name": "Turkey",
+    "country": true,
     "capital": "Ankara",
     "alt_spellings": [
       "TR",
@@ -11153,12 +10691,9 @@
       "UZB"
     ],
     "demonym": "Turkmen",
-    "latitude": 40,
-    "longitude": 60,
+    "loc": { "type": "Point", "coordinates": [60, 40] },
     "population": 5240000,
-    "calling_code": [
-      "993"
-    ],
+    "calling_code": "993",
     "currency": [
       "TMT"
     ],
@@ -11169,7 +10704,8 @@
       ".tm"
     ],
     "native_name": "Türkmenistan",
-    "doc_name": "Turkmenistan",
+    "country_name": "Turkmenistan",
+    "country": true,
     "capital": "Ashgabat",
     "alt_spellings": [
       "TM"
@@ -11197,12 +10733,9 @@
   {
     "borders": [],
     "demonym": "Turks and Caicos Islander",
-    "latitude": 21.75,
-    "longitude": -71.58333333,
+    "loc": { "type": "Point", "coordinates": [-71.58333333, 21.75] },
     "population": 31458,
-    "calling_code": [
-      "1649"
-    ],
+    "calling_code": "1649",
     "currency": [
       "USD"
     ],
@@ -11213,7 +10746,8 @@
       ".tc"
     ],
     "native_name": "Turks and Caicos Islands",
-    "doc_name": "Turks and Caicos Islands",
+    "country_name": "Turks and Caicos Islands",
+    "country": true,
     "capital": "Cockburn Town",
     "alt_spellings": [
       "TC"
@@ -11240,12 +10774,9 @@
   {
     "borders": [],
     "demonym": "Tuvaluan",
-    "latitude": -8,
-    "longitude": 178,
+    "loc": { "type": "Point", "coordinates": [178, -8] },
     "population": 11323,
-    "calling_code": [
-      "688"
-    ],
+    "calling_code": "688",
     "currency": [
       "AUD"
     ],
@@ -11256,7 +10787,8 @@
       ".tv"
     ],
     "native_name": "Tuvalu",
-    "doc_name": "Tuvalu",
+    "country_name": "Tuvalu",
+    "country": true,
     "capital": "Funafuti",
     "alt_spellings": [
       "TV"
@@ -11290,12 +10822,9 @@
       "TZA"
     ],
     "demonym": "Ugandan",
-    "latitude": 1,
-    "longitude": 32,
+    "loc": { "type": "Point", "coordinates": [32, 1] },
     "population": 35357000,
-    "calling_code": [
-      "256"
-    ],
+    "calling_code": "256",
     "currency": [
       "UGX"
     ],
@@ -11306,7 +10835,8 @@
       ".ug"
     ],
     "native_name": "Uganda",
-    "doc_name": "Uganda",
+    "country_name": "Uganda",
+    "country": true,
     "capital": "Kampala",
     "alt_spellings": [
       "UG",
@@ -11345,12 +10875,9 @@
       "SVK"
     ],
     "demonym": "Ukrainian",
-    "latitude": 49,
-    "longitude": 32,
+    "loc": { "type": "Point", "coordinates": [32, 49] },
     "population": 45461627,
-    "calling_code": [
-      "380"
-    ],
+    "calling_code": "380",
     "currency": [
       "UAH"
     ],
@@ -11361,7 +10888,8 @@
       ".ua"
     ],
     "native_name": "Україна",
-    "doc_name": "Ukraine",
+    "country_name": "Ukraine",
+    "country": true,
     "capital": "Kiev",
     "alt_spellings": [
       "UA",
@@ -11392,12 +10920,9 @@
       "SAU"
     ],
     "demonym": "Emirian",
-    "latitude": 24,
-    "longitude": 54,
+    "loc": { "type": "Point", "coordinates": [54, 24] },
     "population": 8264070,
-    "calling_code": [
-      "971"
-    ],
+    "calling_code": "971",
     "currency": [
       "AED"
     ],
@@ -11408,7 +10933,8 @@
       ".ae"
     ],
     "native_name": "Dawlat al-ʾImārāt al-ʿArabiyyah al-Muttaḥidah",
-    "doc_name": "United Arab Emirates",
+    "country_name": "United Arab Emirates",
+    "country": true,
     "capital": "Abu Dhabi",
     "alt_spellings": [
       "AE",
@@ -11438,12 +10964,9 @@
       "IRL"
     ],
     "demonym": "British",
-    "latitude": 54,
-    "longitude": -2,
+    "loc": { "type": "Point", "coordinates": [-2, 54] },
     "population": 63705000,
-    "calling_code": [
-      "44"
-    ],
+    "calling_code": "44",
     "currency": [
       "GBP"
     ],
@@ -11454,7 +10977,8 @@
       ".uk"
     ],
     "native_name": "United Kingdom",
-    "doc_name": "United Kingdom",
+    "country_name": "United Kingdom",
+    "country": true,
     "capital": "London",
     "alt_spellings": [
       "GB",
@@ -11486,12 +11010,9 @@
       "MEX"
     ],
     "demonym": "American",
-    "latitude": 38,
-    "longitude": -97,
+    "loc": { "type": "Point", "coordinates": [-97, 38] },
     "population": 317101000,
-    "calling_code": [
-      "1"
-    ],
+    "calling_code": "1",
     "currency": [
       "USD",
       "USN",
@@ -11504,7 +11025,8 @@
       ".us"
     ],
     "native_name": "United States",
-    "doc_name": "United States",
+    "country_name": "United States",
+    "country": true,
     "capital": "Washington, D.C.",
     "alt_spellings": [
       "US",
@@ -11534,9 +11056,7 @@
     "borders": [],
     "demonym": "American",
     "population": -1,
-    "calling_code": [
-      ""
-    ],
+    "calling_code": "",
     "currency": [
       "USD"
     ],
@@ -11547,7 +11067,8 @@
       ".us"
     ],
     "native_name": "United States Minor Outlying Islands",
-    "doc_name": "United States Minor Outlying Islands",
+    "country_name": "United States Minor Outlying Islands",
+    "country": true,
     "name": "United States Minor Outlying Islands",
     "capital": "",
     "alt_spellings": [
@@ -11575,12 +11096,9 @@
   {
     "borders": [],
     "demonym": "Virgin Islander",
-    "latitude": 18.35,
-    "longitude": -64.933333,
+    "loc": { "type": "Point", "coordinates": [-64.933333, 18.35] },
     "population": 106405,
-    "calling_code": [
-      "1340"
-    ],
+    "calling_code": "1340",
     "currency": [
       "USD"
     ],
@@ -11591,7 +11109,8 @@
       ".vi"
     ],
     "native_name": "United States Virgin Islands",
-    "doc_name": "United States Virgin Islands",
+    "country_name": "United States Virgin Islands",
+    "country": true,
     "capital": "Charlotte Amalie",
     "alt_spellings": [
       "VI"
@@ -11621,12 +11140,9 @@
       "BRA"
     ],
     "demonym": "Uruguayan",
-    "latitude": -33,
-    "longitude": -56,
+    "loc": { "type": "Point", "coordinates": [-56, -33] },
     "population": 3286314,
-    "calling_code": [
-      "598"
-    ],
+    "calling_code": "598",
     "currency": [
       "UYI",
       "UYU"
@@ -11638,7 +11154,8 @@
       ".uy"
     ],
     "native_name": "Uruguay",
-    "doc_name": "Uruguay",
+    "country_name": "Uruguay",
+    "country": true,
     "capital": "Montevideo",
     "alt_spellings": [
       "UY",
@@ -11673,12 +11190,9 @@
       "TKM"
     ],
     "demonym": "Uzbekistani",
-    "latitude": 41,
-    "longitude": 64,
+    "loc": { "type": "Point", "coordinates": [64, 41] },
     "population": 30183400,
-    "calling_code": [
-      "998"
-    ],
+    "calling_code": "998",
     "currency": [
       "UZS"
     ],
@@ -11689,7 +11203,8 @@
       ".uz"
     ],
     "native_name": "O‘zbekiston",
-    "doc_name": "Uzbekistan",
+    "country_name": "Uzbekistan",
+    "country": true,
     "capital": "Tashkent",
     "alt_spellings": [
       "UZ",
@@ -11720,12 +11235,9 @@
   {
     "borders": [],
     "demonym": "Ni-Vanuatu",
-    "latitude": -16,
-    "longitude": 167,
+    "loc": { "type": "Point", "coordinates": [167, -16] },
     "population": 264652,
-    "calling_code": [
-      "678"
-    ],
+    "calling_code": "678",
     "currency": [
       "VUV"
     ],
@@ -11736,7 +11248,8 @@
       ".vu"
     ],
     "native_name": "Vanuatu",
-    "doc_name": "Vanuatu",
+    "country_name": "Vanuatu",
+    "country": true,
     "capital": "Port Vila",
     "alt_spellings": [
       "VU",
@@ -11774,12 +11287,9 @@
       "GUY"
     ],
     "demonym": "Venezuelan",
-    "latitude": 8,
-    "longitude": -66,
+    "loc": { "type": "Point", "coordinates": [-66, 8] },
     "population": 28946101,
-    "calling_code": [
-      "58"
-    ],
+    "calling_code": "58",
     "currency": [
       "VEF"
     ],
@@ -11790,7 +11300,8 @@
       ".ve"
     ],
     "native_name": "Venezuela",
-    "doc_name": "Venezuela",
+    "country_name": "Venezuela",
+    "country": true,
     "capital": "Caracas",
     "alt_spellings": [
       "VE",
@@ -11823,12 +11334,9 @@
       "LAO"
     ],
     "demonym": "Vietnamese",
-    "latitude": 16.16666666,
-    "longitude": 107.83333333,
+    "loc": { "type": "Point", "coordinates": [107.83333333, 16.16666666] },
     "population": 90388000,
-    "calling_code": [
-      "84"
-    ],
+    "calling_code": "84",
     "currency": [
       "VND"
     ],
@@ -11839,7 +11347,8 @@
       ".vn"
     ],
     "native_name": "Việt Nam",
-    "doc_name": "Vietnam",
+    "country_name": "Vietnam",
+    "country": true,
     "capital": "Hanoi",
     "alt_spellings": [
       "VN",
@@ -11860,12 +11369,9 @@
   {
     "borders": [],
     "demonym": "Wallis and Futuna Islander",
-    "latitude": -13.3,
-    "longitude": -176.2,
+    "loc": { "type": "Point", "coordinates": [-176.2, -13.3] },
     "population": 13135,
-    "calling_code": [
-      "681"
-    ],
+    "calling_code": "681",
     "currency": [
       "XPF"
     ],
@@ -11876,7 +11382,8 @@
       ".wf"
     ],
     "native_name": "Wallis et Futuna",
-    "doc_name": "Wallis and Futuna",
+    "country_name": "Wallis and Futuna",
+    "country": true,
     "capital": "Mata-Utu",
     "alt_spellings": [
       "WF",
@@ -11909,12 +11416,9 @@
       "MAR"
     ],
     "demonym": "Sahrawi",
-    "latitude": 24.5,
-    "longitude": -13,
+    "loc": { "type": "Point", "coordinates": [-13, 24.5] },
     "population": 567000,
-    "calling_code": [
-      "212"
-    ],
+    "calling_code": "212",
     "currency": [
       "MAD",
       "DZD",
@@ -11927,7 +11431,8 @@
       ".eh"
     ],
     "native_name": "Aṣ-Ṣaḥrā’ al-Ġarbiyya",
-    "doc_name": "Western Sahara",
+    "country_name": "Western Sahara",
+    "country": true,
     "capital": "El Aaiún",
     "alt_spellings": [
       "EH",
@@ -11960,12 +11465,9 @@
       "SAU"
     ],
     "demonym": "Yemeni",
-    "latitude": 15,
-    "longitude": 48,
+    "loc": { "type": "Point", "coordinates": [48, 15] },
     "population": 24527000,
-    "calling_code": [
-      "967"
-    ],
+    "calling_code": "967",
     "currency": [
       "YER"
     ],
@@ -11976,7 +11478,8 @@
       ".ye"
     ],
     "native_name": "al-Yaman",
-    "doc_name": "Yemen",
+    "country_name": "Yemen",
+    "country": true,
     "capital": "Sana'a",
     "alt_spellings": [
       "YE",
@@ -12014,12 +11517,9 @@
       "ZWE"
     ],
     "demonym": "Zambian",
-    "latitude": -15,
-    "longitude": 30,
+    "loc": { "type": "Point", "coordinates": [30, -15] },
     "population": 13092666,
-    "calling_code": [
-      "260"
-    ],
+    "calling_code": "260",
     "currency": [
       "ZMK"
     ],
@@ -12030,7 +11530,8 @@
       ".zm"
     ],
     "native_name": "Zambia",
-    "doc_name": "Zambia",
+    "country_name": "Zambia",
+    "country": true,
     "capital": "Lusaka",
     "alt_spellings": [
       "ZM",
@@ -12063,12 +11564,9 @@
       "ZMB"
     ],
     "demonym": "Zimbabwean",
-    "latitude": -20,
-    "longitude": 30,
+    "loc": { "type": "Point", "coordinates": [30, -20] },
     "population": 12973808,
-    "calling_code": [
-      "263"
-    ],
+    "calling_code": "263",
     "currency": [
       "ZWL"
     ],
@@ -12079,7 +11577,8 @@
       ".zw"
     ],
     "native_name": "Zimbabwe",
-    "doc_name": "Zimbabwe",
+    "country_name": "Zimbabwe",
+    "country": true,
     "capital": "Harare",
     "alt_spellings": [
       "ZW",

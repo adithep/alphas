@@ -11,7 +11,7 @@ Package.on_use(function (api, where) {
     , 'core-lib'
     , 'underscore'
     , 'jquery'
-    , 'layout'])
+    , 'layout']);
   api.add_files([
     'alpha-form.jade'
     , 'alpha-form.coffee'

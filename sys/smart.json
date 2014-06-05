@@ -36,6 +36,9 @@
     "alpha-stylus": {
       "path": "../packages/alpha-stylus"
     },
+    "json-control": {
+      "path": "../packages/json-control"
+    },
     "jade": {},
     "collection-hooks": {},
     "npm": {},

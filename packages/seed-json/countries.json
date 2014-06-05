@@ -147,7 +147,7 @@
   {
     "borders": [
       "TUN",
-      "LDY",
+      "GBR",
       "NER",
       "ESH",
       "MRT",
@@ -1206,7 +1206,7 @@
       "BRA",
       "CHL",
       "PRY",
-      "PRU"
+      "PER"
     ],
     "demonym": "Bolivian",
     "loc": { "type": "Point", "coordinates": [-65, -17] },
@@ -2980,9 +2980,7 @@
     "demonym": "Dominican",
     "loc": { "type": "Point", "coordinates": [-70.66666666, 19] },
     "population": 9445281,
-    "calling_code": ,,
-      "1849"
-    ],
+    "calling_code": "1849",
     "currency": [
       "DOP"
     ],
@@ -4561,8 +4559,7 @@
     "demonym": "Italian",
     "loc": { "type": "Point", "coordinates": [12.45, 41.9] },
     "population": 800,
-    "calling_code": ,,
-    ],
+    "calling_code": "379",
     "currency": [
       "EUR"
     ],
@@ -8261,8 +8258,7 @@
     "demonym": "Puerto Rican",
     "loc": { "type": "Point", "coordinates": [-66.5, 18.25] },
     "population": 3667084,
-    "calling_code": ,,
-    ],
+    "calling_code": "1",
     "currency": [
       "USD"
     ],
@@ -9080,7 +9076,7 @@
   },
   {
     "borders": [
-      "The Gambia",
+      "GMB",
       "GIN",
       "GNB",
       "MLI",
@@ -10330,7 +10326,7 @@
   },
   {
     "borders": [
-      "Burma",
+      "MMR",
       "KHM",
       "LAO",
       "MYS"

@@ -2,8 +2,33 @@ fs = Npm.require('fs')
 path = Npm.require('path')
 stream = Npm.require('stream')
 
-json_control.print = (json, type, array, name, arry, conv, cont) ->
+json_control.printobj = ->
+  ejson = EJSON.parse(Assets.getText('countries.json'))
+  n = 0
+  k = 0
+  arr = []
+  while n < ejson.length
+    for key of ejson[n].translations
+      arr[k] = {}
+      arr[k].translations = true
+      arr[k].trans_country_name = true
+      arr[k].string = ejson[n].country_name
+      arr[k].language = String(key)
+      arr[k].translated_string = ejson[n].translations[key]
+      k++
+    n++
+
+  h = '../../../../../../packages/seed-json/translations.json'
+  fs.writeFileSync(
+    h
+    , EJSON.stringify(arr, {indent: true})
+  )
+  console.log arr
+
+json_control.print = (json, type, array, name, arry, conv, cont, json2) ->
   ejson = EJSON.parse(Assets.getText(json))
+  if json2
+    ejson2 = EJSON.parse(Assets.getText(json2))
   n = 0
   k = 0
   arr = []
@@ -17,7 +42,10 @@ json_control.print = (json, type, array, name, arry, conv, cont) ->
         obj = {}
         obj[conv] = ejson[n][array][nn]
         console.log obj
-        ob = _.findWhere(ejson, obj)
+        if ejson2
+          ob = _.findWhere(ejson2, obj)
+        else
+          ob = _.findWhere(ejson, obj)
         if ob[cont]
           arr[k][arry] = ob[cont]
       else
@@ -25,7 +53,7 @@ json_control.print = (json, type, array, name, arry, conv, cont) ->
       nn++
       k++
     n++
-  h = '../../../../../../json/' + type + '.json'
+  h = '../../../../../../packages/seed-json/' + type + '.json'
   fs.writeFileSync(
     h
     , EJSON.stringify(arr, {indent: true})

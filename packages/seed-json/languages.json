@@ -884,7 +884,7 @@
   {
     "code": "es",
     "language": true,
-    "name": "Spanish; Castilian",
+    "name": "Spanish",
     "native_name": "español, castellano"
   },
   {
@@ -949,6 +949,18 @@
   },
   {
     "code": "tk",
+    "language": true,
+    "name": "Dzongkha",
+    "native_name": "རྫོང་ཁ་"
+  },
+  {
+    "code": "zu",
+    "language": true,
+    "name": "Zulu",
+    "native_name": "isiZulu"
+  },
+  {
+    "code": "dz",
     "language": true,
     "name": "Turkmen",
     "native_name": "Türkmen, Түркмен"

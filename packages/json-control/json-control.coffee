@@ -2,24 +2,33 @@ fs = Npm.require('fs')
 path = Npm.require('path')
 stream = Npm.require('stream')
 
-json_control.country_currency = ->
-  countries = EJSON.parse(Assets.getText('countries.json'))
-  currencies = EJSON.parse(Assets.getText('currencies.json'))
+json_control.country_currency = (json, type, array, name, arry, conv, cont) ->
+  ejson = EJSON.parse(Assets.getText(json))
   n = 0
   k = 0
   arr = []
-  while n < countries.length
+  while n < ejson.length
     nn = 0
-    while nn < countries[n].currency.length
+    while nn < ejson[n][array].length
       arr[k] = {}
-      arr[k].country_currency = true
-      arr[k].country_name = countries[n].country_name
-      arr[k].currency_code = countries[n].currency[nn]
+      arr[k][type] = true
+      arr[k][name] = ejson[n][name]
+      if conv and cont
+        obj = {}
+        obj[conv] = ejson[n][array][nn]
+        console.log obj
+        ob = _.findWhere(ejson, obj)
+        if ob[cont]
+          arr[k][arry] = ob[cont]
+      else
+        arr[k][arry] = ejson[n][array][nn]
       nn++
       k++
     n++
-  fs.writeFileSync('../../../../../../json/c_c.json', arr)
+  h = '../../../../../../json/' + type + '.json'
+  fs.writeFileSync(
+    h
+    , EJSON.stringify(arr, {indent: true})
+  )
   console.log arr
-
-Meteor.startup ->
-  json_control.print('countries.json', 'country_borders', 'borders', 'country_name', 'border', 'cca3', 'country_name')
+  return

@@ -2,9 +2,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 33.0652,
-    "country_name": [
-      "Russia"
-    ],
     "symbol": "RUB",
     "symbol_native": "руб.",
     "currency_name": "Russian Ruble",
@@ -14,9 +11,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 677.54162,
-    "country_name": [
-      "Rwanda"
-    ],
     "symbol": "RWF",
     "symbol_native": "FR",
     "currency_name": "Rwandan Franc",
@@ -26,9 +20,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 3.750547,
-    "country_name": [
-      "Saudi Arabia"
-    ],
     "symbol": "SR",
     "symbol_native": "ر.س.‏",
     "currency_name": "Saudi Riyal",
@@ -38,9 +29,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 5.701133,
-    "country_name": [
-      "Sudan"
-    ],
     "symbol": "SDG",
     "symbol_native": "SDG",
     "currency_name": "Sudanese Pound",
@@ -50,9 +38,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 6.506099,
-    "country_name": [
-      "Sweden"
-    ],
     "symbol": "Skr",
     "symbol_native": "kr",
     "currency_name": "Swedish Krona",
@@ -62,9 +47,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 1.266613,
-    "country_name": [
-      "Singapore"
-    ],
     "symbol": "S$",
     "symbol_native": "$",
     "currency_name": "Singapore Dollar",
@@ -74,27 +56,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 1,
-    "country_name": [
-      "American Samoa",
-      "Bonaire",
-      "British Indian Ocean Territory",
-      "British Virgin Islands",
-      "Ecuador",
-      "El Salvador",
-      "Guam",
-      "Haiti",
-      "Marshall Islands",
-      "Micronesia",
-      "Northern Mariana Islands",
-      "Palau",
-      "Panama",
-      "Puerto Rico",
-      "Timor-Leste",
-      "Turks and Caicos Islands",
-      "United States",
-      "United States Minor Outlying Islands",
-      "United States Virgin Islands"
-    ],
     "symbol": "$",
     "symbol_native": "$",
     "currency_name": "US Dollar",
@@ -104,9 +65,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 1.088542,
-    "country_name": [
-      "Canada"
-    ],
     "symbol": "CA$",
     "symbol_native": "$",
     "currency_name": "Canadian Dollar",
@@ -116,41 +74,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 0.731693,
-    "country_name": [
-      "Åland Islands",
-      "Andorra",
-      "Austria",
-      "Belgium",
-      "Cyprus",
-      "Estonia",
-      "Finland",
-      "France",
-      "French Guiana",
-      "French Southern and Antarctic Lands",
-      "Germany",
-      "Greece",
-      "Guadeloupe",
-      "Vatican City",
-      "Ireland",
-      "Italy",
-      "Luxembourg",
-      "Malta",
-      "Martinique",
-      "Mayotte",
-      "Monaco",
-      "Montenegro",
-      "Netherlands",
-      "Portugal",
-      "Republic of Kosovo",
-      "Réunion",
-      "Saint Barthélemy",
-      "Saint Martin",
-      "Saint Pierre and Miquelon",
-      "San Marino",
-      "Slovakia",
-      "Slovenia",
-      "Spain"
-    ],
     "symbol": "€",
     "symbol_native": "€",
     "currency_name": "Euro",
@@ -160,9 +83,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 3.672874,
-    "country_name": [
-      "United Arab Emirates"
-    ],
     "symbol": "AED",
     "symbol_native": "د.إ.‏",
     "currency_name": "United Arab Emirates Dirham",
@@ -172,9 +92,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 55.8508,
-    "country_name": [
-      "Afghanistan"
-    ],
     "symbol": "Af",
     "symbol_native": "؋",
     "currency_name": "Afghan Afghani",
@@ -184,9 +101,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 103.1459,
-    "country_name": [
-      "Albania"
-    ],
     "symbol": "ALL",
     "symbol_native": "Lek",
     "currency_name": "Albanian Lek",
@@ -196,9 +110,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 406.167503,
-    "country_name": [
-      "Armenia"
-    ],
     "symbol": "AMD",
     "symbol_native": "դր.",
     "currency_name": "Armenian Dram",
@@ -208,9 +119,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 6.649165,
-    "country_name": [
-      "Argentina"
-    ],
     "symbol": "AR$",
     "symbol_native": "$",
     "currency_name": "Argentine Peso",
@@ -220,16 +128,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 1.1124,
-    "country_name": [
-      "Australia",
-      "Christmas Island",
-      "Cocos (Keeling) Islands",
-      "Heard Island and McDonald Islands",
-      "Kiribati",
-      "Nauru",
-      "Norfolk Island",
-      "Tuvalu"
-    ],
     "symbol": "AU$",
     "symbol_native": "$",
     "currency_name": "Australian Dollar",
@@ -239,9 +137,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 0.784233,
-    "country_name": [
-      "Azerbaijan"
-    ],
     "symbol": "man.",
     "symbol_native": "ман.",
     "currency_name": "Azerbaijani Manat",
@@ -251,9 +146,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 1.433938,
-    "country_name": [
-      "Bosnia and Herzegovina"
-    ],
     "symbol": "KM",
     "symbol_native": "KM",
     "currency_name": "Bosnia-Herzegovina Convertible Mark",
@@ -263,9 +155,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 77.636109,
-    "country_name": [
-      "Bangladesh"
-    ],
     "symbol": "Tk",
     "symbol_native": "৳",
     "currency_name": "Bangladeshi Taka",
@@ -275,9 +164,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 1.43583,
-    "country_name": [
-      "Bulgaria"
-    ],
     "symbol": "BGN",
     "symbol_native": "лв.",
     "currency_name": "Bulgarian Lev",
@@ -287,9 +173,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 0.377005,
-    "country_name": [
-      "Bahrain"
-    ],
     "symbol": "BD",
     "symbol_native": "د.ب.‏",
     "currency_name": "Bahraini Dinar",
@@ -299,9 +182,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 1545.2334,
-    "country_name": [
-      "Burundi"
-    ],
     "symbol": "FBu",
     "symbol_native": "FBu",
     "currency_name": "Burundian Franc",
@@ -311,9 +191,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 1.266997,
-    "country_name": [
-      "Brunei"
-    ],
     "symbol": "BN$",
     "symbol_native": "$",
     "currency_name": "Brunei Dollar",
@@ -323,9 +200,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 6.902889,
-    "country_name": [
-      "Bolivia"
-    ],
     "symbol": "Bs",
     "symbol_native": "Bs",
     "currency_name": "Bolivian Boliviano",
@@ -335,9 +209,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 2.371527,
-    "country_name": [
-      "Brazil"
-    ],
     "symbol": "R$",
     "symbol_native": "R$",
     "currency_name": "Brazilian Real",
@@ -347,9 +218,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 8.88681,
-    "country_name": [
-      "Botswana"
-    ],
     "symbol": "BWP",
     "symbol_native": "P",
     "currency_name": "Botswanan Pula",
@@ -359,9 +227,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 9558.675,
-    "country_name": [
-      "Belarus"
-    ],
     "symbol": "BYR",
     "symbol_native": "BYR",
     "currency_name": "Belarusian Ruble",
@@ -371,9 +236,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 1.991986,
-    "country_name": [
-      "Belize"
-    ],
     "symbol": "BZ$",
     "symbol_native": "$",
     "currency_name": "Belize Dollar",
@@ -383,9 +245,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 921.528333,
-    "country_name": [
-      "Democratic Republic of the Congo"
-    ],
     "symbol": "CDF",
     "symbol_native": "FrCD",
     "currency_name": "Congolese Franc",
@@ -395,10 +254,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 0.904211,
-    "country_name": [
-      "Liechtenstein",
-      "Switzerland"
-    ],
     "symbol": "CHF",
     "symbol_native": "CHF",
     "currency_name": "Swiss Franc",
@@ -408,9 +263,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 530.436499,
-    "country_name": [
-      "Chile"
-    ],
     "symbol": "CL$",
     "symbol_native": "$",
     "currency_name": "Chilean Peso",
@@ -420,9 +272,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 6.081475,
-    "country_name": [
-      "China"
-    ],
     "symbol": "CN¥",
     "symbol_native": "CN¥",
     "currency_name": "Chinese Yuan",
@@ -432,9 +281,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 1929.725,
-    "country_name": [
-      "Colombia"
-    ],
     "symbol": "CO$",
     "symbol_native": "$",
     "currency_name": "Colombian Peso",
@@ -444,9 +290,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 499.9848,
-    "country_name": [
-      "Costa Rica"
-    ],
     "symbol": "₡",
     "symbol_native": "₡",
     "currency_name": "Costa Rican Colón",
@@ -456,9 +299,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 80.749121,
-    "country_name": [
-      "Cape Verde"
-    ],
     "symbol": "CV$",
     "symbol_native": "CV$",
     "currency_name": "Cape Verdean Escudo",
@@ -468,9 +308,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 20.06638,
-    "country_name": [
-      "Czech Republic"
-    ],
     "symbol": "Kč",
     "symbol_native": "Kč",
     "currency_name": "Czech Republic Koruna",
@@ -480,9 +317,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 177.864,
-    "country_name": [
-      "Djibouti"
-    ],
     "symbol": "Fdj",
     "symbol_native": "Fdj",
     "currency_name": "Djiboutian Franc",
@@ -492,11 +326,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 5.465675,
-    "country_name": [
-      "Denmark",
-      "Faroe Islands",
-      "Greenland"
-    ],
     "symbol": "Dkr",
     "symbol_native": "kr",
     "currency_name": "Danish Krone",
@@ -506,9 +335,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 42.64528,
-    "country_name": [
-      "Dominican Republic"
-    ],
     "symbol": "RD$",
     "symbol_native": "RD$",
     "currency_name": "Dominican Peso",
@@ -518,10 +344,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 78.616001,
-    "country_name": [
-      "Algeria",
-      "Western Sahara"
-    ],
     "symbol": "DA",
     "symbol_native": "د.ج.‏",
     "currency_name": "Algerian Dinar",
@@ -531,9 +353,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 6.962025,
-    "country_name": [
-      "Egypt"
-    ],
     "symbol": "EGP",
     "symbol_native": "ج.م.‏",
     "currency_name": "Egyptian Pound",
@@ -543,9 +362,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 15.00265,
-    "country_name": [
-      "Eritrea"
-    ],
     "symbol": "Nfk",
     "symbol_native": "Nfk",
     "currency_name": "Eritrean Nakfa",
@@ -555,9 +371,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 19.11121,
-    "country_name": [
-      "Ethiopia"
-    ],
     "symbol": "Br",
     "symbol_native": "Br",
     "currency_name": "Ethiopian Birr",
@@ -567,13 +380,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 0.606905,
-    "country_name": [
-      "Guernsey",
-      "Isle of Man",
-      "Jersey",
-      "South Georgia",
-      "United Kingdom"
-    ],
     "symbol": "£",
     "symbol_native": "£",
     "currency_name": "British Pound Sterling",
@@ -583,9 +389,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 1.75391,
-    "country_name": [
-      "Georgia"
-    ],
     "symbol": "GEL",
     "symbol_native": "GEL",
     "currency_name": "Georgian Lari",
@@ -595,9 +398,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 2.379864,
-    "country_name": [
-      "Ghana"
-    ],
     "symbol": "GH₵",
     "symbol_native": "GH₵",
     "currency_name": "Ghanaian Cedi",
@@ -607,9 +407,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 6918.77,
-    "country_name": [
-      "Guinea"
-    ],
     "symbol": "FG",
     "symbol_native": "FG",
     "currency_name": "Guinean Franc",
@@ -619,9 +416,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 7.870087,
-    "country_name": [
-      "Guatemala"
-    ],
     "symbol": "GTQ",
     "symbol_native": "Q",
     "currency_name": "Guatemalan Quetzal",
@@ -631,9 +425,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 7.754455,
-    "country_name": [
-      "Hong Kong"
-    ],
     "symbol": "HK$",
     "symbol_native": "$",
     "currency_name": "Hong Kong Dollar",
@@ -643,9 +434,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 20.07852,
-    "country_name": [
-      "Honduras"
-    ],
     "symbol": "HNL",
     "symbol_native": "L",
     "currency_name": "Honduran Lempira",
@@ -655,9 +443,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 5.586558,
-    "country_name": [
-      "Croatia"
-    ],
     "symbol": "kn",
     "symbol_native": "kn",
     "currency_name": "Croatian Kuna",
@@ -667,9 +452,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 218.852299,
-    "country_name": [
-      "Hungary"
-    ],
     "symbol": "Ft",
     "symbol_native": "Ft",
     "currency_name": "Hungarian Forint",
@@ -679,9 +461,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 12125.816667,
-    "country_name": [
-      "Indonesia"
-    ],
     "symbol": "Rp",
     "symbol_native": "Rp",
     "currency_name": "Indonesian Rupiah",
@@ -691,10 +470,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 3.488479,
-    "country_name": [
-      "Israel",
-      "Palestine"
-    ],
     "symbol": "₪",
     "symbol_native": "₪",
     "currency_name": "Israeli New Sheqel",
@@ -704,10 +479,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 61.7352,
-    "country_name": [
-      "Bhutan",
-      "India"
-    ],
     "symbol": "Rs",
     "symbol_native": "টকা",
     "currency_name": "Indian Rupee",
@@ -717,9 +488,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 1170.348317,
-    "country_name": [
-      "Iraq"
-    ],
     "symbol": "IQD",
     "symbol_native": "د.ع.‏",
     "currency_name": "Iraqi Dinar",
@@ -729,9 +497,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 24566.0013,
-    "country_name": [
-      "Iran"
-    ],
     "symbol": "IRR",
     "symbol_native": "﷼",
     "currency_name": "Iranian Rial",
@@ -741,9 +506,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 116.552999,
-    "country_name": [
-      "Iceland"
-    ],
     "symbol": "Ikr",
     "symbol_native": "kr",
     "currency_name": "Icelandic Króna",
@@ -753,9 +515,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 106.124099,
-    "country_name": [
-      "Jamaica"
-    ],
     "symbol": "J$",
     "symbol_native": "$",
     "currency_name": "Jamaican Dollar",
@@ -765,9 +524,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 0.705725,
-    "country_name": [
-      "Jordan"
-    ],
     "symbol": "JD",
     "symbol_native": "د.أ.‏",
     "currency_name": "Jordanian Dinar",
@@ -777,9 +533,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 104.2406,
-    "country_name": [
-      "Japan"
-    ],
     "symbol": "¥",
     "symbol_native": "￥",
     "currency_name": "Japanese Yen",
@@ -789,9 +542,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 86.61054,
-    "country_name": [
-      "Kenya"
-    ],
     "symbol": "Ksh",
     "symbol_native": "Ksh",
     "currency_name": "Kenyan Shilling",
@@ -801,9 +551,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 4002.351833,
-    "country_name": [
-      "Cambodia"
-    ],
     "symbol": "KHR",
     "symbol_native": "៛",
     "currency_name": "Cambodian Riel",
@@ -813,9 +560,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 361.299052,
-    "country_name": [
-      "Comoros"
-    ],
     "symbol": "CF",
     "symbol_native": "FC",
     "currency_name": "Comorian Franc",
@@ -825,9 +569,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 1062.303317,
-    "country_name": [
-      "South Korea"
-    ],
     "symbol": "₩",
     "symbol_native": "₩",
     "currency_name": "South Korean Won",
@@ -837,9 +578,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 0.28255,
-    "country_name": [
-      "Kuwait"
-    ],
     "symbol": "KD",
     "symbol_native": "د.ك.‏",
     "currency_name": "Kuwaiti Dinar",
@@ -849,9 +587,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 154.4753,
-    "country_name": [
-      "Kazakhstan"
-    ],
     "symbol": "KZT",
     "symbol_native": "тңг.",
     "currency_name": "Kazakhstani Tenge",
@@ -861,9 +596,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 1508.105,
-    "country_name": [
-      "Lebanon"
-    ],
     "symbol": "LB£",
     "symbol_native": "ل.ل.‏",
     "currency_name": "Lebanese Pound",
@@ -873,9 +605,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 130.706499,
-    "country_name": [
-      "Sri Lanka"
-    ],
     "symbol": "SLRs",
     "symbol_native": "SL Re",
     "currency_name": "Sri Lankan Rupee",
@@ -885,9 +614,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 2.529026,
-    "country_name": [
-      "Lithuania"
-    ],
     "symbol": "Lt",
     "symbol_native": "Lt",
     "currency_name": "Lithuanian Litas",
@@ -897,9 +623,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 0.51331,
-    "country_name": [
-      "Latvia"
-    ],
     "symbol": "Ls",
     "symbol_native": "Ls",
     "currency_name": "Latvian Lats",
@@ -909,9 +632,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 1.245367,
-    "country_name": [
-      "Libya"
-    ],
     "symbol": "LD",
     "symbol_native": "د.ل.‏",
     "currency_name": "Libyan Dinar",
@@ -921,10 +641,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 8.216706,
-    "country_name": [
-      "Morocco",
-      "Western Sahara"
-    ],
     "symbol": "MAD",
     "symbol_native": "د.م.‏",
     "currency_name": "Moroccan Dirham",
@@ -934,9 +650,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 13.07375,
-    "country_name": [
-      "Moldova"
-    ],
     "symbol": "MDL",
     "symbol_native": "MDL",
     "currency_name": "Moldovan Leu",
@@ -946,9 +659,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 2267.266667,
-    "country_name": [
-      "Madagascar"
-    ],
     "symbol": "MGA",
     "symbol_native": "MGA",
     "currency_name": "Malagasy Ariary",
@@ -958,9 +668,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 45.16089,
-    "country_name": [
-      "Macedonia"
-    ],
     "symbol": "MKD",
     "symbol_native": "MKD",
     "currency_name": "Macedonian Denar",
@@ -970,9 +677,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 984.9074,
-    "country_name": [
-      "Myanmar"
-    ],
     "symbol": "MMK",
     "symbol_native": "K",
     "currency_name": "Myanma Kyat",
@@ -982,9 +686,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 7.979081,
-    "country_name": [
-      "Macau"
-    ],
     "symbol": "MOP$",
     "symbol_native": "MOP$",
     "currency_name": "Macanese Pataca",
@@ -994,9 +695,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 30.3769,
-    "country_name": [
-      "Mauritius"
-    ],
     "symbol": "MURs",
     "symbol_native": "MURs",
     "currency_name": "Mauritian Rupee",
@@ -1006,9 +704,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 13.02458,
-    "country_name": [
-      "Mexico"
-    ],
     "symbol": "MX$",
     "symbol_native": "$",
     "currency_name": "Mexican Peso",
@@ -1018,9 +713,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 3.263697,
-    "country_name": [
-      "Malaysia"
-    ],
     "symbol": "RM",
     "symbol_native": "RM",
     "currency_name": "Malaysian Ringgit",
@@ -1030,9 +722,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 29.997975,
-    "country_name": [
-      "Mozambique"
-    ],
     "symbol": "MTn",
     "symbol_native": "MTn",
     "currency_name": "Mozambican Metical",
@@ -1042,9 +731,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 10.7378,
-    "country_name": [
-      "Namibia"
-    ],
     "symbol": "N$",
     "symbol_native": "N$",
     "currency_name": "Namibian Dollar",
@@ -1054,9 +740,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 159.189499,
-    "country_name": [
-      "Nigeria"
-    ],
     "symbol": "₦",
     "symbol_native": "₦",
     "currency_name": "Nigerian Naira",
@@ -1066,9 +749,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 25.26368,
-    "country_name": [
-      "Nicaragua"
-    ],
     "symbol": "C$",
     "symbol_native": "C$",
     "currency_name": "Nicaraguan Córdoba",
@@ -1078,11 +758,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 6.163321,
-    "country_name": [
-      "Bouvet Island",
-      "Norway",
-      "Svalbard and Jan Mayen"
-    ],
     "symbol": "Nkr",
     "symbol_native": "kr",
     "currency_name": "Norwegian Krone",
@@ -1092,9 +767,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 98.970701,
-    "country_name": [
-      "Nepal"
-    ],
     "symbol": "NPRs",
     "symbol_native": "नेरू",
     "currency_name": "Nepalese Rupee",
@@ -1104,13 +776,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 1.205592,
-    "country_name": [
-      "Cook Islands",
-      "New Zealand",
-      "Niue",
-      "Pitcairn Islands",
-      "Tokelau"
-    ],
     "symbol": "NZ$",
     "symbol_native": "$",
     "currency_name": "New Zealand Dollar",
@@ -1120,9 +785,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 0.385007,
-    "country_name": [
-      "Oman"
-    ],
     "symbol": "OMR",
     "symbol_native": "ر.ع.‏",
     "currency_name": "Omani Rial",
@@ -1132,9 +794,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 1,
-    "country_name": [
-      "Panama"
-    ],
     "symbol": "B/.",
     "symbol_native": "B/.",
     "currency_name": "Panamanian Balboa",
@@ -1144,9 +803,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 2.799215,
-    "country_name": [
-      "Peru"
-    ],
     "symbol": "S/.",
     "symbol_native": "S/.",
     "currency_name": "Peruvian Nuevo Sol",
@@ -1156,9 +812,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 44.60915,
-    "country_name": [
-      "Philippines"
-    ],
     "symbol": "₱",
     "symbol_native": "₱",
     "currency_name": "Philippine Peso",
@@ -1168,9 +821,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 105.5066,
-    "country_name": [
-      "Pakistan"
-    ],
     "symbol": "PKRs",
     "symbol_native": "₨",
     "currency_name": "Pakistani Rupee",
@@ -1180,9 +830,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 3.04623,
-    "country_name": [
-      "Poland"
-    ],
     "symbol": "zł",
     "symbol_native": "zł",
     "currency_name": "Polish Zloty",
@@ -1192,9 +839,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 4612.049935,
-    "country_name": [
-      "Paraguay"
-    ],
     "symbol": "₲",
     "symbol_native": "₲",
     "currency_name": "Paraguayan Guarani",
@@ -1204,9 +848,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 3.641361,
-    "country_name": [
-      "Qatar"
-    ],
     "symbol": "QR",
     "symbol_native": "ر.ق.‏",
     "currency_name": "Qatari Rial",
@@ -1216,9 +857,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 3.325024,
-    "country_name": [
-      "Romania"
-    ],
     "symbol": "RON",
     "symbol_native": "RON",
     "currency_name": "Romanian Leu",
@@ -1228,9 +866,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 84.362659,
-    "country_name": [
-      "Serbia"
-    ],
     "symbol": "din.",
     "symbol_native": "дин.",
     "currency_name": "Serbian Dinar",
@@ -1240,9 +875,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 1110.763367,
-    "country_name": [
-      "Somalia"
-    ],
     "symbol": "Ssh",
     "symbol_native": "Ssh",
     "currency_name": "Somali Shilling",
@@ -1252,9 +884,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 141.643749,
-    "country_name": [
-      "Syria"
-    ],
     "symbol": "SY£",
     "symbol_native": "ل.س.‏",
     "currency_name": "Syrian Pound",
@@ -1265,9 +894,6 @@
     "currency": true,
     "usd_exchange_rate": 33.00626,
     "default": 1,
-    "country_name": [
-      "Thailand"
-    ],
     "symbol": "฿",
     "symbol_native": "฿",
     "currency_name": "Thai Baht",
@@ -1277,9 +903,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 1.654257,
-    "country_name": [
-      "Tunisia"
-    ],
     "symbol": "DT",
     "symbol_native": "د.ت.‏",
     "currency_name": "Tunisian Dinar",
@@ -1289,9 +912,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 1.861115,
-    "country_name": [
-      "Tonga"
-    ],
     "symbol": "T$",
     "symbol_native": "T$",
     "currency_name": "Tongan Paʻanga",
@@ -1301,9 +921,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 2.170185,
-    "country_name": [
-      "Turkey"
-    ],
     "symbol": "TL",
     "symbol_native": "TL",
     "currency_name": "Turkish Lira",
@@ -1313,9 +930,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 6.40739,
-    "country_name": [
-      "Trinidad and Tobago"
-    ],
     "symbol": "TT$",
     "symbol_native": "$",
     "currency_name": "Trinidad and Tobago Dollar",
@@ -1325,9 +939,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 30.04289,
-    "country_name": [
-      "Taiwan"
-    ],
     "symbol": "NT$",
     "symbol_native": "NT$",
     "currency_name": "New Taiwan Dollar",
@@ -1337,9 +948,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 1616.46,
-    "country_name": [
-      "Tanzania"
-    ],
     "symbol": "TSh",
     "symbol_native": "TSh",
     "currency_name": "Tanzanian Shilling",
@@ -1349,9 +957,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 8.265182,
-    "country_name": [
-      "Ukraine"
-    ],
     "symbol": "₴",
     "symbol_native": "₴",
     "currency_name": "Ukrainian Hryvnia",
@@ -1361,9 +966,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 2514.865,
-    "country_name": [
-      "Uganda"
-    ],
     "symbol": "USh",
     "symbol_native": "USh",
     "currency_name": "Ugandan Shilling",
@@ -1373,9 +975,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 21.16079,
-    "country_name": [
-      "Uruguay"
-    ],
     "symbol": "$U",
     "symbol_native": "$",
     "currency_name": "Uruguayan Peso",
@@ -1385,9 +984,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 2202.183317,
-    "country_name": [
-      "Uzbekistan"
-    ],
     "symbol": "UZS",
     "symbol_native": "UZS",
     "currency_name": "Uzbekistan Som",
@@ -1397,9 +993,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 6.291383,
-    "country_name": [
-      "Venezuela"
-    ],
     "symbol": "Bs.F.",
     "symbol_native": "Bs.F.",
     "currency_name": "Venezuelan Bolívar",
@@ -1409,9 +1002,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 21089.866667,
-    "country_name": [
-      "Vietnam"
-    ],
     "symbol": "₫",
     "symbol_native": "₫",
     "currency_name": "Vietnamese Dong",
@@ -1421,14 +1011,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 481.4239,
-    "country_name": [
-      "Cameroon",
-      "Central African Republic",
-      "Chad",
-      "Republic of the Congo",
-      "Equatorial Guinea",
-      "Gabon"
-    ],
     "symbol": "FCFA",
     "symbol_native": "FCFA",
     "currency_name": "CFA Franc BEAC",
@@ -1438,16 +1020,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 482.302618,
-    "country_name": [
-      "Benin",
-      "Burkina Faso",
-      "Côte d'Ivoire",
-      "Guinea-Bissau",
-      "Mali",
-      "Niger",
-      "Senegal",
-      "Togo"
-    ],
     "symbol": "CFA",
     "symbol_native": "CFA",
     "currency_name": "CFA Franc BCEAO",
@@ -1457,9 +1029,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 215.063301,
-    "country_name": [
-      "Yemen"
-    ],
     "symbol": "YR",
     "symbol_native": "ر.ي.‏",
     "currency_name": "Yemeni Rial",
@@ -1469,11 +1038,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 10.70302,
-    "country_name": [
-      "Lesotho",
-      "Namibia",
-      "South Africa"
-    ],
     "symbol": "R",
     "symbol_native": "R",
     "currency_name": "South African Rand",
@@ -1483,9 +1047,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 5252.024745,
-    "country_name": [
-      "Zambia"
-    ],
     "symbol": "ZK",
     "symbol_native": "ZK",
     "currency_name": "Zambian Kwacha",
@@ -1495,9 +1056,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 97.6198,
-    "country_name": [
-      "Angola"
-    ],
     "symbol": "Kz",
     "symbol_native": "Kz",
     "currency_name": "Angolan Kwanza",
@@ -1507,9 +1065,6 @@
   {
     "currency": true,
     "usd_exchange_rate": 4.47301,
-    "country_name": [
-      "Anguilla"
-    ],
     "symbol": "$",
     "symbol_native": "$",
     "currency_name": "East Caribbean Dollar",

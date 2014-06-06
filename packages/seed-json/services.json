@@ -1,8 +1,10 @@
 [
   {
-    "doc_name": "Line Producer"
+    "service": true,
+    "service_name": "Line Producer"
   },
   {
-    "doc_name": "DOP"
+    "service": true,
+    "service_name": "DOP"
   }
 ]

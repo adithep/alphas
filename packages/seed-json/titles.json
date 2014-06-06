@@ -1,8 +1,10 @@
 [
   {
-    "doc_name": "Mr."
+    "title": true,
+    "title_name": "Mr."
   },
   {
-    "doc_name": "Ms."
+    "title": true,
+    "title_name": "Ms."
   }
 ]

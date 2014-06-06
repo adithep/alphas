@@ -1,0 +1,3792 @@
+[
+  {
+    "alt_spellings": true,
+    "country_name": "Afghanistan",
+    "alt_spelling": "AF"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Afghanistan",
+    "alt_spelling": "Afġānistān"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Åland Islands",
+    "alt_spelling": "AX"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Åland Islands",
+    "alt_spelling": "Aaland"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Åland Islands",
+    "alt_spelling": "Aland"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Åland Islands",
+    "alt_spelling": "Ahvenanmaa"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Albania",
+    "alt_spelling": "AL"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Albania",
+    "alt_spelling": "Shqipëri"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Albania",
+    "alt_spelling": "Shqipëria"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Albania",
+    "alt_spelling": "Shqipnia"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Algeria",
+    "alt_spelling": "DZ"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Algeria",
+    "alt_spelling": "Dzayer"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Algeria",
+    "alt_spelling": "Algérie"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "American Samoa",
+    "alt_spelling": "AS"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "American Samoa",
+    "alt_spelling": "Amerika Sāmoa"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "American Samoa",
+    "alt_spelling": "Amelika Sāmoa"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "American Samoa",
+    "alt_spelling": "Sāmoa Amelika"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Andorra",
+    "alt_spelling": "AD"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Andorra",
+    "alt_spelling": "Principality of Andorra"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Andorra",
+    "alt_spelling": "Principat d'Andorra"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Angola",
+    "alt_spelling": "AO"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Angola",
+    "alt_spelling": "República de Angola"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Angola",
+    "alt_spelling": "ʁɛpublika de an'ɡɔla"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Anguilla",
+    "alt_spelling": "AI"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Antarctica",
+    "alt_spelling": "AQ"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Antigua and Barbuda",
+    "alt_spelling": "AG"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Argentina",
+    "alt_spelling": "AR"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Argentina",
+    "alt_spelling": "Argentine Republic"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Argentina",
+    "alt_spelling": "República Argentina"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Armenia",
+    "alt_spelling": "AM"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Armenia",
+    "alt_spelling": "Hayastan"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Armenia",
+    "alt_spelling": "Republic of Armenia"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Armenia",
+    "alt_spelling": "Հայաստանի Հանրապետություն"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Aruba",
+    "alt_spelling": "AW"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Australia",
+    "alt_spelling": "AU"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Austria",
+    "alt_spelling": "AT"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Austria",
+    "alt_spelling": "Österreich"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Austria",
+    "alt_spelling": "Osterreich"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Austria",
+    "alt_spelling": "Oesterreich"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Azerbaijan",
+    "alt_spelling": "AZ"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Azerbaijan",
+    "alt_spelling": "Republic of Azerbaijan"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Azerbaijan",
+    "alt_spelling": "Azərbaycan Respublikası"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Bahamas",
+    "alt_spelling": "BS"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Bahamas",
+    "alt_spelling": "Commonwealth of the Bahamas"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Bahrain",
+    "alt_spelling": "BH"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Bahrain",
+    "alt_spelling": "Kingdom of Bahrain"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Bahrain",
+    "alt_spelling": "Mamlakat al-Baḥrayn"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Bangladesh",
+    "alt_spelling": "BD"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Bangladesh",
+    "alt_spelling": "People's Republic of Bangladesh"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Bangladesh",
+    "alt_spelling": "Gônôprôjatôntri Bangladesh"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Barbados",
+    "alt_spelling": "BB"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Belarus",
+    "alt_spelling": "BY"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Belarus",
+    "alt_spelling": "Bielaruś"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Belarus",
+    "alt_spelling": "Republic of Belarus"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Belarus",
+    "alt_spelling": "Белоруссия"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Belarus",
+    "alt_spelling": "Республика Беларусь"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Belarus",
+    "alt_spelling": "Belorussiya"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Belarus",
+    "alt_spelling": "Respublika Belarus’"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Belgium",
+    "alt_spelling": "BE"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Belgium",
+    "alt_spelling": "België"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Belgium",
+    "alt_spelling": "Belgie"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Belgium",
+    "alt_spelling": "Belgien"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Belgium",
+    "alt_spelling": "Belgique"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Belgium",
+    "alt_spelling": "Kingdom of Belgium"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Belgium",
+    "alt_spelling": "Koninkrijk België"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Belgium",
+    "alt_spelling": "Royaume de Belgique"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Belgium",
+    "alt_spelling": "Königreich Belgien"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Belize",
+    "alt_spelling": "BZ"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Benin",
+    "alt_spelling": "BJ"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Benin",
+    "alt_spelling": "Republic of Benin"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Benin",
+    "alt_spelling": "République du Bénin"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Bermuda",
+    "alt_spelling": "BM"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Bermuda",
+    "alt_spelling": "The Islands of Bermuda"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Bermuda",
+    "alt_spelling": "The Bermudas"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Bermuda",
+    "alt_spelling": "Somers Isles"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Bhutan",
+    "alt_spelling": "BT"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Bhutan",
+    "alt_spelling": "Kingdom of Bhutan"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Bolivia",
+    "alt_spelling": "BO"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Bolivia",
+    "alt_spelling": "Buliwya"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Bolivia",
+    "alt_spelling": "Wuliwya"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Bolivia",
+    "alt_spelling": "Plurinational State of Bolivia"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Bolivia",
+    "alt_spelling": "Estado Plurinacional de Bolivia"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Bolivia",
+    "alt_spelling": "Buliwya Mamallaqta"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Bolivia",
+    "alt_spelling": "Wuliwya Suyu"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Bolivia",
+    "alt_spelling": "Tetã Volívia"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Bonaire",
+    "alt_spelling": "BQ"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Bonaire",
+    "alt_spelling": "Boneiru"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Bosnia and Herzegovina",
+    "alt_spelling": "BA"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Bosnia and Herzegovina",
+    "alt_spelling": "Bosnia-Herzegovina"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Bosnia and Herzegovina",
+    "alt_spelling": "Босна и Херцеговина"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Botswana",
+    "alt_spelling": "BW"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Botswana",
+    "alt_spelling": "Republic of Botswana"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Botswana",
+    "alt_spelling": "Lefatshe la Botswana"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Bouvet Island",
+    "alt_spelling": "BV"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Bouvet Island",
+    "alt_spelling": "Bouvetøya"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Bouvet Island",
+    "alt_spelling": "Bouvet-øya"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Brazil",
+    "alt_spelling": "BR"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Brazil",
+    "alt_spelling": "Brasil"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Brazil",
+    "alt_spelling": "Federative Republic of Brazil"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Brazil",
+    "alt_spelling": "República Federativa do Brasil"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "British Indian Ocean Territory",
+    "alt_spelling": "IO"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "British Virgin Islands",
+    "alt_spelling": "VG"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Brunei",
+    "alt_spelling": "BN"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Brunei",
+    "alt_spelling": "Nation of Brunei"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Brunei",
+    "alt_spelling": " the Abode of Peace"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Bulgaria",
+    "alt_spelling": "BG"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Bulgaria",
+    "alt_spelling": "Republic of Bulgaria"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Bulgaria",
+    "alt_spelling": "Република България"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Burkina Faso",
+    "alt_spelling": "BF"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Burundi",
+    "alt_spelling": "BI"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Burundi",
+    "alt_spelling": "Republic of Burundi"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Burundi",
+    "alt_spelling": "Republika y'Uburundi"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Burundi",
+    "alt_spelling": "République du Burundi"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Cambodia",
+    "alt_spelling": "KH"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Cambodia",
+    "alt_spelling": "Kingdom of Cambodia"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Cameroon",
+    "alt_spelling": "CM"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Cameroon",
+    "alt_spelling": "Republic of Cameroon"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Cameroon",
+    "alt_spelling": "République du Cameroun"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Canada",
+    "alt_spelling": "CA"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Cape Verde",
+    "alt_spelling": "CV"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Cape Verde",
+    "alt_spelling": "Republic of Cabo Verde"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Cape Verde",
+    "alt_spelling": "República de Cabo Verde"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Cayman Islands",
+    "alt_spelling": "KY"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Central African Republic",
+    "alt_spelling": "CF"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Central African Republic",
+    "alt_spelling": "Central African Republic"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Central African Republic",
+    "alt_spelling": "République centrafricaine"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Chad",
+    "alt_spelling": "TD"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Chad",
+    "alt_spelling": "Tchad"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Chad",
+    "alt_spelling": "Republic of Chad"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Chad",
+    "alt_spelling": "République du Tchad"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Chile",
+    "alt_spelling": "CL"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Chile",
+    "alt_spelling": "Republic of Chile"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Chile",
+    "alt_spelling": "República de Chile"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "China",
+    "alt_spelling": "CN"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "China",
+    "alt_spelling": "Zhōngguó"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "China",
+    "alt_spelling": "Zhongguo"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "China",
+    "alt_spelling": "Zhonghua"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "China",
+    "alt_spelling": "People's Republic of China"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "China",
+    "alt_spelling": "中华人民共和国"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "China",
+    "alt_spelling": "Zhōnghuá Rénmín Gònghéguó"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Christmas Island",
+    "alt_spelling": "CX"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Christmas Island",
+    "alt_spelling": "Territory of Christmas Island"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Cocos (Keeling) Islands",
+    "alt_spelling": "CC"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Cocos (Keeling) Islands",
+    "alt_spelling": "Territory of the Cocos (Keeling) Islands"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Cocos (Keeling) Islands",
+    "alt_spelling": "Keeling Islands"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Colombia",
+    "alt_spelling": "CO"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Colombia",
+    "alt_spelling": "Republic of Colombia"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Colombia",
+    "alt_spelling": "República de Colombia"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Comoros",
+    "alt_spelling": "KM"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Comoros",
+    "alt_spelling": "Union of the Comoros"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Comoros",
+    "alt_spelling": "Union des Comores"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Comoros",
+    "alt_spelling": "Udzima wa Komori"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Comoros",
+    "alt_spelling": "al-Ittiḥād al-Qumurī"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Republic of the Congo",
+    "alt_spelling": "CG"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Republic of the Congo",
+    "alt_spelling": "Congo-Brazzaville"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Democratic Republic of the Congo",
+    "alt_spelling": "CD"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Democratic Republic of the Congo",
+    "alt_spelling": "DR Congo"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Democratic Republic of the Congo",
+    "alt_spelling": "Congo-Kinshasa"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Democratic Republic of the Congo",
+    "alt_spelling": "DRC"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Cook Islands",
+    "alt_spelling": "CK"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Cook Islands",
+    "alt_spelling": "Kūki 'Āirani"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Costa Rica",
+    "alt_spelling": "CR"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Costa Rica",
+    "alt_spelling": "Republic of Costa Rica"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Costa Rica",
+    "alt_spelling": "República de Costa Rica"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Côte d'Ivoire",
+    "alt_spelling": "CI"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Côte d'Ivoire",
+    "alt_spelling": "Ivory Coast"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Côte d'Ivoire",
+    "alt_spelling": "Republic of Côte d'Ivoire"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Côte d'Ivoire",
+    "alt_spelling": "République de Côte d'Ivoire"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Croatia",
+    "alt_spelling": "HR"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Croatia",
+    "alt_spelling": "Hrvatska"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Croatia",
+    "alt_spelling": "Republic of Croatia"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Croatia",
+    "alt_spelling": "Republika Hrvatska"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Cuba",
+    "alt_spelling": "CU"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Cuba",
+    "alt_spelling": "Republic of Cuba"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Cuba",
+    "alt_spelling": "República de Cuba"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Curaçao",
+    "alt_spelling": "CW"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Curaçao",
+    "alt_spelling": "Curacao"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Curaçao",
+    "alt_spelling": "Kòrsou"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Curaçao",
+    "alt_spelling": "Country of Curaçao"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Curaçao",
+    "alt_spelling": "Land Curaçao"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Curaçao",
+    "alt_spelling": "Pais Kòrsou"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Cyprus",
+    "alt_spelling": "CY"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Cyprus",
+    "alt_spelling": "Kýpros"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Cyprus",
+    "alt_spelling": "Kıbrıs"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Cyprus",
+    "alt_spelling": "Republic of Cyprus"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Cyprus",
+    "alt_spelling": "Κυπριακή Δημοκρατία"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Cyprus",
+    "alt_spelling": "Kıbrıs Cumhuriyeti"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Czech Republic",
+    "alt_spelling": "CZ"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Czech Republic",
+    "alt_spelling": "Česká republika"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Czech Republic",
+    "alt_spelling": "Česko"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Denmark",
+    "alt_spelling": "DK"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Denmark",
+    "alt_spelling": "Danmark"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Denmark",
+    "alt_spelling": "Kingdom of Denmark"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Denmark",
+    "alt_spelling": "Kongeriget Danmark"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Djibouti",
+    "alt_spelling": "DJ"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Djibouti",
+    "alt_spelling": "Jabuuti"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Djibouti",
+    "alt_spelling": "Gabuuti"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Djibouti",
+    "alt_spelling": "Republic of Djibouti"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Djibouti",
+    "alt_spelling": "République de Djibouti"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Djibouti",
+    "alt_spelling": "Gabuutih Ummuuno"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Djibouti",
+    "alt_spelling": "Jamhuuriyadda Jabuuti"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Dominica",
+    "alt_spelling": "DM"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Dominica",
+    "alt_spelling": "Dominique"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Dominica",
+    "alt_spelling": "Wai‘tu kubuli"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Dominica",
+    "alt_spelling": "Commonwealth of Dominica"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Dominican Republic",
+    "alt_spelling": "DO"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Ecuador",
+    "alt_spelling": "EC"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Ecuador",
+    "alt_spelling": "Republic of Ecuador"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Ecuador",
+    "alt_spelling": "República del Ecuador"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Egypt",
+    "alt_spelling": "EG"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Egypt",
+    "alt_spelling": "Arab Republic of Egypt"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "El Salvador",
+    "alt_spelling": "SV"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "El Salvador",
+    "alt_spelling": "Republic of El Salvador"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "El Salvador",
+    "alt_spelling": "República de El Salvador"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Equatorial Guinea",
+    "alt_spelling": "GQ"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Equatorial Guinea",
+    "alt_spelling": "Republic of Equatorial Guinea"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Equatorial Guinea",
+    "alt_spelling": "República de Guinea Ecuatorial"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Equatorial Guinea",
+    "alt_spelling": "République de Guinée équatoriale"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Equatorial Guinea",
+    "alt_spelling": "República da Guiné Equatorial"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Eritrea",
+    "alt_spelling": "ER"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Eritrea",
+    "alt_spelling": "State of Eritrea"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Eritrea",
+    "alt_spelling": "ሃገረ ኤርትራ"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Eritrea",
+    "alt_spelling": "Dawlat Iritriyá"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Eritrea",
+    "alt_spelling": "ʾErtrā"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Eritrea",
+    "alt_spelling": "Iritriyā"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Eritrea",
+    "alt_spelling": ""
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Estonia",
+    "alt_spelling": "EE"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Estonia",
+    "alt_spelling": "Eesti"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Estonia",
+    "alt_spelling": "Republic of Estonia"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Estonia",
+    "alt_spelling": "Eesti Vabariik"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Ethiopia",
+    "alt_spelling": "ET"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Ethiopia",
+    "alt_spelling": "ʾĪtyōṗṗyā"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Ethiopia",
+    "alt_spelling": "Federal Democratic Republic of Ethiopia"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Ethiopia",
+    "alt_spelling": "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Falkland Islands",
+    "alt_spelling": "FK"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Falkland Islands",
+    "alt_spelling": "Islas Malvinas"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Faroe Islands",
+    "alt_spelling": "FO"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Faroe Islands",
+    "alt_spelling": "Føroyar"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Faroe Islands",
+    "alt_spelling": "Færøerne"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Fiji",
+    "alt_spelling": "FJ"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Fiji",
+    "alt_spelling": "Viti"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Fiji",
+    "alt_spelling": "Republic of Fiji"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Fiji",
+    "alt_spelling": "Matanitu ko Viti"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Fiji",
+    "alt_spelling": "Fijī Gaṇarājya"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Finland",
+    "alt_spelling": "FI"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Finland",
+    "alt_spelling": "Suomi"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Finland",
+    "alt_spelling": "Republic of Finland"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Finland",
+    "alt_spelling": "Suomen tasavalta"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Finland",
+    "alt_spelling": "Republiken Finland"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "France",
+    "alt_spelling": "FR"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "France",
+    "alt_spelling": "French Republic"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "France",
+    "alt_spelling": "République française"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "French Guiana",
+    "alt_spelling": "GF"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "French Guiana",
+    "alt_spelling": "Guiana"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "French Guiana",
+    "alt_spelling": "Guyane"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "French Polynesia",
+    "alt_spelling": "PF"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "French Polynesia",
+    "alt_spelling": "Polynésie française"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "French Polynesia",
+    "alt_spelling": "French Polynesia"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "French Polynesia",
+    "alt_spelling": "Pōrīnetia Farāni"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "French Southern and Antarctic Lands",
+    "alt_spelling": "TF"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Gabon",
+    "alt_spelling": "GA"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Gabon",
+    "alt_spelling": "Gabonese Republic"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Gabon",
+    "alt_spelling": "République Gabonaise"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Gambia",
+    "alt_spelling": "GM"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Gambia",
+    "alt_spelling": "Republic of the Gambia"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Georgia",
+    "alt_spelling": "GE"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Georgia",
+    "alt_spelling": "Sakartvelo"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Germany",
+    "alt_spelling": "DE"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Germany",
+    "alt_spelling": "Federal Republic of Germany"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Germany",
+    "alt_spelling": "Bundesrepublik Deutschland"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Ghana",
+    "alt_spelling": "GH"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Gibraltar",
+    "alt_spelling": "GI"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Greece",
+    "alt_spelling": "GR"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Greece",
+    "alt_spelling": "Elláda"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Greece",
+    "alt_spelling": "Hellenic Republic"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Greece",
+    "alt_spelling": "Ελληνική Δημοκρατία"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Greenland",
+    "alt_spelling": "GL"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Greenland",
+    "alt_spelling": "Grønland"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Grenada",
+    "alt_spelling": "GD"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Guadeloupe",
+    "alt_spelling": "GP"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Guadeloupe",
+    "alt_spelling": "Gwadloup"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Guam",
+    "alt_spelling": "GU"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Guam",
+    "alt_spelling": "Guåhån"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Guatemala",
+    "alt_spelling": "GT"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Guernsey",
+    "alt_spelling": "GG"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Guernsey",
+    "alt_spelling": "Bailiwick of Guernsey"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Guernsey",
+    "alt_spelling": "Bailliage de Guernesey"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Guinea",
+    "alt_spelling": "GN"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Guinea",
+    "alt_spelling": "Republic of Guinea"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Guinea",
+    "alt_spelling": "République de Guinée"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Guinea-Bissau",
+    "alt_spelling": "GW"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Guinea-Bissau",
+    "alt_spelling": "Republic of Guinea-Bissau"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Guinea-Bissau",
+    "alt_spelling": "República da Guiné-Bissau"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Guyana",
+    "alt_spelling": "GY"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Guyana",
+    "alt_spelling": "Co-operative Republic of Guyana"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Haiti",
+    "alt_spelling": "HT"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Haiti",
+    "alt_spelling": "Republic of Haiti"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Haiti",
+    "alt_spelling": "République d'Haïti"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Haiti",
+    "alt_spelling": "Repiblik Ayiti"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Heard Island and McDonald Islands",
+    "alt_spelling": "HM"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Vatican City",
+    "alt_spelling": "VA"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Vatican City",
+    "alt_spelling": "Vatican City State"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Vatican City",
+    "alt_spelling": "Stato della Città del Vaticano"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Honduras",
+    "alt_spelling": "HN"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Honduras",
+    "alt_spelling": "Republic of Honduras"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Honduras",
+    "alt_spelling": "República de Honduras"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Hong Kong",
+    "alt_spelling": "HK"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Hong Kong",
+    "alt_spelling": "香港"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Hungary",
+    "alt_spelling": "HU"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Iceland",
+    "alt_spelling": "IS"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Iceland",
+    "alt_spelling": "Island"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Iceland",
+    "alt_spelling": "Republic of Iceland"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Iceland",
+    "alt_spelling": "Lýðveldið Ísland"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "India",
+    "alt_spelling": "IN"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "India",
+    "alt_spelling": "Bhārat"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "India",
+    "alt_spelling": "Republic of India"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "India",
+    "alt_spelling": "Bharat Ganrajya"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Indonesia",
+    "alt_spelling": "ID"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Indonesia",
+    "alt_spelling": "Republic of Indonesia"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Indonesia",
+    "alt_spelling": "Republik Indonesia"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Iran",
+    "alt_spelling": "IR"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Iran",
+    "alt_spelling": "Islamic Republic of Iran"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Iran",
+    "alt_spelling": "Jomhuri-ye Eslāmi-ye Irān"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Iraq",
+    "alt_spelling": "IQ"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Iraq",
+    "alt_spelling": "Republic of Iraq"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Iraq",
+    "alt_spelling": "Jumhūriyyat al-‘Irāq"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Ireland",
+    "alt_spelling": "IE"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Ireland",
+    "alt_spelling": "Éire"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Ireland",
+    "alt_spelling": "Republic of Ireland"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Ireland",
+    "alt_spelling": "Poblacht na hÉireann"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Isle of Man",
+    "alt_spelling": "IM"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Isle of Man",
+    "alt_spelling": "Ellan Vannin"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Isle of Man",
+    "alt_spelling": "Mann"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Isle of Man",
+    "alt_spelling": "Mannin"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Israel",
+    "alt_spelling": "IL"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Israel",
+    "alt_spelling": "State of Israel"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Israel",
+    "alt_spelling": "Medīnat Yisrā'el"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Italy",
+    "alt_spelling": "IT"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Italy",
+    "alt_spelling": "Italian Republic"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Italy",
+    "alt_spelling": "Repubblica italiana"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Jamaica",
+    "alt_spelling": "JM"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Japan",
+    "alt_spelling": "JP"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Japan",
+    "alt_spelling": "Nippon"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Japan",
+    "alt_spelling": "Nihon"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Jersey",
+    "alt_spelling": "JE"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Jersey",
+    "alt_spelling": "Bailiwick of Jersey"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Jersey",
+    "alt_spelling": "Bailliage de Jersey"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Jersey",
+    "alt_spelling": "Bailliage dé Jèrri"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Jordan",
+    "alt_spelling": "JO"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Jordan",
+    "alt_spelling": "Hashemite Kingdom of Jordan"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Jordan",
+    "alt_spelling": "al-Mamlakah al-Urdunīyah al-Hāshimīyah"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Kazakhstan",
+    "alt_spelling": "KZ"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Kazakhstan",
+    "alt_spelling": "Qazaqstan"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Kazakhstan",
+    "alt_spelling": "Казахстан"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Kazakhstan",
+    "alt_spelling": "Republic of Kazakhstan"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Kazakhstan",
+    "alt_spelling": "Қазақстан Республикасы"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Kazakhstan",
+    "alt_spelling": "Qazaqstan Respublïkası"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Kazakhstan",
+    "alt_spelling": "Республика Казахстан"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Kazakhstan",
+    "alt_spelling": "Respublika Kazakhstan"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Kenya",
+    "alt_spelling": "KE"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Kenya",
+    "alt_spelling": "Republic of Kenya"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Kenya",
+    "alt_spelling": "Jamhuri ya Kenya"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Kiribati",
+    "alt_spelling": "KI"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Kiribati",
+    "alt_spelling": "Republic of Kiribati"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Kiribati",
+    "alt_spelling": "Ribaberiki Kiribati"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Kuwait",
+    "alt_spelling": "KW"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Kuwait",
+    "alt_spelling": "State of Kuwait"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Kuwait",
+    "alt_spelling": "Dawlat al-Kuwait"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Kyrgyzstan",
+    "alt_spelling": "KG"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Kyrgyzstan",
+    "alt_spelling": "Киргизия"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Kyrgyzstan",
+    "alt_spelling": "Kyrgyz Republic"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Kyrgyzstan",
+    "alt_spelling": "Кыргыз Республикасы"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Kyrgyzstan",
+    "alt_spelling": "Kyrgyz Respublikasy"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Laos",
+    "alt_spelling": "LA"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Laos",
+    "alt_spelling": "Lao"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Laos",
+    "alt_spelling": "Lao People's Democratic Republic"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Laos",
+    "alt_spelling": "Sathalanalat Paxathipatai Paxaxon Lao"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Latvia",
+    "alt_spelling": "LV"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Latvia",
+    "alt_spelling": "Republic of Latvia"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Latvia",
+    "alt_spelling": "Latvijas Republika"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Lebanon",
+    "alt_spelling": "LB"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Lebanon",
+    "alt_spelling": "Lebanese Republic"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Lebanon",
+    "alt_spelling": "Al-Jumhūrīyah Al-Libnānīyah"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Lesotho",
+    "alt_spelling": "LS"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Lesotho",
+    "alt_spelling": "Kingdom of Lesotho"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Lesotho",
+    "alt_spelling": "Muso oa Lesotho"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Liberia",
+    "alt_spelling": "LR"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Liberia",
+    "alt_spelling": "Republic of Liberia"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Libya",
+    "alt_spelling": "LY"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Libya",
+    "alt_spelling": "State of Libya"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Libya",
+    "alt_spelling": "Dawlat Libya"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Liechtenstein",
+    "alt_spelling": "LI"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Liechtenstein",
+    "alt_spelling": "Principality of Liechtenstein"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Liechtenstein",
+    "alt_spelling": "Fürstentum Liechtenstein"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Lithuania",
+    "alt_spelling": "LT"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Lithuania",
+    "alt_spelling": "Republic of Lithuania"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Lithuania",
+    "alt_spelling": "Lietuvos Respublika"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Luxembourg",
+    "alt_spelling": "LU"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Luxembourg",
+    "alt_spelling": "Grand Duchy of Luxembourg"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Luxembourg",
+    "alt_spelling": "Grand-Duché de Luxembourg"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Luxembourg",
+    "alt_spelling": "Großherzogtum Luxemburg"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Luxembourg",
+    "alt_spelling": "Groussherzogtum Lëtzebuerg"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Macau",
+    "alt_spelling": "MO"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Macau",
+    "alt_spelling": "澳门"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Macau",
+    "alt_spelling": "Macao Special Administrative Region of the People's Republic of China"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Macau",
+    "alt_spelling": "中華人民共和國澳門特別行政區"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Macau",
+    "alt_spelling": "Região Administrativa Especial de Macau da República Popular da China"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Macedonia",
+    "alt_spelling": "MK"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Macedonia",
+    "alt_spelling": "Republic of Macedonia"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Macedonia",
+    "alt_spelling": "Република Македонија"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Madagascar",
+    "alt_spelling": "MG"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Madagascar",
+    "alt_spelling": "Republic of Madagascar"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Madagascar",
+    "alt_spelling": "Repoblikan'i Madagasikara"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Madagascar",
+    "alt_spelling": "République de Madagascar"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Malawi",
+    "alt_spelling": "MW"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Malawi",
+    "alt_spelling": "Republic of Malawi"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Malaysia",
+    "alt_spelling": "MY"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Maldives",
+    "alt_spelling": "MV"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Maldives",
+    "alt_spelling": "Maldive Islands"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Maldives",
+    "alt_spelling": "Republic of the Maldives"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Maldives",
+    "alt_spelling": "Dhivehi Raajjeyge Jumhooriyya"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Mali",
+    "alt_spelling": "ML"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Mali",
+    "alt_spelling": "Republic of Mali"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Mali",
+    "alt_spelling": "République du Mali"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Malta",
+    "alt_spelling": "MT"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Malta",
+    "alt_spelling": "Republic of Malta"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Malta",
+    "alt_spelling": "Repubblika ta' Malta"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Marshall Islands",
+    "alt_spelling": "MH"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Marshall Islands",
+    "alt_spelling": "Republic of the Marshall Islands"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Marshall Islands",
+    "alt_spelling": "Aolepān Aorōkin M̧ajeļ"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Martinique",
+    "alt_spelling": "MQ"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Mauritania",
+    "alt_spelling": "MR"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Mauritania",
+    "alt_spelling": "Islamic Republic of Mauritania"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Mauritania",
+    "alt_spelling": "al-Jumhūriyyah al-ʾIslāmiyyah al-Mūrītāniyyah"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Mauritius",
+    "alt_spelling": "MU"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Mauritius",
+    "alt_spelling": "Republic of Mauritius"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Mauritius",
+    "alt_spelling": "République de Maurice"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Mayotte",
+    "alt_spelling": "YT"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Mayotte",
+    "alt_spelling": "Department of Mayotte"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Mayotte",
+    "alt_spelling": "Département de Mayotte"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Mexico",
+    "alt_spelling": "MX"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Mexico",
+    "alt_spelling": "Mexicanos"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Mexico",
+    "alt_spelling": "United Mexican States"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Mexico",
+    "alt_spelling": "Estados Unidos Mexicanos"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Micronesia",
+    "alt_spelling": "FM"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Micronesia",
+    "alt_spelling": "Federated States of Micronesia"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Moldova",
+    "alt_spelling": "MD"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Moldova",
+    "alt_spelling": "Republic of Moldova"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Moldova",
+    "alt_spelling": "Republica Moldova"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Monaco",
+    "alt_spelling": "MC"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Monaco",
+    "alt_spelling": "Principality of Monaco"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Monaco",
+    "alt_spelling": "Principauté de Monaco"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Mongolia",
+    "alt_spelling": "MN"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Montenegro",
+    "alt_spelling": "ME"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Montenegro",
+    "alt_spelling": "Crna Gora"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Montserrat",
+    "alt_spelling": "MS"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Morocco",
+    "alt_spelling": "MA"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Morocco",
+    "alt_spelling": "Kingdom of Morocco"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Morocco",
+    "alt_spelling": "Al-Mamlakah al-Maġribiyah"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Mozambique",
+    "alt_spelling": "MZ"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Mozambique",
+    "alt_spelling": "Republic of Mozambique"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Mozambique",
+    "alt_spelling": "República de Moçambique"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Myanmar",
+    "alt_spelling": "MM"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Myanmar",
+    "alt_spelling": "Burma"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Myanmar",
+    "alt_spelling": "Republic of the Union of Myanmar"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Myanmar",
+    "alt_spelling": "Pyidaunzu Thanmăda Myăma Nainngandaw"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Namibia",
+    "alt_spelling": "NA"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Namibia",
+    "alt_spelling": "Namibië"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Namibia",
+    "alt_spelling": "Republic of Namibia"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Nauru",
+    "alt_spelling": "NR"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Nauru",
+    "alt_spelling": "Naoero"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Nauru",
+    "alt_spelling": "Pleasant Island"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Nauru",
+    "alt_spelling": "Republic of Nauru"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Nauru",
+    "alt_spelling": "Ripublik Naoero"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Nepal",
+    "alt_spelling": "NP"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Nepal",
+    "alt_spelling": "Federal Democratic Republic of Nepal"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Nepal",
+    "alt_spelling": "Loktāntrik Ganatantra Nepāl"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Netherlands",
+    "alt_spelling": "NL"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Netherlands",
+    "alt_spelling": "Holland"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Netherlands",
+    "alt_spelling": "Nederland"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "New Caledonia",
+    "alt_spelling": "NC"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "New Zealand",
+    "alt_spelling": "NZ"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "New Zealand",
+    "alt_spelling": "Aotearoa"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Nicaragua",
+    "alt_spelling": "NI"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Nicaragua",
+    "alt_spelling": "Republic of Nicaragua"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Nicaragua",
+    "alt_spelling": "República de Nicaragua"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Niger",
+    "alt_spelling": "NE"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Niger",
+    "alt_spelling": "Nijar"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Niger",
+    "alt_spelling": "Republic of Niger"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Niger",
+    "alt_spelling": "République du Niger"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Nigeria",
+    "alt_spelling": "NG"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Nigeria",
+    "alt_spelling": "Nijeriya"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Nigeria",
+    "alt_spelling": "Naíjíríà"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Nigeria",
+    "alt_spelling": "Federal Republic of Nigeria"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Niue",
+    "alt_spelling": "NU"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Norfolk Island",
+    "alt_spelling": "NF"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Norfolk Island",
+    "alt_spelling": "Territory of Norfolk Island"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Norfolk Island",
+    "alt_spelling": "Teratri of Norf'k Ailen"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "North Korea",
+    "alt_spelling": "KP"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "North Korea",
+    "alt_spelling": "Democratic People's Republic of Korea"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "North Korea",
+    "alt_spelling": "조선민주주의인민공화국"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "North Korea",
+    "alt_spelling": "Chosŏn Minjujuŭi Inmin Konghwaguk"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Northern Mariana Islands",
+    "alt_spelling": "MP"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Northern Mariana Islands",
+    "alt_spelling": "Commonwealth of the Northern Mariana Islands"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Northern Mariana Islands",
+    "alt_spelling": "Sankattan Siha Na Islas Mariånas"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Norway",
+    "alt_spelling": "NO"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Norway",
+    "alt_spelling": "Norge"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Norway",
+    "alt_spelling": "Noreg"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Norway",
+    "alt_spelling": "Kingdom of Norway"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Norway",
+    "alt_spelling": "Kongeriket Norge"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Norway",
+    "alt_spelling": "Kongeriket Noreg"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Oman",
+    "alt_spelling": "OM"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Oman",
+    "alt_spelling": "Sultanate of Oman"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Oman",
+    "alt_spelling": "Salṭanat ʻUmān"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Pakistan",
+    "alt_spelling": "PK"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Pakistan",
+    "alt_spelling": "Pākistān"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Pakistan",
+    "alt_spelling": "Islamic Republic of Pakistan"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Pakistan",
+    "alt_spelling": "Islāmī Jumhūriya'eh Pākistān"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Palau",
+    "alt_spelling": "PW"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Palau",
+    "alt_spelling": "Republic of Palau"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Palau",
+    "alt_spelling": "Beluu er a Belau"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Palestine",
+    "alt_spelling": "PS"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Palestine",
+    "alt_spelling": "State of Palestine"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Palestine",
+    "alt_spelling": "Dawlat Filasṭin"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Panama",
+    "alt_spelling": "PA"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Panama",
+    "alt_spelling": "Republic of Panama"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Panama",
+    "alt_spelling": "República de Panamá"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Papua New Guinea",
+    "alt_spelling": "PG"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Papua New Guinea",
+    "alt_spelling": "Independent State of Papua New Guinea"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Papua New Guinea",
+    "alt_spelling": "Independen Stet bilong Papua Niugini"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Paraguay",
+    "alt_spelling": "PY"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Paraguay",
+    "alt_spelling": "Republic of Paraguay"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Paraguay",
+    "alt_spelling": "República del Paraguay"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Paraguay",
+    "alt_spelling": "Tetã Paraguái"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Peru",
+    "alt_spelling": "PE"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Peru",
+    "alt_spelling": "Republic of Peru"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Peru",
+    "alt_spelling": " República del Perú"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Philippines",
+    "alt_spelling": "PH"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Philippines",
+    "alt_spelling": "Republic of the Philippines"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Philippines",
+    "alt_spelling": "Repúblika ng Pilipinas"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Pitcairn Islands",
+    "alt_spelling": "PN"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Pitcairn Islands",
+    "alt_spelling": "Pitcairn Henderson Ducie and Oeno Islands"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Poland",
+    "alt_spelling": "PL"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Poland",
+    "alt_spelling": "Republic of Poland"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Poland",
+    "alt_spelling": "Rzeczpospolita Polska"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Portugal",
+    "alt_spelling": "PT"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Portugal",
+    "alt_spelling": "Portuguesa"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Portugal",
+    "alt_spelling": "Portuguese Republic"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Portugal",
+    "alt_spelling": "República Portuguesa"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Puerto Rico",
+    "alt_spelling": "PR"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Puerto Rico",
+    "alt_spelling": "Commonwealth of Puerto Rico"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Puerto Rico",
+    "alt_spelling": "Estado Libre Asociado de Puerto Rico"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Qatar",
+    "alt_spelling": "QA"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Qatar",
+    "alt_spelling": "State of Qatar"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Qatar",
+    "alt_spelling": "Dawlat Qaṭar"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Republic of Kosovo",
+    "alt_spelling": "XK"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Republic of Kosovo",
+    "alt_spelling": "Република Косово"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Réunion",
+    "alt_spelling": "RE"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Réunion",
+    "alt_spelling": "Reunion"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Romania",
+    "alt_spelling": "RO"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Romania",
+    "alt_spelling": "Rumania"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Romania",
+    "alt_spelling": "Roumania"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Romania",
+    "alt_spelling": "România"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Russia",
+    "alt_spelling": "RU"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Russia",
+    "alt_spelling": "Rossiya"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Russia",
+    "alt_spelling": "Russian Federation"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Russia",
+    "alt_spelling": "Российская Федерация"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Russia",
+    "alt_spelling": "Rossiyskaya Federatsiya"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Rwanda",
+    "alt_spelling": "RW"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Rwanda",
+    "alt_spelling": "Republic of Rwanda"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Rwanda",
+    "alt_spelling": "Repubulika y'u Rwanda"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Rwanda",
+    "alt_spelling": "République du Rwanda"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Saint Barthélemy",
+    "alt_spelling": "BL"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Saint Barthélemy",
+    "alt_spelling": "St. Barthelemy"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Saint Barthélemy",
+    "alt_spelling": "Collectivity of Saint Barthélemy"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Saint Barthélemy",
+    "alt_spelling": "Collectivité de Saint-Barthélemy"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Saint Helena",
+    "alt_spelling": "SH"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Saint Kitts and Nevis",
+    "alt_spelling": "KN"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Saint Kitts and Nevis",
+    "alt_spelling": "Federation of Saint Christopher and Nevis"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Saint Lucia",
+    "alt_spelling": "LC"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Saint Martin",
+    "alt_spelling": "MF"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Saint Martin",
+    "alt_spelling": "Collectivity of Saint Martin"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Saint Martin",
+    "alt_spelling": "Collectivité de Saint-Martin"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Saint Pierre and Miquelon",
+    "alt_spelling": "PM"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Saint Pierre and Miquelon",
+    "alt_spelling": "Collectivité territoriale de Saint-Pierre-et-Miquelon"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Saint Vincent and the Grenadines",
+    "alt_spelling": "VC"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Samoa",
+    "alt_spelling": "WS"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Samoa",
+    "alt_spelling": "Independent State of Samoa"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Samoa",
+    "alt_spelling": "Malo Saʻoloto Tutoʻatasi o Sāmoa"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "San Marino",
+    "alt_spelling": "SM"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "San Marino",
+    "alt_spelling": "Republic of San Marino"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "San Marino",
+    "alt_spelling": "Repubblica di San Marino"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "São Tomé and Príncipe",
+    "alt_spelling": "ST"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "São Tomé and Príncipe",
+    "alt_spelling": "Democratic Republic of São Tomé and Príncipe"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "São Tomé and Príncipe",
+    "alt_spelling": "República Democrática de São Tomé e Príncipe"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Saudi Arabia",
+    "alt_spelling": "SA"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Saudi Arabia",
+    "alt_spelling": "Kingdom of Saudi Arabia"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Saudi Arabia",
+    "alt_spelling": "Al-Mamlakah al-‘Arabiyyah as-Su‘ūdiyyah"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Senegal",
+    "alt_spelling": "SN"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Senegal",
+    "alt_spelling": "Republic of Senegal"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Senegal",
+    "alt_spelling": "République du Sénégal"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Serbia",
+    "alt_spelling": "RS"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Serbia",
+    "alt_spelling": "Srbija"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Serbia",
+    "alt_spelling": "Republic of Serbia"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Serbia",
+    "alt_spelling": "Република Србија"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Serbia",
+    "alt_spelling": "Republika Srbija"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Seychelles",
+    "alt_spelling": "SC"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Seychelles",
+    "alt_spelling": "Republic of Seychelles"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Seychelles",
+    "alt_spelling": "Repiblik Sesel"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Seychelles",
+    "alt_spelling": "République des Seychelles"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Sierra Leone",
+    "alt_spelling": "SL"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Sierra Leone",
+    "alt_spelling": "Republic of Sierra Leone"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Singapore",
+    "alt_spelling": "SG"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Singapore",
+    "alt_spelling": "Singapura"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Singapore",
+    "alt_spelling": "Republik Singapura"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Singapore",
+    "alt_spelling": "新加坡共和国"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Sint Maarten",
+    "alt_spelling": "SX"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Slovakia",
+    "alt_spelling": "SK"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Slovakia",
+    "alt_spelling": "Slovak Republic"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Slovakia",
+    "alt_spelling": "Slovenská republika"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Slovenia",
+    "alt_spelling": "SI"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Slovenia",
+    "alt_spelling": "Republic of Slovenia"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Slovenia",
+    "alt_spelling": "Republika Slovenija"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Solomon Islands",
+    "alt_spelling": "SB"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Somalia",
+    "alt_spelling": "SO"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Somalia",
+    "alt_spelling": "aṣ-Ṣūmāl"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Somalia",
+    "alt_spelling": "Federal Republic of Somalia"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Somalia",
+    "alt_spelling": "Jamhuuriyadda Federaalka Soomaaliya"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Somalia",
+    "alt_spelling": "Jumhūriyyat aṣ-Ṣūmāl al-Fiderāliyya"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "South Africa",
+    "alt_spelling": "ZA"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "South Africa",
+    "alt_spelling": "RSA"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "South Africa",
+    "alt_spelling": "Suid-Afrika"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "South Africa",
+    "alt_spelling": "Republic of South Africa"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "South Georgia",
+    "alt_spelling": "GS"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "South Georgia",
+    "alt_spelling": "South Georgia and the South Sandwich Islands"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "South Korea",
+    "alt_spelling": "KR"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "South Korea",
+    "alt_spelling": "Republic of Korea"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "South Sudan",
+    "alt_spelling": "SS"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Spain",
+    "alt_spelling": "ES"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Spain",
+    "alt_spelling": "Kingdom of Spain"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Spain",
+    "alt_spelling": "Reino de España"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Sri Lanka",
+    "alt_spelling": "LK"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Sri Lanka",
+    "alt_spelling": "ilaṅkai"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Sri Lanka",
+    "alt_spelling": "Democratic Socialist Republic of Sri Lanka"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Sudan",
+    "alt_spelling": "SD"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Sudan",
+    "alt_spelling": "Republic of the Sudan"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Sudan",
+    "alt_spelling": "Jumhūrīyat as-Sūdān"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Suriname",
+    "alt_spelling": "SR"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Suriname",
+    "alt_spelling": "Sarnam"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Suriname",
+    "alt_spelling": "Sranangron"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Suriname",
+    "alt_spelling": "Republic of Suriname"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Suriname",
+    "alt_spelling": "Republiek Suriname"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Svalbard and Jan Mayen",
+    "alt_spelling": "SJ"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Svalbard and Jan Mayen",
+    "alt_spelling": "Svalbard and Jan Mayen Islands"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Swaziland",
+    "alt_spelling": "SZ"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Swaziland",
+    "alt_spelling": "weSwatini"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Swaziland",
+    "alt_spelling": "Swatini"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Swaziland",
+    "alt_spelling": "Ngwane"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Swaziland",
+    "alt_spelling": "Kingdom of Swaziland"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Swaziland",
+    "alt_spelling": "Umbuso waseSwatini"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Sweden",
+    "alt_spelling": "SE"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Sweden",
+    "alt_spelling": "Kingdom of Sweden"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Sweden",
+    "alt_spelling": "Konungariket Sverige"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Switzerland",
+    "alt_spelling": "CH"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Switzerland",
+    "alt_spelling": "Swiss Confederation"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Switzerland",
+    "alt_spelling": "Schweiz"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Switzerland",
+    "alt_spelling": "Suisse"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Switzerland",
+    "alt_spelling": "Svizzera"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Switzerland",
+    "alt_spelling": "Svizra"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Syria",
+    "alt_spelling": "SY"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Syria",
+    "alt_spelling": "Syrian Arab Republic"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Syria",
+    "alt_spelling": "Al-Jumhūrīyah Al-ʻArabīyah As-Sūrīyah"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Taiwan",
+    "alt_spelling": "TW"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Taiwan",
+    "alt_spelling": "Táiwān"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Taiwan",
+    "alt_spelling": "Republic of China"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Taiwan",
+    "alt_spelling": "中華民國"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Taiwan",
+    "alt_spelling": "Zhōnghuá Mínguó"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Tajikistan",
+    "alt_spelling": "TJ"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Tajikistan",
+    "alt_spelling": "Toçikiston"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Tajikistan",
+    "alt_spelling": "Republic of Tajikistan"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Tajikistan",
+    "alt_spelling": "Ҷумҳурии Тоҷикистон"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Tajikistan",
+    "alt_spelling": "Çumhuriyi Toçikiston"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Tanzania",
+    "alt_spelling": "TZ"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Tanzania",
+    "alt_spelling": "United Republic of Tanzania"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Tanzania",
+    "alt_spelling": "Jamhuri ya Muungano wa Tanzania"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Thailand",
+    "alt_spelling": "TH"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Thailand",
+    "alt_spelling": "Prathet"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Thailand",
+    "alt_spelling": "Thai"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Thailand",
+    "alt_spelling": "Kingdom of Thailand"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Thailand",
+    "alt_spelling": "ราชอาณาจักรไทย"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Thailand",
+    "alt_spelling": "Ratcha Anachak Thai"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Timor-Leste",
+    "alt_spelling": "TL"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Timor-Leste",
+    "alt_spelling": "East Timor"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Timor-Leste",
+    "alt_spelling": "Democratic Republic of Timor-Leste"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Timor-Leste",
+    "alt_spelling": "República Democrática de Timor-Leste"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Timor-Leste",
+    "alt_spelling": "Repúblika Demokrátika Timór-Leste"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Togo",
+    "alt_spelling": "TG"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Togo",
+    "alt_spelling": "Togolese"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Togo",
+    "alt_spelling": "Togolese Republic"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Togo",
+    "alt_spelling": "République Togolaise"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Tokelau",
+    "alt_spelling": "TK"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Tonga",
+    "alt_spelling": "TO"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Trinidad and Tobago",
+    "alt_spelling": "TT"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Trinidad and Tobago",
+    "alt_spelling": "Republic of Trinidad and Tobago"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Tunisia",
+    "alt_spelling": "TN"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Tunisia",
+    "alt_spelling": "Republic of Tunisia"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Tunisia",
+    "alt_spelling": "al-Jumhūriyyah at-Tūnisiyyah"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Turkey",
+    "alt_spelling": "TR"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Turkey",
+    "alt_spelling": "Turkiye"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Turkey",
+    "alt_spelling": "Republic of Turkey"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Turkey",
+    "alt_spelling": "Türkiye Cumhuriyeti"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Turkmenistan",
+    "alt_spelling": "TM"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Turks and Caicos Islands",
+    "alt_spelling": "TC"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Tuvalu",
+    "alt_spelling": "TV"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Uganda",
+    "alt_spelling": "UG"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Uganda",
+    "alt_spelling": "Republic of Uganda"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Uganda",
+    "alt_spelling": "Jamhuri ya Uganda"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Ukraine",
+    "alt_spelling": "UA"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Ukraine",
+    "alt_spelling": "Ukrayina"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "United Arab Emirates",
+    "alt_spelling": "AE"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "United Arab Emirates",
+    "alt_spelling": "UAE"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "United Kingdom",
+    "alt_spelling": "GB"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "United Kingdom",
+    "alt_spelling": "UK"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "United Kingdom",
+    "alt_spelling": "Great Britain"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "United States",
+    "alt_spelling": "US"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "United States",
+    "alt_spelling": "USA"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "United States",
+    "alt_spelling": "United States of America"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "United States Minor Outlying Islands",
+    "alt_spelling": "UM"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "United States Virgin Islands",
+    "alt_spelling": "VI"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Uruguay",
+    "alt_spelling": "UY"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Uruguay",
+    "alt_spelling": "Oriental Republic of Uruguay"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Uruguay",
+    "alt_spelling": "República Oriental del Uruguay"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Uzbekistan",
+    "alt_spelling": "UZ"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Uzbekistan",
+    "alt_spelling": "Republic of Uzbekistan"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Uzbekistan",
+    "alt_spelling": "O‘zbekiston Respublikasi"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Uzbekistan",
+    "alt_spelling": "Ўзбекистон Республикаси"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Vanuatu",
+    "alt_spelling": "VU"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Vanuatu",
+    "alt_spelling": "Republic of Vanuatu"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Vanuatu",
+    "alt_spelling": "Ripablik blong Vanuatu"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Vanuatu",
+    "alt_spelling": "République de Vanuatu"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Venezuela",
+    "alt_spelling": "VE"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Venezuela",
+    "alt_spelling": "Bolivarian Republic of Venezuela"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Venezuela",
+    "alt_spelling": "República Bolivariana de Venezuela"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Vietnam",
+    "alt_spelling": "VN"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Vietnam",
+    "alt_spelling": "Socialist Republic of Vietnam"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Vietnam",
+    "alt_spelling": "Cộng hòa Xã hội chủ nghĩa Việt Nam"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Wallis and Futuna",
+    "alt_spelling": "WF"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Wallis and Futuna",
+    "alt_spelling": "Territory of the Wallis and Futuna Islands"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Wallis and Futuna",
+    "alt_spelling": "Territoire des îles Wallis et Futuna"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Western Sahara",
+    "alt_spelling": "EH"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Western Sahara",
+    "alt_spelling": "Taneẓroft Tutrimt"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Yemen",
+    "alt_spelling": "YE"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Yemen",
+    "alt_spelling": "Yemeni Republic"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Yemen",
+    "alt_spelling": "al-Jumhūriyyah al-Yamaniyyah"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Zambia",
+    "alt_spelling": "ZM"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Zambia",
+    "alt_spelling": "Republic of Zambia"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Zimbabwe",
+    "alt_spelling": "ZW"
+  },
+  {
+    "alt_spellings": true,
+    "country_name": "Zimbabwe",
+    "alt_spelling": "Republic of Zimbabwe"
+  }
+]

@@ -1,7 +1,78 @@
 [
   {
-    "_s_n": "countries",
-    "key_n": "demonym",
+    "key_n": "_s_n"
+  },
+
+  {
+    "key_n": "country_n",
     "sort": 0
+  },
+
+  {
+    "key_n": "demonym",
+    "sort": 1
+  },
+
+  {
+    "key_n": "_loc",
+    "sort": 2
+  },
+
+  {
+    "key_n": "population",
+    "sort": 3
+  },
+
+  {
+    "key_n": "calling_code",
+    "sort": 4
+  },
+
+  {
+    "key_n": "cca3",
+    "sort": 5
+  },
+
+  {
+    "key_n": "ccn3",
+    "sort": 6
+  },
+
+  {
+    "key_n": "cca2",
+    "sort": 7
+  },
+
+  {
+    "key_n": "_nt_country_n",
+    "sort": 8
+  },
+
+  {
+    "key_n": "capital",
+    "sort": 9
+  },
+
+  {
+    "key_n": "relevance",
+    "sort": 10
+  },
+
+  {
+    "key_n": "continent_n",
+    "sort": 11
+  },
+
+  {
+    "key_n": "sub_region",
+    "sort": 12
+  },
+
+  {
+    "key_n": "_dte"
+  },
+
+  {
+    "key_n": "_usr"
   }
 ]

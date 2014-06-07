@@ -2,7 +2,23 @@
   {
     "_s_n": "countries",
     "json": "countries.json",
-    "_s_json": "_s_countries.json"
+    "_s_json": "_s_countries.json",
+    "_s_keys": [
+      "country_n",
+      "demonym",
+      "_loc",
+      "population",
+      "calling_code",
+      "cca3",
+      "cca2",
+      "_nt_country_n",
+      "capital",
+      "relevance",
+      "continent_n",
+      "sub_region",
+      "_dte",
+      "_usr"
+    ]
   },
 
   {

@@ -1,0 +1,97 @@
+[
+  {
+    "_s_n": "countries",
+    "json": "countries.json",
+    "_s_json": "_s_countries.json"
+  },
+
+  {
+    "_s_n": "cities",
+    "json": "cities.json",
+    "_s_json": "_s_cities.json"
+  },
+
+  {
+    "_s_n": "_alt_spellings",
+    "json": "_alt_spellings.json",
+    "_s_json": "_s_alt_spellings.json"
+  },
+
+  {
+    "_s_n": "continents",
+    "json": "continents.json",
+    "_s_json": "_s_continents.json"
+  },
+
+  {
+    "_s_n": "borders_of_country",
+    "json": "borders_of_country.json",
+    "_s_json": "_s_borders_of_country.json"
+  },
+
+  {
+    "_s_n": "country_currency",
+    "json": "country_currency.json",
+    "_s_json": "_s_country_currency.json"
+  },
+
+  {
+    "_s_n": "country_language",
+    "json": "country_language.json",
+    "_s_json": "_s_country_language.json"
+  },
+
+  {
+    "_s_n": "currencies",
+    "json": "currencies.json",
+    "_s_json": "_s_currencies.json"
+  },
+
+  {
+    "_s_n": "languages",
+    "json": "languages.json",
+    "_s_json": "_s_languages.json"
+  },
+
+  {
+    "_s_n": "servies",
+    "json": "servies.json",
+    "_s_json": "_s_servies.json"
+  },
+
+  {
+    "_s_n": "titles",
+    "json": "titles.json",
+    "_s_json": "_s_titles.json"
+  },
+
+  {
+    "_s_n": "translations",
+    "json": "translations.json",
+    "_s_json": "_s_translations.json"
+  },
+
+  {
+    "_s_n": "humans",
+    "json": "humans.json",
+    "_s_json": "_s_humans.json"
+  },
+
+  {
+    "_s_n": "human_service",
+    "json": "human_service.json",
+    "_s_json": "_s_human_service.json"
+  },
+
+  {
+    "_s_n": "human_email",
+    "json": "human_email.json",
+    "_s_json": "_s_human_email.json"
+  },
+
+  {
+    "_s_n": "human_mobile",
+    "json": "human_mobile.json",
+    "_s_json": "_s_human_mobile.json"
+  }
+]

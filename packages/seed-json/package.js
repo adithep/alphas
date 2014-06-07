@@ -4,13 +4,14 @@ Package.describe({
 
 Package.on_use(function (api, where) {
   api.use(['coffeescript', 'core-lib', 'utilities']);
-  api.add_files(['keys.json',
+  api.add_files([
+    'keys.json',
     'schema_keys.json',
     'schema.json',
     'tags.json',
     'languages.json',
     'currencies.json',
-    'countries.json', 
+    'countries.json',
     'cities.json',
     'services.json',
     'titles.json'], 'server', {isAsset: true});

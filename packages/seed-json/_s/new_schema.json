@@ -1,7 +1,6 @@
 [
   {
-    "schema": true,
-    "schema_name": "countries",
+    "schema_n": "countries",
     "json": "countries.json",
     "demonym": "string",
     "loc": "GeoJson",

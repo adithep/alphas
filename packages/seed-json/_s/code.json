@@ -16,6 +16,10 @@
     "_s": "schema",
     "_dis": "display",
     "_alt": "alternate",
-    "_cmb": "combination"
+    "_cmb": "combination",
+    "_ctl": "control",
+    "_mod": "module",
+    "_l": "list",
+    "_eid": "entity id"
   }
 ]

@@ -12,11 +12,75 @@
   },
 
   {
+    "key_n": "email_ctl_n",
+    "key_ty": "_ctl",
+    "key_s": "_ctl",
+    "key_ctl_s_n": "emails",
+    "key_dis": "Email"
+  },
+
+  {
+    "key_n": "mobile_ctl_n",
+    "key_ty": "_ctl",
+    "key_s": "_ctl",
+    "key_ctl_s_n": "mobiles",
+    "key_dis": "Mobile"
+  },
+
+  {
+    "key_n": "service_ctl_n",
+    "key_ty": "_ctl",
+    "key_s": "_ctl",
+    "key_ctl_s_n": "services",
+    "key_dis": "Service"
+  },
+
+  {
+    "key_n": "human_ctl_n",
+    "key_ty": "_ctl",
+    "key_s": "_ctl",
+    "key_ctl_s_n": "humans",
+    "key_dis": "Humans"
+  },
+
+  {
     "key_n": "_s_n",
     "key_ty": "r_st",
     "key_s": "_s",
     "key_key": "_s_n",
     "key_dis": "Schema"
+  },
+
+  {
+    "key_n": "_ctl_s_n",
+    "key_ty": "r_st",
+    "key_s": "_ctl",
+    "key_key": "_ctl_s_n",
+    "key_dis": "Control"
+  },
+
+  {
+    "key_n": "email_s_n",
+    "key_ty": "r_st",
+    "key_s": "_s",
+    "key_key": "_s_n",
+    "key_dis": "Schema of Email"
+  },
+
+  {
+    "key_n": "mobile_s_n",
+    "key_ty": "r_st",
+    "key_s": "_s",
+    "key_key": "_s_n",
+    "key_dis": "Schema of Mobile"
+  },
+
+  {
+    "key_n": "service_s_n",
+    "key_ty": "r_st",
+    "key_s": "_s",
+    "key_key": "_s_n",
+    "key_dis": "Schema of Service"
   },
 
   {
@@ -84,11 +148,9 @@
   },
 
   {
-    "key_n": "human_id",
+    "key_n": "_eid",
     "key_ty": "oid",
-    "key_s": "humans",
-    "key_key": "_id",
-    "key_dis": "Human Id"
+    "key_dis": "ID"
   },
 
   {
@@ -272,7 +334,7 @@
   {
     "key_n": "service_n",
     "key_ty": "r_st",
-    "key_s": "services",
+    "key_s": "services_n",
     "key_key": "service_n",
     "key_dis": "Service"
   },

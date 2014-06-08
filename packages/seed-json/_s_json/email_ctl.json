@@ -1,0 +1,36 @@
+[
+
+  {
+    "_ctl_s_n": "emails",
+    "_s_n": "_ctl",
+    "_ctrl_key_n": "email_s_n",
+    "auto_key": true,
+    "auto_key_s": "_s",
+    "auto_key_key": "_s_n"
+  },
+
+  {
+    "_ctl_s_n": "emails",
+    "_s_n": "_ctl",
+    "_ctrl_key_n": "_eid",
+    "auto_key": true,
+    "auto_key_s": "humans",
+    "auto_key_key": "_id"
+  },
+
+  {
+    "_ctl_s_n": "emails",
+    "_s_n": "_ctl",
+    "insert_key": true,
+    "_ctrl_key_n": "email_ad",
+    "sort": 1
+  },
+
+  {
+    "_ctl_s_n": "emails",
+    "_s_n": "_ctl",
+    "insert_key": true,
+    "_ctrl_key_n": "email_ty",
+    "sort": 2
+  }
+]

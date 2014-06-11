@@ -21,6 +21,7 @@
     "_mod": "module",
     "_l": "list",
     "_eid": "entity id",
-    "_w": "write"
+    "_w": "write",
+    "_tri": "trigger"
   }
 ]

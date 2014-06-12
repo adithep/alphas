@@ -2,6 +2,96 @@ fs = Npm.require('fs')
 path = Npm.require('path')
 stream = Npm.require('stream')
 
+json_control.insert_json_detail = ->
+  _s_ejson = EJSON.parse(Assets.getText('_s/_s.json'))
+  _s_n = 0
+  while _s_n < _s_ejson.length
+    DATA.insert(_s_ejson[_s_n])
+    json = _s_ejson[_s_n].json
+    ejson = EJSON.parse(Assets.getText(json))
+    if ejson.length > 0
+      n = 0
+      if _s_ejson[_s_n]._s_n_for is "keys"
+        while n < ejson.length
+          ejson[n]._s_n = "keys"
+          DATA.insert(ejson[n])
+          n++
+      else
+        keys_arr = DATA.find(
+          _s_n: "keys"
+          , key_n: {$in: _s_ejson[_s_n]._s_keys}
+        ).fetch()
+        while n < ejson.length
+          obj = {}
+          n_k = 0
+          while n_k < keys_arr.length
+            if keys_arr[n_k].key_n isnt "_usr" and keys_arr[n_k].key_n isnt "_dt"
+              if ejson[n][keys_arr[n_k].key_n] or ejson[n][keys_arr[n_k].key_n] is 0
+                value = json_control.key_check(
+                  keys_arr[n_k]
+                  , ejson[n][keys_arr[n_k].key_n]
+                  , _s_ejson[_s_n]._s_n_for)
+                if value or value is 0
+                  obj[keys_arr[n_k].key_n] = value
+                else
+                  console.log "value mismatched for
+                    key: #{keys_arr[n_k].key_n}
+                    , value: #{ejson[n][keys_arr[n_k].key_n]}"
+              else console.log "cannot find value for #{keys_arr[n_k].key_n}"
+            n_k++
+          obj._s_n = _s_ejson[_s_n]._s_n_for
+          obj._usr = "root"
+          obj._dt = new Date()
+          DATA.insert(obj)
+          n++
+      console.log "#{json} inserted"
+    else
+      console.log "no data in #{json}"
+    _s_n++
+
+json_control.key_check = (key, value, schema) ->
+  if key
+    switch key.key_ty
+      when "_st"
+        if String(value) isnt ""
+          return String(value)
+      when "_num"
+        if Number(value) isnt NaN
+          return Number(value)
+      when "r_st"
+        if key.key_s is schema
+          return String(value)
+        else
+          obj = {}
+          obj[key.key_key] = value
+          obj._s_n = key.key_s
+          if DATA.find(obj).count() is 1
+            return String(value)
+          else
+            console.log "cannot find value
+              #{value} for key
+              #{key.key_n} for schema
+              #{schema} in database"
+            return String(value)
+      when "boolean"
+        if typeof value is "bolean"
+          return value
+      when "currency"
+        if Number(value) isnt NaN
+          return Number(value)
+      when "phone"
+        phone = phone_format.format_number(value)
+        if phone
+          return phone
+      when "email"
+        if email_format.reg.test(value)
+          return value
+      when "geo_json"
+        return value
+      when "_dt"
+        if value instanceof Date
+          return value
+  false
 json_control.printobj = ->
   ejson = EJSON.parse(Assets.getText('countries.json'))
   n = 0

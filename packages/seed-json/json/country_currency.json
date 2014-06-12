@@ -32,10 +32,6 @@
     "currency_c": "XCD"
   },
   {
-    "country_n": "Antarctica",
-    "currency_c": ""
-  },
-  {
     "country_n": "Antigua and Barbuda",
     "currency_c": "XCD"
   },
@@ -186,10 +182,6 @@
   {
     "country_n": "Chad",
     "currency_c": "XAF"
-  },
-  {
-    "country_n": "Chile",
-    "currency_c": "CLF"
   },
   {
     "country_n": "Chile",

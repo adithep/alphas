@@ -116,23 +116,18 @@
     "country_n": "Anguilla",
     "capital_n": "The Valley",
     "relevance": 0.5,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Caribbean"
   },
   {
-    "demonym": "",
     "_loc": { "type": "Point", "coordinates": [0, -90] },
     "population": -1,
-    "calling_c": "",
     "cca3": "ATA",
     "ccn3": "010",
     "cca2": "AQ",
-    "_nt_country_n": "",
     "country_n": "Antarctica",
-    "capital_n": "",
     "relevance": 0,
-    "continent_n": "",
-    "sub_region": ""
+    "continent_n": "Antarctica"
   },
   {
     "demonym": "Antiguan, Barbudan",
@@ -146,7 +141,7 @@
     "country_n": "Antigua and Barbuda",
     "capital_n": "Saint John’s",
     "relevance": 0.5,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Caribbean"
   },
   {
@@ -161,7 +156,7 @@
     "country_n": "Argentina",
     "capital_n": "Buenos Aires",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "South America",
     "sub_region": "South America"
   },
   {
@@ -191,7 +186,7 @@
     "country_n": "Aruba",
     "capital_n": "Oranjestad",
     "relevance": 0.5,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Caribbean"
   },
   {
@@ -251,7 +246,7 @@
     "country_n": "Bahamas",
     "capital_n": "Nassau",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Caribbean"
   },
   {
@@ -296,7 +291,7 @@
     "country_n": "Barbados",
     "capital_n": "Bridgetown",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Caribbean"
   },
   {
@@ -341,7 +336,7 @@
     "country_n": "Belize",
     "capital_n": "Belmopan",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Central America"
   },
   {
@@ -371,7 +366,7 @@
     "country_n": "Bermuda",
     "capital_n": "Hamilton",
     "relevance": 0.5,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Northern America"
   },
   {
@@ -401,7 +396,7 @@
     "country_n": "Bolivia",
     "capital_n": "Sucre",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "South America",
     "sub_region": "South America"
   },
   {
@@ -416,7 +411,7 @@
     "country_n": "Bonaire",
     "capital_n": "Kralendijk",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Caribbean"
   },
   {
@@ -450,19 +445,15 @@
     "sub_region": "Southern Africa"
   },
   {
-    "demonym": "",
     "_loc": { "type": "Point", "coordinates": [3.4, -54.43333333] },
     "population": -1,
-    "calling_c": "",
     "cca3": "BVT",
     "ccn3": "074",
     "cca2": "BV",
     "_nt_country_n": "Bouvetøya",
     "country_n": "Bouvet Island",
-    "capital_n": "",
     "relevance": 0,
-    "continent_n": "",
-    "sub_region": ""
+    "continent_n": "Antarctica"
   },
   {
     "demonym": "Brazilian",
@@ -476,7 +467,7 @@
     "country_n": "Brazil",
     "capital_n": "Brasília",
     "relevance": 2,
-    "continent_n": "Americas",
+    "continent_n": "South America",
     "sub_region": "South America"
   },
   {
@@ -506,7 +497,7 @@
     "country_n": "British Virgin Islands",
     "capital_n": "Road Town",
     "relevance": 0.5,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Caribbean"
   },
   {
@@ -611,7 +602,7 @@
     "country_n": "Canada",
     "capital_n": "Ottawa",
     "relevance": 2,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Northern America"
   },
   {
@@ -641,7 +632,7 @@
     "country_n": "Cayman Islands",
     "capital_n": "George Town",
     "relevance": 0.5,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Caribbean"
   },
   {
@@ -686,7 +677,7 @@
     "country_n": "Chile",
     "capital_n": "Santiago",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "South America",
     "sub_region": "South America"
   },
   {
@@ -746,7 +737,7 @@
     "country_n": "Colombia",
     "capital_n": "Bogotá",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "South America",
     "sub_region": "South America"
   },
   {
@@ -821,7 +812,7 @@
     "country_n": "Costa Rica",
     "capital_n": "San José",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Central America"
   },
   {
@@ -866,7 +857,7 @@
     "country_n": "Cuba",
     "capital_n": "Havana",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Caribbean"
   },
   {
@@ -881,7 +872,7 @@
     "country_n": "Curaçao",
     "capital_n": "Willemstad",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Caribbean"
   },
   {
@@ -956,7 +947,7 @@
     "country_n": "Dominica",
     "capital_n": "Roseau",
     "relevance": 0.5,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Caribbean"
   },
   {
@@ -971,7 +962,7 @@
     "country_n": "Dominican Republic",
     "capital_n": "Santo Domingo",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Caribbean"
   },
   {
@@ -986,7 +977,7 @@
     "country_n": "Ecuador",
     "capital_n": "Quito",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "South America"
   },
   {
@@ -1016,7 +1007,7 @@
     "country_n": "El Salvador",
     "capital_n": "San Salvador",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Central America"
   },
   {
@@ -1091,7 +1082,7 @@
     "country_n": "Falkland Islands",
     "capital_n": "Stanley",
     "relevance": 0.5,
-    "continent_n": "Americas",
+    "continent_n": "South America",
     "sub_region": "South America"
   },
   {
@@ -1155,7 +1146,6 @@
     "sub_region": "Western Europe"
   },
   {
-    "demonym": "",
     "_loc": { "type": "Point", "coordinates": [-53, 4] },
     "population": 229040,
     "calling_c": "594",
@@ -1166,7 +1156,7 @@
     "country_n": "French Guiana",
     "capital_n": "Cayenne",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "South America",
     "sub_region": "South America"
   },
   {
@@ -1187,7 +1177,6 @@
   {
     "demonym": "French",
     "population": -1,
-    "calling_c": "",
     "cca3": "ATF",
     "ccn3": "260",
     "cca2": "TF",
@@ -1196,8 +1185,7 @@
     "name": "French Southern and Antarctic Lands",
     "capital_n": "Port-aux-Français",
     "relevance": 0,
-    "continent_n": "",
-    "sub_region": ""
+    "continent_n": "Antarctica"
   },
   {
     "demonym": "Gabonese",
@@ -1316,7 +1304,7 @@
     "country_n": "Greenland",
     "capital_n": "Nuuk",
     "relevance": 0.5,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Northern America"
   },
   {
@@ -1331,7 +1319,7 @@
     "country_n": "Grenada",
     "capital_n": "Saint George's",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Caribbean"
   },
   {
@@ -1346,7 +1334,7 @@
     "country_n": "Guadeloupe",
     "capital_n": "Basse-Terre",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Caribbean"
   },
   {
@@ -1376,7 +1364,7 @@
     "country_n": "Guatemala",
     "capital_n": "Guatemala City",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Central America"
   },
   {
@@ -1436,7 +1424,7 @@
     "country_n": "Guyana",
     "capital_n": "Georgetown",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "South America",
     "sub_region": "South America"
   },
   {
@@ -1451,23 +1439,20 @@
     "country_n": "Haiti",
     "capital_n": "Port-au-Prince",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Caribbean"
   },
   {
     "demonym": "Heard and McDonald Islander",
     "_loc": { "type": "Point", "coordinates": [72.51666666, -53.1] },
     "population": -1,
-    "calling_c": "",
     "cca3": "HMD",
     "ccn3": "334",
     "cca2": "HM",
     "_nt_country_n": "Heard Island and McDonald Islands",
     "country_n": "Heard Island and McDonald Islands",
-    "capital_n": "",
     "relevance": 0,
-    "continent_n": "",
-    "sub_region": ""
+    "continent_n": "Antarctica"
   },
   {
     "demonym": "Italian",
@@ -1496,7 +1481,7 @@
     "country_n": "Honduras",
     "capital_n": "Tegucigalpa",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Central America"
   },
   {
@@ -1676,7 +1661,7 @@
     "country_n": "Jamaica",
     "capital_n": "Kingston",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Caribbean"
   },
   {
@@ -1944,7 +1929,6 @@
     "cca2": "MO",
     "_nt_country_n": "澳門",
     "country_n": "Macau",
-    "capital_n": "",
     "relevance": 0,
     "continent_n": "Asia",
     "sub_region": "Eastern Asia"
@@ -2081,7 +2065,7 @@
     "country_n": "Martinique",
     "capital_n": "Fort-de-France",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Caribbean"
   },
   {
@@ -2141,7 +2125,7 @@
     "country_n": "Mexico",
     "capital_n": "Mexico City",
     "relevance": 1.5,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Central America"
   },
   {
@@ -2231,7 +2215,7 @@
     "country_n": "Montserrat",
     "capital_n": "Plymouth",
     "relevance": 0.5,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Caribbean"
   },
   {
@@ -2381,7 +2365,7 @@
     "country_n": "Nicaragua",
     "capital_n": "Managua",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Central America"
   },
   {
@@ -2561,7 +2545,7 @@
     "country_n": "Panama",
     "capital_n": "Panama City",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Central America"
   },
   {
@@ -2591,7 +2575,7 @@
     "country_n": "Paraguay",
     "capital_n": "Asunción",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "South America",
     "sub_region": "South America"
   },
   {
@@ -2606,7 +2590,7 @@
     "country_n": "Peru",
     "capital_n": "Lima",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "South America",
     "sub_region": "South America"
   },
   {
@@ -2681,7 +2665,7 @@
     "country_n": "Puerto Rico",
     "capital_n": "San Juan",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Caribbean"
   },
   {
@@ -2786,7 +2770,7 @@
     "country_n": "Saint Barthélemy",
     "capital_n": "Gustavia",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Caribbean"
   },
   {
@@ -2816,7 +2800,7 @@
     "country_n": "Saint Kitts and Nevis",
     "capital_n": "Basseterre",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Caribbean"
   },
   {
@@ -2831,7 +2815,7 @@
     "country_n": "Saint Lucia",
     "capital_n": "Castries",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Caribbean"
   },
   {
@@ -2846,7 +2830,7 @@
     "country_n": "Saint Martin",
     "capital_n": "Marigot",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Caribbean"
   },
   {
@@ -2861,7 +2845,7 @@
     "country_n": "Saint Pierre and Miquelon",
     "capital_n": "Saint-Pierre",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Northern America"
   },
   {
@@ -2876,7 +2860,7 @@
     "country_n": "Saint Vincent and the Grenadines",
     "capital_n": "Kingstown",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Caribbean"
   },
   {
@@ -3026,7 +3010,7 @@
     "country_n": "Sint Maarten",
     "capital_n": "Philipsburg",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Caribbean"
   },
   {
@@ -3116,7 +3100,7 @@
     "country_n": "South Georgia",
     "capital_n": "King Edward Point",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "South America",
     "sub_region": "South America"
   },
   {
@@ -3206,7 +3190,7 @@
     "country_n": "Suriname",
     "capital_n": "Paramaribo",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "South America",
     "sub_region": "South America"
   },
   {
@@ -3416,7 +3400,7 @@
     "country_n": "Trinidad and Tobago",
     "capital_n": "Port of Spain",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Caribbean"
   },
   {
@@ -3476,7 +3460,7 @@
     "country_n": "Turks and Caicos Islands",
     "capital_n": "Cockburn Town",
     "relevance": 0.5,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Caribbean"
   },
   {
@@ -3566,22 +3550,20 @@
     "country_n": "United States",
     "capital_n": "Washington, D.C.",
     "relevance": 3.5,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Northern America"
   },
   {
     "demonym": "American",
     "population": -1,
-    "calling_c": "",
     "cca3": "UMI",
     "ccn3": "581",
     "cca2": "UM",
     "_nt_country_n": "United States Minor Outlying Islands",
     "country_n": "United States Minor Outlying Islands",
     "name": "United States Minor Outlying Islands",
-    "capital_n": "",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Northern America"
   },
   {
@@ -3596,7 +3578,7 @@
     "country_n": "United States Virgin Islands",
     "capital_n": "Charlotte Amalie",
     "relevance": 0.5,
-    "continent_n": "Americas",
+    "continent_n": "North America",
     "sub_region": "Caribbean"
   },
   {
@@ -3611,7 +3593,7 @@
     "country_n": "Uruguay",
     "capital_n": "Montevideo",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "South America",
     "sub_region": "South America"
   },
   {
@@ -3656,7 +3638,7 @@
     "country_n": "Venezuela",
     "capital_n": "Caracas",
     "relevance": 0,
-    "continent_n": "Americas",
+    "continent_n": "South America",
     "sub_region": "South America"
   },
   {

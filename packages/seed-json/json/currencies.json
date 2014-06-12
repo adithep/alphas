@@ -8,6 +8,126 @@
     "currency_n_pl": "Russian rubles"
   },
   {
+    "usd_exchange_rate": 0.02469,
+    "symbol": "D",
+    "_nt_symbol": "D",
+    "currency_n": "Gambian Dalasi",
+    "currency_c": "GMD",
+    "currency_n_pl": "Gambian Dalasis"
+  },
+  {
+    "usd_exchange_rate": 0.01135,
+    "symbol": "F",
+    "_nt_symbol": "F",
+    "currency_n": "CFP Franc",
+    "currency_c": "XPF",
+    "currency_n_pl": "CFP Francs"
+  },
+  {
+    "usd_exchange_rate": 0.57449,
+    "symbol": "$",
+    "_nt_symbol": "$",
+    "currency_n": "Fijian Dollar",
+    "currency_c": "FJD",
+    "currency_n_pl": "Fijian Dollars"
+  },
+  {
+    "usd_exchange_rate": 1.68425,
+    "symbol": "£",
+    "_nt_symbol": "£",
+    "currency_n": "Falkland Island Pound",
+    "currency_c": "FKP",
+    "currency_n_pl": "Falkland Island Pounds"
+  },
+  {
+    "usd_exchange_rate": 0.11429,
+    "symbol": "$",
+    "_nt_symbol": "$",
+    "currency_n": "Salvadoran Colon",
+    "currency_c": "SVC",
+    "currency_n_pl": "Salvadoran Colon"
+  },
+  {
+    "usd_exchange_rate": 0.56459,
+    "symbol": "ƒ",
+    "_nt_symbol": "ƒ",
+    "currency_n": "Dutch Guilder",
+    "currency_c": "ANG",
+    "currency_n_pl": "Dutch Guilder"
+  },
+  {
+    "usd_exchange_rate": 0.03774,
+    "symbol": "₱",
+    "_nt_symbol": "¢",
+    "currency_n": "Cuban Peso",
+    "currency_c": "CUP",
+    "currency_n_pl": "Cuban Peso"
+  },
+  {
+    "usd_exchange_rate": 1.00000,
+    "symbol": "CUC$",
+    "_nt_symbol": "¢",
+    "currency_n": "Cuban Convertible Peso",
+    "currency_c": "CUC",
+    "currency_n_pl": "Cuban Convertible Pesos"
+  },
+  {
+    "usd_exchange_rate": 1.21951,
+    "symbol": "$",
+    "_nt_symbol": "$",
+    "currency_n": "Caymanian Dollar",
+    "currency_c": "KYD",
+    "currency_n_pl": "Caymanian Dollars"
+  },
+  {
+    "usd_exchange_rate": 1.00000,
+    "symbol": "BOV",
+    "_nt_symbol": "BOV",
+    "currency_n": "Bolivian Mvdol",
+    "currency_c": "BOV",
+    "currency_n_pl": "Bolivian Mvdols"
+  },
+  {
+    "usd_exchange_rate": 0.01690,
+    "symbol": "Nu",
+    "_nt_symbol": "Nu",
+    "currency_n": "Bhutanese Ngultrum",
+    "currency_c": "BTN",
+    "currency_n_pl": "Bhutanese Ngultrums"
+  },
+  {
+    "usd_exchange_rate": 1.00000,
+    "symbol": "$",
+    "_nt_symbol": "$",
+    "currency_n": "Bermudian Dollar",
+    "currency_c": "BMD",
+    "currency_n_pl": "Bermudian Dollars"
+  },
+  {
+    "usd_exchange_rate": 0.50000,
+    "symbol": "Bds$",
+    "_nt_symbol": "$",
+    "currency_n": "Barbadian Dollar",
+    "currency_c": "BBD",
+    "currency_n_pl": "Barbadian Dollars"
+  },
+  {
+    "usd_exchange_rate": 1.00000,
+    "symbol": "B$",
+    "_nt_symbol": "$",
+    "currency_n": "Bahamian Dollar",
+    "currency_c": "BSD",
+    "currency_n_pl": "Bahamian Dollars"
+  },
+  {
+    "usd_exchange_rate": 0.55866,
+    "symbol": "ƒ",
+    "_nt_symbol": "ƒ",
+    "currency_n": "Aruban or Dutch Guilder",
+    "currency_c": "AWG",
+    "currency_n_pl": "Aruban or Dutch Guilders"
+  },
+  {
     "usd_exchange_rate": 677.54162,
     "symbol": "RWF",
     "_nt_symbol": "FR",

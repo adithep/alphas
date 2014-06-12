@@ -1,266 +1,401 @@
 [
   {
-    "_v": "doc_name",
-    "_vt": "string",
-    "_sid": "schema_key",
-    "_dis": "Doc Name"
+    "key_n": "_dt",
+    "key_ty": "now",
+    "key_dis": "Date Modified"
   },
 
   {
-    "_v": "_sid",
-    "_vt": "oid",
-    "_vs": "doc_schema",
-    "_sid": "schema_key"
+    "key_n": "_usr",
+    "key_ty": "user",
+    "key_dis": "User Name"
   },
 
   {
-    "_v": "key",
-    "_vt": "oid",
-    "_vs": "schema_key",
-    "_sid": "schema_key"
+    "key_n": "email_ctl_n",
+    "key_ty": "_ctl",
+    "key_s": "_ctl",
+    "key_ctl_s_n": "emails",
+    "key_dis": "Email"
   },
 
   {
-    "_v": "usd_exchange_rate",
-    "_vt": "number",
-    "_sid": "schema_key",
-    "_dis": "USD Exchange Rate"
+    "key_n": "mobile_ctl_n",
+    "key_ty": "_ctl",
+    "key_s": "_ctl",
+    "key_ctl_s_n": "mobiles",
+    "key_dis": "Mobile"
   },
 
   {
-    "_v": "latitude",
-    "_vt": "number",
-    "_sid": "schema_key",
-    "_dis": "Latitude"
+    "key_n": "service_ctl_n",
+    "key_ty": "_ctl",
+    "key_s": "_ctl",
+    "key_ctl_s_n": "services",
+    "key_dis": "Service"
   },
 
   {
-    "_v": "longitude",
-    "_vt": "number",
-    "_sid": "schema_key",
-    "_dis": "Longitude"
+    "key_n": "human_ctl_n",
+    "key_ty": "_ctl",
+    "key_s": "_ctl",
+    "key_ctl_s_n": "humans",
+    "key_dis": "Humans"
   },
 
   {
-    "_v": "default",
-    "_vt": "boolean",
-    "_sid": "schema_key",
-    "_dis": "Default"
+    "key_n": "_s_n_for",
+    "key_ty": "r_st",
+    "key_s": "_s",
+    "key_key": "_s_n_for",
+    "key_dis": "Schema"
   },
 
   {
-    "_v": "symbol",
-    "_vt": "string",
-    "_sid": "schema_key",
-    "_dis": "Symbol"
+    "key_n": "_ctl_s_n",
+    "key_ty": "r_st",
+    "key_s": "_ctl",
+    "key_key": "_ctl_s_n",
+    "key_dis": "Control"
   },
 
   {
-    "_v": "symbol_native",
-    "_vt": "string",
-    "_sid": "schema_key",
-    "_dis": "Native Symbol"
+    "key_n": "email_s_n",
+    "key_ty": "r_st",
+    "key_s": "_s",
+    "key_key": "_s_n_for",
+    "key_dis": "Schema of Email"
   },
 
   {
-    "_v": "currency_name",
-    "_vt": "string",
-    "_sid": "schema_key",
-    "_dis": "Currency Name"
+    "key_n": "mobile_s_n",
+    "key_ty": "r_st",
+    "key_s": "_s",
+    "key_key": "_s_n_for",
+    "key_dis": "Schema of Mobile"
   },
 
   {
-    "_v": "currency_code",
-    "_vt": "string",
-    "_sid": "schema_key",
-    "_dis": "Currency Code"
+    "key_n": "service_s_n",
+    "key_ty": "r_st",
+    "key_s": "_s",
+    "key_key": "_s_n_for",
+    "key_dis": "Schema of Service"
   },
 
   {
-    "_v": "currency_name_plural",
-    "_vt": "string",
-    "_sid": "schema_key",
-    "_dis": "Currency Name Plural"
+    "key_n": "full_n",
+    "key_ty": "_cmb",
+    "key_cmb": [
+      "title_n",
+      "first_n",
+      "middle_n",
+      "last_n"
+    ],
+    "key_dis": "Full Name"
   },
 
   {
-    "_v": "borders",
-    "_vt": "string",
-    "_sid": "schema_key",
-    "_dis": "Borders"
-  },
-  {
-    "_v": "population",
-    "_vt": "number",
-    "_sid": "schema_key",
-    "_dis": "Population"
-  },
-  {
-    "_v": "calling_code",
-    "_vt": "string",
-    "_sid": "schema_key",
-    "_dis": "Calling Code"
-  },
-  {
-    "_v": "currency",
-    "_vt": "oid",
-    "_vs": "currencies",
-    "_sid": "schema_key",
-    "_dis": "Currency"
-  },
-  {
-    "_v": "cca3",
-    "_vt": "string",
-    "_sid": "schema_key",
-    "_dis": "cca3"
-  },
-  {
-    "_v": "cca2",
-    "_vt": "string",
-    "_sid": "schema_key",
-    "_dis": "cca2"
-  },
-  {
-    "_v": "ccn3",
-    "_vt": "string",
-    "_sid": "schema_key",
-    "_dis": "ccn3"
-  },
-  {
-    "_v": "tld",
-    "_vt": "string",
-    "_sid": "schema_key",
-    "_dis": "Tld"
-  },
-  {
-    "_v": "native_name",
-    "_vt": "string",
-    "_sid": "schema_key",
-    "_dis": "Native Name"
-  },
-  {
-    "_v": "capital",
-    "_vt": "oid",
-    "_vs": "cities",
-    "_sid": "schema_key",
-    "_dis": "Capital"
-  },
-  {
-    "_v": "alt_spellings",
-    "_vt": "string",
-    "_sid": "schema_key",
-    "_dis": "Alternate Spellings"
-  },
-  {
-    "_v": "region",
-    "_vt": "string",
-    "_sid": "schema_key",
-    "_dis": "Region"
-  },
-  {
-    "_v": "sub_region",
-    "_vt": "string",
-    "_sid": "schema_key",
-    "_dis": "Sub Region"
-  },
-  {
-    "_v": "language",
-    "_vt": "string",
-    "_sid": "schema_key",
-    "_dis": "Language"
+    "key_n": "first_n",
+    "key_ty": "_st",
+    "key_dis": "First Name"
   },
 
   {
-    "_v": "country",
-    "_vt": "oid",
-    "_vs": "countries",
-    "_sid": "schema_key",
-    "_dis": "Country"
+    "key_n": "middle_n",
+    "key_ty": "_st",
+    "key_dis": "Middle Name"
   },
 
   {
-    "_v": "titles",
-    "_vt": "oid",
-    "_vs": "titles",
-    "_sid": "schema_key",
-    "_dis": "Titles"
-  },
-  {
-    "_v": "first_name",
-    "_vt": "string",
-    "_sid": "schema_key",
-    "_dis": "First Name"
-  },
-  {
-    "_v": "middle_name",
-    "_vt": "string",
-    "_sid": "schema_key",
-    "_dis": "Middle Name"
-  },
-  {
-    "_v": "last_name",
-    "_vt": "string",
-    "_sid": "schema_key",
-    "_dis": "Last Name"
-  },
-  {
-    "_v": "email",
-    "_vt": "email",
-    "_sid": "schema_key",
-    "_dis": "Email"
-  },
-  {
-    "_v": "mobile",
-    "_vt": "phone",
-    "_sid": "schema_key",
-    "_dis": "Mobile"
+    "key_n": "last_n",
+    "key_ty": "_st",
+    "key_dis": "Last Name"
   },
 
   {
-    "_v": "date_of_entry",
-    "_vt": "date",
-    "_sid": "schema_key",
-    "_dis": "Entry"
-  },
-  {
-    "_v": "service",
-    "_vt": "oid",
-    "_vs": "services",
-    "_sid": "schema_key",
-    "_dis": "Service"
-  },
-  {
-    "_v": "cost",
-    "_vt": "currency",
-    "_sid": "schema_key",
-    "_dis": "Cost"
+    "key_n": "_dt_of_birth",
+    "key_ty": "_dt",
+    "key_dis": "Date of Birth"
   },
 
   {
-    "_v": "date_of_birth",
-    "_vt": "date",
-    "_sid": "schema_key",
-    "_dis": "Date of Birth"
+    "key_n": "email_ad",
+    "key_ty": "email",
+    "key_dis": "Email Address"
   },
+
   {
-    "_v": "city",
-    "_vt": "oid",
-    "_vs": "cities",
-    "_big": true,
-    "_sid": "schema_key",
-    "_dis": "City"
+    "key_n": "mobile_num",
+    "key_ty": "phone",
+    "key_dis": "Mobile Number"
   },
+
   {
-    "_v": "service_entity",
-    "_vt": "oid",
-    "_vs": "service_entity",
-    "_sid": "schema_key",
-    "_dis": "Service"
+    "key_n": "email_ty",
+    "key_ty": "r_st",
+    "key_s": "types",
+    "key_key": "_ty_n",
+    "key_dis": "Email Type"
   },
+
   {
-    "_v": "human",
-    "_vt": "oid",
-    "_vs": "humans",
-    "_sid": "schema_key"
+    "key_n": "mobile_ty",
+    "key_ty": "r_st",
+    "key_s": "types",
+    "key_key": "_ty_n",
+    "key_dis": "Mobile Type"
+  },
+
+  {
+    "key_n": "_eid",
+    "key_ty": "oid",
+    "key_dis": "ID"
+  },
+
+  {
+    "key_n": "cost",
+    "key_ty": "currency",
+    "key_dis": "Cost"
+  },
+
+  {
+    "key_n": "_dt_of_entry",
+    "key_ty": "_dt",
+    "key_dis": "Date of Entry"
+  },
+
+  {
+    "key_n": "demonym",
+    "key_ty": "_st",
+    "key_dis": "Demonym"
+  },
+
+  {
+    "key_n": "population",
+    "key_ty": "_num",
+    "key_dis": "Population"
+  },
+
+  {
+    "key_n": "_loc",
+    "key_ty": "geo_json",
+    "key_dis": "Coordinates"
+  },
+
+  {
+    "key_n": "calling_c",
+    "key_ty": "_st",
+    "key_dis": "Calling Code"
+  },
+
+  {
+    "key_n": "cca3",
+    "key_ty": "_st",
+    "key_dis": "Cca3"
+  },
+
+  {
+    "key_n": "ccn3",
+    "key_ty": "_st",
+    "key_dis": "Ccn3"
+  },
+
+  {
+    "key_n": "cca2",
+    "key_ty": "_st",
+    "key_dis": "Cca2"
+  },
+
+  {
+    "key_n": "_nt_country_n",
+    "key_ty": "_st",
+    "key_dis": "Native Country Name"
+  },
+
+  {
+    "key_n": "capital_n",
+    "key_ty": "r_st",
+    "key_s": "cities",
+    "key_key": "city_n",
+    "key_dis": "Capital City"
+  },
+
+  {
+    "key_n": "relevance",
+    "key_ty": "_num",
+    "key_dis": "Relevance"
+  },
+
+  {
+    "key_n": "continent_n",
+    "key_ty": "r_st",
+    "key_s": "continents",
+    "key_key": "continent_n",
+    "key_dis": "Continent"
+  },
+
+  {
+    "key_n": "sub_region",
+    "key_ty": "_st",
+    "key_dis": "Sub Region"
+  },
+
+  {
+    "key_n": "country_n",
+    "key_ty": "r_st",
+    "key_s": "countries",
+    "key_key": "country_n",
+    "key_dis": "Country"
+  },
+
+  {
+    "key_n": "city_n",
+    "key_ty": "r_st",
+    "key_s": "cities",
+    "key_key": "city_n",
+    "key_dis": "City"
+  },
+
+  {
+    "key_n": "_s_alt_spellings",
+    "key_ty": "r_st",
+    "key_s": "_s",
+    "key_key": "_s_n_for",
+    "key_dis": "Schema of Alternate Spelling"
+  },
+
+  {
+    "key_n": "key_alt_spellings",
+    "key_ty": "r_st",
+    "key_s": "keys",
+    "key_key": "key_n",
+    "key_dis": "Key of Alternate Spelling"
+  },
+
+  {
+    "key_n": "_alt_spelling_st",
+    "key_ty": "_st",
+    "key_dis": "Alternate Spelling"
+  },
+
+  {
+    "key_n": "continent_c",
+    "key_ty": "r_st",
+    "key_s": "continents",
+    "key_key": "continent_c",
+    "key_dis": "Continent Code"
+  },
+
+  {
+    "key_n": "border_country_n",
+    "key_ty": "r_st",
+    "key_s": "countries",
+    "key_key": "country_n",
+    "key_dis": "Border"
+  },
+
+  {
+    "key_n": "currency_c",
+    "key_ty": "r_st",
+    "key_s": "currencies",
+    "key_key": "currency_c",
+    "key_dis": "Currency Code"
+  },
+
+  {
+    "key_n": "language_n",
+    "key_ty": "r_st",
+    "key_s": "languages",
+    "key_key": "language_n",
+    "key_dis": "Language"
+  },
+
+  {
+    "key_n": "language_c",
+    "key_ty": "r_st",
+    "key_s": "languages",
+    "key_key": "language_c",
+    "key_dis": "Language"
+  },
+
+  {
+    "key_n": "usd_exchange_rate",
+    "key_ty": "_num",
+    "key_dis": "USD Exchange Rate"
+  },
+
+  {
+    "key_n": "symbol",
+    "key_ty": "_st",
+    "key_dis": "Symbol"
+  },
+
+  {
+    "key_n": "_nt_symbol",
+    "key_ty": "_st",
+    "key_dis": "Native Symbol"
+  },
+
+  {
+    "key_n": "currency_n",
+    "key_ty": "_st",
+    "key_dis": "Currency"
+  },
+
+  {
+    "key_n": "currency_n_pl",
+    "key_ty": "_st",
+    "key_dis": "Currency Name Plural"
+  },
+
+  {
+    "key_n": "_nt_language_n",
+    "key_ty": "_st",
+    "key_dis": "Native Language Name"
+  },
+
+  {
+    "key_n": "service_n",
+    "key_ty": "r_st",
+    "key_s": "service_n",
+    "key_key": "service_n",
+    "key_dis": "Service"
+  },
+
+  {
+    "key_n": "title_n",
+    "key_ty": "r_st",
+    "key_s": "titles",
+    "key_key": "title_n",
+    "key_dis": "Title"
+  },
+
+  {
+    "key_n": "_s_tr",
+    "key_ty": "r_st",
+    "key_s": "_s",
+    "key_key": "_s_n_for",
+    "key_dis": "Schema Translation"
+  },
+
+  {
+    "key_n": "key_tr",
+    "key_ty": "r_st",
+    "key_s": "keys",
+    "key_key": "key_n",
+    "key_dis": "Key Translation"
+  },
+
+  {
+    "key_n": "_st",
+    "key_ty": "_st",
+    "key_dis": "String"
+  },
+
+  {
+    "key_n": "_tr_st",
+    "key_ty": "_st",
+    "key_dis": "Translated String"
   }
 ]

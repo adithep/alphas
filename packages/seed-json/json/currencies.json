@@ -8,6 +8,206 @@
     "currency_n_pl": "Russian rubles"
   },
   {
+    "usd_exchange_rate": 0.00276,
+    "symbol": "Z$",
+    "_nt_symbol": "Z$",
+    "currency_n": "Zimbabwean Dollar",
+    "currency_c": "ZWD",
+    "currency_n_pl": "Zimbabwean Dollars"
+  },
+  {
+    "usd_exchange_rate": 0.01058,
+    "symbol": "VT",
+    "_nt_symbol": "VT",
+    "currency_n": "Ni-Vanuatu Vatu",
+    "currency_c": "VUV",
+    "currency_n_pl": "Ni-Vanuatu Vatus"
+  },
+  {
+    "usd_exchange_rate": 0.35088,
+    "symbol": "T",
+    "_nt_symbol": "T",
+    "currency_n": "Turkmenistani Manat",
+    "currency_c": "TMT",
+    "currency_n_pl": "Turkmenistani Manats"
+  },
+  {
+    "usd_exchange_rate": 0.20365,
+    "symbol": "TJS",
+    "_nt_symbol": "TJS",
+    "currency_n": "Tajikistani Somoni",
+    "currency_c": "TJS",
+    "currency_n_pl": "Tajikistani Somonis"
+  },
+  {
+    "usd_exchange_rate": 0.09361,
+    "symbol": "L",
+    "_nt_symbol": "L",
+    "currency_n": "Swazi Lilangeni",
+    "currency_c": "SZL",
+    "currency_n_pl": "Swazi Lilangenis"
+  },
+  {
+    "usd_exchange_rate": 0.30534,
+    "symbol": "$",
+    "_nt_symbol": "$",
+    "currency_n": "Surinamese Dollar",
+    "currency_c": "SRD",
+    "currency_n_pl": "Surinamese Dollars"
+  },
+  {
+    "usd_exchange_rate": 0.00023,
+    "symbol": "£",
+    "_nt_symbol": "£",
+    "currency_n": "South Sudanese pound",
+    "currency_c": "SSP",
+    "currency_n_pl": "South Sudanese pounds"
+  },
+  {
+    "usd_exchange_rate": 0.00023,
+    "symbol": "Le",
+    "_nt_symbol": "Le",
+    "currency_n": "Sierra Leonean Leone",
+    "currency_c": "SLL",
+    "currency_n_pl": "Sierra Leonean Leones"
+  },
+  {
+    "usd_exchange_rate": 0.08136,
+    "symbol": "₨",
+    "_nt_symbol": "₨",
+    "currency_n": "Seychellois Rupee",
+    "currency_c": "SCR",
+    "currency_n_pl": "Seychellois Rupees"
+  },
+  {
+    "usd_exchange_rate": 0.00006,
+    "symbol": "Db",
+    "_nt_symbol": "Db",
+    "currency_n": "Sao Tomean Dobra",
+    "currency_c": "STD",
+    "currency_n_pl": "Sao Tomean Dobras"
+  },
+  {
+    "usd_exchange_rate": 0.43150,
+    "symbol": "$",
+    "_nt_symbol": "$",
+    "currency_n": "Samoan Tala",
+    "currency_c": "WST",
+    "currency_n_pl": "Samoan Talas"
+  },
+  {
+    "usd_exchange_rate": 1.68296,
+    "symbol": "£",
+    "_nt_symbol": "£",
+    "currency_n": "Saint Helenian Pound",
+    "currency_c": "SHP",
+    "currency_n_pl": "Saint Helenian Pounds"
+  },
+  {
+    "usd_exchange_rate": 0.36832,
+    "symbol": "K",
+    "_nt_symbol": "K",
+    "currency_n": "Papua New Guinean Kina",
+    "currency_c": "PGK",
+    "currency_n_pl": "Papua New Guinean Kinas"
+  },
+  {
+    "usd_exchange_rate": 0.00766,
+    "symbol": "₩",
+    "_nt_symbol": "₩",
+    "currency_n": "North Korean Won",
+    "currency_c": "KPW",
+    "currency_n_pl": "North Korean Wons"
+  },
+  {
+    "usd_exchange_rate": 0.00055,
+    "symbol": "₮",
+    "_nt_symbol": "₮",
+    "currency_n": "Mongolian Tughrik",
+    "currency_c": "MNT",
+    "currency_n_pl": "Mongolian Tughriks"
+  },
+  {
+    "usd_exchange_rate": 0.00343,
+    "symbol": "UM",
+    "_nt_symbol": "UM",
+    "currency_n": "Mauritanian Ouguiya",
+    "currency_c": "MRO",
+    "currency_n_pl": "Mauritanian Ouguiyas"
+  },
+  {
+    "usd_exchange_rate": 0.06481,
+    "symbol": "Rf",
+    "_nt_symbol": ".ރ",
+    "currency_n": "Maldivian Rufiyaa",
+    "currency_c": "MVR",
+    "currency_n_pl": "Maldivian Rufiyaas"
+  },
+  {
+    "usd_exchange_rate": 0.00256,
+    "symbol": "MK",
+    "_nt_symbol": "MK",
+    "currency_n": "Malawian Kwacha",
+    "currency_c": "MWK",
+    "currency_n_pl": "Malawian Kwachas"
+  },
+  {
+    "usd_exchange_rate": 0.01130,
+    "symbol": "$",
+    "_nt_symbol": "$",
+    "currency_n": "Liberian Dollar",
+    "currency_c": "LRD",
+    "currency_n_pl": "Liberian Dollars"
+  },
+  {
+    "usd_exchange_rate": 0.00012,
+    "symbol": "L",
+    "_nt_symbol": "L",
+    "currency_n": "Basotho Loti",
+    "currency_c": "LSL",
+    "currency_n_pl": "Basotho Lotis"
+  },
+  {
+    "usd_exchange_rate": 0.00012,
+    "symbol": "₭",
+    "_nt_symbol": "₭",
+    "currency_n": "Laotian Kip",
+    "currency_c": "LAK",
+    "currency_n_pl": "Laotian Kips"
+  },
+  {
+    "usd_exchange_rate": 0.01912,
+    "symbol": "лв",
+    "_nt_symbol": "лв",
+    "currency_n": "Kyrgyzstani Som",
+    "currency_c": "KGS",
+    "currency_n_pl": "Kyrgyzstani Soms"
+  },
+  {
+    "usd_exchange_rate": 0.02276,
+    "symbol": "G",
+    "_nt_symbol": "G",
+    "currency_n": "Haitian Gourde",
+    "currency_c": "HTG",
+    "currency_n_pl": "Haitian Gourdes"
+  },
+  {
+    "usd_exchange_rate": 0.00486,
+    "symbol": "$",
+    "_nt_symbol": "$",
+    "currency_n": "Guyanese Dollar",
+    "currency_c": "GYD",
+    "currency_n_pl": "Guyanese Dollars"
+  },
+  {
+    "usd_exchange_rate": 1.68311,
+    "symbol": "£",
+    "_nt_symbol": "£",
+    "currency_n": "Gibraltar Pound",
+    "currency_c": "GIP",
+    "currency_n_pl": "Gibraltar Pounds"
+  },
+  {
     "usd_exchange_rate": 0.02469,
     "symbol": "D",
     "_nt_symbol": "D",

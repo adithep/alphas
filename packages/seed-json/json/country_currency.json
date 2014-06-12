@@ -844,10 +844,6 @@
     "currency_c": "EUR"
   },
   {
-    "country_n": "Solomon Islands",
-    "currency_c": "SDB"
-  },
-  {
     "country_n": "Somalia",
     "currency_c": "SOS"
   },
@@ -897,15 +893,7 @@
   },
   {
     "country_n": "Switzerland",
-    "currency_c": "CHE"
-  },
-  {
-    "country_n": "Switzerland",
     "currency_c": "CHF"
-  },
-  {
-    "country_n": "Switzerland",
-    "currency_c": "CHW"
   },
   {
     "country_n": "Syria",
@@ -988,24 +976,12 @@
     "currency_c": "USD"
   },
   {
-    "country_n": "United States",
-    "currency_c": "USN"
-  },
-  {
-    "country_n": "United States",
-    "currency_c": "USS"
-  },
-  {
     "country_n": "United States Minor Outlying Islands",
     "currency_c": "USD"
   },
   {
     "country_n": "United States Virgin Islands",
     "currency_c": "USD"
-  },
-  {
-    "country_n": "Uruguay",
-    "currency_c": "UYI"
   },
   {
     "country_n": "Uruguay",
@@ -1053,6 +1029,6 @@
   },
   {
     "country_n": "Zimbabwe",
-    "currency_c": "ZWL"
+    "currency_c": "ZWD"
   }
 ]

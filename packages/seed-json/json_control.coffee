@@ -25,7 +25,11 @@ json_control.insert_json_detail = ->
           obj = {}
           n_k = 0
           while n_k < keys_arr.length
-            if keys_arr[n_k].key_n isnt "_usr" and keys_arr[n_k].key_n isnt "_dt"
+            if keys_arr[n_k].key_ty is "now"
+              obj[keys_arr[n_k].key_n] = new Date()
+            else if keys_arr[n_k].key_ty is "user"
+              obj[keys_arr[n_k].key_n] = "root"
+            else
               if ejson[n][keys_arr[n_k].key_n] or ejson[n][keys_arr[n_k].key_n] is 0
                 value = json_control.key_check(
                   keys_arr[n_k]
@@ -37,11 +41,10 @@ json_control.insert_json_detail = ->
                   console.log "value mismatched for
                     key: #{keys_arr[n_k].key_n}
                     , value: #{ejson[n][keys_arr[n_k].key_n]}"
-              else console.log "cannot find value for #{keys_arr[n_k].key_n}"
+              else
+                console.log "cannot find value for #{keys_arr[n_k].key_n}"
             n_k++
           obj._s_n = _s_ejson[_s_n]._s_n_for
-          obj._usr = "root"
-          obj._dt = new Date()
           DATA.insert(obj)
           n++
       console.log "#{json} inserted"

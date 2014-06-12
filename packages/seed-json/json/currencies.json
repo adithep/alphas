@@ -1,6 +1,5 @@
 [
   {
-    "currency": true,
     "usd_exchange_rate": 33.0652,
     "symbol": "RUB",
     "_nt_symbol": "руб.",
@@ -9,7 +8,6 @@
     "currency_n_pl": "Russian rubles"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 677.54162,
     "symbol": "RWF",
     "_nt_symbol": "FR",
@@ -18,7 +16,6 @@
     "currency_n_pl": "Rwandan francs"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 3.750547,
     "symbol": "SR",
     "_nt_symbol": "ر.س.‏",
@@ -27,7 +24,6 @@
     "currency_n_pl": "Saudi riyals"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 5.701133,
     "symbol": "SDG",
     "_nt_symbol": "SDG",
@@ -36,7 +32,6 @@
     "currency_n_pl": "Sudanese pounds"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 6.506099,
     "symbol": "Skr",
     "_nt_symbol": "kr",
@@ -45,7 +40,6 @@
     "currency_n_pl": "Swedish kronor"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 1.266613,
     "symbol": "S$",
     "_nt_symbol": "$",
@@ -54,7 +48,6 @@
     "currency_n_pl": "Singapore dollars"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 1,
     "symbol": "$",
     "_nt_symbol": "$",
@@ -63,7 +56,6 @@
     "currency_n_pl": "US dollars"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 1.088542,
     "symbol": "CA$",
     "_nt_symbol": "$",
@@ -72,7 +64,6 @@
     "currency_n_pl": "Canadian dollars"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 0.731693,
     "symbol": "€",
     "_nt_symbol": "€",
@@ -81,7 +72,6 @@
     "currency_n_pl": "euros"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 3.672874,
     "symbol": "AED",
     "_nt_symbol": "د.إ.‏",
@@ -90,7 +80,6 @@
     "currency_n_pl": "UAE dirhams"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 55.8508,
     "symbol": "Af",
     "_nt_symbol": "؋",
@@ -99,7 +88,6 @@
     "currency_n_pl": "Afghan Afghanis"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 103.1459,
     "symbol": "ALL",
     "_nt_symbol": "Lek",
@@ -108,7 +96,6 @@
     "currency_n_pl": "Albanian lekë"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 406.167503,
     "symbol": "AMD",
     "_nt_symbol": "դր.",
@@ -117,7 +104,6 @@
     "currency_n_pl": "Armenian drams"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 6.649165,
     "symbol": "AR$",
     "_nt_symbol": "$",
@@ -126,7 +112,6 @@
     "currency_n_pl": "Argentine pesos"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 1.1124,
     "symbol": "AU$",
     "_nt_symbol": "$",
@@ -135,7 +120,6 @@
     "currency_n_pl": "Australian dollars"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 0.784233,
     "symbol": "man.",
     "_nt_symbol": "ман.",
@@ -144,7 +128,6 @@
     "currency_n_pl": "Azerbaijani manats"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 1.433938,
     "symbol": "KM",
     "_nt_symbol": "KM",
@@ -153,7 +136,6 @@
     "currency_n_pl": "Bosnia-Herzegovina convertible marks"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 77.636109,
     "symbol": "Tk",
     "_nt_symbol": "৳",
@@ -162,7 +144,6 @@
     "currency_n_pl": "Bangladeshi takas"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 1.43583,
     "symbol": "BGN",
     "_nt_symbol": "лв.",
@@ -171,7 +152,6 @@
     "currency_n_pl": "Bulgarian leva"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 0.377005,
     "symbol": "BD",
     "_nt_symbol": "د.ب.‏",
@@ -180,7 +160,6 @@
     "currency_n_pl": "Bahraini dinars"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 1545.2334,
     "symbol": "FBu",
     "_nt_symbol": "FBu",
@@ -189,7 +168,6 @@
     "currency_n_pl": "Burundian francs"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 1.266997,
     "symbol": "BN$",
     "_nt_symbol": "$",
@@ -198,7 +176,6 @@
     "currency_n_pl": "Brunei dollars"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 6.902889,
     "symbol": "Bs",
     "_nt_symbol": "Bs",
@@ -207,7 +184,6 @@
     "currency_n_pl": "Bolivian bolivianos"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 2.371527,
     "symbol": "R$",
     "_nt_symbol": "R$",
@@ -216,7 +192,6 @@
     "currency_n_pl": "Brazilian reals"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 8.88681,
     "symbol": "BWP",
     "_nt_symbol": "P",
@@ -225,7 +200,6 @@
     "currency_n_pl": "Botswanan pulas"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 9558.675,
     "symbol": "BYR",
     "_nt_symbol": "BYR",
@@ -234,7 +208,6 @@
     "currency_n_pl": "Belarusian rubles"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 1.991986,
     "symbol": "BZ$",
     "_nt_symbol": "$",
@@ -243,7 +216,6 @@
     "currency_n_pl": "Belize dollars"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 921.528333,
     "symbol": "CDF",
     "_nt_symbol": "FrCD",
@@ -252,7 +224,6 @@
     "currency_n_pl": "Congolese francs"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 0.904211,
     "symbol": "CHF",
     "_nt_symbol": "CHF",
@@ -261,7 +232,6 @@
     "currency_n_pl": "Swiss francs"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 530.436499,
     "symbol": "CL$",
     "_nt_symbol": "$",
@@ -270,7 +240,6 @@
     "currency_n_pl": "Chilean pesos"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 6.081475,
     "symbol": "CN¥",
     "_nt_symbol": "CN¥",
@@ -279,7 +248,6 @@
     "currency_n_pl": "Chinese yuan"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 1929.725,
     "symbol": "CO$",
     "_nt_symbol": "$",
@@ -288,7 +256,6 @@
     "currency_n_pl": "Colombian pesos"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 499.9848,
     "symbol": "₡",
     "_nt_symbol": "₡",
@@ -297,7 +264,6 @@
     "currency_n_pl": "Costa Rican colóns"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 80.749121,
     "symbol": "CV$",
     "_nt_symbol": "CV$",
@@ -306,7 +272,6 @@
     "currency_n_pl": "Cape Verdean escudos"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 20.06638,
     "symbol": "Kč",
     "_nt_symbol": "Kč",
@@ -315,7 +280,6 @@
     "currency_n_pl": "Czech Republic korunas"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 177.864,
     "symbol": "Fdj",
     "_nt_symbol": "Fdj",
@@ -324,7 +288,6 @@
     "currency_n_pl": "Djiboutian francs"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 5.465675,
     "symbol": "Dkr",
     "_nt_symbol": "kr",
@@ -333,7 +296,6 @@
     "currency_n_pl": "Danish kroner"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 42.64528,
     "symbol": "RD$",
     "_nt_symbol": "RD$",
@@ -342,7 +304,6 @@
     "currency_n_pl": "Dominican pesos"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 78.616001,
     "symbol": "DA",
     "_nt_symbol": "د.ج.‏",
@@ -351,7 +312,6 @@
     "currency_n_pl": "Algerian dinars"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 6.962025,
     "symbol": "EGP",
     "_nt_symbol": "ج.م.‏",
@@ -360,7 +320,6 @@
     "currency_n_pl": "Egyptian pounds"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 15.00265,
     "symbol": "Nfk",
     "_nt_symbol": "Nfk",
@@ -369,7 +328,6 @@
     "currency_n_pl": "Eritrean nakfas"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 19.11121,
     "symbol": "Br",
     "_nt_symbol": "Br",
@@ -378,7 +336,6 @@
     "currency_n_pl": "Ethiopian birrs"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 0.606905,
     "symbol": "£",
     "_nt_symbol": "£",
@@ -387,7 +344,6 @@
     "currency_n_pl": "British pounds sterling"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 1.75391,
     "symbol": "GEL",
     "_nt_symbol": "GEL",
@@ -396,7 +352,6 @@
     "currency_n_pl": "Georgian laris"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 2.379864,
     "symbol": "GH₵",
     "_nt_symbol": "GH₵",
@@ -405,7 +360,6 @@
     "currency_n_pl": "Ghanaian cedis"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 6918.77,
     "symbol": "FG",
     "_nt_symbol": "FG",
@@ -414,7 +368,6 @@
     "currency_n_pl": "Guinean francs"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 7.870087,
     "symbol": "GTQ",
     "_nt_symbol": "Q",
@@ -423,7 +376,6 @@
     "currency_n_pl": "Guatemalan quetzals"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 7.754455,
     "symbol": "HK$",
     "_nt_symbol": "$",
@@ -432,7 +384,6 @@
     "currency_n_pl": "Hong Kong dollars"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 20.07852,
     "symbol": "HNL",
     "_nt_symbol": "L",
@@ -441,7 +392,6 @@
     "currency_n_pl": "Honduran lempiras"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 5.586558,
     "symbol": "kn",
     "_nt_symbol": "kn",
@@ -450,7 +400,6 @@
     "currency_n_pl": "Croatian kunas"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 218.852299,
     "symbol": "Ft",
     "_nt_symbol": "Ft",
@@ -459,7 +408,6 @@
     "currency_n_pl": "Hungarian forints"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 12125.816667,
     "symbol": "Rp",
     "_nt_symbol": "Rp",
@@ -468,7 +416,6 @@
     "currency_n_pl": "Indonesian rupiahs"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 3.488479,
     "symbol": "₪",
     "_nt_symbol": "₪",
@@ -477,7 +424,6 @@
     "currency_n_pl": "Israeli new sheqels"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 61.7352,
     "symbol": "Rs",
     "_nt_symbol": "টকা",
@@ -486,7 +432,6 @@
     "currency_n_pl": "Indian rupees"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 1170.348317,
     "symbol": "IQD",
     "_nt_symbol": "د.ع.‏",
@@ -495,7 +440,6 @@
     "currency_n_pl": "Iraqi dinars"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 24566.0013,
     "symbol": "IRR",
     "_nt_symbol": "﷼",
@@ -504,7 +448,6 @@
     "currency_n_pl": "Iranian rials"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 116.552999,
     "symbol": "Ikr",
     "_nt_symbol": "kr",
@@ -513,7 +456,6 @@
     "currency_n_pl": "Icelandic krónur"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 106.124099,
     "symbol": "J$",
     "_nt_symbol": "$",
@@ -522,7 +464,6 @@
     "currency_n_pl": "Jamaican dollars"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 0.705725,
     "symbol": "JD",
     "_nt_symbol": "د.أ.‏",
@@ -531,7 +472,6 @@
     "currency_n_pl": "Jordanian dinars"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 104.2406,
     "symbol": "¥",
     "_nt_symbol": "￥",
@@ -540,7 +480,6 @@
     "currency_n_pl": "Japanese yen"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 86.61054,
     "symbol": "Ksh",
     "_nt_symbol": "Ksh",
@@ -549,7 +488,6 @@
     "currency_n_pl": "Kenyan shillings"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 4002.351833,
     "symbol": "KHR",
     "_nt_symbol": "៛",
@@ -558,7 +496,6 @@
     "currency_n_pl": "Cambodian riels"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 361.299052,
     "symbol": "CF",
     "_nt_symbol": "FC",
@@ -567,7 +504,6 @@
     "currency_n_pl": "Comorian francs"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 1062.303317,
     "symbol": "₩",
     "_nt_symbol": "₩",
@@ -576,7 +512,6 @@
     "currency_n_pl": "South Korean won"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 0.28255,
     "symbol": "KD",
     "_nt_symbol": "د.ك.‏",
@@ -585,7 +520,6 @@
     "currency_n_pl": "Kuwaiti dinars"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 154.4753,
     "symbol": "KZT",
     "_nt_symbol": "тңг.",
@@ -594,7 +528,6 @@
     "currency_n_pl": "Kazakhstani tenges"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 1508.105,
     "symbol": "LB£",
     "_nt_symbol": "ل.ل.‏",
@@ -603,7 +536,6 @@
     "currency_n_pl": "Lebanese pounds"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 130.706499,
     "symbol": "SLRs",
     "_nt_symbol": "SL Re",
@@ -612,7 +544,6 @@
     "currency_n_pl": "Sri Lankan rupees"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 2.529026,
     "symbol": "Lt",
     "_nt_symbol": "Lt",
@@ -621,7 +552,6 @@
     "currency_n_pl": "Lithuanian litai"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 0.51331,
     "symbol": "Ls",
     "_nt_symbol": "Ls",
@@ -630,7 +560,6 @@
     "currency_n_pl": "Latvian lati"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 1.245367,
     "symbol": "LD",
     "_nt_symbol": "د.ل.‏",
@@ -639,7 +568,6 @@
     "currency_n_pl": "Libyan dinars"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 8.216706,
     "symbol": "MAD",
     "_nt_symbol": "د.م.‏",
@@ -648,7 +576,6 @@
     "currency_n_pl": "Moroccan dirhams"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 13.07375,
     "symbol": "MDL",
     "_nt_symbol": "MDL",
@@ -657,7 +584,6 @@
     "currency_n_pl": "Moldovan lei"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 2267.266667,
     "symbol": "MGA",
     "_nt_symbol": "MGA",
@@ -666,7 +592,6 @@
     "currency_n_pl": "Malagasy Ariaries"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 45.16089,
     "symbol": "MKD",
     "_nt_symbol": "MKD",
@@ -675,7 +600,6 @@
     "currency_n_pl": "Macedonian denari"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 984.9074,
     "symbol": "MMK",
     "_nt_symbol": "K",
@@ -684,7 +608,6 @@
     "currency_n_pl": "Myanma kyats"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 7.979081,
     "symbol": "MOP$",
     "_nt_symbol": "MOP$",
@@ -693,7 +616,6 @@
     "currency_n_pl": "Macanese patacas"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 30.3769,
     "symbol": "MURs",
     "_nt_symbol": "MURs",
@@ -702,7 +624,6 @@
     "currency_n_pl": "Mauritian rupees"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 13.02458,
     "symbol": "MX$",
     "_nt_symbol": "$",
@@ -711,7 +632,6 @@
     "currency_n_pl": "Mexican pesos"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 3.263697,
     "symbol": "RM",
     "_nt_symbol": "RM",
@@ -720,7 +640,6 @@
     "currency_n_pl": "Malaysian ringgits"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 29.997975,
     "symbol": "MTn",
     "_nt_symbol": "MTn",
@@ -729,7 +648,6 @@
     "currency_n_pl": "Mozambican meticals"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 10.7378,
     "symbol": "N$",
     "_nt_symbol": "N$",
@@ -738,7 +656,6 @@
     "currency_n_pl": "Namibian dollars"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 159.189499,
     "symbol": "₦",
     "_nt_symbol": "₦",
@@ -747,7 +664,6 @@
     "currency_n_pl": "Nigerian nairas"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 25.26368,
     "symbol": "C$",
     "_nt_symbol": "C$",
@@ -756,7 +672,6 @@
     "currency_n_pl": "Nicaraguan córdobas"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 6.163321,
     "symbol": "Nkr",
     "_nt_symbol": "kr",
@@ -765,7 +680,6 @@
     "currency_n_pl": "Norwegian kroner"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 98.970701,
     "symbol": "NPRs",
     "_nt_symbol": "नेरू",
@@ -774,7 +688,6 @@
     "currency_n_pl": "Nepalese rupees"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 1.205592,
     "symbol": "NZ$",
     "_nt_symbol": "$",
@@ -783,7 +696,6 @@
     "currency_n_pl": "New Zealand dollars"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 0.385007,
     "symbol": "OMR",
     "_nt_symbol": "ر.ع.‏",
@@ -792,7 +704,6 @@
     "currency_n_pl": "Omani rials"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 1,
     "symbol": "B/.",
     "_nt_symbol": "B/.",
@@ -801,7 +712,6 @@
     "currency_n_pl": "Panamanian balboas"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 2.799215,
     "symbol": "S/.",
     "_nt_symbol": "S/.",
@@ -810,7 +720,6 @@
     "currency_n_pl": "Peruvian nuevos soles"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 44.60915,
     "symbol": "₱",
     "_nt_symbol": "₱",
@@ -819,7 +728,6 @@
     "currency_n_pl": "Philippine pesos"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 105.5066,
     "symbol": "PKRs",
     "_nt_symbol": "₨",
@@ -828,7 +736,6 @@
     "currency_n_pl": "Pakistani rupees"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 3.04623,
     "symbol": "zł",
     "_nt_symbol": "zł",
@@ -837,7 +744,6 @@
     "currency_n_pl": "Polish zlotys"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 4612.049935,
     "symbol": "₲",
     "_nt_symbol": "₲",
@@ -846,7 +752,6 @@
     "currency_n_pl": "Paraguayan guaranis"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 3.641361,
     "symbol": "QR",
     "_nt_symbol": "ر.ق.‏",
@@ -855,7 +760,6 @@
     "currency_n_pl": "Qatari rials"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 3.325024,
     "symbol": "RON",
     "_nt_symbol": "RON",
@@ -864,7 +768,6 @@
     "currency_n_pl": "Romanian lei"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 84.362659,
     "symbol": "din.",
     "_nt_symbol": "дин.",
@@ -873,7 +776,6 @@
     "currency_n_pl": "Serbian dinars"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 1110.763367,
     "symbol": "Ssh",
     "_nt_symbol": "Ssh",
@@ -882,7 +784,6 @@
     "currency_n_pl": "Somali shillings"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 141.643749,
     "symbol": "SY£",
     "_nt_symbol": "ل.س.‏",
@@ -891,7 +792,6 @@
     "currency_n_pl": "Syrian pounds"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 33.00626,
     "default": 1,
     "symbol": "฿",
@@ -901,7 +801,6 @@
     "currency_n_pl": "Thai baht"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 1.654257,
     "symbol": "DT",
     "_nt_symbol": "د.ت.‏",
@@ -910,7 +809,6 @@
     "currency_n_pl": "Tunisian dinars"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 1.861115,
     "symbol": "T$",
     "_nt_symbol": "T$",
@@ -919,7 +817,6 @@
     "currency_n_pl": "Tongan paʻanga"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 2.170185,
     "symbol": "TL",
     "_nt_symbol": "TL",
@@ -928,7 +825,6 @@
     "currency_n_pl": "Turkish Lira"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 6.40739,
     "symbol": "TT$",
     "_nt_symbol": "$",
@@ -937,7 +833,6 @@
     "currency_n_pl": "Trinidad and Tobago dollars"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 30.04289,
     "symbol": "NT$",
     "_nt_symbol": "NT$",
@@ -946,7 +841,6 @@
     "currency_n_pl": "New Taiwan dollars"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 1616.46,
     "symbol": "TSh",
     "_nt_symbol": "TSh",
@@ -955,7 +849,6 @@
     "currency_n_pl": "Tanzanian shillings"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 8.265182,
     "symbol": "₴",
     "_nt_symbol": "₴",
@@ -964,7 +857,6 @@
     "currency_n_pl": "Ukrainian hryvnias"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 2514.865,
     "symbol": "USh",
     "_nt_symbol": "USh",
@@ -973,7 +865,6 @@
     "currency_n_pl": "Ugandan shillings"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 21.16079,
     "symbol": "$U",
     "_nt_symbol": "$",
@@ -982,7 +873,6 @@
     "currency_n_pl": "Uruguayan pesos"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 2202.183317,
     "symbol": "UZS",
     "_nt_symbol": "UZS",
@@ -991,7 +881,6 @@
     "currency_n_pl": "Uzbekistan som"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 6.291383,
     "symbol": "Bs.F.",
     "_nt_symbol": "Bs.F.",
@@ -1000,7 +889,6 @@
     "currency_n_pl": "Venezuelan bolívars"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 21089.866667,
     "symbol": "₫",
     "_nt_symbol": "₫",
@@ -1009,7 +897,6 @@
     "currency_n_pl": "Vietnamese dong"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 481.4239,
     "symbol": "FCFA",
     "_nt_symbol": "FCFA",
@@ -1018,7 +905,6 @@
     "currency_n_pl": "CFA francs BEAC"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 482.302618,
     "symbol": "CFA",
     "_nt_symbol": "CFA",
@@ -1027,7 +913,6 @@
     "currency_n_pl": "CFA francs BCEAO"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 215.063301,
     "symbol": "YR",
     "_nt_symbol": "ر.ي.‏",
@@ -1036,7 +921,6 @@
     "currency_n_pl": "Yemeni rials"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 10.70302,
     "symbol": "R",
     "_nt_symbol": "R",
@@ -1045,7 +929,6 @@
     "currency_n_pl": "South African rand"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 5252.024745,
     "symbol": "ZK",
     "_nt_symbol": "ZK",
@@ -1054,7 +937,6 @@
     "currency_n_pl": "Zambian kwachas"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 97.6198,
     "symbol": "Kz",
     "_nt_symbol": "Kz",
@@ -1063,7 +945,6 @@
     "currency_n_pl": "Angolan Kwanzas"
   },
   {
-    "currency": true,
     "usd_exchange_rate": 4.47301,
     "symbol": "$",
     "_nt_symbol": "$",

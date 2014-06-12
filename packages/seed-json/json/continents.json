@@ -1,45 +1,37 @@
 [
   {
-    "code": "AF",
-    "continent_name": "Africa",
-    "continent": true
+    "continent_c": "AF",
+    "continent_n": "Africa"
   },
 
   {
-    "code": "AS",
-    "continent_name": "Asia",
-    "continent": true
+    "continent_c": "AS",
+    "continent_n": "Asia"
   },
 
   {
-    "code": "EU",
-    "continent_name": "Europe",
-    "continent": true
+    "continent_c": "EU",
+    "continent_n": "Europe"
   },
 
   {
-    "code": "NA",
-    "continent_name": "North America",
-    "continent": true
+    "continent_c": "NA",
+    "continent_n": "North America"
   },
 
   {
-    "code": "SA",
-    "continent_name": "South America",
-    "continent": true
+    "continent_c": "SA",
+    "continent_n": "South America"
   },
 
   {
-    "code": "OC",
-    "continent_name": "Oceania",
-    "continent": true
+    "continent_c": "OC",
+    "continent_n": "Oceania"
   },
 
   {
-    "code": "AN",
-    "continent_name": "Antarctica",
-    "continent": true
+    "continent_c": "AN",
+    "continent_n": "Antarctica"
   }
-
 
 ]

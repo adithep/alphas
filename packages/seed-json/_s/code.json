@@ -22,6 +22,8 @@
     "_l": "list",
     "_eid": "entity id",
     "_w": "write",
-    "_tri": "trigger"
+    "_tri": "trigger",
+    "_btn": "button",
+    "_gr": "group"
   }
 ]

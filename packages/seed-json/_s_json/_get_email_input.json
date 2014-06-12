@@ -1,0 +1,17 @@
+[
+  {
+    "_tri_n": "_get_email_ty",
+    "_tri_gr": "_get_email_input",
+    "_dis": "email_ty",
+    "form_collection": "HUMAN_INPUT",
+    "on_submit": "_submit_email_ty"
+  },
+
+  {
+    "_tri_n": "_get_email_ad",
+    "_tri_gr": "_get_email_input",
+    "_dis": "email_ad",
+    "form_collection": "HUMAN_INPUT",
+    "on_submit": "_submit_email_ad"
+  }
+]

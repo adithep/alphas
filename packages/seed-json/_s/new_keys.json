@@ -184,7 +184,7 @@
   },
 
   {
-    "key_n": "calling_code",
+    "key_n": "calling_c",
     "key_ty": "_st",
     "key_dis": "Calling Code"
   },
@@ -258,7 +258,23 @@
   },
 
   {
-    "key_n": "_alt_spelling",
+    "key_n": "_s_alt_spellings",
+    "key_ty": "r_st",
+    "key_s": "_s",
+    "key_key": "_s_n",
+    "key_dis": "Schema of Alternate Spelling"
+  },
+
+  {
+    "key_n": "key_alt_spellings",
+    "key_ty": "r_st",
+    "key_s": "keys",
+    "key_key": "key_n",
+    "key_dis": "Key of Alternate Spelling"
+  },
+
+  {
+    "key_n": "_alt_spelling_st",
     "key_ty": "_st",
     "key_dis": "Alternate Spelling"
   },
@@ -292,6 +308,14 @@
     "key_ty": "r_st",
     "key_s": "languages",
     "key_key": "language_n",
+    "key_dis": "Language"
+  },
+
+  {
+    "key_n": "language_c",
+    "key_ty": "r_st",
+    "key_s": "languages",
+    "key_key": "language_c",
     "key_dis": "Language"
   },
 
@@ -353,6 +377,14 @@
     "key_s": "_s",
     "key_key": "_s_n",
     "key_dis": "Schema Translation"
+  },
+
+  {
+    "key_n": "key_tr",
+    "key_ty": "r_st",
+    "key_s": "keys",
+    "key_key": "key_n",
+    "key_dis": "Key Translation"
   },
 
   {

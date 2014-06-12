@@ -1,0 +1,79 @@
+[
+  {
+    "_tri_n": "_get_title_n",
+    "_tri_gr": "_get_title_n",
+    "_dis": "title_n",
+    "form_collection": "HUMAN_INPUT",
+    "on_submit": "_submit_title_n"
+  },
+
+  {
+    "_tri_n": "_get_first_n",
+    "_tri_gr": "_get_first_n",
+    "_dis": "first_n",
+    "form_collection": "HUMAN_INPUT",
+    "on_submit": "_submit_first_n"
+  },
+
+  {
+    "_tri_n": "_get_middle_n",
+    "_tri_gr": "_get_middle_n",
+    "_dis": "middle_n",
+    "form_collection": "HUMAN_INPUT",
+    "on_submit": "_submit_middle_n"
+  },
+
+  {
+    "_tri_n": "_get_last_n",
+    "_tri_gr": "_get_last_n",
+    "_dis": "last_n",
+    "form_collection": "HUMAN_INPUT",
+    "on_submit": "_submit_last_n"
+  },
+
+  {
+    "_tri_n": "_get_dt_of_birth",
+    "_tri_gr": "_get_dt_of_birth",
+    "_dis": "dt_of_birth",
+    "form_collection": "HUMAN_INPUT",
+    "on_submit": "_submit_dt_of_birth"
+  },
+
+  {
+    "_tri_n": "_get_city_n",
+    "_tri_gr": "_get_city_n",
+    "_dis": "city_n",
+    "on_select": "select_key_country",
+    "class": "select_key",
+    "form_collection": "HUMAN_INPUT",
+    "on_submit": "_submit_city_n"
+  },
+
+  {
+    "_tri_n": "_get_country_n",
+    "_tri_gr": "_get_country_n",
+    "_dis": "country_n",
+    "on_select": "limit_key_city",
+    "class": "limit_key",
+    "form_collection": "HUMAN_INPUT",
+    "on_submit": "_submit_country_n"
+  },
+
+  {
+    "_tri_n": "select_key_country",
+    "_tri_gr": "select_key_country",
+    "_tri_select_key": "country_n",
+    "_tri_select_key_from": "city_n",
+    "_tri_select_tri": "_get_country_n",
+    "form_collection": "HUMAN_INPUT"
+  },
+
+  {
+    "_tri_n": "limit_key_city",
+    "_tri_gr": "limit_key_city",
+    "_tri_limit_key": "city_n",
+    "_tri_select_key_from": "country_n",
+    "_tri_select_tri": "_get_city_n",
+    "form_collection": "HUMAN_INPUT"
+  }
+]

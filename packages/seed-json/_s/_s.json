@@ -2,17 +2,16 @@
   {
     "_s_n": "countries",
     "json": "countries.json",
-    "_s_json": "_s_countries.json",
     "_s_keys": [
       "country_n",
       "demonym",
       "_loc",
       "population",
-      "calling_code",
+      "calling_c",
       "cca3",
       "cca2",
       "_nt_country_n",
-      "capital",
+      "capital_n",
       "relevance",
       "continent_n",
       "sub_region",
@@ -24,7 +23,6 @@
   {
     "_s_n": "cities",
     "json": "cities.json",
-    "_s_json": "_s_cities.json",
     "_s_keys": [
       "city_n",
       "country_n",
@@ -38,10 +36,11 @@
   {
     "_s_n": "_alt_spellings",
     "json": "_alt_spellings.json",
-    "_s_json": "_s_alt_spellings.json",
     "_s_keys": [
-      "country_n",
-      "_alt_spelling",
+      "_s_alt_spellings",
+      "key_alt_spellings"
+      "_st",
+      "_alt_spelling_st",
       "_dte",
       "_usr"
     ]
@@ -50,7 +49,6 @@
   {
     "_s_n": "continents",
     "json": "continents.json",
-    "_s_json": "_s_continents.json",
     "_s_keys": [
       "continent_n",
       "continent_c",
@@ -62,7 +60,6 @@
   {
     "_s_n": "borders_of_country",
     "json": "borders_of_country.json",
-    "_s_json": "_s_borders_of_country.json",
     "_s_keys": [
       "country_n",
       "border_country_n",
@@ -74,7 +71,6 @@
   {
     "_s_n": "country_currency",
     "json": "country_currency.json",
-    "_s_json": "_s_country_currency.json",
     "_s_keys": [
       "country_n",
       "currency_c",
@@ -86,7 +82,6 @@
   {
     "_s_n": "country_language",
     "json": "country_language.json",
-    "_s_json": "_s_country_language.json",
     "_s_keys": [
       "country_n",
       "language_n",
@@ -98,7 +93,6 @@
   {
     "_s_n": "currencies",
     "json": "currencies.json",
-    "_s_json": "_s_currencies.json",
     "_s_keys": [
       "currency_c",
       "usd_exchange_rate",
@@ -114,9 +108,9 @@
   {
     "_s_n": "languages",
     "json": "languages.json",
-    "_s_json": "_s_languages.json",
     "_s_keys": [
       "language_n",
+      "language_c",
       "_nt_language_n",
       "_dte",
       "_usr"
@@ -126,7 +120,6 @@
   {
     "_s_n": "servies_n",
     "json": "servies.json",
-    "_s_json": "_s_servies.json",
     "_s_keys": [
       "service_n",
       "_dte",
@@ -137,7 +130,6 @@
   {
     "_s_n": "titles",
     "json": "titles.json",
-    "_s_json": "_s_titles.json",
     "_s_keys": [
       "title_n",
       "_dte",
@@ -148,10 +140,11 @@
   {
     "_s_n": "translations",
     "json": "translations.json",
-    "_s_json": "_s_translations.json",
     "_s_keys": [
       "_s_tr",
+      "key_tr",
       "_st",
+      "language_n",
       "_tr_st",
       "_dte",
       "_usr"
@@ -161,13 +154,14 @@
   {
     "_s_n": "humans",
     "json": "humans.json",
-    "_s_json": "_s_humans.json",
     "_s_keys": [
       "title_n",
       "first_n",
       "middle_n",
       "last_n",
       "_dt_of_birth",
+      "email_ad",
+      "mobile_num",
       "city_n",
       "country_n"
       "_dte",
@@ -178,7 +172,6 @@
   {
     "_s_n": "services",
     "json": "services.json",
-    "_s_json": "_s_services.json",
     "_s_keys": [
       "_eid",
       "service_s_n",
@@ -192,9 +185,8 @@
   },
 
   {
-    "_s_n": "emails",
-    "json": "emails.json",
-    "_s_json": "_s_emails.json",
+    "_s_n": "_alt_emails",
+    "json": "_alt_emails.json",
     "_s_keys": [
       "_eid",
       "email_s_n",
@@ -206,9 +198,8 @@
   },
 
   {
-    "_s_n": "mobiles",
-    "json": "mobiles.json",
-    "_s_json": "_s_mobiles.json",
+    "_s_n": "_alt_mobiles",
+    "json": "_alt_mobiles.json",
     "_s_keys": [
       "_eid",
       "mobile_s_n",

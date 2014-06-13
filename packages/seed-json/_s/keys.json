@@ -12,6 +12,12 @@
   },
 
   {
+    "key_n": "sort",
+    "key_ty": "_num",
+    "key_dis": "Sort"
+  },
+
+  {
     "key_n": "_tri_n",
     "key_ty": "r_st",
     "key_s": "_tri",

@@ -4,18 +4,18 @@ Package.describe({
 
 Package.on_use(function (api, where) {
   api.use([
-    'coffeescript'
-    , 'jade'
-    , 'alpha-stylus'
-    , 'standard-app-packages'
-    , 'core-lib'
-    , 'underscore'
-    , 'jquery'
-    , 'layout']);
+    'coffeescript',
+    'jade',
+    'alpha-stylus',
+    'standard-app-packages',
+    'core-lib',
+    'underscore',
+    'jquery',
+    'layout']);
   api.add_files([
-    'alpha-form.jade'
-    , 'alpha-form.coffee'
-    , 'alpha-form.styl'], 'client');
+    'alpha-form.jade',
+    'alpha-form.coffee',
+    'alpha-form.styl'], 'client');
 });
 
 Package.on_test(function (api) {

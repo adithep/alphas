@@ -10,5 +10,3 @@ BSON = MongoDB.BSONPure
 
 
 Meteor.startup ->
-  DATA.remove({})
-  json_control.insert_json_detail()

@@ -1,2 +1,2 @@
-DATA = new Meteor.Collection "data",
-  idGeneration: "MONGO"
+DATA = new Meteor.Collection "data"
+ODATA = new Meteor.Collection "odata"

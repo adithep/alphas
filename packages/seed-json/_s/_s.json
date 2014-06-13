@@ -8,7 +8,20 @@
       "key_ty",
       "key_s",
       "key_key",
-      "key_dis"
+      "key_dis",
+      "_dt",
+      "_usr"
+    ]
+  },
+
+  {
+    "_s_n_for": "classes",
+    "_s_n": "_s",
+    "json": "_s/classes.json",
+    "_s_keys": [
+      "class_n",
+      "_dt",
+      "_usr"
     ]
   },
 
@@ -237,6 +250,34 @@
       "mobile_s_n",
       "mobile_num",
       "mobile_ty",
+      "_dt",
+      "_usr"
+    ]
+  },
+
+  {
+    "_s_n_for": "_tri",
+    "_s_n": "_s",
+    "json": [
+      "_s_json/_get_human_btn.json",
+      "_s_json/_get_human_input.json",
+      "_s_json/_get_service_input.json",
+      "_s_json/_get_mobile_input.json",
+      "_s_json/_get_email_input.json"
+    ],
+    "_s_keys": [
+      "_tri_n",
+      "_tri_gr",
+      "_tri_dis",
+      "form_collection",
+      "on_submit",
+      "on_click",
+      "on_select",
+      "class_n",
+      "_tri_select_key",
+      "_tri_select_key_from",
+      "_tri_select_tri",
+      "_tri_limit_key",
       "_dt",
       "_usr"
     ]

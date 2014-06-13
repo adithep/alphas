@@ -12,35 +12,97 @@
   },
 
   {
-    "key_n": "email_ctl_n",
-    "key_ty": "_ctl",
-    "key_s": "_ctl",
-    "key_ctl_s_n": "emails",
-    "key_dis": "Email"
+    "key_n": "_tri_n",
+    "key_ty": "r_st",
+    "key_s": "_tri",
+    "key_key": "_tri_n",
+    "key_dis": "Trigger Name"
   },
 
   {
-    "key_n": "mobile_ctl_n",
-    "key_ty": "_ctl",
-    "key_s": "_ctl",
-    "key_ctl_s_n": "mobiles",
-    "key_dis": "Mobile"
+    "key_n": "_tri_gr",
+    "key_ty": "r_st",
+    "key_s": "_tri",
+    "key_key": "_tri_gr",
+    "key_dis": "Trigger Group"
   },
 
   {
-    "key_n": "service_ctl_n",
-    "key_ty": "_ctl",
-    "key_s": "_ctl",
-    "key_ctl_s_n": "services",
-    "key_dis": "Service"
+    "key_n": "_tri_dis",
+    "key_ty": "r_st",
+    "key_s": "keys",
+    "key_key": "key_n",
+    "key_dis": "Trigger Display"
   },
 
   {
-    "key_n": "human_ctl_n",
-    "key_ty": "_ctl",
-    "key_s": "_ctl",
-    "key_ctl_s_n": "humans",
-    "key_dis": "Humans"
+    "key_n": "form_collection",
+    "key_ty": "_st",
+    "key_dis": "Trigger Collection"
+  },
+
+  {
+    "key_n": "on_submit",
+    "key_ty": "r_st",
+    "key_s": "_tri",
+    "key_key": "_tri_gr",
+    "key_dis": "Trigger Submit"
+  },
+
+  {
+    "key_n": "on_click",
+    "key_ty": "r_st",
+    "key_s": "_tri",
+    "key_key": "_tri_gr",
+    "key_dis": "Trigger Click"
+  },
+
+  {
+    "key_n": "on_select",
+    "key_ty": "r_st",
+    "key_s": "_tri",
+    "key_key": "_tri_gr",
+    "key_dis": "Trigger Select"
+  },
+
+  {
+    "key_n": "_tri_select_key",
+    "key_ty": "r_st",
+    "key_s": "keys",
+    "key_key": "key_n",
+    "key_dis": "Trigger Select Key"
+  },
+
+  {
+    "key_n": "_tri_select_key_from",
+    "key_ty": "r_st",
+    "key_s": "keys",
+    "key_key": "key_n",
+    "key_dis": "Trigger Select Key From"
+  },
+
+  {
+    "key_n": "_tri_limit_key",
+    "key_ty": "r_st",
+    "key_s": "keys",
+    "key_key": "key_n",
+    "key_dis": "Trigger Limit Key"
+  },
+
+  {
+    "key_n": "_tri_select_tri",
+    "key_ty": "r_st",
+    "key_s": "_tri",
+    "key_key": "_tri_gr",
+    "key_dis": "Trigger Select Trigger"
+  },
+
+  {
+    "key_n": "class_n",
+    "key_ty": "r_st",
+    "key_s": "classes",
+    "key_key": "class_n",
+    "key_dis": "Class Name"
   },
 
   {
@@ -54,7 +116,7 @@
   {
     "key_n": "_ctl_s_n",
     "key_ty": "r_st",
-    "key_s": "_ctl",
+    "key_s": "_tri",
     "key_key": "_ctl_s_n",
     "key_dis": "Control"
   },

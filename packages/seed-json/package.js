@@ -7,6 +7,7 @@ Package.on_use(function (api, where) {
   api.add_files([
     '_s/_s.json',
     '_s/keys.json',
+    '_s/classes.json',
     'json/_alt_spellings.json',
     'json/borders_of_country.json',
     'json/country_language.json',

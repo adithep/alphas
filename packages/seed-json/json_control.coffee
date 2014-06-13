@@ -6,14 +6,26 @@ json_control.insert_json_detail = ->
   _s_ejson = EJSON.parse(Assets.getText('_s/_s.json'))
   _s_n = 0
   while _s_n < _s_ejson.length
+    console.log "seeding #{_s_ejson[_s_n]._s_n_for} schema"
     DATA.insert(_s_ejson[_s_n])
-    json = _s_ejson[_s_n].json
-    ejson = EJSON.parse(Assets.getText(json))
+    if Array.isArray(_s_ejson[_s_n].json)
+      j_n = 0
+      ejson = []
+      while j_n < _s_ejson[_s_n].json.length
+        json = _s_ejson[_s_n].json[j_n]
+        t_ejson = EJSON.parse(Assets.getText(json))
+        ejson = ejson.concat(t_ejson)
+        j_n++
+    else
+      json = _s_ejson[_s_n].json
+      ejson = EJSON.parse(Assets.getText(json))
     if ejson.length > 0
       n = 0
       if _s_ejson[_s_n]._s_n_for is "keys"
         while n < ejson.length
           ejson[n]._s_n = "keys"
+          ejson[n]._dt = new Date()
+          ejson[n]._usr = "root"
           DATA.insert(ejson[n])
           n++
       else
@@ -30,24 +42,22 @@ json_control.insert_json_detail = ->
             else if keys_arr[n_k].key_ty is "user"
               obj[keys_arr[n_k].key_n] = "root"
             else
-              if ejson[n][keys_arr[n_k].key_n] or ejson[n][keys_arr[n_k].key_n] is 0
+              if ejson[n][keys_arr[n_k].key_n]?
                 value = json_control.key_check(
                   keys_arr[n_k]
                   , ejson[n][keys_arr[n_k].key_n]
                   , _s_ejson[_s_n]._s_n_for)
-                if value or value is 0
+                if value?
                   obj[keys_arr[n_k].key_n] = value
                 else
                   console.log "value mismatched for
                     key: #{keys_arr[n_k].key_n}
                     , value: #{ejson[n][keys_arr[n_k].key_n]}"
-              else
-                console.log "cannot find value for #{keys_arr[n_k].key_n}"
             n_k++
           obj._s_n = _s_ejson[_s_n]._s_n_for
           DATA.insert(obj)
           n++
-      console.log "#{json} inserted"
+      console.log "#{_s_ejson[_s_n]._s_n_for} seeded"
     else
       console.log "no data in #{json}"
     _s_n++

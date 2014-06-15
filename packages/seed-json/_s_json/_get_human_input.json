@@ -3,6 +3,7 @@
     "_tri_n": "_get_title_n",
     "_tri_gr": "_get_title_n",
     "_tri_dis": "title_n",
+    "_tri_starting": true,
     "form_collection": "HUMAN_INPUT",
     "on_submit": "_submit_title_n"
   },
@@ -11,6 +12,7 @@
     "_tri_n": "_get_first_n",
     "_tri_gr": "_get_first_n",
     "_tri_dis": "first_n",
+    "_tri_starting": true,
     "form_collection": "HUMAN_INPUT",
     "on_submit": "_submit_first_n"
   },

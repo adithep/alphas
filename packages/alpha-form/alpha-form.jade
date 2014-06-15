@@ -12,26 +12,41 @@ template(name="alpha_form")
     br
     a(class="form_submit") Submit
 
-template(name="_schema_buttons")
-  li
-    a(class="#{this.class_n}") #{get_key_dis}
+template(name="_each_input")
+  div(class="#{this.class_n} contact_div")
+    span Î
+    +UI.dynamic template=tmpl data=tmpl_data
 
-template(name="_string_input")
-  div(class="contact_div")
-    span Î
-    input(type="#{this.type}", placeholder="#{this._dis}", class="input_ui #{this.class}")
-    div(class="adropdown")
-      ul
-        each aselect
-          +_a_select_li
+
+template(name="_schema_buttons")
+  li(class="#{this.class_n}")
+    a
+      each get_key_dis
+        +_key_dis
+
+template(name="_key_dis")
+  span #{this.key_dis}
+
+template(name="_string_input_email")
+  input(placeholder="#{this.key_dis}", type="email", class="input_ui")
+
+template(name="_string_input_text")
+  input(placeholder="#{this.key_dis}", type="text", class="input_ui")
+
+template(name="_string_input_date")
+  input(placeholder="#{this.key_dis}", type="date", class="input_ui")
+
+template(name="_string_input_number")
+  input(placeholder="#{this.key_dis}", type="number", class="input_ui")
+
 template(name="_string_select")
-  div(class="contact_div")
-    span Î
-    select(class="input_ui")
-      each select_options
-        +_string_select_options
+  select(class="input_ui")
+    each select_options
+      +_string_select_options
+
 template(name="_string_select_options")
-  option #{this._v}
+  option {{h_opt ../key_key}}
+
 template(name="_a_select_li")
   li
     a #{this.city._v} #{this.country._v}

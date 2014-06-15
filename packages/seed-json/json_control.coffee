@@ -14,6 +14,7 @@ class JS
         console.log "no schema #{schema_n} avaliable"
         return
       if ejson
+        DATA.remove(_s_n: schema_n)
         if schema_n in ["keys", "_s"]
           @dirty_insert(ejson, schema_n)
         else
@@ -33,7 +34,7 @@ class JS
       n++
 
   sanitized_insert: (keys, ejson, schema_n) ->
-
+    console.log "seeding #{schema_n}"
     keys_arr = DATA.find(
       _s_n: "keys"
       , key_n: {$in: keys}
@@ -63,6 +64,7 @@ class JS
       obj._s_n = schema_n
       DATA.insert(obj)
       n++
+    console.log "#{schema_n} seeded"
     return
 
   parse_ejson: (json) ->
@@ -83,22 +85,22 @@ class JS
       return false
 
   insert_json_detail: ->
+    DATA.remove({})
     _s_ejson = EJSON.parse(Assets.getText('_s/_s.json'))
     _s_n = 0
     while _s_n < _s_ejson.length
-      console.log "seeding #{_s_ejson[_s_n]._s_n_for}"
       DATA.insert(_s_ejson[_s_n])
-      ejson = @parse_ejson(_s_ejson[_s_n].json)
-      if ejson
-        n = 0
-        if _s_ejson[_s_n]._s_n_for is "keys"
-          @dirty_insert(ejson, "keys")
-        else
-          @sanitized_insert(
-            _s_ejson[_s_n]._s_keys
-            , ejson
-            , _s_ejson[_s_n]._s_n_for)
-        console.log "#{_s_ejson[_s_n]._s_n_for} seeded"
+      if _s_ejson[_s_n]._s_n_for isnt "_s"
+        ejson = @parse_ejson(_s_ejson[_s_n].json)
+        if ejson
+          n = 0
+          if _s_ejson[_s_n]._s_n_for is "keys"
+            @dirty_insert(ejson, "keys")
+          else
+            @sanitized_insert(
+              _s_ejson[_s_n]._s_keys
+              , ejson
+              , _s_ejson[_s_n]._s_n_for)
       _s_n++
 
   key_check: (key, value, schema) ->
@@ -125,8 +127,8 @@ class JS
                 #{key.key_n} for schema
                 #{schema} in database"
               return String(value)
-        when "boolean"
-          if typeof value is "bolean"
+        when "_bl"
+          if typeof value is "boolean"
             return value
         when "currency"
           if Number(value) isnt NaN

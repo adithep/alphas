@@ -3,7 +3,6 @@ Deps.autorun ->
     subscription.sub_list = Meteor.subscribe "list"
     if subscription.sub_list.ready()
       Session.set("subscription", true)
-      console.log "true"
   else
     if subscription.sub_list
       subscription.sub_list.stop()

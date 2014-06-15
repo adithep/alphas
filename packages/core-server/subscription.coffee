@@ -1,5 +1,5 @@
 Meteor.publish "list", ->
-  DATA.find
+  DATA.find({
     _s_n: {$in: [
       "_s"
       "keys"
@@ -9,3 +9,4 @@ Meteor.publish "list", ->
       "services"
       "_tri"
     ]}
+  }, {fields: {_dt: 0}})

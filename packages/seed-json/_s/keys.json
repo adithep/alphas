@@ -18,6 +18,12 @@
   },
 
   {
+    "key_n": "_tri_starting",
+    "key_ty": "_bl",
+    "key_dis": "Starting Trigger"
+  },
+
+  {
     "key_n": "_tri_n",
     "key_ty": "r_st",
     "key_s": "_tri",
@@ -190,13 +196,13 @@
   {
     "key_n": "email_ad",
     "key_ty": "email",
-    "key_dis": "Email Address"
+    "key_dis": "Email"
   },
 
   {
     "key_n": "mobile_num",
     "key_ty": "phone",
-    "key_dis": "Mobile Number"
+    "key_dis": "Mobile"
   },
 
   {
@@ -249,6 +255,18 @@
     "key_n": "_loc",
     "key_ty": "geo_json",
     "key_dis": "Coordinates"
+  },
+
+  {
+    "key_n": "json",
+    "key_ty": "_st",
+    "key_dis": "Json path"
+  },
+
+  {
+    "key_n": "_s_keys",
+    "key_ty": "array",
+    "key_dis": "Array of Keys"
   },
 
   {

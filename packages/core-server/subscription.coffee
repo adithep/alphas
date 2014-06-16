@@ -8,5 +8,6 @@ Meteor.publish "list", ->
       "currencies"
       "services"
       "_tri"
+      "tags"
     ]}
   }, {fields: {_dt: 0}})

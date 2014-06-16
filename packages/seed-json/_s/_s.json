@@ -298,5 +298,16 @@
       "_dt",
       "_usr"
     ]
+  },
+
+  {
+    "_s_n_for": "tags",
+    "_s_n": "_s",
+    "json": "json/tags.json",
+    "_s_keys": [
+      "tag_n",
+      "_dt",
+      "_usr"
+    ]
   }
 ]

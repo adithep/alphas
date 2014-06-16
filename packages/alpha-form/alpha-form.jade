@@ -8,9 +8,14 @@ template(name="alpha_form")
 
   form(class="contact_form")
     each input_element
-      +_each_input
+      +_each_input_master
     br
     a(class="form_submit") Submit
+
+template(name="_each_input_master")
+  div(class="_each_input_master")
+    each this._tri
+      +_each_input
 
 template(name="_each_input")
   div(class="#{this.class_n} contact_div")

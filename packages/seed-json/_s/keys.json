@@ -209,16 +209,24 @@
     "key_n": "email_ty",
     "key_ty": "r_st",
     "key_s": "types",
-    "key_key": "_ty_n",
+    "key_key": "tag_n",
     "key_dis": "Email Type"
   },
 
   {
     "key_n": "mobile_ty",
     "key_ty": "r_st",
-    "key_s": "types",
-    "key_key": "_ty_n",
+    "key_s": "tags",
+    "key_key": "tag_n",
     "key_dis": "Mobile Type"
+  },
+
+  {
+    "key_n": "tag_n",
+    "key_ty": "r_st",
+    "key_s": "tags",
+    "key_key": "tag_n",
+    "key_dis": "Tag Name"
   },
 
   {

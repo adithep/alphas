@@ -10,9 +10,9 @@ Deps.autorun ->
       , form_collection: "HUMAN_INPUT"
       , _tri_starting: true
     ).forEach (doc) ->
-      doc._tri_id = doc._id
-      delete doc._id
-      HUMAN_FORM.insert(doc)
+      tri = {}
+      tri._tri = [doc]
+      HUMAN_FORM.insert(tri)
 
 Template._string_select.helpers
   select_options: ->
@@ -21,6 +21,10 @@ Template._string_select.helpers
 Template._string_select_options.helpers
   h_opt: (key_key) ->
     return this[key_key]
+
+Template._each_input_master.helpers
+  kab: ->
+    console.log this
 
 Template._each_input.helpers
   tmpl: ->
@@ -59,13 +63,10 @@ Template._schema_buttons.events
   'click ._get': (e, t) ->
     if this.on_click
       console.log this
-      tri = DATA.find(_s_n: "_tri", _tri_gr: this.on_click).fetch()
-      if tri?
-        console.log tri
-        if tri.length > 1
-          console.log "hurray"
-        else if tri.length is 1
-          doc = tri[0]
-          doc._tri_id = doc._id
-          delete doc._id
-          HUMAN_FORM.insert(doc)
+      obj = {}
+      obj._tri = []
+      n = 0
+      tri = DATA.find(_s_n: "_tri", _tri_gr: this.on_click).forEach (doc) ->
+        obj._tri[n] = doc
+        n++
+      HUMAN_FORM.insert(obj)

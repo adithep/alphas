@@ -84,7 +84,7 @@ class JS
       console.log "nodata in #{json}"
       return false
 
-  insert_json_detail: ->
+  seed_json_detail: ->
     DATA.remove({})
     _s_ejson = EJSON.parse(Assets.getText('_s/_s.json'))
     _s_n = 0

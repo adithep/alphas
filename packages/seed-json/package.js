@@ -18,6 +18,7 @@ Package.on_use(function (api, where) {
     'json/cities.json',
     'json/continents.json',
     'json/service_n.json',
+    'json/tags.json',
     'json/translations.json',
     'json/titles.json',
     'json/humans.json',

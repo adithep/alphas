@@ -208,7 +208,7 @@
   {
     "key_n": "email_ty",
     "key_ty": "r_st",
-    "key_s": "types",
+    "key_s": "tags",
     "key_key": "tag_n",
     "key_dis": "Email Type"
   },
@@ -348,7 +348,8 @@
     "key_ty": "r_st",
     "key_s": "cities",
     "key_key": "city_n",
-    "key_dis": "City"
+    "key_dis": "City",
+    "key_big": true
   },
 
   {

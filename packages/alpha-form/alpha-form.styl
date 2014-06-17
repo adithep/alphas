@@ -36,13 +36,27 @@
   border-radius(20px)
   box-sizing()
 
-.contact_form select.input_ui
-  width 100%
-  height 35px
-  padding 7px 20px
-  padding-right 35px
-  border-radius(30px)
-  box-sizing()
+.contact_form span.input_ui
+  display block
+  border-top 1px solid $text-white
+
+
+.contact_form div.div_select
+  display inline-block
+  opacity 0
+  position relative
+  z-index -1
+  width 80%
+  top -20px
+  transition(all .2s)
+
+.contact_form div.div_select.show
+  top 0px
+  z-index 1
+  opacity 1
+  visibility visible
+
+
 
 .contact_form
   margin 20px 0
@@ -57,6 +71,7 @@
   font-size .9em
   line-height 25px
   resize none
+
 .contact_form .contact_div
   position relative
   col(1/5)
@@ -64,7 +79,7 @@
 .contact_form span+input
   padding-left 35px
   margin 0
-.contact_form span
+.contact_form span.s_liga
   display block
   position absolute
   width 25px

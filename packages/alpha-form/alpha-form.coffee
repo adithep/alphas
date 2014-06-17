@@ -15,16 +15,40 @@ Deps.autorun ->
       HUMAN_FORM.insert(tri)
 
 Template._string_select.helpers
-  select_options: ->
-    DATA.find(_s_n: this.key_s)
+  select_options: (id) ->
+    console.log this
+    te = "input-#{id}"
+    text = Session.get(te)
+    if text?
+      obj = {}
+      obj._s_n = this.key_s
+      obj[this.key_key] = { $regex: text, $options: 'i' }
+      return DATA.find(obj, {limit: 5})
+    else
+      return DATA.find({_s_n: this.key_s}, {limit: 5})
+  select_value: ->
+    a = DATA.findOne(_s_n: this.key_s)
+    return a[this.key_key]
 
 Template._string_select_options.helpers
   h_opt: (key_key) ->
     return this[key_key]
 
-Template._each_input_master.helpers
-  kab: ->
-    console.log this
+Template._string_input.helpers
+  input_type: ->
+    switch this.key_ty
+      when "_st"
+        return "text"
+      when "_num"
+        return "number"
+      when "_dt"
+        return "date"
+      when "email"
+        return "email"
+      when "phone"
+        return "text"
+      else
+        return "text"
 
 Template._each_input.helpers
   tmpl: ->
@@ -32,18 +56,10 @@ Template._each_input.helpers
       key = DATA.findOne(_s_n: "keys", key_n: this._tri_dis)
       if key?
         switch key.key_ty
-          when "_st"
-            return "_string_input_text"
           when "r_st"
             return "_string_select"
-          when "_num"
-            return "_string_input_number"
-          when "_dt"
-            return "_string_input_date"
-          when "email"
-            return "_string_input_email"
-          when "phone"
-            return "_string_input_text"
+          else
+            return "_string_input"
   tmpl_data: ->
     DATA.findOne(_s_n: "keys", key_n: this._tri_dis)
 
@@ -59,10 +75,21 @@ Template.alpha_form.helpers
   input_element: ->
     HUMAN_FORM.find()
 
+Template._string_select.events
+  'focus .input_select': (e, t) ->
+    t.$('.div_select').addClass('show')
+  'blur .input_select': (e, t) ->
+    t.$('.div_select').removeClass('show')
+
+Template._each_input_master.events
+  'keyup .input_select': (e, t) ->
+    this.__value = e.currentTarget.value
+    te = "input-#{t.data._id}"
+    Session.set(te, e.currentTarget.value)
+
 Template._schema_buttons.events
   'click ._get': (e, t) ->
     if this.on_click
-      console.log this
       obj = {}
       obj._tri = []
       n = 0

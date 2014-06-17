@@ -19,7 +19,7 @@ template(name="_each_input_master")
 
 template(name="_each_input")
   div(class="#{this.class_n} contact_div")
-    span Î
+    span(class="s_liga") Î
     +UI.dynamic template=tmpl data=tmpl_data
 
 
@@ -32,25 +32,17 @@ template(name="_schema_buttons")
 template(name="_key_dis")
   span #{this.key_dis}
 
-template(name="_string_input_email")
-  input(placeholder="#{this.key_dis}", type="email", class="input_ui")
-
-template(name="_string_input_text")
-  input(placeholder="#{this.key_dis}", type="text", class="input_ui")
-
-template(name="_string_input_date")
-  input(placeholder="#{this.key_dis}", type="date", class="input_ui")
-
-template(name="_string_input_number")
-  input(placeholder="#{this.key_dis}", type="number", class="input_ui")
+template(name="_string_input")
+  input(placeholder="#{this.key_dis}", type="#{input_type}", class="input_ui")
 
 template(name="_string_select")
-  select(class="input_ui")
-    each select_options
+  input(type="text", class="input_ui input_select", value="#{select_value}")
+  div(class="div_select")
+    each select_options ../../../../_id
       +_string_select_options
 
 template(name="_string_select_options")
-  option {{h_opt ../key_key}}
+  span(class="input_ui") {{h_opt ../key_key}}
 
 template(name="_a_select_li")
   li

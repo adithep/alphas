@@ -19,7 +19,8 @@ template(name="_each_input_master")
 
 template(name="_each_input")
   div(class="#{this.class_n} contact_div")
-    span(class="s_liga") Î
+    unless this._tri_starting
+      span(class="s_liga") Î
     +UI.dynamic template=tmpl data=tmpl_data
 
 
@@ -38,11 +39,11 @@ template(name="_string_input")
 template(name="_string_select")
   input(type="text", class="input_ui input_select", value="#{select_value}")
   div(class="div_select")
-    each select_options ../../../../_id
+    each select_options
       +_string_select_options
 
 template(name="_string_select_options")
-  span(class="input_ui") {{h_opt ../key_key}}
+  span(class="input_ui") #{h_opt}
 
 template(name="_a_select_li")
   li

@@ -16,9 +16,9 @@
   },
 
   {
-    "_tri_n": "_get_currency_n",
+    "_tri_n": "_get_currency_c",
     "_tri_gr": "_get_service_input",
-    "_tri_dis": "currency_n",
+    "_tri_dis": "currency_c",
     "form_collection": "HUMAN_INPUT",
     "on_submit": "_submit_currency_n"
   },

@@ -3,6 +3,35 @@ CITIES = new Meteor.Collection(null)
 
 _each_dis = undefined
 
+get_input_ty = (key_ty) ->
+  if key_ty?
+    switch key_ty
+      when "_dt"
+        return "date"
+      when "email"
+        return "email"
+      else
+        return "text"
+  else
+    return
+
+human_form_insert = (doc, id) ->
+  key = DATA.findOne(key_n: doc._tri_dis, _s_n: "keys")
+  doc._pid = id
+  for k of key
+    doc[k] = key[k]
+  delete doc._id
+  doc._s_n = "form_el"
+  doc.input_ty = get_input_ty(doc.key_ty)
+  did = HUMAN_FORM.insert(doc)
+  if doc.key_ty is "r_st"
+    DATA.find({_s_n: doc.key_s}, {limit: 5}).forEach (doc) ->
+      doc._s_n = "form_sel"
+      doc._sel_id = did
+      delete doc._id
+      HUMAN_FORM.insert(doc)
+  return
+
 Deps.autorun ->
   if Session.equals("subscription", true)
     h = DATA.find(
@@ -10,16 +39,77 @@ Deps.autorun ->
       , form_collection: "HUMAN_INPUT"
       , _tri_starting: true
     ).forEach (doc) ->
-      tri = {}
-      tri._tri = [doc]
-      HUMAN_FORM.insert(tri)
+      id = HUMAN_FORM.insert(_tri_gr: doc._tri_gr, _s_n: "form_gr")
+      human_form_insert(doc, id)
+
 
 Template._string_select.helpers
+
+  select_value: ->
+    a = DATA.findOne(_s_n: this.key_s)
+    parent = UI._parentData(3)
+    if a?
+      return a[this.key_key]
+    else
+      return
+
+Template._string_select_options.helpers
+  h_opt: ->
+    parent = UI._parentData(1)
+    return this[parent.key_key]
+
+Template._string_input.helpers
+  input_type: ->
+    switch this.key_ty
+      when "_dt"
+        return "date"
+      when "email"
+        return "email"
+      else
+        return "text"
+
+Template._each_input_master.helpers
+  tri_gate: ->
+    HUMAN_FORM.find(_pid: this._id, _s_n: "form_el")
+
+
+
+Template._each_input.helpers
+  class: ->
+    str = ""
+    if this.class_n?
+      str = "#{str} #{this.class_n}"
+    if this.key_ty is "r_st"
+      str = "#{str} input_select"
+    if str?
+      return str
   select_options: ->
-    tmpl = UI._templateInstance()
-    id = tmpl.__component__.guid
-    te = "input-#{id}"
-    text = Session.get(te)
+    HUMAN_FORM.find(_s_n: "form_sel", _sel_id: this._id)
+
+Template._schema_buttons.helpers
+  get_key_dis: ->
+    DATA.find(_s_n: "keys", key_n: this._tri_dis)
+
+Template.alpha_form.helpers
+
+  schema_buttons: ->
+    DATA.find({_s_n: "_tri", _tri_gr: "_get_human_buttons"}, {sort: {sort: 1}})
+
+  input_element: ->
+    HUMAN_FORM.find(_s_n: "form_gr")
+
+Template._each_input.events
+  'click span.s_liga': (e, t) ->
+    HUMAN_FORM.remove($or:[{_id: this._pid}, {_pid: this._pid}])
+
+
+Template._each_input.events
+  'focus .input_select': (e, t) ->
+    t.$('.div_select').addClass('show')
+  'blur .input_select': (e, t) ->
+    t.$('.div_select').removeClass('show')
+  'keyup .input_select': (e, t) ->
+    text = e.currentTarget.value
     if text?
       obj = {}
       obj._s_n = this.key_s
@@ -40,92 +130,28 @@ Template._string_select.helpers
           delete obj[this.key_key]
           arr3 = DATA.find(obj, {limit: len}).fetch()
           arr1 = arr1.concat(arr3)
-          return arr1
-        else
-          return arr1
-      else
-        return arr1
-    else
-      return DATA.find({_s_n: this.key_s}, {limit: 5})
-  select_value: ->
-    tmpl = UI._templateInstance()
-    id = tmpl.__component__.guid
-    te = "input-#{id}"
-    a = DATA.findOne(_s_n: this.key_s)
-    if a?
-      Session.set(te, a[this.key_key])
-      return a[this.key_key]
-    else
-      return
-
-Template._string_select_options.helpers
-  h_opt: ->
-    parent = UI._parentData(1)
-    return this[parent.key_key]
-
-Template._string_input.helpers
-  input_type: ->
-    switch this.key_ty
-      when "_dt"
-        return "date"
-      when "email"
-        return "email"
-      else
-        return "text"
-
-Template._each_input.helpers
-  tmpl: ->
-    if this._tri_dis
-      key = DATA.findOne(_s_n: "keys", key_n: this._tri_dis)
-      if key?
-        switch key.key_ty
-          when "r_st"
-            return "_string_select"
-          else
-            return "_string_input"
-  tmpl_data: ->
-    DATA.findOne(_s_n: "keys", key_n: this._tri_dis)
-
-Template._schema_buttons.helpers
-  get_key_dis: ->
-    DATA.find(_s_n: "keys", key_n: this._tri_dis)
-
-Template.alpha_form.helpers
-
-  schema_buttons: ->
-    DATA.find({_s_n: "_tri", _tri_gr: "_get_human_buttons"}, {sort: {sort: 1}})
-
-  input_element: ->
-    HUMAN_FORM.find()
-
-Template._each_input_master.events
-  'click span.s_liga': (e, t) ->
-    HUMAN_FORM.remove(_id: t.data._id)
-
-Template._string_select.events
-  'focus .input_select': (e, t) ->
-    t.$('.div_select').addClass('show')
-  'blur .input_select': (e, t) ->
-    t.$('.div_select').removeClass('show')
-  'keyup .input_select': (e, t) ->
-
-    a = UI.DomRange.getContainingComponent(e.currentTarget)
-    te = "input-#{a.guid}"
-    Session.set(te, e.currentTarget.value)
+      HUMAN_FORM.remove(_s_n: "form_sel", _sel_id: this._id)
+      if arr1? and arr1.length > 0
+        n = 0
+        while n < arr1.length
+          arr1[n]._s_n = "form_sel"
+          arr1[n]._sel_id = this._id
+          delete arr1[n]._id
+          HUMAN_FORM.insert(arr1[n])
+          n++
 
 Template._schema_buttons.events
   'click ._get': (e, t) ->
     if this.on_click
-      obj = {}
-      obj._tri = []
-      n = 0
-      tri = DATA.find(_s_n: "_tri", _tri_gr: this.on_click).forEach (doc) ->
-        obj._tri[n] = doc
-        n++
-      if obj._tri.length > 1
-        HUMAN_FORM.insert(obj)
-      else if obj._tri.length is 1
-        if HUMAN_FORM.find(_tri: obj._tri).count() > 0
-          HUMAN_FORM.remove(_tri: obj._tri)
+      if DATA.find(_s_n: "_tri", _tri_gr: this.on_click).count() > 1
+        id = HUMAN_FORM.insert(_tri_gr: this.on_click, _s_n: "form_gr")
+        DATA.find(_s_n: "_tri", _tri_gr: this.on_click).forEach (doc) ->
+          human_form_insert(doc, id)
+      else
+        if HUMAN_FORM.find(_s_n: "form_gr", _tri_gr: this.on_click).count() is 0
+          id = HUMAN_FORM.insert(_tri_gr: this.on_click, _s_n: "form_gr")
+          DATA.find(_s_n: "_tri", _tri_gr: this.on_click).forEach (doc) ->
+            human_form_insert(doc, id)
         else
-          HUMAN_FORM.insert(obj)
+          id = HUMAN_FORM.findOne(_s_n: "form_gr", _tri_gr: this.on_click)
+          HUMAN_FORM.remove($or:[{_id: id._id}, {_pid: id._id}])

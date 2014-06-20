@@ -3,6 +3,8 @@
     "_tri_n": "_get_email_ty",
     "_tri_gr": "_get_email_input",
     "_tri_dis": "email_ty",
+    "_tri_key_n_limit": "Main",
+    "_tri_key_limit_count": 1,
     "form_collection": "HUMAN_INPUT",
     "on_submit": "_submit_email_ty"
   },

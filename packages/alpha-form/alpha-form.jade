@@ -14,15 +14,17 @@ template(name="alpha_form")
 
 template(name="_each_input_master")
   div(class="_each_input_master")
-    each this._tri
+    each tri_gate
       +_each_input
 
 template(name="_each_input")
-  div(class="#{this.class_n} contact_div")
+  div(class="contact_div")
     unless this._tri_starting
       span(class="s_liga") Î
-    +UI.dynamic template=tmpl data=tmpl_data
-
+    input(placeholder="#{this.key_dis}", type="#{this.input_ty}", class="#{class} input_ui")
+    div(class="div_select")
+      each select_options
+        +_string_select_options
 
 template(name="_schema_buttons")
   li(class="#{this.class_n}")

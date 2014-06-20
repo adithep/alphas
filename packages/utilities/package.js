@@ -4,7 +4,7 @@ Package.describe({
 
 Package.on_use(function (api, where) {
   api.use(['core-lib', 'coffeescript']);
-  api.add_files(['phoneformat.js', 'emailformat.coffee'], ['client', 'server']);
+  api.add_files(['phoneformat.js', 'emailformat.coffee', 'fuzzy-search.js'], ['client', 'server']);
 });
 
 Package.on_test(function (api) {

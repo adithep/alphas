@@ -21,7 +21,7 @@ template(name="_each_input")
   div(class="contact_div")
     unless this._tri_starting
       span(class="s_liga") Î
-    input(placeholder="#{this.key_dis}", type="#{this.input_ty}", class="#{class} input_ui")
+    input(placeholder="#{this.key_dis}", type="#{this.input_ty}", class="#{class} input_ui", value="#{select_value}")
     div(class="div_select")
       each select_options
         +_string_select_options
@@ -45,7 +45,7 @@ template(name="_string_select")
       +_string_select_options
 
 template(name="_string_select_options")
-  span(class="input_ui") #{h_opt}
+  span(class="input_ui select_option #{this.class}") #{h_opt}
 
 template(name="_a_select_li")
   li

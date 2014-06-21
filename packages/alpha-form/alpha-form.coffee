@@ -33,8 +33,7 @@ human_form_insert = (doc, id) ->
 human_form_insert_select = (doc, id, sort) ->
   doc._s_n = "form_sel"
   doc._sel_id = id
-  if sort
-    doc._sort = sort
+  doc.sort = sort
   delete doc._id
   HUMAN_FORM.insert(doc)
 
@@ -90,12 +89,15 @@ Template._each_input.helpers
     if str?
       return str
   select_options: ->
-    HUMAN_FORM.find(_s_n: "form_sel", _sel_id: @_id)
+    HUMAN_FORM.find({_s_n: "form_sel", _sel_id: @_id}, {sort: {sort: 0}})
   select_value: ->
     if @_v
       return @_v
     else if not @_v?
-      a = HUMAN_FORM.findOne(_s_n: "form_sel", _sel_id: @_id)
+      a = HUMAN_FORM.findOne({
+        _s_n: "form_sel"
+        , _sel_id: @_id
+        , sort: 0})
       if a
         return a[@key_key]
 
@@ -120,15 +122,23 @@ Template._each_input.events
   'click span.s_liga': (e, t) ->
     HUMAN_FORM.remove($or:[{_id: @_pid}, {_pid: @_pid}])
   'mouseenter span.select_option': (e, t) ->
-    t.$(e.currentTarget).addClass("glow")
-  'mouseleave span.select_option': (e, t) ->
-    t.$(e.currentTarget).removeClass("glow")
+    if not @class or @class isnt "glow"
+      HUMAN_FORM.update({
+        _s_n: "form_sel"
+        , _sel_id: @_sel_id}, {$unset: {class: ""}}, {multi: true})
+      HUMAN_FORM.update({
+        _s_n: "form_sel"
+        , _id: @_id}, {$set: {class: "glow"}})
   'mouseenter .div_select': (e, t) ->
     if t.$('.div_select').hasClass('show')
       t.$('.div_select').addClass('kash')
   'mouseleave .div_select': (e, t) ->
     t.$('.div_select').removeClass('kash')
   'focus .input_select': (e, t) ->
+    a = ->
+      e.currentTarget.select()
+    Meteor.setTimeout(a, 20)
+
     t.$('.div_select').addClass('show')
 
   'blur .input_select': (e, t) ->
@@ -145,60 +155,127 @@ Template._each_input.events
           HUMAN_FORM.update({_id: @_id}, {$set: {_v: ""}})
 
   'keyup input.input_select': (e, t) ->
-    if e.which is 38
-      if HUMAN_FORM.find(_s_n: "form_sel", _sel_id: @_id, class: "glow").count() is 0
-        a = HUMAN_FORM.update({_s_n: "form_sel", _sel_id: @_id}, {$set: {class: "glow"}})
-        console.log HUMAN_FORM.find(_s_n: "form_sel", _sel_id: @_id, class: "glow").count()
+    if e.which is 13
+      one = HUMAN_FORM.findOne(
+        _s_n: "form_sel"
+        , _sel_id: @_id
+        , class: "glow")
+      if one
+        HUMAN_FORM.update({_id: @_id}, {$set: {_v: one[@key_key]}})
+        t.$('.div_select').removeClass('show')
       else
-        a = HUMAN_FORM.update({_s_n: "form_sel", _sel_id: @_id, class: "glow"}, {$unset: {class: ""}})
-        console.log a
+        sen = HUMAN_FORM.findOne(_s_n: "form_sel", _sel_id: @_id)
+        if sen
+          HUMAN_FORM.update({_id: @_id}, {$set: {_v: sen[@key_key]}})
+          t.$('.div_select').removeClass('show')
+    else
+      if not t.$('.div_select').hasClass('show')
+        t.$('.div_select').addClass('show')
+      if e.which is 38
+        if HUMAN_FORM.find(
+          _s_n: "form_sel"
+          , _sel_id: @_id
+          , class: "glow").count() is 0
+          HUMAN_FORM.update({
+            _s_n: "form_sel"
+            , _sel_id: @_id}, {$set: {class: "glow"}})
+        else
+          one = HUMAN_FORM.findOne({
+            _s_n: "form_sel"
+            , _sel_id: @_id
+            , class: "glow"})
+          HUMAN_FORM.update({_id: one._id}, {$unset: {class: ""}})
+          s = one.sort - 1
+          if s isnt -1
+            up = HUMAN_FORM.update({
+              _s_n: "form_sel"
+              , _sel_id: @_id
+              , sort: s}, {$set: {class: "glow"}})
+            if up is 0
+              HUMAN_FORM.update({
+                _s_n: "form_sel"
+                , _sel_id: @_id}, {$set: {class: "glow"}})
+          else
+            down = HUMAN_FORM.findOne({
+              _s_n: "form_sel"
+              , _sel_id: @_id}, {sort: {sort: -1}})
+            HUMAN_FORM.update({
+              _id: down._id}, {$set: {class: "glow"}})
 
-    if e.which is 40
-      console.log "hello"
+      else if e.which is 40
+        if HUMAN_FORM.find(
+          _s_n: "form_sel"
+          , _sel_id: @_id
+          , class: "glow").count() is 0
+          HUMAN_FORM.update({
+            _s_n: "form_sel"
+            , _sel_id: @_id}, {$set: {class: "glow"}})
+        else
+          one = HUMAN_FORM.findOne({
+            _s_n: "form_sel"
+            , _sel_id: @_id
+            , class: "glow"})
+          HUMAN_FORM.update({_id: one._id}, {$unset: {class: ""}})
+          s = one.sort + 1
+          if s < 6
+            down = HUMAN_FORM.update({
+              _s_n: "form_sel"
+              , _sel_id: @_id
+              , sort: s}, {$set: {class: "glow"}})
+            if down is 0
+              HUMAN_FORM.update({
+                _s_n: "form_sel"
+                , _sel_id: @_id}, {$set: {class: "glow"}})
+          else
+            up = HUMAN_FORM.findOne({
+              _s_n: "form_sel"
+              , _sel_id: @_id}, {sort: {sort: 1}})
+            HUMAN_FORM.update({
+              _id: down._id}, {$set: {class: "glow"}})
+      else
+        text = e.currentTarget.value
+        if text?
+          obj = {}
+          obj._s_n = @key_s
+          ids = []
+          idn = 0
+          n = 0
+          obj[@key_key] = { $regex: text, $options: 'i' }
+          HUMAN_FORM.remove(_s_n: "form_sel", _sel_id: @_id)
 
-    text = e.currentTarget.value
-    if text?
-      obj = {}
-      obj._s_n = @key_s
-      ids = []
-      idn = 0
-      n = 0
-      obj[@key_key] = { $regex: text, $options: 'i' }
-      HUMAN_FORM.remove(_s_n: "form_sel", _sel_id: @_id)
-
-      len = 5 - ids.length
-      DATA.find(obj, {limit: len}).forEach (doc) =>
-        ids[idn++] = doc._id
-        human_form_insert_select(doc, @_id, n++)
-
-      if ids.length < 5
-        cur = DATA.find(_s_n: @key_s)
-        word = utilities.most_similar_string(cur, @key_key, text, -1, false)
-        if word
-          if ids.indexOf(word._id) is -1
-            ids[idn++] = word._id
-            word._s_n = "form_sel"
-            word._sel_id = @_id
-            word.sort = n++
-            delete word._id
-            HUMAN_FORM.insert(word)
-        if ids.length < 5
           len = 5 - ids.length
-          str_l = text.length
-          first_c = "^#{text.substr(0,1)}"
-          obj[@key_key] = { $regex: first_c, $options: 'i' }
-          obj._id = {$nin: ids}
           DATA.find(obj, {limit: len}).forEach (doc) =>
             ids[idn++] = doc._id
             human_form_insert_select(doc, @_id, n++)
+
           if ids.length < 5
-            len = 5 - ids.length
-            obj._id = {$nin: ids}
-            delete obj[@key_key]
-            DATA.find(obj, {limit: len}).forEach (doc) =>
-              ids[idn++] = doc._id
-              human_form_insert_select(doc, @_id, n++)
-      HUMAN_FORM.update({_id: @_id}, {$set: {_v: e.currentTarget.value}})
+            cur = DATA.find(_s_n: @key_s)
+            word = utilities.most_similar_string(cur, @key_key, text, -1, false)
+            if word
+              if ids.indexOf(word._id) is -1
+                ids[idn++] = word._id
+                word._s_n = "form_sel"
+                word._sel_id = @_id
+                word.sort = n++
+                delete word._id
+                HUMAN_FORM.insert(word)
+            if ids.length < 5
+              len = 5 - ids.length
+              str_l = text.length
+              first_c = "^#{text.substr(0,1)}"
+              obj[@key_key] = { $regex: first_c, $options: 'i' }
+              obj._id = {$nin: ids}
+              DATA.find(obj, {limit: len}).forEach (doc) =>
+                ids[idn++] = doc._id
+                human_form_insert_select(doc, @_id, n++)
+              if ids.length < 5
+                len = 5 - ids.length
+                obj._id = {$nin: ids}
+                delete obj[@key_key]
+                DATA.find(obj, {limit: len}).forEach (doc) =>
+                  ids[idn++] = doc._id
+                  human_form_insert_select(doc, @_id, n++)
+          HUMAN_FORM.update({_id: @_id}, {$set: {_v: e.currentTarget.value}})
 
 Template._schema_buttons.events
   'click ._get': (e, t) ->

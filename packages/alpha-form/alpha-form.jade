@@ -22,7 +22,7 @@ template(name="_each_input")
     unless this._tri_starting
       span(class="s_liga") Î
     input(placeholder="#{this.key_dis}", type="#{this.input_ty}", class="#{class} input_ui", value="#{select_value}")
-    div(class="div_select")
+    div(class="div_select #{this.select_class}")
       each select_options
         +_string_select_options
 

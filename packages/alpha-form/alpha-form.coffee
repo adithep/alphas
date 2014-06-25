@@ -38,13 +38,18 @@
     lim = 5
     ids = []
   DATA.find(obj, {limit: lim}).forEach (doc) ->
-    doc._s_n = "form_sel"
-    doc._sel_id = id
-    doc.sort = k
-    ids[k] = doc._id
-    delete doc._id
-    HUMAN_FORM.insert(doc)
+    ids = human_form_insert_select_one(doc, id, ids, k)
     k++
+  return ids
+
+@human_form_insert_select_one = (doc, id, ids, k) ->
+  doc._s_n = "form_sel"
+  doc._sel_id = id
+  doc.sort = k
+  doc._vid = doc._id
+  ids[k] = doc._id
+  delete doc._id
+  HUMAN_FORM.insert(doc)
   return ids
 
 Deps.autorun ->

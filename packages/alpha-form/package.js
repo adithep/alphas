@@ -13,7 +13,7 @@ Package.on_use(function (api, where) {
     'jquery',
     'layout']);
   api.add_files([
-    'alpha-form.jade',
+    'alpha-form.html',
     'alpha-form.coffee',
     'form-helpers.coffee',
     'form-events.coffee',

@@ -19,7 +19,7 @@ Template._each_input.events
         , _id: @_id}, {$set: {class: "glow"}})
 
   'mouseenter .div_select': (e, t) ->
-    if t.$('.div_select').hasClass('show')
+    if @select_class and @select_class is "show"
       HUMAN_FORM.update({_id: @_id}, {$set: {mov: true}})
 
   'mouseleave .div_select': (e, t) ->
@@ -55,6 +55,7 @@ Template._each_input.events
 Template._schema_buttons.events
 
   'click ._get': (e, t) ->
+    console.log $(e.currentTarget)
     if @on_click
       if DATA.find(_s_n: "_tri", _tri_gr: @on_click).count() > 1
         id = HUMAN_FORM.insert(_tri_gr: @on_click, _s_n: "form_gr")

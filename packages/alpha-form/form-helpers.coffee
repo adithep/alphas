@@ -1,27 +1,9 @@
-Template._string_select.helpers
 
-  select_value: ->
-    a = DATA.findOne(_s_n: @key_s)
-    parent = UI._parentData(3)
-    if a?
-      return a[@key_key]
-    else
-      return
 
 Template._string_select_options.helpers
   h_opt: ->
     parent = UI._parentData(1)
-    return this[parent.key_key]
-
-Template._string_input.helpers
-  input_type: ->
-    switch @key_ty
-      when "_dt"
-        return "date"
-      when "email"
-        return "email"
-      else
-        return "text"
+    return @[parent.key_key]
 
 Template._each_input_master.helpers
   tri_gate: ->
@@ -56,6 +38,8 @@ Template._each_input.helpers
 Template._schema_buttons.helpers
   get_key_dis: ->
     DATA.find(_s_n: "keys", key_n: @_tri_dis)
+  attrs: ->
+    return {class: @class_n}
 
 Template.alpha_form.helpers
 

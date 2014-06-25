@@ -6,6 +6,7 @@
     "_tri_dis": "middle_n",
     "on_click": "_get_middle_n",
     "class_n": "_get",
+    "_attrs": [{"class": "_get"}],
     "sort": 1
   },
 
@@ -14,6 +15,7 @@
     "_tri_gr": "_get_human_buttons",
     "_tri_dis": "last_n",
     "on_click": "_get_last_n",
+    "_btn_attrs": {"class": "_get"},
     "class_n": "_get",
     "sort": 2
   },
@@ -23,6 +25,7 @@
     "_tri_gr": "_get_human_buttons",
     "_tri_dis": "_dt_of_birth",
     "on_click": "_get_dt_of_birth",
+    "_btn_attrs": {"class": "_get"},
     "class_n": "_get",
     "sort": 3
   },
@@ -32,6 +35,7 @@
     "_tri_gr": "_get_human_buttons",
     "_tri_dis": "email_ad",
     "on_click": "_get_email_input",
+    "_btn_attrs": {"class": "_get"},
     "class_n": "_get",
     "sort": 4
   },

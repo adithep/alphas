@@ -1,5 +1,5 @@
 Template._each_input.events
-  'keyup input.input_select': (e, t) ->
+  'keyup .input_select': (e, t) ->
     if e.which is 13
       one = HUMAN_FORM.findOne(
         _s_n: "form_sel"
@@ -107,15 +107,9 @@ Template._each_input.events
                 -1
                 false
               )
-              if word
-                if ids.indexOf(word._id) is -1
-                  ids.push(word._id)
-                  wen = ids.length - 1
-                  word._s_n = "form_sel"
-                  word._sel_id = @_id
-                  word.sort = wen
-                  delete word._id
-                  HUMAN_FORM.insert(word)
+              if word and ids.indexOf(word._id) is -1
+                wen = ids.length
+                ids = human_form_insert_select_one(word, @_id, ids, wen)
               if ids.length < 5
                 str_l = text.length
                 first_c = "^#{text.substr(0,1)}"

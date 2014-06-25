@@ -1,0 +1,61 @@
+<template name="_schema_buttons">
+  <li {{attrs}}>
+    <a>
+      {{#each get_key_dis}}
+        {{>_key_dis}}
+      {{/each}}
+    </a>
+  </li>
+</template>
+
+<template name="alpha_form">
+
+  <a class="save_human_json right">Save Json</a>
+
+  <nav class="form_nav">
+    <ul>
+      {{#each schema_buttons}}
+        {{>_schema_buttons}}
+      {{/each}}
+    </ul>
+  </nav>
+
+  <form class="contact_form">
+    {{#each input_element}}
+      {{>_each_input_master}}
+    {{/each}}
+    <br>
+    <a class="form_submit">Submit</a>
+  </form>
+
+</template>
+
+<template name="_each_input_master">
+  <div class="_each_input_master">
+    {{#each tri_gate}}
+      {{>_each_input}}
+    {{/each}}
+  </div>
+</template>
+
+<template name="_each_input">
+  <div class="contact_div">
+    {{#unless this._tri_starting}}
+      <span class="s_liga">Î</span>
+    {{/unless}}
+    <input type="{{this.input_ty}}" placeholder="{{this.key_dis}}" class="{{class}} input_ui" value="{{select_value}}">
+    <div class="div_select {{this.select_class}}">
+      {{#each select_options}}
+        {{>_string_select_options}}
+      {{/each}}
+    </div>
+  </div>
+</template>
+
+<template name="_key_dis">
+  <span>{{this.key_dis}}</span>
+</template>
+
+<template name="_string_select_options">
+  <span class="input_ui select_option {{this.class}}">{{h_opt}}</span>
+</template>

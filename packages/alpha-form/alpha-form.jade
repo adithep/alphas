@@ -26,12 +26,6 @@ template(name="_each_input")
       each select_options
         +_string_select_options
 
-template(name="_schema_buttons")
-  li(class="#{this.class_n}")
-    a
-      each get_key_dis
-        +_key_dis
-
 template(name="_key_dis")
   span #{this.key_dis}
 

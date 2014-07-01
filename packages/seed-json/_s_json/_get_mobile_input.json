@@ -3,15 +3,18 @@
     "_tri_n": "_get_mobile_ty",
     "_tri_gr": "_get_mobile_input",
     "_tri_dis": "mobile_ty",
-    "form_collection": "HUMAN_INPUT",
-    "on_submit": "_submit_mobile_ty"
+    "_tri_ty": "input",
+    "on_submit": "_submit_mobile_ty",
+    "sort": 0
   },
 
   {
     "_tri_n": "_get_mobile_num",
     "_tri_gr": "_get_mobile_input",
     "_tri_dis": "mobile_num",
-    "form_collection": "HUMAN_INPUT",
-    "on_submit": "_submit_mobile_num"
+    "_tri_ty": "input",
+    "span_attrs": {"class": "s_liga"},
+    "on_submit": "_submit_mobile_num",
+    "sort": 1
   }
 ]

@@ -1,0 +1,34 @@
+[
+  {
+    "input_form_n": "human_input",
+    "input_form_btn": [
+      "_btn_middle_n",
+      "_btn_last_n",
+      "_btn_dt_of_birth",
+      "_btn_email_ad",
+      "_btn_mobile_num",
+      "_btn_city_n",
+      "_btn_country_n",
+      "_btn_service_n"
+    ],
+    "input_form_input_starting": [
+      "_get_title_n",
+      "_get_first_n"
+    ]
+  },
+
+  {
+    "input_form_n": "company_input",
+    "input_form_btn": [
+      "_btn_dt_registered",
+      "_btn_email_ad",
+      "_btn_mobile_num",
+      "_btn_city_n",
+      "_btn_country_n",
+      "_btn_service_n"
+    ],
+    "input_form_input_starting": [
+      "_get_company_n"
+    ]
+  }
+]

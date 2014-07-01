@@ -126,6 +126,26 @@
   },
 
   {
+    "key_n": "input_form_n",
+    "key_ty": "r_st",
+    "key_s": "input_forms",
+    "key_key": "input_form_n",
+    "key_dis": "Input Form Name"
+  },
+
+  {
+    "key_n": "input_form_btn",
+    "key_ty": "_arr",
+    "key_dis": "Input Form Buttons"
+  },
+
+  {
+    "key_n": "input_form_input_starting",
+    "key_ty": "_arr",
+    "key_dis": "Input Form Starting Input"
+  },
+
+  {
     "key_n": "_ctl_s_n",
     "key_ty": "r_st",
     "key_s": "_tri",
@@ -170,6 +190,12 @@
   },
 
   {
+    "key_n": "company_n",
+    "key_ty": "_st",
+    "key_dis": "Company Name"
+  },
+
+  {
     "key_n": "first_n",
     "key_ty": "_st",
     "key_dis": "First Name"
@@ -191,6 +217,12 @@
     "key_n": "_dt_of_birth",
     "key_ty": "_dt",
     "key_dis": "Date of Birth"
+  },
+
+  {
+    "key_n": "_dt_registered",
+    "key_ty": "_dt",
+    "key_dis": "Date Registered"
   },
 
   {

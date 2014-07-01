@@ -3,31 +3,36 @@
     "_tri_n": "_get_dte_of_entry",
     "_tri_gr": "_get_service_input",
     "_tri_dis": "_dt_of_entry",
-    "form_collection": "HUMAN_INPUT",
-    "on_submit": "_submit_dte_of_entry"
+    "_tri_ty": "input",
+    "on_submit": "_submit_dte_of_entry",
+    "sort": 0
   },
 
   {
     "_tri_n": "_get_service_n",
     "_tri_gr": "_get_service_input",
     "_tri_dis": "service_n",
-    "form_collection": "HUMAN_INPUT",
-    "on_submit": "_submit_service_n"
+    "_tri_ty": "input",
+    "on_submit": "_submit_service_n",
+    "sort": 1
   },
 
   {
     "_tri_n": "_get_currency_c",
     "_tri_gr": "_get_service_input",
     "_tri_dis": "currency_c",
-    "form_collection": "HUMAN_INPUT",
-    "on_submit": "_submit_currency_n"
+    "_tri_ty": "input",
+    "on_submit": "_submit_currency_n",
+    "sort": 2
   },
 
   {
     "_tri_n": "_get_cost",
     "_tri_gr": "_get_service_input",
     "_tri_dis": "cost",
-    "form_collection": "HUMAN_INPUT",
-    "on_submit": "_submit_cost"
+    "_tri_ty": "input",
+    "span_attrs": {"class": "s_liga"},
+    "on_submit": "_submit_cost",
+    "sort": 3
   }
 ]

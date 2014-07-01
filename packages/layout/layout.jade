@@ -27,8 +27,12 @@ template(name="layout")
       li
         a(href="#", class="logout") `
   div(id="content")
-    +alpha_yield
+    +a_yield
 
 template(name="sorry_man")
   h1 Nothing found on this address... Ahghhhhhhh What to do, what to do?
   p I am so afraid...
+
+template(name="a_yield")
+  each t_yield
+    +t_data

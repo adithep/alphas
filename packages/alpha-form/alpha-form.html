@@ -8,11 +8,9 @@
   </li>
 </template>
 
-<template name="alpha_form">
+<template name="button_list">
 
-  <a class="save_human_json right">Save Json</a>
-
-  <nav class="form_nav">
+  <nav {{nav_attrs}}>
     <ul>
       {{#each schema_buttons}}
         {{>_schema_buttons}}
@@ -20,12 +18,15 @@
     </ul>
   </nav>
 
-  <form class="contact_form">
+</template>
+
+<template name="insert_form">
+  <form {{form_attrs}}>
     {{#each input_element}}
       {{>_each_input_master}}
     {{/each}}
     <br>
-    <a class="form_submit">Submit</a>
+    <a {{submit_attrs}}>Submit</a>
   </form>
 
 </template>
@@ -40,9 +41,9 @@
 
 <template name="_each_input">
   <div class="contact_div">
-    {{#unless this._tri_starting}}
+    {{#if this._tri_close}}
       <span class="s_liga">Î</span>
-    {{/unless}}
+    {{/if}}
     <input type="{{this.input_ty}}" placeholder="{{this.key_dis}}" class="{{class}} input_ui" value="{{select_value}}">
     <div class="div_select {{this.select_class}}">
       {{#each select_options}}

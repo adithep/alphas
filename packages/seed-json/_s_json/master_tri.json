@@ -2,35 +2,37 @@
 
   {
     "_tri_n": "_get_input_form",
-    "_tri_gr": "_get_input_form",
     "_tri_dis": "input_form_n",
     "on_select": "select_input_form",
     "_tri_ty": "input",
-    "sort": 0
+    "_tri_available": "all",
+    "_tri_grs": {
+      "from_gr": {
+        "sort": 0
+      }
+    }
   },
 
   {
     "_tri_n": "insert_button_list",
-    "_tri_gr": "insert_button_list",
     "_tri_ty": "button_list",
-    "sort": 1
+    "_tri_available": "all",
+    "_tri_grs": {
+      "from_gr": {
+        "sort": 1
+      }
+    }
   },
 
   {
     "_tri_n": "insert_input_form",
-    "_tri_gr": "insert_input_form",
     "_tri_ty": "insert_form",
-    "sort": 2
-  },
-
-  {
-    "_tri_n": "select_input_form",
-    "_tri_gr": "select_input_form",
-    "_tri_key_s": "input_forms",
-    "_tri_write_key": "_btn_list",
-    "_tri_write_key_from": "input_form_btn",
-    "_tri_insert_local_element": "input_form_input_starting",
-    "_tri_ty": "_tri_select",
+    "_tri_available": "all",
+    "_tri_grs": {
+      "from_gr": {
+        "sort": 2
+      }
+    }
   }
 
 

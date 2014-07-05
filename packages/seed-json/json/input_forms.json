@@ -12,8 +12,8 @@
       "_btn_service_n"
     ],
     "input_form_input_starting": [
-      "_get_title_n",
-      "_get_first_n"
+      "input_title_n_gr",
+      "input_first_n_gr"
     ]
   },
 
@@ -28,7 +28,7 @@
       "_btn_service_n"
     ],
     "input_form_input_starting": [
-      "_get_company_n"
+      "input_company_n_gr"
     ]
   }
 ]

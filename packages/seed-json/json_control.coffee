@@ -24,6 +24,40 @@ class JS
             , schema._s_n_for)
     return
 
+  _tri_insert: (ejson, schema_n) ->
+    forms = EJSON.parse(Assets.getText('input_forms.json'))
+    n = 0
+    while n < ejson.length
+      if _tri_defaults[ejson[n].tri_ty]?
+        def = _tri_defaults[ejson[n].tri_ty]
+        for key of def
+          if not ejson[n][key]
+            ejson[n][key] = def[key]
+          else
+            for akey of def[key]
+              if not ejson[n][key][akey]
+                ejson[n][key][akey] = def[key][akey]
+              else
+                if akey is "class"
+                  ejson[n][key][akey] = "#{ejson[n][key][akey]} #{def[key][akey]}"
+      if ejson[n]._tri_dis
+        tkey = DATA.findOne(_s_n: "keys", key_n: ejson[n]._tri_dis)
+        if tkey?
+          tkey.kid = tkey.id
+          delete tkey.id
+          delete tkey.key_n
+          for key of tkey
+            ejson[n][key] = tkey[key]
+        else
+          console.log "cannot find key
+            #{ejson[n]._tri_dis}
+            of #{ejson[n]._tri_n}"
+      ejson[n]._s_n = schema_n
+      ejson[n]._dt = new Date()
+      ejson[n]._usr = "root"
+      DATA.insert(ejson[n])
+      n++
+
   dirty_insert: (ejson, schema_n) ->
     n = 0
     while n < ejson.length
@@ -107,10 +141,10 @@ class JS
     if key
       switch key.key_ty
         when "_st"
-          if String(value) isnt ""
+          if typeof value is "string" and String(value) isnt ""
             return String(value)
         when "_num"
-          if Number(value) isnt NaN
+          if typeof value is "number" and Number(value) isnt NaN
             return Number(value)
         when "r_st"
           if key.key_s is schema

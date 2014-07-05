@@ -1,0 +1,34 @@
+[
+  {
+    "_tri_n": "select_key_country",
+    "_tri_available": "all",
+    "_tri_select_key": "country_n",
+    "_tri_select_key_from": "city_n",
+    "_tri_select_tri": "input_country_n",
+    "_tri_ty": "_tri_select"
+  },
+
+  {
+    "_tri_n": "limit_key_city",
+    "_tri_available": "all",
+    "_tri_limit_key": "city_n",
+    "_tri_ty": "_tri_limit",
+    "_tri_select_key_from": "country_n",
+    "_tri_select_tri": "input_city_n"
+  },
+
+  {
+    "_tri_n": "write_key",
+    "_tri_available": "all",
+    "_tri_write_key_n": "_btn_list",
+    "_tri_write_key_from": "input_form_btn",
+    "_tri_ty": "_tri_write_key"
+  },
+
+  {
+    "_tri_n": "insert_local_element",
+    "_tri_available": "all",
+    "_tri_insert_local_element": "input_form_input_starting",
+    "_tri_ty": "_tri_write_key"
+  }
+]

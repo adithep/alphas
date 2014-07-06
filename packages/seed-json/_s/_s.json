@@ -300,14 +300,24 @@
   },
 
   {
+    "_s_n_for": "tags",
+    "_s_n": "_s",
+    "json": "json/tags.json",
+    "_s_keys": [
+      "tag_n",
+      "_dt",
+      "_usr"
+    ]
+  },
+
+  {
     "_s_n_for": "_tri",
     "_s_n": "_s",
     "json": [
-      "_s_json/_get_human_btn.json",
-      "_s_json/_get_human_input.json",
-      "_s_json/_get_service_input.json",
-      "_s_json/_get_mobile_input.json",
-      "_s_json/_get_email_input.json"
+      "_s_json/_tri_btn.json",
+      "_s_json/_tri_input.json",
+      "_s_json/_tri.json",
+      "_s_json/master_tri.json"
     ],
     "_s_keys": [
       "_tri_n",
@@ -327,16 +337,6 @@
       "_dt",
       "_usr"
     ]
-  },
-
-  {
-    "_s_n_for": "tags",
-    "_s_n": "_s",
-    "json": "json/tags.json",
-    "_s_keys": [
-      "tag_n",
-      "_dt",
-      "_usr"
-    ]
   }
+
 ]

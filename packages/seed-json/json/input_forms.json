@@ -1,34 +1,11 @@
 [
   {
     "input_form_n": "human_input",
-    "input_form_btn": [
-      "_btn_middle_n",
-      "_btn_last_n",
-      "_btn_dt_of_birth",
-      "_btn_email_ad",
-      "_btn_mobile_num",
-      "_btn_city_n",
-      "_btn_country_n",
-      "_btn_service_n"
-    ],
-    "input_form_input_starting": [
-      "input_title_n_gr",
-      "input_first_n_gr"
-    ]
+    "input_form_gr": "human_form_gr"
   },
 
   {
     "input_form_n": "company_input",
-    "input_form_btn": [
-      "_btn_dt_registered",
-      "_btn_email_ad",
-      "_btn_mobile_num",
-      "_btn_city_n",
-      "_btn_country_n",
-      "_btn_service_n"
-    ],
-    "input_form_input_starting": [
-      "input_company_n_gr"
-    ]
+    "input_form_gr": "company_form_gr"
   }
 ]

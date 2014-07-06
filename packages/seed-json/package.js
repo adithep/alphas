@@ -27,14 +27,12 @@ Package.on_use(function (api, where) {
     'json/_alt_emails.json',
     'json/companies.json',
     'json/input_forms.json',
-    '_s_json/tri_defaults.json',
+    '_s_json/_tri_defaults.json',
     '_s_json/master_tri.json',
-    '_s_json/_get_human_btn.json',
-    '_s_json/_get_human_input.json',
-    '_s_json/_get_service_input.json',
-    '_s_json/_get_mobile_input.json',
-    '_s_json/_get_email_input.json'], 'server', {isAsset: true});
-  api.add_files('json_control.coffee', 'server');
+    '_s_json/_tri_btn.json',
+    '_s_json/_tri_input.json',
+    '_s_json/_tri.json'], 'server', {isAsset: true});
+  api.add_files(['json_control.coffee', '_tri_defaults.js'], 'server');
 });
 
 Package.on_test(function (api) {

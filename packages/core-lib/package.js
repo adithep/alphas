@@ -4,6 +4,7 @@ Package.describe({
 
 Package.on_use(function (api, where) {
   api.add_files(['namespace.js'], ['client', 'server']);
+  api.add_files('namespace_client.js', 'client');
   api.export([
     'get_sid',
     'get_kid',
@@ -11,6 +12,8 @@ Package.on_use(function (api, where) {
     'fill_sid',
     'json_control',
     'DATA',
+    'ODATA',
+    'LDATA',
     'phone_format',
     'email_format',
     'subscription',

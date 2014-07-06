@@ -134,8 +134,10 @@
   },
 
   {
-    "key_n": "input_form_btn",
-    "key_ty": "_arr",
+    "key_n": "input_form_gr",
+    "key_ty": "r_gr_st",
+    "key_s": "_tri",
+    "key_key": "_tri_grs",
     "key_dis": "Input Form Buttons"
   },
 

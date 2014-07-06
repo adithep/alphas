@@ -18,7 +18,7 @@ template(name="layout")
       h1 αSΨS
     ul
       li
-        a(href="/alpha_form") Insert
+        a(href="/form_gr") Insert
       li
         a Display
     ul(class="right user")
@@ -27,12 +27,10 @@ template(name="layout")
       li
         a(href="#", class="logout") `
   div(id="content")
-    +a_yield
+    each t_yield
+      each t_data
+        +t_tem
 
 template(name="sorry_man")
   h1 Nothing found on this address... Ahghhhhhhh What to do, what to do?
   p I am so afraid...
-
-template(name="a_yield")
-  each t_yield
-    +t_data

@@ -17,6 +17,8 @@ class JS
         DATA.remove(_s_n: schema_n)
         if schema_n in ["keys", "_s"]
           @dirty_insert(ejson, schema_n)
+        else if schema_n is "_tri"
+          @_tri_insert(ejson, schema_n)
         else
           @sanitized_insert(
             schema._s_keys
@@ -25,7 +27,7 @@ class JS
     return
 
   _tri_insert: (ejson, schema_n) ->
-    forms = EJSON.parse(Assets.getText('input_forms.json'))
+    console.log "seeding #{schema_n}"
     n = 0
     while n < ejson.length
       if _tri_defaults[ejson[n].tri_ty]?
@@ -43,8 +45,8 @@ class JS
       if ejson[n]._tri_dis
         tkey = DATA.findOne(_s_n: "keys", key_n: ejson[n]._tri_dis)
         if tkey?
-          tkey.kid = tkey.id
-          delete tkey.id
+          tkey.kid = tkey._id
+          delete tkey._id
           delete tkey.key_n
           for key of tkey
             ejson[n][key] = tkey[key]
@@ -57,6 +59,8 @@ class JS
       ejson[n]._usr = "root"
       DATA.insert(ejson[n])
       n++
+    console.log "#{schema_n} seeded"
+    return
 
   dirty_insert: (ejson, schema_n) ->
     n = 0
@@ -130,6 +134,8 @@ class JS
           n = 0
           if _s_ejson[_s_n]._s_n_for is "keys"
             @dirty_insert(ejson, "keys")
+          else if _s_ejson[_s_n]._s_n_for is "_tri"
+            @_tri_insert(ejson, "_tri")
           else
             @sanitized_insert(
               _s_ejson[_s_n]._s_keys
@@ -161,6 +167,19 @@ class JS
                 #{key.key_n} for schema
                 #{schema} in database"
               return String(value)
+        when "r_gr_st"
+          obj = {}
+          obj[key.key_key] = {}
+          obj[key.key_key][value] = {$exists: true}
+          obj._s_n = key.key_s
+          if DATA.find(obj).count() is 1
+            return String(value)
+          else
+            console.log "cannot find value
+              #{value} for key
+              #{key.key_n} for schema
+              #{schema} in database"
+            return String(value)
         when "_bl"
           if typeof value is "boolean"
             return value

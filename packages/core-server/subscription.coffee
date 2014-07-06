@@ -5,6 +5,7 @@ Meteor.publish "list", ->
       "countries"
       "titles"
       "currencies"
+      "input_forms"
       "service_n"
       "_tri"
       "tags"

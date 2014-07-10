@@ -30,11 +30,12 @@ class JS
     console.log "seeding #{schema_n}"
     n = 0
     while n < ejson.length
-      if _tri_defaults[ejson[n].tri_ty]?
-        def = _tri_defaults[ejson[n].tri_ty]
+      if _tri_defaults[ejson[n]._tri_ty]?
+        def = _tri_defaults[ejson[n]._tri_ty]
         for key of def
           if not ejson[n][key]
             ejson[n][key] = def[key]
+            console.log ejson[n][key]
           else
             for akey of def[key]
               if not ejson[n][key][akey]
@@ -45,15 +46,25 @@ class JS
       if ejson[n]._tri_dis
         tkey = DATA.findOne(_s_n: "keys", key_n: ejson[n]._tri_dis)
         if tkey?
-          tkey.kid = tkey._id
+          tkey._kid = tkey._id
           delete tkey._id
           delete tkey.key_n
+          delete tkey._s_n
           for key of tkey
             ejson[n][key] = tkey[key]
         else
           console.log "cannot find key
             #{ejson[n]._tri_dis}
             of #{ejson[n]._tri_n}"
+      if ejson[n]._tri_ty is "input"
+        ejson[n].input_attrs.placeholder = ejson[n].key_dis
+        switch ejson[n].key_ty
+          when "date"
+            ejson[n].input_attrs.type = "date"
+          else
+            ejson[n].input_attrs.type = "text"
+      if ejson[n].key_ty is "r_st" and ejson[n]._tri_ty is "input"
+        ejson[n].input_attrs.class = "input_ui input_select"
       ejson[n]._s_n = schema_n
       ejson[n]._dt = new Date()
       ejson[n]._usr = "root"
@@ -168,11 +179,13 @@ class JS
                 #{schema} in database"
               return String(value)
         when "r_gr_st"
+          console.log value
           obj = {}
           obj[key.key_key] = {}
           obj[key.key_key][value] = {$exists: true}
           obj._s_n = key.key_s
           if DATA.find(obj).count() is 1
+            console.log value
             return String(value)
           else
             console.log "cannot find value

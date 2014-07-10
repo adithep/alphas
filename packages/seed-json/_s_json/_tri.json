@@ -18,11 +18,13 @@
   },
 
   {
-    "_tri_n": "write_key",
-    "_tri_available": "all",
-    "_tri_write_key_n": "_btn_list",
-    "_tri_write_key_from": "input_form_btn",
-    "_tri_ty": "_tri_write_key"
+    "_tri_n": "write_form_btn",
+    "_tri_ty": "_tri_write",
+    "_tri_select_key": "input_form_gr",
+    "_tri_write_gr": {
+      "_btn": "input_form_btn",
+      "input": "input_form_input"
+    }
   },
 
   {

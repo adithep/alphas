@@ -29,7 +29,7 @@
 .form_nav a
   color $text-white
 
-.contact_form input.input_ui
+input.input_ui
   width 100%
   padding 5px 20px
   height 35px
@@ -37,21 +37,21 @@
   border-left 1px solid $black
   box-sizing()
 
-.contact_form .contact_div:first-child input.input_ui
+.contact_div:first-child input.input_ui
   border-top-left-radius 20px
   border-bottom-left-radius 20px
   border-left none
 
-.contact_form .contact_div:last-child input.input_ui
+.contact_div:last-child input.input_ui
   border-top-right-radius 20px
   border-bottom-right-radius 20px
 
-.contact_form span.input_ui
+span.input_ui
   display block
   border-top 1px solid $text-white
 
 
-.contact_form div.div_select
+div.div_select
   display inline-block
   visibility hidden
   opacity 0
@@ -62,7 +62,7 @@
   left 20px
   transition(all .2s)
 
-.contact_form div.div_select.show
+div.div_select.show
   visibility visible
   top 35px
   z-index 1
@@ -74,7 +74,7 @@
   margin 20px 0
   center(max_width = 1410px)
 
-.contact_form .input_ui
+.input_ui
   -webkit-font-smoothing antialiased
   outline none
   border none
@@ -84,19 +84,17 @@
   line-height 25px
   resize none
 
-.contact_form ._each_input_master
-  float left
-  margin 5px
-.contact_form .contact_div
+.contact_div
   position relative
-  float left
+  display inline-block
   width 200px
-.contact_form .select_option.glow
+
+.select_option.glow
   text-shadow: 1px 1px 1px black, 0 0 1em blue, 0 0 0.2em blue
-.contact_form span+input
+.contact_div span+input
   padding-left 35px
   margin 0
-.contact_form span.s_liga
+span.s_liga
   display none
   position absolute
   width 25px
@@ -110,18 +108,18 @@
   font-size 20px
   border-radius(50%)
   line-height 27px
-.contact_form .contact_div:last-child span.s_liga
+.contact_div:last-child span.s_liga
   display block
-.contact_form .adropdown
+.adropdown
   display none
   background $brown
   position absolute
 
-.contact_form .adropdown.show
+.adropdown.show
   display block
 
-.contact_form .adropdown a
+.adropdown a
   color $text-white
 
-.contact_form .adropdown li
+.adropdown li
   border-bottom 1px solid $black

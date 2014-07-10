@@ -46,8 +46,7 @@
     "json": "json/input_forms.json",
     "_s_keys": [
       "input_form_n",
-      "input_form_btn",
-      "input_form_input_starting",
+      "input_form_gr",
       "_dt",
       "_usr"
     ]

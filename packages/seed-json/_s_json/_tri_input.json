@@ -4,9 +4,11 @@
     "_tri_grs": {
       "human_form_gr": {
         "starting": true,
+        "local_form_gr": "input_form_input",
         "sort": 0
       },
       "input_title_n_gr": {
+        "local_form_gr": "input_form_input",
         "sort": 0
       }
     },
@@ -21,9 +23,11 @@
     "_tri_grs": {
       "company_form_gr": {
         "starting": true,
+        "local_form_gr": "input_form_input",
         "sort": 0
       },
       "input_company_n_gr": {
+        "local_form_gr": "input_form_input",
         "sort": 0
       }
     },
@@ -38,9 +42,11 @@
     "_tri_grs": {
       "human_form_gr": {
         "starting": true,
+        "local_form_gr": "input_form_input",
         "sort": 1
       },
       "input_first_n_gr": {
+        "local_form_gr": "input_form_input",
         "sort": 0
       }
     },
@@ -54,6 +60,7 @@
     "_tri_n": "input_middle_n",
     "_tri_grs": {
       "input_middle_n_gr": {
+        "local_form_gr": "input_form_input",
         "sort": 0
       }
     },
@@ -67,6 +74,7 @@
     "_tri_n": "input_last_n",
     "_tri_grs": {
       "input_last_n_gr": {
+        "local_form_gr": "input_form_input",
         "sort": 0
       }
     },
@@ -81,6 +89,7 @@
     "_tri_n": "input_dt_registered",
     "_tri_grs": {
       "input_dt_registered_gr": {
+        "local_form_gr": "input_form_input",
         "sort": 0
       }
     },
@@ -95,6 +104,7 @@
     "_tri_n": "input_dt_of_birth",
     "_tri_grs": {
       "input_dt_of_birth_gr": {
+        "local_form_gr": "input_form_input",
         "sort": 0
       }
     },
@@ -109,6 +119,7 @@
     "_tri_n": "input_city_n",
     "_tri_grs": {
       "input_city_n_gr": {
+        "local_form_gr": "input_form_input",
         "sort": 0
       }
     },
@@ -124,6 +135,7 @@
     "_tri_n": "input_country_n",
     "_tri_grs": {
       "input_country_n_gr": {
+        "local_form_gr": "input_form_input",
         "sort": 0
       }
     },
@@ -139,6 +151,7 @@
     "_tri_n": "input_dte_of_entry",
     "_tri_grs": {
       "input_service_gr": {
+        "local_form_gr": "input_form_input",
         "sort": 0
       }
     },
@@ -152,6 +165,7 @@
     "_tri_n": "input_service_n",
     "_tri_grs": {
       "input_service_gr": {
+        "local_form_gr": "input_form_input",
         "sort": 1
       }
     },
@@ -165,6 +179,7 @@
     "_tri_n": "input_currency_c",
     "_tri_grs": {
       "input_service_gr": {
+        "local_form_gr": "input_form_input",
         "sort": 2
       }
     },
@@ -178,6 +193,7 @@
     "_tri_n": "input_cost",
     "_tri_grs": {
       "input_service_gr": {
+        "local_form_gr": "input_form_input",
         "sort": 3
       }
     },
@@ -192,6 +208,7 @@
     "_tri_n": "input_email_ty",
     "_tri_grs": {
       "input_email_gr": {
+        "local_form_gr": "input_form_input",
         "sort": 0
       }
     },
@@ -207,6 +224,7 @@
     "_tri_n": "input_email_ad",
     "_tri_grs": {
       "input_email_gr": {
+        "local_form_gr": "input_form_input",
         "sort": 1
       }
     },
@@ -221,6 +239,7 @@
     "_tri_n": "input_mobile_ty",
     "_tri_grs": {
       "input_mobile_gr": {
+        "local_form_gr": "input_form_input",
         "sort": 0
       }
     },
@@ -234,6 +253,7 @@
     "_tri_n": "input_mobile_num",
     "_tri_grs": {
       "input_mobile_gr": {
+        "local_form_gr": "input_form_input",
         "sort": 1
       }
     },

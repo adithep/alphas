@@ -1,4 +1,6 @@
-Template._each_input.events
+
+
+Template._parent_t.events
 
   'click .select_option': (e, t) ->
     HUMAN_FORM.update(
@@ -29,8 +31,13 @@ Template._each_input.events
     a = ->
       e.currentTarget.select()
     Meteor.setTimeout(a, 20)
-
-    HUMAN_FORM.update({_id: @_id}, {$set: {select_class: "show"}})
+    cl = Session.get("#{t.data._id}_select_class")
+    if not cl
+      cl = "show"
+      Session.set("#{t.data._id}_select_class", cl)
+    else if cl and cl.indexOf("show") is -1
+      cl = cl + " show"
+      Session.set("#{t.data._id}_select_class", cl)
 
   'blur input.input_select': (e, t) ->
     if not @mov

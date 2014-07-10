@@ -1,5 +1,28 @@
+<template name="_t_content">
+  {{#each t_yield}}
+    {{>_parent_t}}
+  {{/each}}
+</template>
+
+<template name="_parent_t">
+  <div {{div_dyn}} class="parent_div {{div_attrs.class}} {{div_class}}">
+    {{#each t_data}}
+      {{> t_tem}}
+    {{/each}}
+  </div>
+</template>
+
+<template name="_option_t">
+  <div {{div_dyn}} class="parent_div {{div_attrs.class}} {{div_class}}">
+    {{#each t_data}}
+      {{> _string_select_options}}
+    {{/each}}
+  </div>
+</template>
+
+
 <template name="_schema_buttons">
-  <li {{attrs}}>
+  <li {{li_dyn}} class="{{li_attrs.class}} {{li_class}}">
     <a>
       {{#each get_key_dis}}
         {{>_key_dis}}
@@ -10,7 +33,7 @@
 
 <template name="button_list">
 
-  <nav {{nav_attrs}}>
+  <nav {{nav_dyn}} class="{{nav_attrs.class}} {{nav_class}}">
     <ul>
       {{#each schema_buttons}}
         {{>_schema_buttons}}
@@ -21,12 +44,12 @@
 </template>
 
 <template name="insert_form">
-  <form {{form_attrs}}>
+  <form {{form_dyn}} class="{{form_attrs.class}} {{form_class}}">
     {{#each input_element}}
       {{>_each_input_master}}
     {{/each}}
     <br>
-    <a {{submit_attrs}}>Submit</a>
+    <a {{submit_dyn}} class="{{submit_attrs.class}} {{submit_class}}">Submit</a>
   </form>
 
 </template>
@@ -40,14 +63,19 @@
 </template>
 
 <template name="_each_input">
-  <div class="contact_div">
-    {{#if this._tri_close}}
-      <span class="s_liga">Î</span>
+  <div {{div_dyn}} class="{{div_attrs.class}} {{div_class}}">
+    {{#if this.span_attrs}}
+      <span {{span_dyn}} class="{{span_attrs.class}} {{span_class}}">Î</span>
     {{/if}}
-    <input type="{{this.input_ty}}" placeholder="{{this.key_dis}}" class="{{class}} input_ui" value="{{select_value}}">
-    <div class="div_select {{this.select_class}}">
+    <input
+      {{input_dyn}}
+      type="{{input_attrs.type}}"
+      class="{{input_attrs.class}} {{input_class}}"
+      value="{{input_value}}"
+    >
+    <div class="{{select_attrs.class}} {{select_class}}">
       {{#each select_options}}
-        {{>_string_select_options}}
+        {{>_option_t}}
       {{/each}}
     </div>
   </div>
@@ -58,5 +86,5 @@
 </template>
 
 <template name="_string_select_options">
-  <span class="input_ui select_option {{this.class}}">{{h_opt}}</span>
+  <span class="{{../../option_attrs.class}} {{span_class}}">{{h_opt}}</span>
 </template>

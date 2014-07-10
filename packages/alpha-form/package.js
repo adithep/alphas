@@ -15,6 +15,8 @@ Package.on_use(function (api, where) {
   api.add_files([
     'alpha-form.html',
     'alpha-form.coffee',
+    'form-helpers.coffee',
+    'form-events.coffee',
     'alpha-form.styl'], 'client');
 });
 

@@ -6,7 +6,7 @@ _tri_defaults = {
     "option_attrs": {"class": "input_ui select_option"}
   },
 
-  "button_list": {
+  "_btn_list": {
     "nav_attrs": {"class": "form_nav"}
   },
 

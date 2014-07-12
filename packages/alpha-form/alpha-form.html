@@ -22,23 +22,19 @@
 
 
 <template name="_schema_buttons">
-  <li {{li_dyn}} class="{{li_attrs.class}} {{li_class}}">
-    <a>
-      {{#each get_key_dis}}
-        {{>_key_dis}}
-      {{/each}}
-    </a>
-  </li>
+  <a {{li_dyn}} class="{{li_attrs.class}} {{li_class}}">
+    {{this.key_dis}}
+  </a>
 </template>
 
 <template name="button_list">
 
   <nav {{nav_dyn}} class="{{nav_attrs.class}} {{nav_class}}">
-    <ul>
+    <div>
       {{#each schema_buttons}}
-        {{>_schema_buttons}}
+        {{>_parent_t}}
       {{/each}}
-    </ul>
+    </div>
   </nav>
 
 </template>
@@ -46,7 +42,7 @@
 <template name="insert_form">
   <form {{form_dyn}} class="{{form_attrs.class}} {{form_class}}">
     {{#each input_element}}
-      {{>_each_input_master}}
+      {{>_parent_t}}
     {{/each}}
     <br>
     <a {{submit_dyn}} class="{{submit_attrs.class}} {{submit_class}}">Submit</a>

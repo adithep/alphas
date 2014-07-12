@@ -1,7 +1,6 @@
 UI.registerHelper "t_data", ->
   if @_did
-    if DATA.find(_id: @_did).count() >= 1
-      return DATA.find({_id: @_did})
+    return DATA.find({_id: @_did})
   return null
 
 Template._string_select_options.helpers
@@ -15,13 +14,16 @@ Template._each_input_master.helpers
 
 Template._t_content.helpers
   t_yield: ->
-    LDATA.find({_mid: "current_session"}, {sort: {sort: 1}})
+    gr = Session.get("current_session")
+    if gr
+      return LDATA.find(_gid: gr)
+    return null
 
 Template.button_list.helpers
   schema_buttons: ->
     parent = UI._parentData(1)
-    console.log parent
-    console.log @
+    sel = Session.get("#{parent._mid}_form_sel")
+    LDATA.find(_lid: parent._mid, _cid: "input_form_btn", _gid: sel)
 
 Template._parent_t.helpers
 
@@ -32,6 +34,8 @@ Template._parent_t.helpers
           return Template.insert_form
         when '_btn_list'
           return Template.button_list
+        when '_btn'
+          return Template._schema_buttons
         when 'input'
           return Template._each_input
     else
@@ -41,7 +45,7 @@ Template._parent_t.helpers
 Template._each_input.helpers
   input_value: ->
     parent = UI._parentData(1)
-    return Session.get("#{parent._gid}_v")
+    return Session.get("#{parent._id}_v")
   class: ->
     str = ""
     if @class_n?
@@ -56,7 +60,9 @@ Template._each_input.helpers
   select_options: ->
     parent = UI._parentData(1)
     console.log parent
-    LDATA.find({_mid: parent._id}, {sort: {sort: 1}})
+    sel = Session.get("#{parent._id}_sel_opt")
+    if sel
+      return LDATA.find({_mid: parent._id, _gid: sel._id}, {sort: {sort: 1}})
   select_value: ->
     if @_v
       return @_v
@@ -78,8 +84,7 @@ Template._schema_buttons.helpers
 
 Template.insert_form.helpers
 
-  schema_buttons: ->
-    DATA.find({_s_n: "_tri", _tri_gr: "_get_human_buttons"}, {sort: {sort: 1}})
-
   input_element: ->
-    HUMAN_FORM.find(_s_n: "form_gr")
+    parent = UI._parentData(1)
+    sel = Session.get("#{parent._mid}_form_sel")
+    LDATA.find(_lid: parent._mid, _cid: "input_form_input", _gid: sel)

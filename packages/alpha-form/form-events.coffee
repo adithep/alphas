@@ -32,7 +32,7 @@ Template._parent_t.events
       e.currentTarget.select()
     Meteor.setTimeout(a, 20)
     cl = Session.get("#{t.data._id}_select_class")
-    if not cl
+    unless cl
       cl = "show"
       Session.set("#{t.data._id}_select_class", cl)
     else if cl and cl.indexOf("show") is -1
@@ -40,24 +40,12 @@ Template._parent_t.events
       Session.set("#{t.data._id}_select_class", cl)
 
   'blur input.input_select': (e, t) ->
-    if not @mov
-      HUMAN_FORM.update({_id: @_id}, {$unset: {select_class: ""}})
-      sel = HUMAN_FORM.findOne
-        _s_n: "form_sel"
-        _sel_id: @_id
-        class: "glow"
-      if sel
-        HUMAN_FORM.update({_id: @_id}, {$set: {_v: sel[@key_key]}})
-      else
-        obj = {}
-        obj._s_n = @key_s
-        obj[@key_key] = @_v
-        if DATA.find(obj).count() is 0
-          a = HUMAN_FORM.findOne(_s_n: "form_sel", _sel_id: @_id)
-          if a
-            HUMAN_FORM.update({_id: @_id}, {$set: {_v: a[@key_key]}})
-          else
-            HUMAN_FORM.update({_id: @_id}, {$set: {_v: ""}})
+    cl = Session.get("#{t.data._id}_select_class")
+    if cl is "show"
+      Session.set("#{t.data._id}_select_class", false)
+    else if cl and cl.indexOf("show") isnt -1
+      cl = cl.replace("show", "")
+      Session.set("#{t.data._id}_select_class", cl)
 
 Template._schema_buttons.events
 

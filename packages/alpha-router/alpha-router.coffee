@@ -7,25 +7,22 @@ t_build = (path, parent, mid) ->
     obj._s_n = "_tri"
     if DATA.find(obj).count() >= 1
       group = LDATA.insert(_gpa: path, _mid: par)
-      Session.set("current_session", group._id)
       DATA.find(obj).forEach (doc) ->
         ld = {}
         ld._did = doc._id
         if doc._tri_grs[path].sort?
           ld.sort = doc._tri_grs[path].sort
         ld._gid = group
-        console.log ld
-        if LDATA.find(ld).count() is 0
-          id = LDATA.insert(ld)
-
-          if doc.key_ty and doc.key_ty is "r_st"
-            dgr = LDATA.findOne(_gpa: "sel_opt", _mid: id)
-            if dgr
-              unless Session.equals("#{id}_sel_opt", dgr._id)
-                Session.set("#{id}_sel_opt", dgr._id)
-            else
-              t_build_s(doc.key_s, id, "sel_opt", doc.key_key)
-          ###
+        console.log doc
+        id = LDATA.insert(ld)
+        if doc.key_ty and doc.key_ty is "r_st"
+          dgr = LDATA.findOne(_gpa: "sel_opt", _mid: id)
+          if dgr
+            unless Session.equals("#{id}_sel_opt", dgr._id)
+              Session.set("#{id}_sel_opt", dgr._id)
+          else
+            sel_gr = t_build_s(doc.key_s, id, "sel_opt", doc.key_key)
+            Session.set("#{id}_sel_opt", sel_gr)
           if doc.on_select
             switch doc.on_select
               when "write_form_btn"
@@ -36,23 +33,25 @@ t_build = (path, parent, mid) ->
                   oj._s_n = doc.key_s
                   sel = DATA.findOne(oj)
                   if sel and sel[doc._tri_select_key]
-                    t_build(
-                      sel[doc._tri_select_key]
-                      id
-                      par
+                    on_sel_gr = LDATA.findOne(
+                      _gpa: sel[doc._tri_select_key]
+                      _mid: group
                     )
-                  if not Session.equals("#{par}_form_sel", sel[doc._tri_select_key])
-                    Session.set("#{par}_form_sel", sel[doc._tri_select_key])
-              ###
-    else
-      Session.set("current_session", false)
-  else
-    Session.set("current_session", false)
+                    if on_sel_gr
+                      unless Session.equals("#{group}_form_btn", on_sel_gr._id)
+                        Session.set("#{group}_form_btn", on_sel_gr._id)
+                    else
+                      gr = t_build(
+                        sel[doc._tri_select_key]
+                        group
+                      )
+                      Session.set("#{group}_form_btn", gr)
+      return group
+  return false
 
 t_build_s = (_s_n, parent, gid, key) ->
   if _s_n and parent
     group = LDATA.insert(_gpa: gid, _mid: parent)
-    Session.set("#{parent}_sel_opt", group._id)
     one = true
     DATA.find(_s_n: _s_n).forEach (doc) ->
       ld = {}
@@ -65,6 +64,8 @@ t_build_s = (_s_n, parent, gid, key) ->
         one = false
       if doc.key_ty and doc.key_ty is "r_st"
         t_build_s(doc.key_s, id, parent, doc.key_key)
+    return group
+  return false
 
 Deps.autorun ->
   if Session.equals("subscription", true)
@@ -75,7 +76,8 @@ Deps.autorun ->
       unless Session.equals("current_session", dgr._id)
         Session.set("current_session", dgr._id)
     else
-      t_build(b[1])
+      gr = t_build(b[1])
+      Session.set("current_session", gr)
 
 UI.body.events
   'click a[href^="/"]': (e, t) ->
@@ -87,6 +89,7 @@ UI.body.events
       unless Session.equals("current_session", dgr._id)
         Session.set("current_session", dgr._id)
     else
-      t_build(b[1])
+      gr = t_build(b[1])
+      Session.set("current_session", gr)
     window.history.pushState("","", a)
     return

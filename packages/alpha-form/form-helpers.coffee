@@ -61,8 +61,9 @@ Template._each_input.helpers
     parent = UI._parentData(1)
     console.log parent
     sel = Session.get("#{parent._id}_sel_opt")
+    console.log sel
     if sel
-      return LDATA.find({_mid: parent._id, _gid: sel._id}, {sort: {sort: 1}})
+      return LDATA.find({_gid: sel}, {sort: {sort: 1}})
   select_value: ->
     if @_v
       return @_v

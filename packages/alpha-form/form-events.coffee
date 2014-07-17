@@ -1,12 +1,12 @@
-
-
 Template._parent_t.events
 
   'click .select_option': (e, t) ->
-    HUMAN_FORM.update(
-      {_id: @_sel_id}
-      , { $set: {_v: @[t.data.key_key]}, $unset: {select_class: ""} }
-    )
+    cl = Session.get("#{t.data._id}_select_class")
+    if cl is "show"
+      Session.set("#{t.data._id}_select_class", false)
+    else if cl and cl.indexOf("show") isnt -1
+      cl = cl.replace("show", "")
+      Session.set("#{t.data._id}_select_class", cl)
 
   'click span.s_liga': (e, t) ->
     HUMAN_FORM.remove($or:[{_id: @_pid}, {_pid: @_pid}])
@@ -21,11 +21,15 @@ Template._parent_t.events
         , _id: @_id}, {$set: {class: "glow"}})
 
   'mouseenter .div_select': (e, t) ->
-    if @select_class and @select_class is "show"
-      HUMAN_FORM.update({_id: @_id}, {$set: {mov: true}})
+    if Session.equals("#{t.data._id}_select_class", "show")
+      Session.set("#{t.data._id}_mov", true)
+    else
+      cl = Session.get("#{t.data._id}_select_class")
+      if cl and cl.indexOf("show") isnt -1
+        Session.set("#{t.data._id}_mov", true)
 
   'mouseleave .div_select': (e, t) ->
-    HUMAN_FORM.update({_id: @_id}, {$unset: {mov: ""}})
+    Session.set("#{t.data._id}_mov", false)
 
   'focus .input_select': (e, t) ->
     a = ->
@@ -40,12 +44,13 @@ Template._parent_t.events
       Session.set("#{t.data._id}_select_class", cl)
 
   'blur input.input_select': (e, t) ->
-    cl = Session.get("#{t.data._id}_select_class")
-    if cl is "show"
-      Session.set("#{t.data._id}_select_class", false)
-    else if cl and cl.indexOf("show") isnt -1
-      cl = cl.replace("show", "")
-      Session.set("#{t.data._id}_select_class", cl)
+    if Session.equals("#{t.data._id}_mov", false)
+      cl = Session.get("#{t.data._id}_select_class")
+      if cl is "show"
+        Session.set("#{t.data._id}_select_class", false)
+      else if cl and cl.indexOf("show") isnt -1
+        cl = cl.replace("show", "")
+        Session.set("#{t.data._id}_select_class", cl)
 
 Template._schema_buttons.events
 

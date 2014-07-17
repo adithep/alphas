@@ -24,6 +24,18 @@
   },
 
   {
+    "key_n": "path_n",
+    "key_ty": "_st",
+    "key_dis": "Path Name"
+  },
+
+  {
+    "key_n": "path_dis",
+    "key_ty": "_st",
+    "key_dis": "Path Display"
+  },
+
+  {
     "key_n": "_tri_n",
     "key_ty": "r_st",
     "key_s": "_tri",
@@ -134,11 +146,17 @@
   },
 
   {
-    "key_n": "input_form_gr",
+    "key_n": "href",
+    "key_ty": "_st",
+    "key_dis": "Href!"
+  },
+
+  {
+    "key_n": "path_spa",
     "key_ty": "r_gr_st",
     "key_s": "_tri",
     "key_key": "_tri_grs",
-    "key_dis": "Input Form Buttons"
+    "key_dis": "Space for path"
   },
 
   {

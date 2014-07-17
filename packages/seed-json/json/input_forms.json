@@ -1,11 +1,11 @@
 [
   {
     "input_form_n": "Humans",
-    "input_form_gr": "human_form_gr"
+    "href": "/humans"
   },
 
   {
     "input_form_n": "Companies",
-    "input_form_gr": "company_form_gr"
+    "href": "/companies"
   }
 ]

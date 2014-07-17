@@ -2,11 +2,6 @@
   {
     "_tri_n": "input_title_n",
     "_tri_grs": {
-      "human_form_gr": {
-        "starting": true,
-        "local_form_gr": "input_form_input",
-        "sort": 0
-      },
       "input_title_n_gr": {
         "local_form_gr": "input_form_input",
         "sort": 0
@@ -21,11 +16,6 @@
   {
     "_tri_n": "input_company_n",
     "_tri_grs": {
-      "company_form_gr": {
-        "starting": true,
-        "local_form_gr": "input_form_input",
-        "sort": 0
-      },
       "input_company_n_gr": {
         "local_form_gr": "input_form_input",
         "sort": 0
@@ -40,11 +30,6 @@
   {
     "_tri_n": "input_first_n",
     "_tri_grs": {
-      "human_form_gr": {
-        "starting": true,
-        "local_form_gr": "input_form_input",
-        "sort": 1
-      },
       "input_first_n_gr": {
         "local_form_gr": "input_form_input",
         "sort": 0

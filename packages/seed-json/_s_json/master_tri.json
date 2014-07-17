@@ -8,7 +8,7 @@
     "_tri_ty": "input",
     "_tri_available": "all",
     "_tri_grs": {
-      "form_gr": {
+      "input_form_n_gr": {
         "sort": 0
       }
     }
@@ -20,8 +20,8 @@
     "_tri_select_key": "input_form_gr",
     "_tri_available": "all",
     "_tri_grs": {
-      "form_gr": {
-        "sort": 1
+      "insert_button_list_gr": {
+        "sort": 0
       }
     }
   },
@@ -32,8 +32,8 @@
     "_tri_select_key": "input_form_gr",
     "_tri_available": "all",
     "_tri_grs": {
-      "form_gr": {
-        "sort": 2
+      "insert_input_form_gr": {
+        "sort": 0
       }
     }
   }

@@ -1,5 +1,17 @@
-<template name="_t_content">
+<template name="_t_path">
   {{#each t_yield}}
+    {{>_t_space}}
+  {{/each}}
+</template>
+
+<template name="_t_space">
+  {{#each t_spa}}
+    {{>_t_group}}
+  {{/each}}
+</template>
+
+<template name="_t_group">
+  {{#each t_gr}}
     {{>_parent_t}}
   {{/each}}
 </template>
@@ -32,7 +44,7 @@
   <nav {{nav_dyn}} class="{{nav_attrs.class}} {{nav_class}}">
     <div>
       {{#each schema_buttons}}
-        {{>_parent_t}}
+        {{>_t_group}}
       {{/each}}
     </div>
   </nav>
@@ -42,7 +54,7 @@
 <template name="insert_form">
   <form {{form_dyn}} class="{{form_attrs.class}} {{form_class}}">
     {{#each input_element}}
-      {{>_parent_t}}
+      {{>_t_group}}
     {{/each}}
     <br>
     <a {{submit_dyn}} class="{{submit_attrs.class}} {{submit_class}}">Submit</a>
@@ -82,5 +94,9 @@
 </template>
 
 <template name="_string_select_options">
-  <span class="{{../../option_attrs.class}} {{span_class}}">{{h_opt}}</span>
+  {{#if this.href}}
+    <a href="{{make_href}}" class="{{../../option_attrs.class}} {{span_class}}">{{h_opt}}</a>
+  {{else}}
+    <a class="{{../../option_attrs.class}} {{span_class}}">{{h_opt}}</a>
+  {{/if}}
 </template>

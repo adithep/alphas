@@ -179,20 +179,7 @@ class JS
                 #{schema} in database"
               return String(value)
         when "r_gr_st"
-          console.log value
-          obj = {}
-          obj[key.key_key] = {}
-          obj[key.key_key][value] = {$exists: true}
-          obj._s_n = key.key_s
-          if DATA.find(obj).count() is 1
-            console.log value
-            return String(value)
-          else
-            console.log "cannot find value
-              #{value} for key
-              #{key.key_n} for schema
-              #{schema} in database"
-            return String(value)
+          return value
         when "_bl"
           if typeof value is "boolean"
             return value

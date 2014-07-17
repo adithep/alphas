@@ -1,0 +1,46 @@
+[
+  {
+    "path_n": "alpha_form",
+    "path_dis": "form",
+    "path_spa": [
+      {
+        "_spa": "alpha_form",
+        "path_gr": [
+          "input_form_n_gr",
+          "insert_button_list_gr",
+          "insert_input_form_gr"
+        ]
+      }
+    ]
+  },
+
+  {
+    "path_n": "human_form",
+    "path_dis": "humans",
+    "path_spa": [
+      {
+        "_spa": "_btn_gr",
+        "path_gr": ["human_form_gr"]
+      },
+      {
+        "_spa": "_input_gr",
+        "path_gr": ["input_title_n_gr", "input_first_n_gr"]
+      }
+    ]
+  },
+
+  {
+    "path_n": "companies_form",
+    "path_dis": "companies",
+    "path_spa": [
+      {
+        "_spa": "_btn_gr",
+        "path_gr": ["company_form_gr"]
+      },
+      {
+        "_spa": "_input_gr",
+        "path_gr": ["input_company_n_gr"]
+      }
+    ]
+  }
+]

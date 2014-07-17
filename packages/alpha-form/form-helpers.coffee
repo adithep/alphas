@@ -3,6 +3,13 @@ UI.registerHelper "t_data", ->
     return DATA.find({_id: @_did})
   return null
 
+UI.registerHelper "make_href", ->
+  if @href
+    ini = Session.get("current_path")
+    console.log ini.length
+    return "#{ini}#{@href}"
+  return false
+
 Template._string_select_options.helpers
   h_opt: ->
     parent = UI._parentData(2)
@@ -12,18 +19,25 @@ Template._each_input_master.helpers
   tri_gate: ->
     HUMAN_FORM.find(_pid: @_id, _s_n: "form_el")
 
-Template._t_content.helpers
+Template._t_group.helpers
+  t_gr: ->
+    return LDATA.find(_gid: @_id)
+
+Template._t_space.helpers
+  t_spa: ->
+    return LDATA.find(_sid: @_id)
+
+Template._t_path.helpers
   t_yield: ->
     gr = Session.get("current_session")
-    if gr
-      return LDATA.find(_gid: gr)
-    return null
+    return LDATA.find(_pid: gr)
 
 Template.button_list.helpers
   schema_buttons: ->
-    parent = UI._parentData(1)
-    sel = Session.get("#{parent._mid}_form_sel")
-    LDATA.find(_lid: parent._mid, _cid: "input_form_btn", _gid: sel)
+    parent = UI._parentData(3)
+    sel = Session.get("#{parent._pid}_path")
+    sela = Session.get("#{sel}_btn_gr")
+    LDATA.find(_sid: sela)
 
 Template._parent_t.helpers
 
@@ -59,9 +73,7 @@ Template._each_input.helpers
     return Session.get("#{parent._id}_select_class")
   select_options: ->
     parent = UI._parentData(1)
-    console.log parent
     sel = Session.get("#{parent._id}_sel_opt")
-    console.log sel
     if sel
       return LDATA.find({_gid: sel}, {sort: {sort: 1}})
   select_value: ->
@@ -84,8 +96,8 @@ Template._schema_buttons.helpers
     return {class: @class_n}
 
 Template.insert_form.helpers
-
   input_element: ->
-    parent = UI._parentData(1)
-    sel = Session.get("#{parent._mid}_form_sel")
-    LDATA.find(_lid: parent._mid, _cid: "input_form_input", _gid: sel)
+    parent = UI._parentData(3)
+    sel = Session.get("#{parent._pid}_path")
+    sela = Session.get("#{sel}_input_gr")
+    LDATA.find(_sid: sela)

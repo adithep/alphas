@@ -8,6 +8,7 @@ Meteor.publish "list", ->
       "input_forms"
       "service_n"
       "_tri"
+      "_spa"
       "tags"
     ]}
   }, {fields: {_dt: 0}})

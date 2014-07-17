@@ -27,6 +27,7 @@ Package.on_use(function (api, where) {
     'json/_alt_emails.json',
     'json/companies.json',
     'json/input_forms.json',
+    'json/_spa.json',
     '_s_json/_tri_defaults.json',
     '_s_json/master_tri.json',
     '_s_json/_tri_btn.json',

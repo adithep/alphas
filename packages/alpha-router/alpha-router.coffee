@@ -1,4 +1,73 @@
-t_build = (path, parent, mid) ->
+space_build = (path, parent) ->
+  if path and parent
+    group = LDATA.insert(path: path.path_n, _mid: parent)
+    n = 0
+    while n < path.path_spa.length
+      if LDATA.find(_spa: path.path_spa[n]._spa, _pid: group).count() < 1
+        spa = space_bud(
+          path.path_spa[n].path_gr
+          path.path_spa[n]._spa
+          group
+        )
+        Session.set("#{group}#{path.path_spa[n]._spa}", spa)
+      else
+        dgr = LDATA.findOne(_spa: path.path_spa[n]._spa, _pid: group)
+        unless Session.equals("#{group}#{path.path_spa[n]._spa}", dgr._id)
+          Session.set("#{group}#{path.path_spa[n]._spa}", dgr._id)
+      n++
+    return group
+  return false
+
+space_bud = (arr, name, parent) ->
+  spa = LDATA.insert(_spa: name, _pid: parent)
+  k = 0
+  while k < arr.length
+    gr = LDATA.insert(_gr: arr[k], _sid: spa, sort: k)
+    obj = {}
+    pa = "_tri_grs.#{arr[k]}"
+    obj[pa] = {$exists: true}
+    obj._s_n = "_tri"
+    DATA.find(obj).forEach (doc) ->
+      ld = {}
+      ld._did = doc._id
+      if doc._tri_grs[arr[k]].sort?
+        ld.sort = doc._tri_grs[arr[k]].sort
+      ld._gid = gr
+      console.log doc
+      id = LDATA.insert(ld)
+      if doc._tri_ty is "input" and doc.key_ty and doc.key_ty is "r_st"
+        dgr = LDATA.findOne(_gr: "_sel_opt", _sid: id)
+        unless dgr
+          cdr = space_bud_d(
+            doc.key_s
+            doc.key_key
+            "_sel_opt"
+            id
+          )
+          Session.set("#{id}_sel_opt", cdr)
+        else
+          unless Session.equals("#{id}_sel_opt", dgr._id)
+            Session.set("#{id}_sel_opt", dgr._id)
+    k++
+  return spa
+
+space_bud_d = (_s_n, key, name, parent) ->
+  gr = LDATA.insert(_gr: name, _sid: parent)
+  one = true
+  DATA.find({_s_n: _s_n}, {limit: 5}).forEach (doc) ->
+    ld = {}
+    ld._did = doc._id
+    ld._gid = gr
+    console.log doc
+    id = LDATA.insert(ld)
+    if one is true and key
+      console.log doc[key]
+      unless Session.equals("#{parent}_v", doc[key])
+        Session.set("#{parent}_v", doc[key])
+      one = false
+  return gr
+
+t_build = (path, parent) ->
   if path
     par = parent or "top"
     pa = "_tri_grs.#{path}"
@@ -6,7 +75,7 @@ t_build = (path, parent, mid) ->
     obj[pa] = {$exists: true}
     obj._s_n = "_tri"
     if DATA.find(obj).count() >= 1
-      group = LDATA.insert(_gpa: path, _mid: par)
+      group = LDATA.insert(_spa: path, _mid: par)
       DATA.find(obj).forEach (doc) ->
         ld = {}
         ld._did = doc._id
@@ -16,7 +85,7 @@ t_build = (path, parent, mid) ->
         console.log doc
         id = LDATA.insert(ld)
         if doc.key_ty and doc.key_ty is "r_st"
-          dgr = LDATA.findOne(_gpa: "sel_opt", _mid: id)
+          dgr = LDATA.findOne(_spa: "sel_opt", _mid: id)
           if dgr
             unless Session.equals("#{id}_sel_opt", dgr._id)
               Session.set("#{id}_sel_opt", dgr._id)
@@ -32,26 +101,45 @@ t_build = (path, parent, mid) ->
                   oj[doc.key_key] = res
                   oj._s_n = doc.key_s
                   sel = DATA.findOne(oj)
-                  if sel and sel[doc._tri_select_key]
-                    on_sel_gr = LDATA.findOne(
-                      _gpa: sel[doc._tri_select_key]
-                      _mid: group
-                    )
-                    if on_sel_gr
-                      unless Session.equals("#{group}_form_btn", on_sel_gr._id)
-                        Session.set("#{group}_form_btn", on_sel_gr._id)
-                    else
-                      gr = t_build(
-                        sel[doc._tri_select_key]
-                        group
+                  if sel
+                    n = 0
+                    while n < sel.input_form_gr.length
+                      on_sel_gr = LDATA.findOne(
+                        _mid: group
+                        _lpa: sel.input_form_gr[n]._gr_n
                       )
-                      Session.set("#{group}_form_btn", gr)
+                      if on_sel_gr
+                        unless Session.equals("#{group}#{sel.input_form_gr[n]._gr_n}", on_sel_gr._id)
+                          Session.set("#{group}#{sel.input_form_gr[n]._gr_n}", on_sel_gr._id)
+                      else
+                        if sel.input_form_gr[n].form_gr.length is 1
+                          gg = t_build(
+                            sel.input_form_gr[n].form_gr[0]
+                            group
+                            sel.input_form_gr[n]._gr_n
+                          )
+                          Session.set("#{group}#{sel.input_form_gr[n]._gr_n}", gg)
+                        else if sel.input_form_gr[n].form_gr.length > 1
+                          k = 0
+                          gem = LDATA.insert(
+                            _spa: sel.input_form_gr[n]._gr_n
+                            _mid: group
+                            _lpa: sel.input_form_gr[n]._gr_n
+                          )
+                          while k < sel.input_form_gr[n].form_gr.length
+                            gg = t_build(
+                              sel.input_form_gr[n].form_gr[k]
+                              gem
+                            )
+                            k++
+                          Session.set("#{group}#{sel.input_form_gr[n]._gr_n}", gem)
+                      n++
       return group
   return false
 
 t_build_s = (_s_n, parent, gid, key) ->
   if _s_n and parent
-    group = LDATA.insert(_gpa: gid, _mid: parent)
+    group = LDATA.insert(_spa: gid, _mid: parent)
     one = true
     DATA.find(_s_n: _s_n).forEach (doc) ->
       ld = {}
@@ -67,29 +155,40 @@ t_build_s = (_s_n, parent, gid, key) ->
     return group
   return false
 
+set_path = (path) ->
+  b = path.split('/')
+  b.shift()
+  n = 0
+  par = "top"
+  cur = "current_session"
+  while n < b.length
+    gma = DATA.findOne(_s_n: "_spa", path_dis: b[n])
+    if gma
+      dgr = LDATA.findOne(path: gma.path_n, _mid: par)
+      if dgr
+        unless Session.equals(cur, dgr._id)
+          Session.set(cur, dgr._id)
+        cur = "#{dgr._id}_path"
+      else
+        gr = space_build(gma, par)
+        par = gr
+        Session.set(cur, gr)
+        cur = "#{gr}_path"
+    n++
+  Session.set(cur, false)
+  return
+
 Deps.autorun ->
   if Session.equals("subscription", true)
     a = window.location.pathname
-    b = a.split('/')
-    dgr = LDATA.findOne(_gpa: b[1], _mid: "top")
-    if dgr
-      unless Session.equals("current_session", dgr._id)
-        Session.set("current_session", dgr._id)
-    else
-      gr = t_build(b[1])
-      Session.set("current_session", gr)
+    set_path(a)
+    Session.set("current_path", a)
 
 UI.body.events
   'click a[href^="/"]': (e, t) ->
     e.preventDefault()
     a = e.currentTarget.pathname
-    b = a.split('/')
-    dgr = LDATA.findOne(_gpa: b[1], _mid: "top")
-    if dgr
-      unless Session.equals("current_session", dgr._id)
-        Session.set("current_session", dgr._id)
-    else
-      gr = t_build(b[1])
-      Session.set("current_session", gr)
+    set_path(a)
     window.history.pushState("","", a)
+    Session.set("current_path", a)
     return

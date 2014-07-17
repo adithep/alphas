@@ -3,7 +3,7 @@ Package.describe({
 });
 
 Package.on_use(function (api, where) {
-  api.use(['coffeescript', 'standard-app-packages']);
+  api.use(['coffeescript', 'standard-app-packages', 'core-lib']);
   api.add_files('alpha-router.coffee', 'client');
 });
 

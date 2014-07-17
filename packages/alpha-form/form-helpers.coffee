@@ -5,9 +5,16 @@ UI.registerHelper "t_data", ->
 
 UI.registerHelper "make_href", ->
   if @href
+    parent = UI._parentData(1)
     ini = Session.get("current_path")
-    console.log ini.length
-    return "#{ini}#{@href}"
+    if ini
+      num = parent.depth + 1
+      arr = ini.split("/")
+      arr.shift()
+      len = arr.length
+      arr.splice(num, len)
+      str = arr.join("/")
+    return "/#{str}#{@href}"
   return false
 
 Template._string_select_options.helpers

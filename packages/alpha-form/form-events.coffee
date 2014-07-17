@@ -7,6 +7,9 @@ Template._parent_t.events
     else if cl and cl.indexOf("show") isnt -1
       cl = cl.replace("show", "")
       Session.set("#{t.data._id}_select_class", cl)
+    tri = DATA.findOne(_id: t.data._did)
+    unless Session.equals("#{t.data._id}_v", @[tri.key_key])
+      Session.set("#{t.data._id}_v", @[tri.key_key])
 
   'click span.s_liga': (e, t) ->
     HUMAN_FORM.remove($or:[{_id: @_pid}, {_pid: @_pid}])
@@ -51,6 +54,10 @@ Template._parent_t.events
       else if cl and cl.indexOf("show") isnt -1
         cl = cl.replace("show", "")
         Session.set("#{t.data._id}_select_class", cl)
+    console.log Session.get("#{t.data._id}_v")
+    unless Session.equals("#{t.data._id}_v", e.currentTarget.value)
+      v = Session.get("#{t.data._id}_v")
+      e.currentTarget.value = v
 
 Template._schema_buttons.events
 

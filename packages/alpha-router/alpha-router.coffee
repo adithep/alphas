@@ -1,6 +1,6 @@
-space_build = (path, parent) ->
+space_build = (path, parent, depth) ->
   if path and parent
-    group = LDATA.insert(path: path.path_n, _mid: parent)
+    group = LDATA.insert(path: path.path_n, _mid: parent, depth: depth)
     n = 0
     while n < path.path_spa.length
       if LDATA.find(_spa: path.path_spa[n]._spa, _pid: group).count() < 1
@@ -8,6 +8,7 @@ space_build = (path, parent) ->
           path.path_spa[n].path_gr
           path.path_spa[n]._spa
           group
+          depth
         )
         Session.set("#{group}#{path.path_spa[n]._spa}", spa)
       else
@@ -18,11 +19,11 @@ space_build = (path, parent) ->
     return group
   return false
 
-space_bud = (arr, name, parent) ->
-  spa = LDATA.insert(_spa: name, _pid: parent)
+space_bud = (arr, name, parent, depth) ->
+  spa = LDATA.insert(_spa: name, _pid: parent, depth: depth)
   k = 0
   while k < arr.length
-    gr = LDATA.insert(_gr: arr[k], _sid: spa, sort: k)
+    gr = LDATA.insert(_gr: arr[k], _sid: spa, sort: k, depth: depth)
     obj = {}
     pa = "_tri_grs.#{arr[k]}"
     obj[pa] = {$exists: true}
@@ -30,6 +31,7 @@ space_bud = (arr, name, parent) ->
     DATA.find(obj).forEach (doc) ->
       ld = {}
       ld._did = doc._id
+      ld.depth = depth
       if doc._tri_grs[arr[k]].sort?
         ld.sort = doc._tri_grs[arr[k]].sort
       ld._gid = gr
@@ -43,6 +45,7 @@ space_bud = (arr, name, parent) ->
             doc.key_key
             "_sel_opt"
             id
+            depth
           )
           Session.set("#{id}_sel_opt", cdr)
         else
@@ -51,13 +54,14 @@ space_bud = (arr, name, parent) ->
     k++
   return spa
 
-space_bud_d = (_s_n, key, name, parent) ->
+space_bud_d = (_s_n, key, name, parent, depth) ->
   gr = LDATA.insert(_gr: name, _sid: parent)
   one = true
   DATA.find({_s_n: _s_n}, {limit: 5}).forEach (doc) ->
     ld = {}
     ld._did = doc._id
     ld._gid = gr
+    ld.depth = depth
     console.log doc
     id = LDATA.insert(ld)
     if one is true and key
@@ -170,7 +174,7 @@ set_path = (path) ->
           Session.set(cur, dgr._id)
         cur = "#{dgr._id}_path"
       else
-        gr = space_build(gma, par)
+        gr = space_build(gma, par, n)
         par = gr
         Session.set(cur, gr)
         cur = "#{gr}_path"

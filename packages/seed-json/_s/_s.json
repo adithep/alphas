@@ -15,19 +15,6 @@
   },
 
   {
-    "_s_n_for": "_spa",
-    "_s_n": "_s",
-    "json": "json/_spa.json",
-    "_s_keys": [
-      "path_n",
-      "path_dis",
-      "path_spa",
-      "_dt",
-      "_usr"
-    ]
-  },
-
-  {
     "_s_n_for": "keys",
     "_s_n": "_s",
     "json": "_s/keys.json",
@@ -37,6 +24,19 @@
       "key_s",
       "key_key",
       "key_dis",
+      "_dt",
+      "_usr"
+    ]
+  },
+
+  {
+    "_s_n_for": "_spa",
+    "_s_n": "_s",
+    "json": "json/_spa.json",
+    "_s_keys": [
+      "path_n",
+      "path_dis",
+      "path_spa",
       "_dt",
       "_usr"
     ]

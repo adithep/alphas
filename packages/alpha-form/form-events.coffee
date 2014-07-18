@@ -69,6 +69,10 @@ Template._each_input.events
     unless Session.equals("#{parent._id}_v", e.currentTarget.value)
       v = Session.get("#{parent._id}_v")
       e.currentTarget.value = v
+  'blur input.input_ui:not(.input_select)': (e, t) ->
+    parent = get_parent_data(t)
+    unless Session.equals("#{parent._id}_v", e.currentTarget.value)
+      Session.set("#{parent._id}_v", e.currentTarget.value)
 
 Template._schema_buttons.events
 

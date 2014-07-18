@@ -28,13 +28,7 @@
   pa = "_tri_grs.#{on_click}"
   obj[pa] = {$exists: true}
   obj._s_n = "_tri"
-  gr = LDATA.insert(
-    _gr: on_click
-    _sid: sela
-    depth: parent.depth
-    _pid: parent._pid
-    _s_n: "_gr"
-  )
+  gr = Random.id()
   DATA.find(obj).forEach (doc) ->
     ld = {}
     ld._did = doc._id
@@ -64,6 +58,14 @@
       else
         unless Session.equals("#{id}_sel_opt", dgr._id)
           Session.set("#{id}_sel_opt", dgr._id)
+  LDATA.insert(
+    _id: gr
+    _gr: on_click
+    _sid: sela
+    depth: parent.depth
+    _pid: parent._pid
+    _s_n: "_gr"
+  )
 
 @human_form_insert_select = (s_n, id, ids) ->
   if s_n? and typeof s_n is 'object'

@@ -26,49 +26,48 @@ class JS
             , schema._s_n_for)
     return
 
+  merge_def: (obj) ->
+    def = EJSON.clone(_tri_defaults[obj._tri_ty])
+    for key of def
+      unless obj[key]
+        obj[key] = def[key]
+      else
+        for akey of def[key]
+          unless obj[key][akey]
+            obj[key][akey] = def[key][akey]
+    return obj
+
   _tri_insert: (ejson, schema_n) ->
     console.log "seeding #{schema_n}"
     n = 0
     while n < ejson.length
       if _tri_defaults[ejson[n]._tri_ty]?
-        def = _tri_defaults[ejson[n]._tri_ty]
-        for key of def
-          if not ejson[n][key]
-            ejson[n][key] = def[key]
-            console.log ejson[n][key]
-          else
-            for akey of def[key]
-              if not ejson[n][key][akey]
-                ejson[n][key][akey] = def[key][akey]
-              else
-                if akey is "class"
-                  ejson[n][key][akey] = "#{ejson[n][key][akey]} #{def[key][akey]}"
-      if ejson[n]._tri_dis
-        tkey = DATA.findOne(_s_n: "keys", key_n: ejson[n]._tri_dis)
+        obj = @merge_def(ejson[n])
+      if obj._tri_dis
+        tkey = DATA.findOne(_s_n: "keys", key_n: obj._tri_dis)
         if tkey?
           tkey._kid = tkey._id
           delete tkey._id
           delete tkey.key_n
           delete tkey._s_n
           for key of tkey
-            ejson[n][key] = tkey[key]
+            obj[key] = tkey[key]
         else
           console.log "cannot find key
-            #{ejson[n]._tri_dis}
-            of #{ejson[n]._tri_n}"
-      if ejson[n]._tri_ty is "input"
-        ejson[n].input_attrs.placeholder = ejson[n].key_dis
-        switch ejson[n].key_ty
-          when "date"
-            ejson[n].input_attrs.type = "date"
+            #{obj._tri_dis}
+            of #{obj._tri_n}"
+      if obj._tri_ty is "input"
+        switch obj.key_ty
+          when "_dt"
+            obj.input_attrs.type = "date"
           else
-            ejson[n].input_attrs.type = "text"
-      if ejson[n].key_ty is "r_st" and ejson[n]._tri_ty is "input"
-        ejson[n].input_attrs.class = "input_ui input_select"
-      ejson[n]._s_n = schema_n
-      ejson[n]._dt = new Date()
-      ejson[n]._usr = "root"
-      DATA.insert(ejson[n])
+            obj.input_attrs.type = "text"
+        if obj.key_ty is "r_st"
+          obj.input_attrs.class = "#{obj.input_attrs.class} input_select"
+      obj._s_n = schema_n
+      obj._dt = new Date()
+      obj._usr = "root"
+      DATA.insert(obj)
       n++
     console.log "#{schema_n} seeded"
     return

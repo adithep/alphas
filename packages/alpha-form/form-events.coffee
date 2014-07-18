@@ -1,20 +1,20 @@
-Template._parent_t.events
+
+
+Template._string_select_options.events
 
   'click .select_option': (e, t) ->
-    cl = Session.get("#{t.data._id}_select_class")
+    parent = get_parent_data(t, 3)
+    cl = Session.get("#{parent._id}_select_class")
     if cl is "show"
-      Session.set("#{t.data._id}_select_class", false)
+      Session.set("#{parent._id}_select_class", false)
     else if cl and cl.indexOf("show") isnt -1
       cl = cl.replace("show", "")
-      Session.set("#{t.data._id}_select_class", cl)
-    tri = DATA.findOne(_id: t.data._did)
-    unless Session.equals("#{t.data._id}_v", @[tri.key_key])
-      Session.set("#{t.data._id}_v", @[tri.key_key])
+      Session.set("#{parent._id}_select_class", cl)
+    tri = DATA.findOne(_id: parent._did)
+    unless Session.equals("#{parent._id}_v", @[tri.key_key])
+      Session.set("#{parent._id}_v", @[tri.key_key])
 
-  'click span.s_liga': (e, t) ->
-    HUMAN_FORM.remove($or:[{_id: @_pid}, {_pid: @_pid}])
-
-  'mouseenter span.select_option': (e, t) ->
+  'mouseenter a.select_option': (e, t) ->
     if not @class or @class isnt "glow"
       HUMAN_FORM.update({
         _s_n: "form_sel"
@@ -23,56 +23,68 @@ Template._parent_t.events
         _s_n: "form_sel"
         , _id: @_id}, {$set: {class: "glow"}})
 
+
+
+Template._each_input.events
+
+  'click span.s_liga': (e, t) ->
+    parent = get_parent_data(t)
+    LDATA.remove($or:[{_id: parent._gid}, {_gid: parent._gid}])
+
   'mouseenter .div_select': (e, t) ->
-    if Session.equals("#{t.data._id}_select_class", "show")
-      Session.set("#{t.data._id}_mov", true)
+    parent = get_parent_data(t)
+    if Session.equals("#{parent._id}_select_class", "show")
+      Session.set("#{parent._id}_mov", true)
     else
-      cl = Session.get("#{t.data._id}_select_class")
+      cl = Session.get("#{parent._id}_select_class")
       if cl and cl.indexOf("show") isnt -1
-        Session.set("#{t.data._id}_mov", true)
+        Session.set("#{parent._id}_mov", true)
 
   'mouseleave .div_select': (e, t) ->
-    Session.set("#{t.data._id}_mov", false)
+    parent = get_parent_data(t)
+    Session.set("#{parent._id}_mov", false)
 
   'focus .input_select': (e, t) ->
+    parent = get_parent_data(t)
     a = ->
       e.currentTarget.select()
     Meteor.setTimeout(a, 20)
-    cl = Session.get("#{t.data._id}_select_class")
+    cl = Session.get("#{parent._id}_select_class")
     unless cl
       cl = "show"
-      Session.set("#{t.data._id}_select_class", cl)
+      Session.set("#{parent._id}_select_class", cl)
     else if cl and cl.indexOf("show") is -1
       cl = cl + " show"
-      Session.set("#{t.data._id}_select_class", cl)
+      Session.set("#{parent._id}_select_class", cl)
 
   'blur input.input_select': (e, t) ->
-    if Session.equals("#{t.data._id}_mov", false)
-      cl = Session.get("#{t.data._id}_select_class")
+    parent = get_parent_data(t)
+    if Session.equals("#{parent._id}_mov", false)
+      cl = Session.get("#{parent._id}_select_class")
       if cl is "show"
-        Session.set("#{t.data._id}_select_class", false)
+        Session.set("#{parent._id}_select_class", false)
       else if cl and cl.indexOf("show") isnt -1
         cl = cl.replace("show", "")
-        Session.set("#{t.data._id}_select_class", cl)
-    console.log Session.get("#{t.data._id}_v")
-    unless Session.equals("#{t.data._id}_v", e.currentTarget.value)
-      v = Session.get("#{t.data._id}_v")
+        Session.set("#{parent._id}_select_class", cl)
+    unless Session.equals("#{parent._id}_v", e.currentTarget.value)
+      v = Session.get("#{parent._id}_v")
       e.currentTarget.value = v
 
 Template._schema_buttons.events
 
   'click ._get': (e, t) ->
-    console.log $(e.currentTarget)
+    parent = get_parent_data(t)
+    sela = Session.get("#{parent._pid}_input_gr")
     if @on_click
-      if DATA.find(_s_n: "_tri", _tri_gr: @on_click).count() > 1
-        id = HUMAN_FORM.insert(_tri_gr: @on_click, _s_n: "form_gr")
-        DATA.find(_s_n: "_tri", _tri_gr: @on_click).forEach (doc) ->
-          human_form_insert(doc, id)
+      obj = {}
+      pa = "_tri_grs.#{@on_click}"
+      obj[pa] = {$exists: true}
+      obj._s_n = "_tri"
+      if DATA.find(obj).count() > 1
+        human_form_insert(@on_click, parent, sela)
       else
-        if HUMAN_FORM.find(_s_n: "form_gr", _tri_gr: @on_click).count() is 0
-          id = HUMAN_FORM.insert(_tri_gr: @on_click, _s_n: "form_gr")
-          DATA.find(_s_n: "_tri", _tri_gr: @on_click).forEach (doc) ->
-            human_form_insert(doc, id)
+        if LDATA.find(_gr: @on_click, _sid: sela).count() is 0
+          human_form_insert(@on_click, parent, sela)
         else
-          id = HUMAN_FORM.findOne(_s_n: "form_gr", _tri_gr: @on_click)
-          HUMAN_FORM.remove($or:[{_id: id._id}, {_pid: id._id}])
+          id = LDATA.findOne(_gr: @on_click, _sid: sela)
+          LDATA.remove($or:[{_id: id._id}, {_gid: id._id}])

@@ -1,5 +1,16 @@
 @HUMAN_FORM = new Meteor.Collection(null)
 
+@get_parent_data = (t, num) ->
+  n = num or 1
+  k = 0
+  one = t
+  while k < n
+    one = one.__component__.parent.templateInstance
+    one = one.__component__.parent.templateInstance
+    one = one.__component__.parent.templateInstance
+    k++
+  return one.__component__.parent._super.data()
+
 @get_input_ty = (key_ty) ->
   if key_ty?
     switch key_ty
@@ -12,18 +23,47 @@
   else
     return
 
-@human_form_insert = (doc, id) ->
-  key = DATA.findOne(key_n: doc._tri_dis, _s_n: "keys")
-  doc._pid = id
-  for k of key
-    doc[k] = key[k]
-  delete doc._id
-  doc._s_n = "form_el"
-  doc.input_ty = get_input_ty(doc.key_ty)
-  did = HUMAN_FORM.insert(doc)
-  if doc.key_ty is "r_st"
-    human_form_insert_select(doc.key_s, did)
-  return
+@human_form_insert = (on_click, parent, sela) ->
+  obj = {}
+  pa = "_tri_grs.#{on_click}"
+  obj[pa] = {$exists: true}
+  obj._s_n = "_tri"
+  gr = LDATA.insert(
+    _gr: on_click
+    _sid: sela
+    depth: parent.depth
+    _pid: parent._pid
+    _s_n: "_gr"
+  )
+  DATA.find(obj).forEach (doc) ->
+    ld = {}
+    ld._did = doc._id
+    ld.depth = parent.depth
+    if doc._tri_grs[on_click].sort?
+      ld.sort = doc._tri_grs[on_click].sort
+    ld._gid = gr
+    ld._sid = sela
+    ld._pid = parent._pid
+    ld._s_n = "doc"
+    console.log doc
+    console.log ld
+    id = LDATA.insert(ld)
+    if doc._tri_ty is "input" and doc.key_ty and doc.key_ty is "r_st"
+      dgr = LDATA.findOne(_gr: "_sel_opt", _sid: id)
+      unless dgr
+        cdr = space_bud_d(
+          doc.key_s
+          doc.key_key
+          "_sel_opt"
+          id
+          parent.depth
+          sela
+          parent._pid
+        )
+        Session.set("#{id}_sel_opt", cdr)
+      else
+        unless Session.equals("#{id}_sel_opt", dgr._id)
+          Session.set("#{id}_sel_opt", dgr._id)
 
 @human_form_insert_select = (s_n, id, ids) ->
   if s_n? and typeof s_n is 'object'

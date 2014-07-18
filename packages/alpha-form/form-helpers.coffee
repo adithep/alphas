@@ -28,23 +28,24 @@ Template._each_input_master.helpers
 
 Template._t_group.helpers
   t_gr: ->
-    return LDATA.find(_gid: @_id)
+    return LDATA.find(_gid: @_id, _s_n: "doc")
 
 Template._t_space.helpers
   t_spa: ->
-    return LDATA.find(_sid: @_id)
+    return LDATA.find(_sid: @_id, _s_n: "_gr")
 
 Template._t_path.helpers
   t_yield: ->
     gr = Session.get("current_session")
-    return LDATA.find(_pid: gr)
+    return LDATA.find(_pid: gr, _s_n: "_spa")
 
 Template.button_list.helpers
   schema_buttons: ->
-    parent = UI._parentData(3)
+    parent = UI._parentData(1)
+    console.log parent
     sel = Session.get("#{parent._pid}_path")
     sela = Session.get("#{sel}_btn_gr")
-    LDATA.find(_sid: sela)
+    LDATA.find(_sid: sela, _s_n: "_gr")
 
 Template._parent_t.helpers
 
@@ -82,7 +83,7 @@ Template._each_input.helpers
     parent = UI._parentData(1)
     sel = Session.get("#{parent._id}_sel_opt")
     if sel
-      return LDATA.find({_gid: sel}, {sort: {sort: 1}})
+      return LDATA.find({_gid: sel, _s_n: "doc"}, {sort: {sort: 1}})
   select_value: ->
     if @_v
       return @_v
@@ -104,7 +105,7 @@ Template._schema_buttons.helpers
 
 Template.insert_form.helpers
   input_element: ->
-    parent = UI._parentData(3)
+    parent = UI._parentData(1)
     sel = Session.get("#{parent._pid}_path")
     sela = Session.get("#{sel}_input_gr")
-    LDATA.find(_sid: sela)
+    LDATA.find(_sid: sela, _s_n: "_gr")

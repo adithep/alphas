@@ -1,6 +1,11 @@
 space_build = (path, parent, depth) ->
   if path and parent
-    group = LDATA.insert(path: path.path_n, _mid: parent, depth: depth)
+    group = LDATA.insert(
+      path: path.path_n
+      _mid: parent
+      depth: depth
+      _s_n: "path"
+    )
     n = 0
     while n < path.path_spa.length
       if LDATA.find(_spa: path.path_spa[n]._spa, _pid: group).count() < 1
@@ -20,10 +25,17 @@ space_build = (path, parent, depth) ->
   return false
 
 space_bud = (arr, name, parent, depth) ->
-  spa = LDATA.insert(_spa: name, _pid: parent, depth: depth)
+  spa = LDATA.insert(_spa: name, _pid: parent, depth: depth, _s_n: "_spa")
   k = 0
   while k < arr.length
-    gr = LDATA.insert(_gr: arr[k], _sid: spa, sort: k, depth: depth)
+    gr = LDATA.insert(
+      _gr: arr[k]
+      _sid: spa
+      sort: k
+      depth: depth
+      _pid: parent
+      _s_n: "_gr"
+    )
     obj = {}
     pa = "_tri_grs.#{arr[k]}"
     obj[pa] = {$exists: true}
@@ -35,6 +47,9 @@ space_bud = (arr, name, parent, depth) ->
       if doc._tri_grs[arr[k]].sort?
         ld.sort = doc._tri_grs[arr[k]].sort
       ld._gid = gr
+      ld._sid = spa
+      ld._pid = parent
+      ld._s_n = "doc"
       console.log doc
       id = LDATA.insert(ld)
       if doc._tri_ty is "input" and doc.key_ty and doc.key_ty is "r_st"
@@ -46,6 +61,8 @@ space_bud = (arr, name, parent, depth) ->
             "_sel_opt"
             id
             depth
+            spa
+            parent
           )
           Session.set("#{id}_sel_opt", cdr)
         else
@@ -54,14 +71,24 @@ space_bud = (arr, name, parent, depth) ->
     k++
   return spa
 
-space_bud_d = (_s_n, key, name, parent, depth) ->
-  gr = LDATA.insert(_gr: name, _sid: parent)
+@space_bud_d = (_s_n, key, name, parent, depth, spa, pid) ->
+  gr = LDATA.insert(
+    _gr: name
+    _sid: parent
+    depth: depth
+    _spa: spa
+    _pid: pid
+    _s_n: "_gr"
+  )
   one = true
   DATA.find({_s_n: _s_n}, {limit: 5}).forEach (doc) ->
     ld = {}
     ld._did = doc._id
     ld._gid = gr
+    ld._spa = spa
+    ld._pid = pid
     ld.depth = depth
+    ld._s_n = "doc"
     console.log doc
     id = LDATA.insert(ld)
     if one is true and key

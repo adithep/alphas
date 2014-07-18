@@ -11,17 +11,17 @@
 </template>
 
 <template name="_t_group">
-  {{#each t_gr}}
-    {{>_parent_t}}
-  {{/each}}
+  <div class="parent_div">
+    {{#each t_gr}}
+      {{>_parent_t}}
+    {{/each}}
+  </div>
 </template>
 
 <template name="_parent_t">
-  <div {{div_dyn}} class="parent_div {{div_attrs.class}} {{div_class}}">
-    {{#each t_data}}
-      {{> t_tem}}
-    {{/each}}
-  </div>
+  {{#each t_data}}
+    {{> t_tem}}
+  {{/each}}
 </template>
 
 <template name="_option_t">
@@ -34,7 +34,7 @@
 
 
 <template name="_schema_buttons">
-  <a {{li_dyn}} class="{{li_attrs.class}} {{li_class}}">
+  <a {{_btn_dyn}} class="{{_btn_attrs.class}} {{_btn_class}}">
     {{this.key_dis}}
   </a>
 </template>
@@ -42,11 +42,9 @@
 <template name="button_list">
 
   <nav {{nav_dyn}} class="{{nav_attrs.class}} {{nav_class}}">
-    <div>
-      {{#each schema_buttons}}
-        {{>_t_group}}
-      {{/each}}
-    </div>
+    {{#each schema_buttons}}
+      {{>_t_group}}
+    {{/each}}
   </nav>
 
 </template>
@@ -56,7 +54,7 @@
     {{#each input_element}}
       {{>_t_group}}
     {{/each}}
-    <br>
+    <br><br>
     <a {{submit_dyn}} class="{{submit_attrs.class}} {{submit_class}}">Submit</a>
   </form>
 
@@ -78,6 +76,7 @@
     <input
       {{input_dyn}}
       type="{{input_attrs.type}}"
+      placeholder="{{this.key_dis}}"
       class="{{input_attrs.class}} {{input_class}}"
       value="{{input_value}}"
     >

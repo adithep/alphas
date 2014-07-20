@@ -9,6 +9,7 @@ Meteor.publish "list", ->
       "service_n"
       "_tri"
       "_spa"
+      "paths"
       "tags"
     ]}
   }, {fields: {_dt: 0}})

@@ -1,3 +1,4 @@
+Session.set("subscription", false)
 Deps.autorun ->
   if Meteor.user()
     subscription.sub_list = Meteor.subscribe "list"

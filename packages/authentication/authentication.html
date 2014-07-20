@@ -1,0 +1,32 @@
+<template name="authentication">
+  <div id="logindiv">
+    <div>
+      <h1>Login</h1>
+      {{#if currentUser.username}}
+        <h1>logged in</h1>
+      {{else}} {{#if loggingIn}}
+        <p>Logging in...</p>
+      {{else}} {{#if creatingAccount}}
+        {{>new_account_form}}
+      {{else}}
+        {{>login_form}}
+      {{/if}}{{/if}}{{/if}}
+    </div>
+  </div>
+</template>
+
+<template name="new_account_form">
+  <input type="text" id="email" placeholder="email">
+  <input type="text" id="name" placeholder="name">
+  <input type="text" id="username" placeholder="username">
+  <input type="password" id="password" placeholder="password">
+  <button id="createaccount">Create</button>
+  <p id="loginform">(Login)</p>
+</template>
+
+<template name="login_form">
+  <input type="text" id="username" placeholder="username">
+  <input type="password" id="password" placeholder="password">
+  <button id="login">Login</button><br>
+  <button id="accountform">Create Account</button>
+</template>

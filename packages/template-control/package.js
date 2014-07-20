@@ -3,8 +3,8 @@ Package.describe({
 });
 
 Package.on_use(function (api, where) {
-  api.use(['coffeescript', 'core-lib', 'utilities', 'jade', 'stylus', 'standard-app-packages']);
-  api.add_files(['template-control.jade', 'template-control.coffee', 'subscription.coffee', 'template-control.sty'], 'client');
+  api.use(['coffeescript', 'core-lib', 'utilities', 'stylus', 'standard-app-packages']);
+  api.add_files(['template-control.coffee', 'subscription.coffee', 'template-control.sty'], 'client');
 });
 
 Package.on_test(function (api) {

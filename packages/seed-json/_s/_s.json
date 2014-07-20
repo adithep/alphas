@@ -30,13 +30,26 @@
   },
 
   {
+    "_s_n_for": "paths",
+    "_s_n": "_s",
+    "json": "_s_json/paths.json",
+    "_s_keys": [
+      "path_n",
+      "path_tem",
+      "path_gr",
+      "_dt",
+      "_usr"
+    ]
+  },
+
+  {
     "_s_n_for": "_spa",
     "_s_n": "_s",
     "json": "json/_spa.json",
     "_s_keys": [
-      "path_n",
-      "path_dis",
-      "path_spa",
+      "_spa",
+      "_spa_tem",
+      "_spa_gr",
       "_dt",
       "_usr"
     ]

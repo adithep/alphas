@@ -35,17 +35,26 @@ Template._t_space.helpers
     return LDATA.find(_sid: @_id, _s_n: "_gr")
 
 Template._t_path.helpers
+  path: ->
+    unless @_id
+      id = Session.get("current_session")
+    else
+      id = @_id
+    return {_id: id}
+
   t_yield: ->
-    gr = Session.get("current_session")
-    return LDATA.find(_pid: gr, _s_n: "_spa")
+    return LDATA.find(_pid: @_id, _s_n: "_spa")
+  _sel_spa: ->
+    if @_spa_tem and Template[@_spa_tem]
+      return Template[@_spa_tem]
+    return Template._t_space
+  t_sub: ->
+    id = Session.get("#{@_id}_path")
+    return LDATA.find(_id: id, _s_n: "path")
 
 Template.button_list.helpers
   schema_buttons: ->
-    parent = UI._parentData(1)
-    console.log parent
-    sel = Session.get("#{parent._pid}_path")
-    sela = Session.get("#{sel}_btn_gr")
-    LDATA.find(_sid: sela, _s_n: "_gr")
+    LDATA.find(_sid: @_id, _s_n: "_gr")
 
 Template._parent_t.helpers
 
@@ -105,7 +114,4 @@ Template._schema_buttons.helpers
 
 Template.insert_form.helpers
   input_element: ->
-    parent = UI._parentData(1)
-    sel = Session.get("#{parent._pid}_path")
-    sela = Session.get("#{sel}_input_gr")
-    LDATA.find(_sid: sela, _s_n: "_gr")
+    LDATA.find(_sid: @_id, _s_n: "_gr")

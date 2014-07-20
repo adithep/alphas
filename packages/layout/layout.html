@@ -1,11 +1,43 @@
 <head>
   <meta charset="UTF-8"/>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title>αSΨS</title>
 </head>
 
-<body>{{>site}}</body>
+<body>
+  {{#if currentUser.username}}
+    {{>layout}}
+  {{else}}
+    {{>authentication}}
+  {{/if}}
+</body>
 
-<template name="site">
-  <div id ="site"></div>
+<template name="layout">
+  <nav class="nav_large">
+    <a href="/">
+      <h1>αSΨS</h1>
+    </a>
+    <ul>
+      <li>
+        <a href="/forms">Insert</a>
+      </li>
+      <li>
+        <a href="/">Display</a>
+      </li>
+    </ul>
+    <ul class="right user">
+      <li>
+        <a>{{currentUser.username}}</a>
+      </li>
+      <li>
+        <a class="logout">`</a>
+      </li>
+    </ul>
+  </nav>
+  <div id="content">
+    {{>_t_path}}
+  </div>
 </template>

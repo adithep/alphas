@@ -1,7 +1,12 @@
 <template name="_t_path">
-  {{#each t_yield}}
-    {{>_t_space}}
-  {{/each}}
+  {{#with path}}
+    {{#each t_yield}}
+      {{>_sel_spa}}
+    {{/each}}
+    {{#each t_sub}}
+      {{>_t_path}}
+    {{/each}}
+  {{/with}}
 </template>
 
 <template name="_t_space">
@@ -41,7 +46,7 @@
 
 <template name="button_list">
 
-  <nav {{nav_dyn}} class="{{nav_attrs.class}} {{nav_class}}">
+  <nav {{nav_dyn}} class="form_nav {{nav_attrs.class}} {{nav_class}}">
     {{#each schema_buttons}}
       {{>_t_group}}
     {{/each}}
@@ -50,12 +55,12 @@
 </template>
 
 <template name="insert_form">
-  <form {{form_dyn}} class="{{form_attrs.class}} {{form_class}}">
+  <form {{form_dyn}} class="contact_form {{form_attrs.class}} {{form_class}}">
     {{#each input_element}}
       {{>_t_group}}
     {{/each}}
     <br><br>
-    <a {{submit_dyn}} class="{{submit_attrs.class}} {{submit_class}}">Submit</a>
+    <a {{submit_dyn}} class="form_submit {{submit_attrs.class}} {{submit_class}}">Submit</a>
   </form>
 
 </template>

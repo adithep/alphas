@@ -78,7 +78,7 @@ Template._schema_buttons.events
 
   'click ._get': (e, t) ->
     parent = get_parent_data(t)
-    sela = Session.get("#{parent._pid}_input_gr")
+    sela = Session.get("#{parent._pid}insert_form")
     if @on_click
       obj = {}
       pa = "_tri_grs.#{@on_click}"

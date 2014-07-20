@@ -9,7 +9,6 @@ accounts-password
 coffeescript
 core-server
 seed-json
-jade
 collection-hooks
 core-lib
 mongo-aggregation

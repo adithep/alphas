@@ -7,13 +7,12 @@ Package.on_use(function (api, where, asset) {
     'coffeescript'
     , 'core-lib'
     , 'utilities'
-    , 'jade'
     , 'authentication'
     , 'jquery'
     , 'alpha-stylus'
     , 'standard-app-packages']);
   api.add_files([
-    'layout.jade'
+    'layout.html'
     , 'layout.coffee'
     , 'essential.styl'
     , 'layout.styl'], 'client');

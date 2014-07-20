@@ -1,3 +1,26 @@
+space_build_n = (path, parent, depth) ->
+  if path and parent
+    path_id = LDATA.insert(
+      path: path.path_n
+      _mid: parent
+      depth: depth
+      _s_n: "path"
+    )
+    DATA.find(_s_n: "_spa", _spa: {$in: path.path_gr}).forEach (doc) ->
+      if LDATA.find(_spa: doc._spa, _pid: path_id, _s_n: "_spa").count() < 1
+        spa = space_bud(
+          doc
+          path_id
+          depth
+        )
+        Session.set("#{path_id}#{doc._spa_tem}", spa)
+      else
+        dgr = LDATA.findOne(_spa: doc._spa, _pid: path_id, _s_n: "_spa")
+        unless Session.equals("#{path_id}#{doc._spa_tem}", dgr._id)
+          Session.set("#{path_id}#{doc._spa_tem}", dgr._id)
+    return path_id
+  return false
+
 space_build = (path, parent, depth) ->
   if path and parent
     group = LDATA.insert(
@@ -24,9 +47,16 @@ space_build = (path, parent, depth) ->
     return group
   return false
 
-space_bud = (arr, name, parent, depth) ->
-  spa = LDATA.insert(_spa: name, _pid: parent, depth: depth, _s_n: "_spa")
+space_bud = (_spa, parent, depth) ->
+  spa = LDATA.insert(
+    _spa: _spa._spa
+    _pid: parent
+    depth: depth
+    _spa_tem: _spa._spa_tem
+    _s_n: "_spa"
+  )
   k = 0
+  arr = _spa._spa_gr
   while k < arr.length
     gr = LDATA.insert(
       _gr: arr[k]
@@ -186,6 +216,30 @@ t_build_s = (_s_n, parent, gid, key) ->
     return group
   return false
 
+set_path_n = (path) ->
+  b = path.split('/')
+  b.shift()
+  n = 0
+  par = "top"
+  cur = "current_session"
+  while n < b.length
+    gma = DATA.findOne(_s_n: "paths", path_n: b[n])
+    if gma
+      dgr = LDATA.findOne(path: gma.path_n, _mid: par, _s_n: "path")
+      if dgr
+        unless Session.equals(cur, dgr._id)
+          Session.set(cur, dgr._id)
+        cur = "#{dgr._id}_path"
+        par = dgr._id
+      else
+        gr = space_build_n(gma, par, n)
+        par = gr
+        Session.set(cur, gr)
+        cur = "#{gr}_path"
+    n++
+  Session.set(cur, false)
+  return
+
 set_path = (path) ->
   b = path.split('/')
   b.shift()
@@ -212,14 +266,14 @@ set_path = (path) ->
 Deps.autorun ->
   if Session.equals("subscription", true)
     a = window.location.pathname
-    set_path(a)
+    set_path_n(a)
     Session.set("current_path", a)
 
 UI.body.events
   'click a[href^="/"]': (e, t) ->
     e.preventDefault()
     a = e.currentTarget.pathname
-    set_path(a)
+    set_path_n(a)
     window.history.pushState("","", a)
     Session.set("current_path", a)
     return

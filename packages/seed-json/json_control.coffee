@@ -43,6 +43,8 @@ class JS
     while n < ejson.length
       if _tri_defaults[ejson[n]._tri_ty]?
         obj = @merge_def(ejson[n])
+      else
+        obj = ejson[n]
       if obj._tri_dis
         tkey = DATA.findOne(_s_n: "keys", key_n: obj._tri_dis)
         if tkey?

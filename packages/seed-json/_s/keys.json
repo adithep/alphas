@@ -30,9 +30,21 @@
   },
 
   {
-    "key_n": "path_dis",
+    "key_n": "path_tem",
     "key_ty": "_st",
-    "key_dis": "Path Display"
+    "key_dis": "Path Template"
+  },
+
+  {
+    "key_n": "_spa",
+    "key_ty": "_st",
+    "key_dis": "Space Name"
+  },
+
+  {
+    "key_n": "_spa_tem",
+    "key_ty": "_st",
+    "key_dis": "Space Template"
   },
 
   {
@@ -152,11 +164,19 @@
   },
 
   {
-    "key_n": "path_spa",
+    "key_n": "path_gr",
     "key_ty": "r_gr_st",
     "key_s": "_tri",
     "key_key": "_tri_grs",
     "key_dis": "Space for path"
+  },
+
+  {
+    "key_n": "_spa_gr",
+    "key_ty": "r_gr_st",
+    "key_s": "_tri",
+    "key_key": "_tri_grs",
+    "key_dis": "Groups for path"
   },
 
   {

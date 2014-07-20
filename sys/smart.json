@@ -36,8 +36,6 @@
     "alpha-stylus": {
       "path": "../packages/alpha-stylus"
     },
-    "jade": {},
-    "collection-hooks": {},
     "npm": {},
     "mongodb-server-aggregation": {}
   }
